@@ -1,0 +1,64 @@
+#http://www4.informatik.uni-erlangen.de/~jnweiger/screen-faq.html
+#http://taint.org/wk/RemoteLoginAutoScreen
+
+termcap xterm 'XT'
+terminfo xterm 'XT'
+
+termcapinfo xterm ti@:te@
+#???#termcapinfo xterm 'bc@:bs@'
+altscreen on
+
+# http://screen.frogcircus.org/remote
+zombie ko
+deflog on
+logfile /home/pasha/.screen-logs/screenlog.%H
+
+escape ^Ww
+
+#http://linsovet.com/content/%D0%B7%D0%B0%D0%B9%D1%82%D0%B8-%D0%B2-screen-%D0%BD%D0%B0-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5#comment-2017
+screen -t astrgmain 0 bash -o history -c 'ssh astrgmain.rgc; echo "ssh astrgmain.rgc"; bash'
+screen -t belrgmain 0 bash -o history -c 'ssh belrgmain.rgc; echo "ssh belrgmain.rgc"; bash'
+screen -t bryanskrgmain 0 bash -o history -c 'ssh bryanskrgmain.rgc; echo "ssh bryanskrgmain.rgc"; bash'
+screen -t chuvashrgmain 0 bash -o history -c 'ssh chuvashrgmain.rgc; echo "ssh chuvashrgmain.rgc"; bash'
+screen -t ivrgmain 0 bash -o history -c 'ssh ivrgmain.rgc; echo "ssh ivrgmain.rgc"; bash'
+screen -t izhrgmain 0 bash -o history -c 'ssh izhrgmain.rgc; echo "ssh izhrgmain.rgc"; bash'
+screen -t kalugargmain 0 bash -o history -c 'ssh kalugargmain.rgc; echo "ssh kalugargmain.rgc"; bash'
+screen -t kazanrgmain 0 bash -o history -c 'ssh kazanrgmain.rgc; echo "ssh kazanrgmain.rgc"; bash'
+screen -t kemerovorgmain 0 bash -o history -c 'ssh kemerovorgmain.rgc; echo "ssh kemerovorgmain.rgc"; bash'
+screen -t kirovrgmain 0 bash -o history -c 'ssh kirovrgmain.rgc; echo "ssh kirovrgmain.rgc"; bash'
+screen -t komirgmain 0 bash -o history -c 'ssh komirgmain.rgc; echo "ssh komirgmain.rgc"; bash'
+#screen -t kostromargmain 0 bash -o history -c 'ssh kostromargmain.rgc; echo "ssh kostromargmain.rgc"; bash'
+screen -t krasnodarrgmain 0 bash -o history -c 'ssh krasnodarrgmain.rgc; echo "ssh krasnodarrgmain.rgc"; bash'
+screen -t krgmain 0 bash -o history -c 'ssh krgmain.rgc; echo "ssh krgmain.rgc"; bash'
+screen -t kurganrgmain 0 bash -o history -c 'ssh ANT@kurganrgmain.rgc; echo "ssh ANT@kurganrgmain.rgc"; bash'
+screen -t kurskrgmain 0 bash -o history -c 'ssh kurskrgmain.rgc; echo "ssh kurskrgmain.rgc"; bash'
+screen -t lipetskrgmain 0 bash -o history -c 'ssh lipetskrgmain.rgc; echo "ssh lipetskrgmain.rgc"; bash'
+screen -t marrgmain 0 bash -o history -c 'ssh marrgmain.rgc; echo "ssh marrgmain.rgc"; bash'
+screen -t mordovrgmain 0 bash -o history -c 'ssh mordovrgmain.rgc; echo "ssh mordovrgmain.rgc"; bash'
+screen -t mosrg 0 bash -o history -c 'ssh mosrg.rgc; echo "ssh mosrg.rgc"; bash'
+screen -t novgorodrgmain 0 bash -o history -c 'ssh novgorodrgmain.rgc; echo "ssh novgorodrgmain.rgc"; bash'
+screen -t novosibirskrgmain 0 bash -o history -c 'ssh novosibirskrgmain.rgc; echo "ssh novosibirskrgmain.rgc"; bash'
+screen -t ntekmain 0 bash -o history -c 'ssh ntekmain.rgc; echo "ssh ntekmain.rgc"; bash'
+screen -t omskrgmain 0 bash -o history -c 'ssh omskrgmain.rgc; echo "ssh omskrgmain.rgc"; bash'
+screen -t orelrgmain 0 bash -o history -c 'ssh orelrgmain.rgc; echo "ssh orelrgmain.rgc"; bash'
+screen -t orenburgrgmain 0 bash -o history -c 'ssh orenburgrgmain.rgc; echo "ssh orenburgrgmain.rgc"; bash'
+screen -t penzargmain 0 bash -o history -c 'ssh penzargmain.rgc; echo "ssh penzargmain.rgc"; bash'
+screen -t permrgmain 0 bash -o history -c 'ssh permrgmain.rgc; echo "ssh permrgmain.rgc"; bash'
+screen -t pskovrgmain 0 bash -o history -c 'ssh pskovrgmain.rgc; echo "ssh pskovrgmain.rgc"; bash'
+screen -t riazanrgmain 0 bash -o history -c 'ssh riazanrgmain.rgc; echo "ssh riazanrgmain.rgc"; bash'
+screen -t rostovrgmain 0 bash -o history -c 'ssh rostovrgmain.rgc; echo "ssh rostovrgmain.rgc"; bash'
+screen -t samrgmain 0 bash -o history -c 'ssh samrgmain.rgc; echo "ssh samrgmain.rgc"; bash'
+screen -t saratovrgmain 0 bash -o history -c 'ssh saratovrgmain.rgc; echo "ssh saratovrgmain.rgc"; bash'
+screen -t smolrgmain 0 bash -o history -c 'ssh smolrgmain.rgc; echo "ssh smolrgmain.rgc"; bash'
+screen -t stavropolrgmain 0 bash -o history -c 'ssh stavropolrgmain.rgc; echo "ssh stavropolrgmain.rgc"; bash'
+screen -t svrgmain 0 bash -o history -c 'ssh svrgmain.rgc; echo "ssh svrgmain.rgc"; bash'
+screen -t tamrgmain 0 bash -o history -c 'ssh tamrgmain.rgc; echo "ssh tamrgmain.rgc"; bash'
+screen -t tulargmain 0 bash -o history -c 'ssh tulargmain.rgc; echo "ssh tulargmain.rgc"; bash'
+screen -t tverrgmain 0 bash -o history -c 'ssh tverrgmain.rgc; echo "ssh tverrgmain.rgc"; bash'
+screen -t ufargmain 0 bash -o history -c 'ssh ufargmain.rgc; echo "ssh ufargmain.rgc"; bash'
+screen -t ulianovskrgmain 0 bash -o history -c 'ssh ulianovskrgmain.rgc; echo "ssh ulianovskrgmain.rgc"; bash'
+screen -t vladimirrgmain 0 bash -o history -c 'ssh vladimirrgmain.rgc; echo "ssh vladimirrgmain.rgc"; bash'
+screen -t volgogradrgmain 0 bash -o history -c 'ssh volgogradrgmain.rgc; echo "ssh volgogradrgmain.rgc"; bash'
+screen -t vologdargmain 0 bash -o history -c 'ssh vologdargmain.rgc; echo "ssh vologdargmain.rgc"; bash'
+screen -t voronegrgmain 0 bash -o history -c 'ssh voronegrgmain.rgc; echo "ssh voronegrgmain.rgc"; bash'
+screen -t yarrgmain 0 bash -o history -c 'ssh yarrgmain.rgc; echo "ssh yarrgmain.rgc"; bash'
