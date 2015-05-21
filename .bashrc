@@ -40,6 +40,8 @@ alias gmplayer='gmplayer -framedrop -zoom'
 #alias screen='screen -OaUx main || screen -OaU -S main'
 #alias screen-remote='/usr/bin/screen -OaUx Remote || /usr/bin/screen -OaU -S Remote -c /home/pasha/.screenrc-remote'
 
+alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
+
 # Function instead of alias to behave identically on remote and local execution
 # http://www.thelinuxlink.net/pipermail/lvlug/2005-July/014629.html
 function screen(){
@@ -150,7 +152,7 @@ export IMUS_HOME='/home/pasha/imus'
 #export JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64/
 export JAVA_HOME=/usr/java/latest/
 export GRAILS_HOME=/opt/grails/
-. /opt/grails/grails_autocomplete
+[ -f /opt/grails/grails_autocomplete ] && . /opt/grails/grails_autocomplete
 
 
 # http://openite.com/ru/Development/2013/01/08/ispravlenie-otobrazheniya-shriftov-v-produktah-jetbrains.html
@@ -160,7 +162,12 @@ export GRAILS_HOME=/opt/grails/
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops'
 # http://habrahabr.ru/post/160049/ add -XX:+DoEscapeAnalysis, -XX:+AggressiveOpts, -XX:+UseCompressedStrings (tried: OpenJDK 64-Bit Server VM warning: ignoring option UseCompressedStrings; support was removed in 7.0) -XX:+UseStringCache -XX:+EliminateLocks
 # dropped: -XX:+UseStringCache because: OpenJDK 64-Bit Server VM warning: ignoring option UseStringCache; support was removed in 8.0
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks'
+# Try enable -XX:+UseParallelGC -XX:+UseNUMA and -XX:+TieredCompilation by http://docs.oracle.com/javase/7/docs/technotes/guides/vm/performance-enhancements-7.html#compressedOop
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseParallelGC -XX:+UseNUMA -XX:+TieredCompilation'
+# @TODO try: -XX:+UseG1GC -XX:+UseStringDeduplication http://javapoint.ru/presentations/jpoint-April2015-string-catechism.pdf (http://javapoint.ru/materials/)
+
+# Force debugging:
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005'
 
 # For run groovy scripts and load classes from current directory
@@ -171,5 +178,4 @@ export CLASSPATH=$CLASSPATH:.
 #export PROMPT_COMMAND='if [ ! "screen" = "${TERM:0:6}" ]; then printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"; else echo ""; fi'
 export PROMPT_COMMAND=''
 
-
-export ELMON=cmMvtanlkd
+export ELMON=cmMvtanld
