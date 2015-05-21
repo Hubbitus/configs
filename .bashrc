@@ -115,7 +115,7 @@ shopt -s histappend
 #export HISTCONTROL="ignoredups"
 export HISTCONTROL=ignoreboth
 
-complete -W "`awk 'BEGIN {FS=" |,"} {print $1}' ~/.ssh/known_hosts | sort`" ssh
+complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" ssh
 
 #Auto start ssh-agent. http://rusmafia.org/linux/ssh-agent-shell-startup
 ##[ ! -S ~/.ssh/ssh-agent ] && eval `/usr/bin/ssh-agent -a ~/.ssh/ssh-agent`
