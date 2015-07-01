@@ -40,7 +40,7 @@ alias gmplayer='gmplayer -framedrop -zoom'
 #alias screen='screen -OaUx main || screen -OaU -S main'
 #alias screen-remote='/usr/bin/screen -OaUx Remote || /usr/bin/screen -OaU -S Remote -c /home/pasha/.screenrc-remote'
 
-alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
+#alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
 
 # Function instead of alias to behave identically on remote and local execution
 # http://www.thelinuxlink.net/pipermail/lvlug/2005-July/014629.html
@@ -179,3 +179,7 @@ export CLASSPATH=$CLASSPATH:.
 export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
+
+export SENCHA_CMD_3_0_0="/opt/sencha/cmd-5.1.3.61"
+export PATH=$SENCHA_CMD_3_0_0:$PATH
+
