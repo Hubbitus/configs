@@ -27,6 +27,9 @@ alias ll='ls -l --color=auto'
 alias sudo='sudo '
 
 alias yum='nice -n19 yum'
+
+alias ap=ansible-playbook
+
 #alias rpmbuild='nice -n18 rpmbuild --target=athlon | egrep "Записан:|Wrote:" | cut -d" " -f2 | xargs -r rpmlint'
 rpmbuild (){
 	ionice -c3 nice -n18 /usr/bin/rpmbuild "$@" | egrep "Записан:|Wrote:" | cut -d" " -f2 | xargs -rI{} sh -c 'F="{}"; echo "rpmlint of: $F"; rpmlint "$F"'
