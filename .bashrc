@@ -59,6 +59,10 @@ function screen-rgc(){
 	/usr/bin/screen -OaUx Rgc || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-rgc
 }
 
+function screen-egais(){
+	/usr/bin/screen -OaUx Egais || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-egais
+}
+
 # http://stackoverflow.com/questions/6064548/send-commands-to-a-gnu-screen
 # http://stackoverflow.com/questions/6510673/in-screen-how-do-i-send-a-command-to-all-virtual-terminal-windows-within-a-sing
 function rgc-screen-all-command(){
@@ -119,6 +123,9 @@ shopt -s histappend
 export HISTCONTROL=ignoreboth
 
 complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" ssh
+complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" sshs
+complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" whilessh
+complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" whilesshs
 
 #Auto start ssh-agent. http://rusmafia.org/linux/ssh-agent-shell-startup
 ##[ ! -S ~/.ssh/ssh-agent ] && eval `/usr/bin/ssh-agent -a ~/.ssh/ssh-agent`
@@ -153,7 +160,8 @@ export IMUS_HOME='/home/pasha/imus'
 
 # For Grails
 #export JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64/
-export JAVA_HOME=/usr/java/latest/
+#?export JAVA_HOME=/usr/java/latest/
+unset JAVA_HOME
 export GRAILS_HOME=/opt/grails/
 [ -f /opt/grails/grails_autocomplete ] && . /opt/grails/grails_autocomplete
 
@@ -186,3 +194,8 @@ export ELMON=cmMvtanld
 export SENCHA_CMD_3_0_0="/opt/sencha/cmd-5.1.3.61"
 export PATH=$SENCHA_CMD_3_0_0:$PATH
 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+
+alias b='source ~/.bashrc'
+[ -f ~/.bashrc.PS1 ] && source ~/.bashrc.PS1
