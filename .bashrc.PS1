@@ -12,6 +12,7 @@ function format_time(){
 
 # Based on http://stackoverflow.com/a/1862762/307525, but refactored on milliseconds
 function timer_start {
+#    echo "timer=$timer; SHLVL=$SHLVL; BASH_SUBSHELL=$BASH_SUBSHELL"
     timer="${timer:-$( get_time_ms )}"
 }
 
@@ -26,6 +27,10 @@ function timer_stop {
 trap 'timer_start' DEBUG
 PROMPT_COMMAND=timer_stop
 
+# It will be cleared in MC due to the bug: https://www.midnight-commander.org/ticket/2027!!! @TODO recheck it.
+# Intil that alias-workaround which should me run manually ONCE in mc subshell (timer_stop MUST be at end)
+alias m='PROMPT_COMMAND="$PROMPT_COMMAND ; timer_stop"'
+
 #PS1='[last: ${timer_show}s][\w]$ '
 
-PS1='\[\e[1;30m[\[\e[39m$( [ "\u" = "root" ] && echo -ne "\[\e[41m" || echo -ne "\[\e[36m" )\u\[\e[30m\[\e[49m@\[\e[34m\]\h\[\e[30m][\[\e[96m$(format_time @${timer_start})-$(format_time @$timer_stop)(\[\e[4m${timer_show}s\[\e[24m)\[\e[39m\[\e[30m][\[\e[39m\w\[\e[30m]\[\e[39m$([ 0 -eq $__err ] && echo -e " \[\e[92m☻\[\e[39m" || echo -e " \[\e[41m${__err}\[\e[49m" ) \[\e[92m$\[\e[39m\[\e[49m '
+PS1='$SHLVL \[\e[1;30m\][\[\e[39m\]$( [ "\u" = "root" ] && echo -ne "\[\e[41m\]" || echo -ne "\[\e[36m\]" )\u\[\e[30m\]\[\e[49m\]@\[\e[34m\]\h\[\e[30m\]][\[\e[96m\]$(format_time @${timer_start})-$(format_time @$timer_stop)(\[\e[4m\]${timer_show}s\[\e[24m\])\[\e[39m\]\[\e[30m\]][\[\e[39m\]\w\[\e[30m\]]\[\e[39m\]$([ 0 -eq $__err ] && echo -e " \[\e[92m\]☻\[\e[39m\]" || echo -e " \[\e[41m\]${__err}\[\e[49m\]" ) \[\e[92m\]$\[\e[39m\]\[\e[49m\] '

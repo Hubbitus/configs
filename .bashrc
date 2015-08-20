@@ -9,6 +9,8 @@ PATH=$PATH:$HOME/bin:/usr/sbin:$HOME/bin/php_templates:/opt/cuda/bin:/opt/grails
 
 # User specific aliases and functions
 
+alias e=echo
+
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
