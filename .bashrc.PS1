@@ -5,18 +5,18 @@
 
 # By http://serverfault.com/a/151112/272920
 function get_time_ms(){
-    echo $(date +%s.%N | cut -b1-14)
+  echo $(date +%s.%N | cut -b1-14)
 }
 
 # $1 that date if present, otherwise - now
 function format_time(){
-    date ${1+--date $1} +%X.%N | cut -b1-12
+  date ${1+--date $1} +%X.%N | cut -b1-12
 }
 
 # Based on http://stackoverflow.com/a/1862762/307525, but refactored on milliseconds
 function timer_start {
 #    echo "timer=$timer; SHLVL=$SHLVL; BASH_SUBSHELL=$BASH_SUBSHELL"
-    timer="${timer:-$( get_time_ms )}"
+  timer="${timer:-$( get_time_ms )}"
 }
 
 function timer_stop {
@@ -27,12 +27,16 @@ function timer_stop {
   unset timer
 }
 
-trap 'timer_start' DEBUG
-PROMPT_COMMAND=timer_stop
-
 # It will be cleared in MC due to the bug: https://www.midnight-commander.org/ticket/2027!!! @TODO recheck it.
 # Intil that alias-workaround which should me run manually ONCE in mc subshell (timer_stop MUST be at end)
-alias m='PROMPT_COMMAND="$PROMPT_COMMAND ; timer_stop"'
+alias m='echo $PROMPT_COMMAND | grep -q timer_stop || PROMPT_COMMAND="$PROMPT_COMMAND ; timer_stop"'
+
+alias s=sleep
+
+trap 'timer_start' DEBUG
+#PROMPT_COMMAND=timer_stop
+shopt -s expand_aliases
+m
 
 #PS1='[last: ${timer_diff_s}s][\w]$ '
 

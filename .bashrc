@@ -68,7 +68,7 @@ function screen-egais(){
 # http://stackoverflow.com/questions/6064548/send-commands-to-a-gnu-screen
 # http://stackoverflow.com/questions/6510673/in-screen-how-do-i-send-a-command-to-all-virtual-terminal-windows-within-a-sing
 function rgc-screen-all-command(){
-/usr/bin/screen -S Rgc -X at '#' stuff "$@
+	/usr/bin/screen -S Rgc -X at '#' stuff "$@
 "
 }
 
@@ -98,12 +98,24 @@ alias t='cd ~/temp'
 alias idiff='/opt/JetBrains/idea/bin/idea.sh diff'
 alias imerge='/opt/JetBrains/idea/bin/idea.sh merge'
 
-function sshs(){
-ssh -t $@ 'screen -x || screen'
+function setYakuakeTabName(){
+	[ 'true' == $( qdbus org.kde.yakuake /yakuake/MainWindow_1 org.qtproject.Qt.QWidget.isActiveWindow ) ] && \
+		qdbus org.kde.yakuake /yakuake/tabs setTabTitle $( qdbus org.kde.yakuake /yakuake/sessions activeSessionId ) "$1"
 }
 
-function whilesshs(){
-whilessh -t $@ 'screen -x || screen'
+function ssh(){
+	setYakuakeTabName "$1"
+	/usr/bin/ssh $@
+}
+
+function sshs(){
+	ssh $@ -t 'screen -x || screen'
+}
+# while.cmd from https://github.com/Hubbitus/shell.scripts
+alias whilesshs='while.cmd sshs'
+
+function whilessh(){
+	WHILE_CMD_PRE_EXECUTE="setYakuakeTabName $1" while.cmd ssh $@
 }
 
 # #1 - videofilename
@@ -189,7 +201,7 @@ export CLASSPATH=$CLASSPATH:.
 
 # Do not auto update screen titles!
 #export PROMPT_COMMAND='if [ ! "screen" = "${TERM:0:6}" ]; then printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"; else echo ""; fi'
-export PROMPT_COMMAND=''
+#?export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
 
