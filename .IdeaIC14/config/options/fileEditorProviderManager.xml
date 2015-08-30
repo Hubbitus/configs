@@ -1,0 +1,9 @@
+<application>
+  <component name="FileEditorProviderManager">
+    <option name="selectedProviders">
+      <map>
+        <entry key="text-editor,MarkdownPreviewEditor" value="MarkdownPreviewEditor" />
+      </map>
+    </option>
+  </component>
+</application>

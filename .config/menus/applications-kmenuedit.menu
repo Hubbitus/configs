@@ -1,0 +1,28 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Include>
+   <Filename>Aqua DataStudio.desktop</Filename>
+   <Filename>Jmeter.desktop</Filename>
+  </Include>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Jmeter.desktop</Filename>
+   <Filename>java-1.8.0-openjdk-1.8.0.51-4.b16.fc22.x86_64-jconsole.desktop</Filename>
+   <Filename>Aqua DataStudio.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>X-KDE-KDevelopIDE</Menuname>
+   <Menuname>Web Development</Menuname>
+   <Menuname>Translation</Menuname>
+   <Filename>gradle.desktop</Filename>
+   <Filename>jetbrains-idea-ce.desktop</Filename>
+   <Filename>meld.desktop</Filename>
+   <Filename>netbeans-8.0.2.desktop</Filename>
+   <Filename>pgadmin3.desktop</Filename>
+   <Filename>qt4-designer.desktop</Filename>
+   <Filename>qt4-linguist.desktop</Filename>
+   <Filename>groovy.desktop</Filename>
+  </Layout>
+ </Menu>
+</Menu>

@@ -1,0 +1,17 @@
+[Autocorrect]
+AdvancedAutocorrect=true
+AutoBoldUnderline=false
+AutoFormatBulletList=false
+AutoFormatURLs=false
+AutoFractions=true
+AutoNumbering=false
+CapitalizeWeekDays=false
+FixTwoUppercaseChars=false
+ReplaceDoubleQuotes=false
+ReplaceSingleQuotes=false
+SingleSpaces=false
+SuperscriptAppendix=true
+TrimParagraphs=true
+UppercaseFirstCharOfSentence=false
+enabled=true
+formatLanguage=en

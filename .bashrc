@@ -19,6 +19,9 @@ alias ndrpm='rpm -Uhv --excludedocs'
 alias rf='rpm -qf'
 alias rq='rpm -q'
 
+alias g=git
+alias s=svn
+
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'

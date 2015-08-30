@@ -1,0 +1,2 @@
+# RSYNC_SHARED_OPTIONS='-aHAErlSDz --stats --human-readable --partial --progress --itemize-changes'
+RSYNC_SHARED_OPTIONS='-aHAErlDz --stats --human-readable --partial --progress --itemize-changes --inplace'

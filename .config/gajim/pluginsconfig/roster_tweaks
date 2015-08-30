@@ -1,0 +1,17 @@
+(dp1
+S'use_ctr_m'
+p2
+I00
+sS'quick_status'
+p3
+I00
+sS'hide_status_combo'
+p4
+I00
+sS'menu_visible'
+p5
+I01
+sS'contact_status_subs'
+p6
+I01
+s.

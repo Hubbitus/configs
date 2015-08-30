@@ -1,0 +1,12 @@
+<!DOCTYPE autocorrection>
+<Word>
+ <items/>
+ <UpperCaseExceptions/>
+ <TwoUpperLetterExceptions/>
+ <DoubleQuote>
+  <doublequote begin="“" end="”"/>
+ </DoubleQuote>
+ <SimpleQuote>
+  <simplequote begin="‘" end="’"/>
+ </SimpleQuote>
+</Word>

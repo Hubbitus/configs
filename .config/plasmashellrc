@@ -1,0 +1,57 @@
+[Action_0]
+Automatic=false
+Description=Converts table data copied from Squirell and AquaDataStudio into WIKI frmat
+Number of commands=1
+Regexp=
+
+[Action_0/Command_0]
+Commandline[$e]=echo "%s" | sed -r '1s/\\t/ || /g;1s/^/|| /;1s/$$/ ||/;  s/\\t/ | /g;2~1s/^/| /;2~1s/$$/ |/; $$a\\'
+Description=Clipboard to WIKI
+Enabled=true
+Icon=
+Output=1
+
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtEAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAB1wAAAAEAAAAAAAAD6AA=
+
+[ConfigDialog]
+Height 1050=515
+Width 1680=899
+
+[EditActionDialog]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXkAAAADAAEAAQAAAAAAAAAAAAAAAGT/////AAAAAQAAAAAAAAADAAAAZAAAAAEAAAAAAAAAsQAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AA=
+Height 1050=456
+Width 1680=411
+Window-Maximized 768x1366=true
+
+[General]
+Number of Actions=1
+
+[KFileDialog Settings]
+Recent Files[$e]=kscreen-console,/usr/bin/kscreen-console
+Recent URLs[$e]=/usr/bin/
+
+[KPropertiesDialog]
+Height 1080=422
+Width 1920=510
+
+[PlasmaViews][Panel 1][Vertical1024]
+thickness=30
+
+[PlasmaViews][Panel 1][Vertical1050]
+length=1050
+thickness=96
+
+[PlasmaViews][Panel 1][Vertical1080]
+length=1080
+maxLength=1080
+minLength=1080
+panelVisibility=0
+thickness=115
+
+[PlasmaViews][Panel 1][Vertical768]
+length=768
+thickness=98
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/updates/01-fedora-org.kde.plasma.pkupdates.js,/usr/share/plasma/shells/org.kde.plasma.desktop/updates/00-start-here-kde-fedora-2.js

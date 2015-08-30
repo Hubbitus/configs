@@ -1,0 +1,47 @@
+#http://www4.informatik.uni-erlangen.de/~jnweiger/screen-faq.html
+#http://taint.org/wk/RemoteLoginAutoScreen
+
+escape ^Ww
+
+# https://bbs.archlinux.org/viewtopic.php?id=67464
+term xterm-256color
+
+termcap xterm 'XT'
+terminfo xterm 'XT'
+
+termcapinfo xterm ti@:te@
+#???#termcapinfo xterm 'bc@:bs@'
+altscreen on
+
+# http://aperiodic.net/screen/commands:hardstatus
+#hardstatus alwayslastline '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+hardstatus alwayslastline
+
+# http://screen.frogcircus.org/remote
+zombie ko
+deflog on
+logfile /home/pasha/.screen-logs/screenlog.%H
+
+#http://linsovet.com/content/%D0%B7%D0%B0%D0%B9%D1%82%D0%B8-%D0%B2-screen-%D0%BD%D0%B0-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5#comment-2017
+screen -t egais.app.balance 0 bash -o history -c 'sshs egais.app.balance'
+screen -t egais.perf.app.balance 1 bash -o history -c 'sshs egais.perf.app.balance'
+
+screen -t egais.app.node1 2 bash -o history -c 'sshs egais.app.node1'
+screen -t egais.perf.app.node1 3 bash -o history -c 'sshs egais.perf.app.node1'
+
+screen -t egais.app.node2 4 bash -o history -c 'sshs egais.app.node2'
+screen -t egais.perf.app.node2 5 bash -o history -c 'sshs egais.perf.app.node2'
+
+screen -t egais.db.balancer 6 bash -o history -c 'sshs egais.db.balancer'
+screen -t egais.perf.db.balancer 7 bash -o history -c 'sshs egais.perf.db.balancer'
+
+screen -t egais.db.master 8 bash -o history -c 'sshs egais.db.master'
+screen -t egais.perf.db.master 9 bash -o history -c 'sshs egais.perf.db.master'
+
+screen -t egais.db.slave 10 bash -o history -c 'sshs egais.db.slave'
+screen -t egais.perf.db.slave1 11 bash -o history -c 'sshs egais.perf.db.slave1'
+
+screen -t egais.ftp 12 bash -o history -c 'sshs egais.ftp'
+screen -t egais.monitor 13 bash -o history -c 'sshs egais.monitor'
+#screen -t egais.cms 14 bash -o history -c 'sshs egais.cms'
+

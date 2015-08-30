@@ -1,0 +1,129 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="svn working copy format">
+      <project id="main" values="1.8" collectionTime="1440789336431" />
+      <project id="egais-portal" values="1.8" collectionTime="1440533959548" />
+      <project id="UniData" values="1.8" collectionTime="1440520171829" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="main" values="Remote,BashConfigurationType,GroovyScriptRunConfiguration" collectionTime="1440789336090" />
+      <project id="gradle-tomcat-plugin" values="Remote" collectionTime="1439283819539" />
+      <project id="Test-loading" values="BashConfigurationType" collectionTime="1437862185516" />
+      <project id="Ansible" values="PythonConfigurationType,BashConfigurationType" collectionTime="1440405490490" />
+      <project id="UniData" values="Remote,BashConfigurationType" collectionTime="1440520171464" />
+    </group>
+    <group name="frameworks">
+      <project id="groovierspring" values="invalid" collectionTime="1439891071375" />
+      <project id="Test-loading" values="bash" collectionTime="1437862185516" />
+      <project id="UniData" values="Python" collectionTime="1440520171449" />
+      <project id="main" values="Python" collectionTime="1440789336089" />
+      <project id="Ansible" values="Python,bash" collectionTime="1440405490490" />
+      <project id="pgbench" values="bash" collectionTime="1436518258223" />
+    </group>
+    <group name="vcs">
+      <project id="groovierspring" values="svn" collectionTime="1439891071375" />
+      <project id="Test-loading" values="Git" collectionTime="1437862185516" />
+      <project id="gradle-tomcat-plugin" values="Git" collectionTime="1439283819539" />
+      <project id="egais_portal_implementation_main" values="svn" collectionTime="1439543055431" />
+      <project id="UniData" values="svn" collectionTime="1440520171448" />
+      <project id="egais-portal" values="svn" collectionTime="1440533959367" />
+      <project id="main.branch" values="svn" collectionTime="1439545645194" />
+      <project id="Ansible" values="Git" collectionTime="1440405490490" />
+      <project id="main" values="svn" collectionTime="1440789336089" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="main" values="GradleRunConfiguration" collectionTime="1440789336090" />
+      <project id="gradle-tomcat-plugin" values="GradleRunConfiguration" collectionTime="1439283819539" />
+      <project id="pgbench" values="BashConfigurationType" collectionTime="1436518258223" />
+      <project id="UniData" values="GradleRunConfiguration" collectionTime="1440520171464" />
+    </group>
+    <group name="file-type">
+      <project id="groovierspring" values="PLAIN_TEXT,ARCHIVE,Groovy,IDEA_PROJECT,XML,IDEA_MODULE,JAVA,IDEA_WORKSPACE,DTD,Manifest,UNKNOWN,SQL" collectionTime="1439891071510" />
+      <project id="Test-loading" values="XML,IDEA_MODULE,Images,JMeter,Bat,CSS,HTML,PLAIN_TEXT,C++,nginx file type,UNKNOWN,Bash" collectionTime="1437862185557" />
+      <project id="main" values="CSS,Images,HTML,PLAIN_TEXT,Python,SQL,UNKNOWN,JMeter,Markdown,Properties,Native,XML,Bat,JSON,Groovy,ARCHIVE,JavaScript,Bash,JAVA,IDEA_MODULE" collectionTime="1440789336412" />
+      <project id="egais_portal_implementation_main" values="IDEA_MODULE,XML,PLAIN_TEXT,UNKNOWN" collectionTime="1439543055545" />
+      <project id="UniData" values="Python,JAVA,PLAIN_TEXT,ARCHIVE,JavaScript,Native,SQL,Markdown,Bat,XML,Bash,UNKNOWN,DTD,HTML,JSON,Properties,CSS,IDEA_MODULE,Images,Groovy" collectionTime="1440520171696" />
+      <project id="egais-portal" values="PLAIN_TEXT,IDEA_MODULE,SQL,Bash,Images,JSON,Groovy,JavaScript,HTML,Markdown,ARCHIVE,JMeter,UNKNOWN,Bat,Properties,CSS,JAVA,Native,XML" collectionTime="1440533959547" />
+      <project id="main.branch" values="UNKNOWN,SQL,Native,PLAIN_TEXT,XML,Bash,IDEA_MODULE" collectionTime="1439545645307" />
+      <project id="Ansible" values="Properties,Markdown,Python,JSON,Images,CSS,ARCHIVE,Bash,IDEA_MODULE,CLASS,Groovy,YAML,PLAIN_TEXT,HTML,Manifest,Bat,XML,UNKNOWN,JAVA,JavaScript,JMeter,SQL,nginx file type" collectionTime="1440405490500" />
+      <project id="pgbench" values="PLAIN_TEXT,XML,Bash,UNKNOWN,IDEA_MODULE" collectionTime="1436518258521" />
+      <project id="gradle-tomcat-plugin" values="UNKNOWN" collectionTime="1439283819594" />
+    </group>
+    <group name="module type">
+      <project id="groovierspring" values="JAVA_MODULE" collectionTime="1439891071375" />
+      <project id="Test-loading" values="JAVA_MODULE" collectionTime="1437862185516" />
+      <project id="main" values="JAVA_MODULE" collectionTime="1440789336089" />
+      <project id="egais_portal_implementation_main" values="WEB_MODULE" collectionTime="1439543055431" />
+      <project id="UniData" values="JAVA_MODULE" collectionTime="1440520171449" />
+      <project id="egais-portal" values="JAVA_MODULE" collectionTime="1440533959367" />
+      <project id="main.branch" values="JAVA_MODULE" collectionTime="1439545645194" />
+      <project id="Ansible" values="JAVA_MODULE" collectionTime="1440405490490" />
+      <project id="pgbench" values="JAVA_MODULE" collectionTime="1436518258223" />
+      <project id="gradle-tomcat-plugin" values="JAVA_MODULE" collectionTime="1439283819539" />
+    </group>
+    <group name="py-interpreter">
+      <project id="main" values="Python 3.4.2,Python 3.4.2" collectionTime="1440789336431" />
+      <project id="Ansible" values="Python 3.4.2" collectionTime="1440405490503" />
+      <project id="UniData" values="Python 3.4.2" collectionTime="1440520171829" />
+    </group>
+    <group name="libraries">
+      <project id="main" values="groovy" collectionTime="1440789336426" />
+      <project id="Test-loading" values="groovy" collectionTime="1437862185691" />
+      <project id="groovierspring" values="groovy" collectionTime="1439891071525" />
+    </group>
+    <group name="language-level">
+      <project id="groovierspring" values="JDK_1_5" collectionTime="1439891071583" />
+      <project id="Test-loading" values="JDK_1_8" collectionTime="1437862185692" />
+      <project id="main" values="JDK_1_8" collectionTime="1440789336431" />
+      <project id="egais_portal_implementation_main" values="JDK_1_6" collectionTime="1439543055545" />
+      <project id="UniData" values="JDK_1_8" collectionTime="1440520171828" />
+      <project id="egais-portal" values="JDK_1_8" collectionTime="1440533959548" />
+      <project id="main.branch" values="JDK_1_6" collectionTime="1439545645307" />
+      <project id="Ansible" values="JDK_1_3" collectionTime="1440405490501" />
+      <project id="pgbench" values="JDK_1_8" collectionTime="1436518258525" />
+      <project id="gradle-tomcat-plugin" values="JDK_1_8" collectionTime="1439283819594" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="78" />
+      <entry feature="execute.BashConfigurationType.Run" count="1051" />
+      <entry feature="execute.BatchConfigurationType.Run" count="2" />
+      <entry feature="execute.GradleRunConfiguration.Debug" count="10" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="70" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Debug" count="2" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Run" count="43" />
+      <entry feature="execute.JUnit.Debug" count="1" />
+      <entry feature="execute.JUnit.Run" count="1" />
+      <entry feature="execute.PythonConfigurationType.Run" count="60" />
+      <entry feature="execute.Remote.Debug" count="116" />
+      <entry feature="ide.help.ideaInterface.editor" count="1" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Auto_Import" count="1" />
+      <entry feature="ide.settings.Code_Style" count="3" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="3" />
+      <entry feature="ide.settings.Editor_Tabs" count="4" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="1" />
+      <entry feature="ide.settings.Font" count="1" />
+      <entry feature="ide.settings.General" count="4" />
+      <entry feature="ide.settings.Grep_Console" count="135" />
+      <entry feature="ide.settings.Groovy" count="1" />
+      <entry feature="ide.settings.HTML" count="1" />
+      <entry feature="ide.settings.Inspections" count="1" />
+      <entry feature="ide.settings.JSON" count="1" />
+      <entry feature="ide.settings.Java" count="1" />
+      <entry feature="ide.settings.Keymap" count="10" />
+      <entry feature="ide.settings.Plugins" count="1" />
+      <entry feature="ide.settings.Project_Structure" count="11" />
+      <entry feature="ide.settings.Python" count="1" />
+      <entry feature="ide.settings.Subversion" count="1" />
+      <entry feature="ide.settings.XML" count="1" />
+      <entry feature="ide.settings.nginx_Servers" count="2" />
+      <entry feature="ideaapp.started" count="76" />
+      <entry feature="tips.of.the.day.next" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+    </counts>
+  </component>
+</application>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+    <track>
+      <location>file:///usr/share/kde4/apps/amarok/data/first_run_jingle.ogg</location>
+      <identifier>file:///usr/share/kde4/apps/amarok/data/first_run_jingle.ogg</identifier>
+      <title>Art Of Nations (Amarok Theme)</title>
+      <creator>allMeadow &amp; Rob Costlow</creator>
+      <annotation>This Amarok theme was made by allMeadow &amp; Rob Costlow especially for Amarok. You can check out more of their projects at Magnatune.com or at www.reconstructionmusic.org</annotation>
+      <album>www.reconstructionmusic.org</album>
+      <trackNum>1</trackNum>
+      <duration>40000</duration>
+    </track>
+    <track>
+      <location>file:///home/pasha/temp/sberbank.card.block.error/sberbank.phone.card.block.error.volume-up.ogg</location>
+      <identifier>file:///home/pasha/temp/sberbank.card.block.error/sberbank.phone.card.block.error.volume-up.ogg</identifier>
+      <title>up</title>
+      <creator>sberbank.phone.card.block.error.volume</creator>
+      <duration>51000</duration>
+    </track>
+  </trackList>
+</playlist>

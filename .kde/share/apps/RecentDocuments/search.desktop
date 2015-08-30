@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=favicons/www.google.com
+Name=search
+Type=Link
+URL[$e]=https://www.google.com/search?q=expand_aliases&ie=UTF-8
+X-KDE-LastOpenedWith=chromium-browser

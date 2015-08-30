@@ -1,0 +1,56 @@
+[user]
+	name = Hubbitus
+	email = pahan@hubbitus.info
+
+# Colors from http://jblevins.org/log/git-colors
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	status = auto
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[core]
+	editor = mcedit
+	quotepath = false
+	compression = 9
+
+[merge]
+	tool = meld
+
+[push]
+#?	default = simple
+	default = tracking
+
+# http://alblue.bandlem.com/2011/04/git-tip-of-week-aliases.html
+[alias]
+	st = status
+	# Define 'git last' to show last commit message
+	last = show -s HEAD^{commit}
+	# http://alblue.bandlem.com/2011/05/git-tip-of-week-reflogs.html
+	undo = reset HEAD@{1}
+
+	# http://stackoverflow.com/a/24396192/307525
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep ^[[:lower:]]
+
+[branch]
+	# https://www.atlassian.com/git/tutorial/remote-repositories#!pull
+	autosetuprebase = always

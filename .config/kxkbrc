@@ -1,0 +1,13 @@
+[Layout]
+DisplayNames=
+LayoutList=
+LayoutLoopCount=-1
+Model=pc101
+Options=grp:caps_toggle
+ResetOldOptions=true
+ShowFlag=true
+ShowLabel=false
+ShowLayoutIndicator=true
+ShowSingle=false
+SwitchMode=WinClass
+Use=false

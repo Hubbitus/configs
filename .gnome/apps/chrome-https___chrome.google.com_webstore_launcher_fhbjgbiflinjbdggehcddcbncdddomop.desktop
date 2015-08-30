@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Панель запуска приложений Chrome
+Exec=/usr/lib64/chromium/chrome --app=https://chrome.google.com/webstore/launcher/fhbjgbiflinjbdggehcddcbncdddomop
+Icon=chrome-https___chrome.google.com_webstore_launcher_fhbjgbiflinjbdggehcddcbncdddomop
+StartupWMClass=chrome.google.com__webstore_launcher_fhbjgbiflinjbdggehcddcbncdddomop
+OnlyShowIn=Old;

@@ -1,0 +1,74 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>passwordResetTokenCleanupJob</find>
+      <find>seco</find>
+      <find>UPDATE bo_party SET duplicate_status=null</find>
+      <find>EgaisPendingOperationsCleanup</find>
+      <find>getById</find>
+      <find>error.marking.okp.code.nonexists</find>
+      <find>Ошибка номера маркировки. Конечная часть</find>
+      <find>Конечная часть</find>
+      <find>case</find>
+      <find>capit</find>
+      <find>camel</find>
+      <find>error.mar</find>
+      <find>request</find>
+      <find>handle</find>
+      <find>his</find>
+      <find>LABEL_UPDATED_BY_PARAM</find>
+      <find>passwordHash</find>
+      <find>PasswordEncoder</find>
+      <find>passwo</find>
+      <find>dataSource</find>
+      <find>ведерации</find>
+      <find>ведераци</find>
+      <find>mainUrl</find>
+      <find>GUEBPK_READ</find>
+      <find>file</find>
+      <find>форм</find>
+      <find>get</find>
+      <find>rel_declaration_to_element</find>
+      <find>bo_contract_forest_declaration</find>
+      <find>CMDBuild</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>role: opt-put</replace>
+      <replace>role: opt-get</replace>
+      <replace>\t</replace>
+      <replace>#####</replace>
+      <replace>####</replace>
+      <replace>###</replace>
+      <replace>TIMER_URL_COMPLETION=4000</replace>
+      <replace>##</replace>
+      <replace />
+      <replace>dnf</replace>
+      <replace>yum</replace>
+      <replace>&lt;dns&gt;\1&lt;/dns&gt;</replace>
+      <replace>&lt;ip/&gt;\n\t\t\t\t&lt;dns&gt;$1&lt;/dns&gt;</replace>
+      <replace>&lt;useip&gt;0&lt;/useip&gt;</replace>
+      <replace>jq</replace>
+      <replace>zabbix-agent-postgres-eqais-queries</replace>
+      <replace>#</replace>
+      <replace>Restart tomcat</replace>
+      <replace>Restart our tomcats</replace>
+      <replace>pgpool_backends</replace>
+      <replace>ERROR_</replace>
+      <replace>ERROR_204</replace>
+      <replace>ERROR_210</replace>
+      <replace>token</replace>
+      <replace>rel_report_to_element</replace>
+      <replace>Unidata</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/controller/rest</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/performance_tune</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/roles</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/test-dev/roles/ansible-postgresql-manager</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration/V3.0</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database</dir>
+    </dirStrings>
+  </component>
+</application>

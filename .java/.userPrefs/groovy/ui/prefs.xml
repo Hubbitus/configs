@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="autoClearOutput" value="true"/>
+  <entry key="currentFileChooserDir" value="/home/pasha/Projects/Logstash+Elasticsearch+Kibana"/>
+  <entry key="inputAreaHeight" value="285"/>
+  <entry key="inputAreaWidth" value="1018"/>
+  <entry key="outputAreaHeight" value="302"/>
+  <entry key="outputAreaWidth" value="1054"/>
+  <entry key="showScriptInOutput" value="false"/>
+  <entry key="threadInterrupt" value="true"/>
+  <entry key="visualizeScriptResults" value="true"/>
+</map>

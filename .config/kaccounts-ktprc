@@ -1,0 +1,5 @@
+[kaccounts-ktp]
+1=/org/freedesktop/Telepathy/Account/gabble/jabber/hubbitus_40jabber_2eru0
+
+[ktp-kaccounts]
+/org/freedesktop/Telepathy/Account/gabble/jabber/hubbitus_40jabber_2eru0=1

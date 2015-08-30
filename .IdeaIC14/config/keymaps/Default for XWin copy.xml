@@ -1,0 +1,77 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="$SearchWeb">
+    <keyboard-shortcut first-keystroke="alt G" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control F4" />
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="control F9" />
+    <keyboard-shortcut first-keystroke="alt F9" />
+  </action>
+  <action id="ConvertIndentsToTabs">
+    <keyboard-shortcut first-keystroke="shift control T" />
+  </action>
+  <action id="CopyElement" />
+  <action id="Editor SearchWeb">
+    <keyboard-shortcut first-keystroke="alt G" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt SUBTRACT" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt ADD" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="alt NUMPAD0" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt W" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="alt DOWN" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="alt UP" />
+  </action>
+  <action id="PreviousTab" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift F10" />
+    <keyboard-shortcut first-keystroke="F5" />
+  </action>
+  <action id="RunToCursor" />
+  <action id="ShowContent" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>

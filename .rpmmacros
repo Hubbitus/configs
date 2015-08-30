@@ -1,0 +1,24 @@
+%_topdir      %(echo $HOME)/SOFT/rpmbuild
+%_smp_mflags  -j3
+%__arch_install_post   /usr/lib/rpm/check-rpaths   /usr/lib/rpm/check-buildroot
+#%_topdir      %(echo $HOME)/rpmbuild
+
+#%{!?_dist: %{expand: %%define dist f8}}
+
+%_enable_debug_packages 1
+
+#%packager      Pavel Alexeev <Pahan [ at ] hubbitus [dot] info>
+%packager      Pavel Alexeev (aka Pahan-Hubbitus) <Pahan@Hubbitus.info>
+#%vendor        Pahan-Hubbitus
+%vendor        fedora
+
+#http://lists.atrpms.net/pipermail/atrpms-devel/2007-February/001421.html
+#But short names with() and without() are used, see /usr/lib/rpm/macros
+%compile_with()		%{expand:%%{?_with_%{1}:1}%%{!?_with_%{1}:0}}
+%compile_without()		%{expand:%%{?_with_%{1}:0}%%{!?_with_%{1}:1}}
+
+%_unpackaged_files_terminate_build 1
+
+%_tmppath	%{_builddir}/_tmp/
+
+%_target	athlon-linux

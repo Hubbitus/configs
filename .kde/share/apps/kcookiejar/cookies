@@ -1,0 +1,8 @@
+# KDE Cookie File v2
+#
+# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
+[.community.ulyaoth.net]
+community.ulyaoth.net ".community.ulyaoth.net" "/"          1498754802    0 __utma               4    119287835.1703046002.1435682803.1435682803.1435682803.1
+community.ulyaoth.net ".community.ulyaoth.net" "/"          1451450802    0 __utmz               4    119287835.1435682803.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+[.wikipedia.org]
+en.wikipedia.org     ""                   "/"          1443700800    0 WMF-Last-Access      6    30-Aug-2015

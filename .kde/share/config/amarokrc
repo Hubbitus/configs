@@ -1,0 +1,46 @@
+[$Version]
+update_info=amarok.upd:1
+
+[Collection Browser]
+TreeCategory=3,1
+View Mode=NormalCollections
+
+[Collection Folders]
+2=./home/pasha
+
+[General]
+Browser Path=root list
+First Run=false
+HiddenOnExit=true
+
+[General Options]
+PlayFirstRunJingle=false
+
+[MainWindow]
+Height 1050=580
+Height 768=580
+State=AAAA/wAAAAD9AAAAAQAAAAAAAARgAAAB7fwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAADxAAAAzAAH///7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAADyAAACegAAAZQAB///+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAANtAAAA8wAAAMwAB///AAAAAAAAAe0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=1120
+Width 1680=1120
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchTrack=true
+
+[Podcast View]
+Merged View=false
+
+[Saved Playlists View]
+Merged View=false
+
+[ScriptManager]
+LastUpdateCheck=1440948869
+
+[StatSyncing]
+checkedFields=rating,firstplay,lastplay,playcount,label
+excludedLabels=
+providerEnabledStatuses=true
+providerIds=localCollection
+providerNames=Локальная коллекция

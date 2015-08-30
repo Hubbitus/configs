@@ -1,0 +1,110 @@
+[DockWidget sharedtooldocker]
+TabbedMode=false
+
+[Interface]
+ResolutionX=14.1732529
+ResolutionY=14.1732529
+Rulers=false
+StatusBarShowLineNumber=true
+StatusBarShowModified=true
+StatusBarShowMouse=false
+StatusBarShowPage=true
+StatusBarShowPageSize=false
+StatusBarShowPageStyle=true
+StatusBarShowWordCount=false
+StatusBarShowZoom=true
+ViewFieldShadings=true
+ViewFormattingChars=false
+ViewFrameBorders=true
+ViewSectionBounds=false
+ViewTableBorders=true
+Zoom=141
+ZoomMode=1
+
+[KFileDialog Settings][$i]
+Height 1050[$i]=525
+Width 1680[$i]=792
+
+[MainWindow]
+Height 1050=1051
+Width 1680=1681
+ko_geometry=AdnQywABAAAAAAVSAAAAAAAAC4kAAAQdAAAFVgAAABQAAAY8AAAAVAAAAAACAA==
+ko_windowstate=AAAA/wAAAAD9AAAAAgAAAAEAAAYwAAAD4vwCAAAADPsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAGAAAAGMAAAAAAAAAAPsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAAGwAAAGIAAABiAQAAA/sAAAAqAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAQAAABsAAADgAAAATwAIABv7AAAAIgBTAHQAcgBvAGsAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAAAAAAAPsAAAAWAFMAdAB5AGwAZQBEAG8AYwBrAGUAcgAAAAKSAAAAcAAAAAAAAAAA+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAABwBAAAD+wAAACIAUwBoAGEAZABvAHcAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAFABTAHQAYQB0AGkAcwB0AGkAYwBzAAAAAAD/////AAAA5gEAAAP7AAAABgBSAGQAZgAAAAAA/////wAAAGgBAAAD+wAAABQATgBhAHYAaQBnAGEAdABpAG8AbgAAAAAA/////wAAAGgBAAAD+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAHAEAAAP7AAAADgBNAG8AZABlAEIAbwB4AQAAAPwAAAMBAAAAqQAIABsAAAACAAAAAAAAAAD8AQAAAAH7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAAAAAAD4gAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+
+[Misc]
+Units=cm
+
+[Recent Dirs]
+OpenDialog[$e]=$HOME/temp,$HOME/Downloads,$HOME/
+
+[RecentFiles]
+File1[$e]=$HOME/temp/dogovor_all.rtf
+Name1[$e]=dogovor_all.rtf
+
+[Statistics]
+CharnospacesVisible=true
+CharspacesVisible=true
+EastAsianCharactersVisible=true
+FleschVisible=true
+LinesVisible=true
+SentencesVisible=true
+SyllablesVisible=true
+WordsVisible=true
+
+[calligra]
+DevicePlugins=spacenavigator
+DevicePluginsDisabled=
+DockerPlugins=calligradockers
+DockerPluginsDisabled=
+FlakePlugins=formulashape,vectorshape,textshape
+ModeBoxHorizontalTabsSide=0
+ShapePlugins=artistictextshape,chartshape,musicshape,pathshapes,pictureshape,pluginshape,spreadsheetshape,videoshape
+ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,changecase,spellcheck
+TextInlinePlugins=textvariables
+ToolPlugins=basicflakesplugin,defaulttools
+ToolPluginsDisabled=
+
+[words]
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAGiAAADvvwCAAAADPsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAGAAAAGMAAAAAAAAAAPsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAAGwAAAGIAAABiAQAAA/sAAAAqAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAQAAABsAAADgAAAATwAIABv7AAAAIgBTAHQAcgBvAGsAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAAAAAAAPsAAAAWAFMAdAB5AGwAZQBEAG8AYwBrAGUAcgAAAAKSAAAAcAAAAAAAAAAA+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAABwBAAAD+wAAACIAUwBoAGEAZABvAHcAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAFABTAHQAYQB0AGkAcwB0AGkAYwBzAAAAAAD/////AAAA5gEAAAP7AAAABgBSAGQAZgAAAAAA/////wAAAGgBAAAD+wAAABQATgBhAHYAaQBnAGEAdABpAG8AbgAAAAAA/////wAAAGgBAAAD+wAAACgAUwBuAGEAcABHAHUAaQBkAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAaAEAAAP7AAAADgBNAG8AZABlAEIAbwB4AQAAAPwAAALdAAAAqQAIABsAAAACAAAAAAAAAAD8AQAAAAH7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAASNAAADvgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQBkAGkAdABfAHQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[words][DockWidget ModeBox]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Navigation]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Rdf]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget SnapGuide Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget Statistics]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[words][DockWidget sharedtooldocker]
+Collapsed=false
+DockArea=2
+Locked=false

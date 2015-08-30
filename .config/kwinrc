@@ -1,0 +1,64 @@
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Number=4
+Rows=1
+
+[Effect-Cube]
+Opacity=86
+TabBox=true
+ZOrdering=true
+ZPosition=1889
+
+[Effect-CubeSlide]
+UseWindowMoving=true
+
+[Effect-Glide]
+GlideAngle=0
+GlideEffect=1
+
+[Effect-Zoom]
+InitialZoom=1
+
+[MouseBindings]
+CommandActiveTitlebar1=Raise
+CommandActiveTitlebar2=Start window tab drag
+CommandActiveTitlebar3=Operations menu
+CommandAll1=Move
+CommandAll2=Toggle raise and lower
+CommandAll3=Resize
+CommandAllKey=Alt
+CommandAllWheel=Change Opacity
+CommandInactiveTitlebar1=Activate and raise
+CommandInactiveTitlebar2=Start window tab drag
+CommandInactiveTitlebar3=Operations menu
+CommandTitlebarWheel=Switch to Window Tab to the Left/Right
+CommandWindow1=Activate, raise and pass click
+CommandWindow2=Activate and pass click
+CommandWindow3=Activate and pass click
+CommandWindowWheel=Scroll
+
+[Plugins]
+cubeEnabled=true
+cubeslideEnabled=true
+desktopchangeosdEnabled=false
+glideEnabled=true
+kwin4_effect_fadeEnabled=false
+kwin4_effect_scaleinEnabled=true
+magiclampEnabled=true
+minimizeanimationEnabled=false
+sheetEnabled=true
+slideEnabled=false
+wobblywindowsEnabled=true
+
+[Script-desktopchangeosd]
+PopupHideDelay=1000
+TextOnly=false
+
+[Windows]
+MaximizeButtonLeftClickCommand=Maximize
+MaximizeButtonMiddleClickCommand=Maximize (vertical only)
+MaximizeButtonRightClickCommand=Maximize (horizontal only)
+RollOverDesktops=true
+TitlebarDoubleClickCommand=Maximize

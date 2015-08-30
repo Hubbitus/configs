@@ -1,0 +1,2 @@
+
+afuse -o mount_template="sshfs -o reconnect %r:/ %m" -o unmount_template="fusermount -u -z %m" ~/remote/

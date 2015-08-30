@@ -1,0 +1,22 @@
+[GENERAL]
+delay=1
+filename[$e]=file://$HOME/remote/backup@ks1.hubbitus.info/home/backup/SHARED.pasha.data/IMG-cool/SCRNs/my/ContractForestDeclaration-places-No-empty1.png
+includeDecorations=true
+includePointer=true
+mode=1
+
+[KFileDialog Settings][$i]
+Height 1050[$i]=450
+Height 1080[$i]=540
+Recent Files[$ie]=$HOME/temp/img2xterm/screenshot0.png,$HOME/temp/img2xterm/screenshot0.png
+Recent URLs[$ie]=$HOME/temp/img2xterm/
+Width 1680[$i]=720
+Width 1920[$i]=903
+
+[MainWindow]
+Height 1050=480
+Height 1080=480
+Height 768=499
+Width 1366=433
+Width 1680=433
+Width 1920=433
