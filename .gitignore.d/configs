@@ -45,6 +45,7 @@
 /.gstreamer-0.10
 #/.java
 #/.kde
+/.kde/share/apps/RecentDocuments
 /.local
 /.mozilla
 /.nbi
