@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="video_framerate" mtime="1442400487" type="int" value="10"/>
+	<entry name="video_size" mtime="1442413572" type="string">
+		<stringvalue>full</stringvalue>
+	</entry>
+</gconf>

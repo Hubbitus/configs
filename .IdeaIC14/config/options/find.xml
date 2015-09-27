@@ -1,10 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'UniData'" />
-    <option name="defaultScopeName" value="Project 'UniData'" />
+    <option name="customScope" value="File '/home/pasha/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.0.RELEASE/421882aea4197bb70e973b337c131c2d6683c11e/spring-web-4.1.0.RELEASE-sources.jar!/org/springframework/web/client/HttpClientErrorException.java'" />
+    <option name="defaultScopeName" value="File '/home/pasha/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.0.RELEASE/421882aea4197bb70e973b337c131c2d6683c11e/spring-web-4.1.0.RELEASE-sources.jar!/org/springframework/web/client/HttpClientErrorException.java'" />
+    <option name="localCaseSensitive" value="true" />
     <option name="showResultsInSeparateView" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'UniData'" />
+    <option name="SEARCH_SCOPE" value="File '/home/pasha/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.0.RELEASE/421882aea4197bb70e973b337c131c2d6683c11e/spring-web-4.1.0.RELEASE-sources.jar!/org/springframework/web/client/HttpClientErrorException.java'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -13,9 +15,11 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.xml</mask>
       <mask>*.java</mask>
       <mask>!*.java</mask>
+      <mask>*.xml</mask>
+      <mask>*delete*.java</mask>
+      <mask>*controller*.java</mask>
     </recentFileMasks>
   </component>
 </application>

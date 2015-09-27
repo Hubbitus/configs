@@ -10,12 +10,17 @@
       <entry key="Default">
         <PlaceSettings />
       </entry>
+      <entry key="TestsFiledAssertions">
+        <PlaceSettings />
+      </entry>
     </option>
   </component>
   <component name="SvnDiffSettings">
     <option name="PLACES_MAP">
       <entry key="Default">
-        <PlaceSettings />
+        <PlaceSettings>
+          <option name="SPLITTER_PROPORTION" value="0.43636364" />
+        </PlaceSettings>
       </entry>
     </option>
   </component>
@@ -32,6 +37,9 @@
         </PlaceSettings>
       </entry>
       <entry key="Default">
+        <PlaceSettings />
+      </entry>
+      <entry key="TestsFiledAssertions">
         <PlaceSettings />
       </entry>
     </option>

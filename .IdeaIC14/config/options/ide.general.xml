@@ -6,5 +6,6 @@
     <entry key="ide.firstStartup" value="false" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
     <entry key="analyze.exceptions.on.the.fly" value="true" />
+    <entry key="ide.editor.tabs.open.at.the.end" value="true" />
   </component>
 </application>

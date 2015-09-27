@@ -1,7 +1,7 @@
 <application>
   <component name="DslActivationStatus">
-    <file url="jar:///usr/share/groovy/lib/gpars.jar!/groovyx/gpars/Definitions.gdsl" />
     <file url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.0-groovy-2.4/ceaa8b69f274ed3de24da3e6a6c86f673b426d1a/spock-core-1.0-groovy-2.4.jar!/org/spockframework/idea/spock.gdsl" />
+    <file url="jar:///usr/share/groovy/lib/gpars.jar!/groovyx/gpars/Definitions.gdsl" />
     <file url="file://$APPLICATION_HOME_DIR$/plugins/Groovy/lib/standardDsls/vetoableTransform.gdsl" />
     <file url="file://$APPLICATION_HOME_DIR$/plugins/Groovy/lib/standardDsls/singletonTransform.gdsl" />
     <file url="file://$APPLICATION_HOME_DIR$/plugins/Groovy/lib/standardDsls/newifyTransform.gdsl" />

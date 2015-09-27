@@ -459,6 +459,32 @@
               <GrepExpressionGroup>
                 <option name="name" value="new" />
               </GrepExpressionGroup>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="caseInsensitive" value="true" />
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="BEFORE|AFTER" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="id" value="494bfe10-4d5a-41f9-bf2c-abf57554fdba" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-15007944" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="id" value="f13994af-7cef-4e7f-96bf-b8281402886b" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+                <option name="name" value="new" />
+              </GrepExpressionGroup>
             </list>
           </option>
           <option name="hideAnsiCommands" value="true" />
