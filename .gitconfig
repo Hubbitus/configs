@@ -41,6 +41,10 @@
 # http://alblue.bandlem.com/2011/04/git-tip-of-week-aliases.html
 [alias]
 	st = status
+	s = status
+	c = commit
+	d = diff
+
 	# Define 'git last' to show last commit message
 	last = show -s HEAD^{commit}
 	# http://alblue.bandlem.com/2011/05/git-tip-of-week-reflogs.html
