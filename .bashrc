@@ -9,11 +9,11 @@ PATH=$PATH:$HOME/bin:/usr/sbin:$HOME/bin/php_templates:/opt/cuda/bin:/opt/grails
 
 # User specific aliases and functions
 
-alias e=echo
-
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+alias ts='ts "%H:%M:%.S"'
 
 alias ndrpm='rpm -Uhv --excludedocs'
 alias rf='rpm -qf'
@@ -21,6 +21,8 @@ alias rq='rpm -q'
 
 alias g=git
 alias s=svn
+
+alias e=mcedit
 
 alias grep='grep --color'
 alias egrep='egrep --color'
@@ -95,15 +97,24 @@ alias java='nice -n19 ionice -c3 java'
 
 alias svn='ionice -c3 colorsvn'
 
+#function svn(){
+#	colorsvn "$@" | colordiff
+#}
+
 alias t='cd ~/temp'
 
 # Idea diff and merge  http://www.jetbrains.com/idea/webhelp/running-intellij-idea-as-a-diff-or-merge-command-line-tool.html
 alias idiff='/opt/JetBrains/idea/bin/idea.sh diff'
 alias imerge='/opt/JetBrains/idea/bin/idea.sh merge'
 
+# If at that moment yakuake active and NOT start from | (to allow manually name it later) - set it title to first argument of ssh* command (user@host assummed)
 function setYakuakeTabName(){
+
+local sessionId="$( qdbus org.kde.yakuake /yakuake/sessions activeSessionId )"
+
 	[ 'true' == $( qdbus org.kde.yakuake /yakuake/MainWindow_1 org.qtproject.Qt.QWidget.isActiveWindow ) ] && \
-		qdbus org.kde.yakuake /yakuake/tabs setTabTitle $( qdbus org.kde.yakuake /yakuake/sessions activeSessionId ) "$1"
+		[ '|' != "$( qdbus org.kde.yakuake /yakuake/tabs tabTitle $sessionId | cut -c1 )" ] && \
+			qdbus org.kde.yakuake /yakuake/tabs setTabTitle $sessionId "$1"
 }
 
 function ssh(){
