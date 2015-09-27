@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet columns="2" interval="0.5" title="IO" locked="0" rows="4">
+ <host shell="" name="localhost" port="-1" command="ksysguardd"/>
+ <display stacked="0" fontSize="8" unit="" svgBackground="" hScale="6" labels="1" version="1" autoRange="1" columnSpan="1" class="FancyPlotter" vLines="0" manualRange="0" showUnit="0" vScroll="0" column="0" vDistance="30" rowSpan="1" hLines="1" row="0" title="/dev/sda">
+  <beam sensorName="disk/sda_(8:0)/Rate/rblk" color="0xff0057ae" sensorType="float" hostName="localhost"/>
+  <beam sensorName="disk/sda_(8:0)/Rate/wblk" color="0xffe20800" sensorType="float" hostName="localhost"/>
+ </display>
+ <display stacked="0" fontSize="8" unit="" svgBackground="" hScale="6" labels="1" version="1" autoRange="1" columnSpan="1" class="FancyPlotter" vLines="1" manualRange="0" showUnit="0" vScroll="0" column="0" vDistance="30" rowSpan="1" hLines="1" row="1" title="/dev/sdc">
+  <beam sensorName="disk/sdc_(8:32)/Rate/rblk" color="0xff0057ae" sensorType="float" hostName="localhost"/>
+  <beam sensorName="disk/sdc_(8:32)/Rate/wblk" color="0xffe20800" sensorType="float" hostName="localhost"/>
+ </display>
+ <display stacked="0" fontSize="8" unit="" svgBackground="" hScale="6" labels="1" version="1" autoRange="1" columnSpan="1" class="FancyPlotter" vLines="0" manualRange="0" showUnit="0" vScroll="0" column="0" vDistance="30" rowSpan="1" hLines="1" row="2" title="/dev/sdd">
+  <beam sensorName="disk/sdd_(8:48)/Rate/rblk" color="0xff0057ae" sensorType="float" hostName="localhost"/>
+  <beam sensorName="disk/sdd_(8:48)/Rate/wblk" color="0xffe20800" sensorType="float" hostName="localhost"/>
+ </display>
+ <display stacked="0" fontSize="8" unit="" svgBackground="" hScale="6" labels="1" version="1" autoRange="1" columnSpan="1" class="FancyPlotter" vLines="0" manualRange="0" showUnit="0" vScroll="0" column="0" vDistance="30" rowSpan="1" hLines="1" row="3" title="/dev/sde">
+  <beam sensorName="disk/sde_(8:64)/Rate/rblk" color="0xff0057ae" sensorType="float" hostName="localhost"/>
+  <beam sensorName="disk/sde_(8:64)/Rate/wblk" color="0xffe20800" sensorType="float" hostName="localhost"/>
+ </display>
+ <display fontSize="8" backgroundColor="0xffffffff" unit="" lowlimitactive="0" normalColor="0xff888888" columnSpan="1" class="DancingBars" uplimit="0" showUnit="0" lowlimit="0" column="1" alarmColor="0xffff0000" rowSpan="1" uplimitactive="0" min="0" max="100" title="I/Os" row="0">
+  <beam sensorDescr="I/Os" sensorName="disk/sda_(8:0)/ioqueue" sensorType="integer" hostName="localhost"/>
+  <beam sensorDescr="I/Os" sensorName="disk/sdb_(8:16)/ioqueue" sensorType="integer" hostName="localhost"/>
+  <beam sensorDescr="I/Os" sensorName="disk/sdc_(8:32)/ioqueue" sensorType="integer" hostName="localhost"/>
+  <beam sensorDescr="I/Os" sensorName="disk/sdd_(8:48)/ioqueue" sensorType="integer" hostName="localhost"/>
+  <beam sensorDescr="I/Os" sensorName="disk/sde_(8:64)/ioqueue" sensorType="integer" hostName="localhost"/>
+ </display>
+ <display stacked="0" fontSize="8" unit="" svgBackground="" hScale="6" labels="1" version="1" autoRange="1" columnSpan="1" class="FancyPlotter" vLines="0" manualRange="0" showUnit="0" vScroll="0" column="1" vDistance="30" rowSpan="1" hLines="1" row="1" title="Average">
+  <beam sensorName="cpu/system/AverageClock" color="0xff0057ae" sensorType="float" hostName="localhost"/>
+ </display>
+ <display stacked="1" fontSize="8" unit="" svgBackground="" hScale="6" labels="1" version="1" autoRange="1" columnSpan="1" class="FancyPlotter" vLines="1" manualRange="0" showUnit="0" vScroll="0" column="1" vDistance="30" rowSpan="1" hLines="1" row="2" title="CPU load">
+  <beam sensorName="cpu/system/user" color="0xff0057ae" sensorType="float" hostName="localhost"/>
+  <beam sensorName="cpu/system/nice" color="0xfffff300" sensorType="float" hostName="localhost"/>
+  <beam sensorName="cpu/system/sys" color="0xfff30000" sensorType="float" hostName="localhost"/>
+  <beam sensorName="cpu/system/wait" color="0xff4d0411" sensorType="float" hostName="localhost"/>
+  <beam sensorName="cpu/system/idle" color="0xff00a900" sensorType="float" hostName="localhost"/>
+ </display>
+</WorkSheet>
