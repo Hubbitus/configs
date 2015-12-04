@@ -9,9 +9,9 @@ PATH=$PATH:$HOME/bin:/usr/sbin:$HOME/bin/php_templates:/opt/cuda/bin:/opt/grails
 
 # User specific aliases and functions
 
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
+#alias rm='rm -i'
+#alias cp='cp -i'
+#alias mv='mv -i'
 
 alias ts='ts "%H:%M:%.S"'
 
@@ -29,6 +29,8 @@ alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 
 alias ll='ls -l --color=auto'
+
+alias fly='gradle flywayRepair ; gradle flywayMigrate -i | ts'
 
 # Allow user aliases in sudo http://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias sudo='sudo '
@@ -88,7 +90,9 @@ alias grin='grin --force-color'
 alias св=cd
 
 # Nice to long time test: gotar, modarcon16*, modarin256* (with root), nicedark, xoria256 + transparent background in ini
-alias mc='TERM=xterm-256color mc -x --skin=gotar'
+# Until https://bugzilla.redhat.com/show_bug.cgi?id=1288446 resolved it can't be 256 color
+#alias mc='TERM=xterm-256color mc -x --skin=gotar'
+alias mc='TERM=xterm mc -x --skin=modarcon16'
 
 alias yakuake='yakuake.start.dbus'
 
@@ -125,11 +129,16 @@ function ssh(){
 function sshs(){
 	ssh $@ -t 'screen -x || screen'
 }
-# while.cmd from https://github.com/Hubbitus/shell.scripts
-alias whilesshs='while.cmd sshs'
 
+# while.cmd from https://github.com/Hubbitus/shell.scripts
 function whilessh(){
-	WHILE_CMD_PRE_EXECUTE="setYakuakeTabName $1" while.cmd ssh $@
+	WHILE_CMD_PRE_EXECUTE="setYakuakeTabName $1" while.cmd /usr/bin/ssh $@
+}
+
+# while.cmd from https://github.com/Hubbitus/shell.scripts
+#No NOT jjust "alias whilesshs='while.cmd sshs'" because it will call tab name set on each try!
+function whilesshs(){
+	WHILE_CMD_PRE_EXECUTE="setYakuakeTabName $1" while.cmd /usr/bin/ssh $@ -t 'screen -x || screen'
 }
 
 # #1 - videofilename
@@ -222,7 +231,7 @@ export ELMON=cmMvtanld
 export SENCHA_CMD_3_0_0="/opt/sencha/cmd-5.1.3.61"
 export PATH=$SENCHA_CMD_3_0_0:$PATH
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+#? [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 
 alias b='source ~/.bashrc'

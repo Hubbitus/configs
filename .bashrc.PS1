@@ -38,7 +38,7 @@ function timer_stop {
 }
 
 # It will be cleared in MC due to the bug: https://www.midnight-commander.org/ticket/2027!!! @TODO recheck it.
-# Intil that alias-workaround which should me run manually ONCE in mc subshell (timer_stop MUST be at end)
+# Until that fixed alias-workaround which should be run manually ONCE in mc subshell (timer_stop MUST be at end)
 #alias m='echo $PROMPT_COMMAND | grep -q timer_stop || PROMPT_COMMAND="${PROMPT_COMMAND:-:} ; timer_stop"'
 # timer_stop must be at begining to catch exit status code and do not account teme of possible command in rest of PROMPT_COMMAND.
 # But it also mean what if there other commands, timer_start will trigger again too. So, at end its clear required.
