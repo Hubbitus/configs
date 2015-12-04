@@ -29,9 +29,9 @@
 /.wireshark/
 /.thunderbird/
 /.thumbnails/
-/.IdeaIC14/system/
-/.IdeaIC14/config/plugins/
-/.IdeaIC14/config/tasks/
+/.IdeaIC1*/system/
+/.IdeaIC1*/config/plugins/
+/.IdeaIC1*/config/tasks/
 /.Skype
 /.ansible
 /.cache
@@ -77,3 +77,34 @@
 
 /.m2
 !/.m2/settings.xml
+
+
+/.kde/share/config/session/yakuake_*
+/.kde/share/apps/okular/docdata
+/.kde/share/apps/konqueror/faviconrc.lock
+/.kde/share/apps/gwenview/recentfolders
+/.kde/share/apps/korganizer/
+
+/.java/fonts/1.8.*
+/.ideaLibSources
+/.groovy
+/.gradle
+/.cups
+/.bash_history
+
+# It usefull for versioning, but it store pasword hashes together. So excluding.
+/.datastudio/connections
+
+# It is auto written
+/.config/Skype/Skype.conf
+
+# Changes in recent files:
+/.kde/share/config/okularrc
+/.kde/share/config/ksnapshotrc
+
+/.wine/
+/.visualvm/
+
+/.httpie/sessions/
+/.fedora/
+/.boswars/
