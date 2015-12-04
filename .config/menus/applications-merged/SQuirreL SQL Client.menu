@@ -1,0 +1,10 @@
+<Menu>
+<Name>Applications</Name>
+<Menu>
+<Directory>SQuirreL-SQL-Client-izpack.directory</Directory>
+<Name>SQuirreL SQL Client</Name>
+<Include>
+<Filename>SQuirreL SQL Client-1448539033061.desktop</Filename>
+</Include>
+</Menu>
+</Menu>
