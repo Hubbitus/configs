@@ -1,0 +1,18 @@
+[General]
+TimeFormat=1
+Volume=1
+
+[MainWindow]
+Height 1050=569
+State=AAAA/wAAAAD9AAAAAAAAAosAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1680=651
+
+[file:///home/pasha/temp/HTC-MEDIA-MOVE/100MEDIA/VIDEO0002.mp4]
+Brightness=0
+Contrast=0
+Date=08/11/2015
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0

@@ -1,3 +1,6 @@
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
 [Interface]
 ResolutionX=14.1732529
 ResolutionY=14.1732529
@@ -19,7 +22,7 @@ Zoom=100
 ZoomMode=1
 
 [Misc]
-Units=cm
+Units=pt
 
 [calligra]
 ColorSpacePlugins=kolcmsengine
@@ -30,5 +33,7 @@ FlakePlugins=kexirelationdesignshape,vectorshape,textshape,formulashape
 FlakePluginsDisabled=
 ShapePlugins=chartshape,pluginshape,musicshape,pathshapes,videoshape,pictureshape,artistictextshape,spreadsheetshape
 ShapePluginsDisabled=
+TextInlinePlugins=kprvariables,textvariables
+TextInlinePluginsDisabled=
 ToolPlugins=basicflakesplugin,defaulttools
 ToolPluginsDisabled=

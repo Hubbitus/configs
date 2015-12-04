@@ -1,5 +1,7 @@
 [KFileDialog Settings][$i]
-Height 1080=540
-Recent Files[$e]=$HOME/Downloads/egais_batch_users-extended.xlsx,$HOME/Downloads/egais_batch_users-extended.xlsx
-Recent URLs[$e]=$HOME/Downloads/
-Width 1920=903
+Height 1050=525
+Height 1080[$i]=540
+Recent Files[$ie]=$HOME/Downloads/egais_batch_users-extended.xlsx,$HOME/Downloads/egais_batch_users-extended.xlsx
+Recent URLs[$ie]=$HOME/Downloads/
+Width 1680=763
+Width 1920[$i]=903

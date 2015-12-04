@@ -1,106 +1,116 @@
 updateInfoAdded=true
 
 [adjustlevelstool.upd]
-ctime=1438436068
+ctime=1447775717
 done=adjustlevels2.6.0
-mtime=1437951344
+mtime=1444773501
 
 [amarok.upd]
-ctime=1436723134
+ctime=1446890525
 done=1
 mtime=1376511772
 
 [devicepreference.upd]
-ctime=1435586733
+ctime=1447522798
 done=DevicesMovedToPlatformPlugin,DevicesUIDsChanged
-mtime=1432801111
+mtime=1446642375
 
 [drkonqi-rename-config-section.upd]
-ctime=1435586733
+ctime=1447522798
 done=kde-4.11
-mtime=1432801111
+mtime=1446642375
 
 [grantleetheme.upd]
-ctime=1435586748
+ctime=1448270517
 done=initial-grantlee-theme-migration
-mtime=1432849227
+mtime=1435254458
 
 [kcookiescfg.upd]
-ctime=1435586711
+ctime=1447522797
 done=kde2.2/b1,kde3.1/cvs,kde4.10/git
-mtime=1432862859
+mtime=1446676150
 
 [kded.upd]
-ctime=1435586711
+ctime=1447522797
 done=kde3.0
-mtime=1432862859
+mtime=1446676150
 
 [kget.upd]
-ctime=1435598550
+ctime=1446890528
 done=2.8.0,2.8.0/multiseg,2.8.0/sensitive,2.8.0/limitdownloads
-mtime=1426184045
+mtime=1432540203
 
 [kgthemeprovider-migration.upd]
-ctime=1435598550
+ctime=1446890527
 done=bomber,granatier,kbounce,kbreakout,kdiamond,killbots,klickety,klines,kmines,knetwalk,kpat
 mtime=1420009179
 
 [kio_help.upd]
-ctime=1435586711
+ctime=1447522797
 done=kde3_2
-mtime=1432862859
+mtime=1446676150
 
 [kioslave.upd]
-ctime=1435586711
+ctime=1447522797
 done=kde2.2/r2,kde2.2/r3
-mtime=1432862859
+mtime=1446676150
 
 [knode.upd]
-ctime=1435586840
+ctime=1448270532
 done=001
-mtime=1432849227
+mtime=1435254458
+
+[konsole.upd]
+ctime=1446890506
+done=2.9.0-global-options,2.9.0-colorscheme-bold-key,2.10.0-remove-menuindex-from-profiles
+mtime=1414815422
+
+[konsole_remove_background_mode.upd]
+ctime=1446890506
+done=2.11.0-remove-background-mode
+mtime=1414815422
 
 [korganizer.upd]
-ctime=1435586754
+ctime=1448270531
 done=korganizer_3.4_GroupwareCleanup,korganizer_3.4_WebExport,korganizer_3.4_FilterAction,korganizer_3.4_HolidayPlugin,korganizer_4.3_ShowTodos,korganizer_4.4_MoveFreeBusy,korganizer_4.13_RenamePrintingRC
-mtime=1432849227
+mtime=1435254458
 
 [kpgp.upd]
-ctime=1435586748
+ctime=1448270517
 done=preKDE3_a,3.1-1
-mtime=1432849227
+mtime=1435254458
 
 [ksslcertificatemanager.upd]
-ctime=1435586711
+ctime=1447522797
 done=kde4.2
-mtime=1432862859
+mtime=1446676150
 
 [kuriikwsfilter.upd]
-ctime=1435586733
+ctime=1447522798
 done=post-kde3.1/cvs,pre-kde4.9
-mtime=1432801111
+mtime=1446642375
 
 [kwallet-4.13.upd]
-ctime=1435586733
+ctime=1447522798
 done=kde4.13
-mtime=1432801111
+mtime=1446642375
 
 [mailtransports.upd]
-ctime=1435586722
+ctime=1446890502
 done=initial-kmail-migration,initial-knode-migration
-mtime=1432849180
+mtime=1435149794
 
 [newmailnotifier.upd]
-ctime=1435586747
+ctime=1446890513
 done=initial-newmailnotifier-migration
-mtime=1432801096
+mtime=1435264963
 
 [okular.upd]
-ctime=1435598550
+ctime=1446890528
 done=sep_settings
-mtime=1428439069
+mtime=1432454216
 
 [yakuake.upd]
-ctime=1435595236
+ctime=1446890820
 done=2.9.9-startupnotification
 mtime=1350599726

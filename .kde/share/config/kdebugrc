@@ -1,6 +1,9 @@
 [FavIcons]
 InfoOutput=4
 
+[KPasswdServer]
+InfoOutput=2
+
 [KSRandr]
 InfoOutput=4
 
@@ -10,10 +13,19 @@ InfoOutput=4
 [PkSession]
 InfoOutput=4
 
+[ark]
+InfoOutput=4
+
+[kaddressbookmigrator]
+InfoOutput=4
+
 [kdecore (KConfigSkeleton)]
 InfoOutput=2
 
 [kdecore (KLibrary)]
+InfoOutput=2
+
+[kdecore (services)]
 InfoOutput=2
 
 [kdialog]

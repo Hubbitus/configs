@@ -1,0 +1,11 @@
+[General]
+Default Identity=0
+
+[Identity #0]
+Default Domain=hubbitus.taskdata.note
+Dictionary=English (United States of America)
+Disable Fcc=false
+Image Location=
+Inline Signature=
+Signature Enabled=false
+uoid=0

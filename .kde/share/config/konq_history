@@ -1,2 +1,6 @@
 [History]
 CompletionItems=unused
+
+[Location Bar]
+ComboContents[$e]=http://ya.ru/
+ComboIconCache[$e]=http://ya.ru/,text-html

@@ -1,8 +1,24 @@
+[KFileDialog Settings][$i]
+Height 1080[$i]=540
+Width 1920[$i]=903
+
 [MainWindow]
+Height 1080=480
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAGHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1920=640
 splitterSizes=426,213
 
+[Open-with settings]
+CompletionMode=5
+History=kwrite
+
 [Recent Files]
-File1[$e]=$HOME/temp/dogovor_all.doc
-Name1[$e]=dogovor_all.doc
+File1[$e]=$HOME/temp/Рослесхоз_v1.zip
+Name1[$e]=Рослесхоз_v1.zip
+
+[Viewer]
+Height 1050=1021
+Height 1080=400
+Width 1680=1525
+Width 1920=560

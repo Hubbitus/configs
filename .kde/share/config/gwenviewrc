@@ -1,24 +1,40 @@
+[General]
+SideBarPage=folders
+
 [ImageView]
 AnimationMethod=DocumentView::GLAnimation
 EnlargeSmallerImages=true
 ThumbnailSplitterSizes=712,203
 
+[KFileDialog Settings][$i]
+Height 1050[$i]=525
+Recent Files[$ie]=/run/media/pasha/LINFLASH4G/foto/2015-09-24,/run/media/pasha/LINFLASH4G/foto/2015-09-24
+Recent URLs[$ie]=/run/media/pasha/LINFLASH4G/foto/2015-09-24/
+Width 1680[$i]=763
+
 [MainWindow]
-Height 1050=1051
-Height 1080=1081
-Height 768=769
-State=AAAA/wAAAAD9AAAAAAAABjAAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1050=667
+Height 1080=788
+Height 768=916
+State=AAAA/wAAAAD9AAAAAAAAA/AAAAJaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1366=1367
-Width 1680=1681
-Width 1920=1921
+Width 1366=1063
+Width 1680=1008
+Width 1920=999
+
+[Recent Dirs]
+<copyMoveOrLink>[$e]=file:///run/media/pasha/LINFLASH4G/foto/2015-09-24/,$HOME/
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Фальшивая сделка ПАЗЛ (1).tif
-Name1[$e]=Фальшивая сделка ПАЗЛ (1).tif
+File1[$e]=$HOME/Downloads/Screenshot from 2015-10-20 192842.png
+File2[$e]=$HOME/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/DOCS/Олег/Паспорт/Passport_2-3.jpg
+File3[$e]=$HOME/temp/unidata-rights-data-screen.png
+Name1[$e]=Screenshot from 2015-10-20 192842.png
+Name2[$e]=Passport_2-3.jpg
+Name3[$e]=unidata-rights-data-screen.png
 
 [SideBar-BrowseMode]
-IsVisible=true
+IsVisible=false
 
 [SideBar-FullScreenMode]
 IsVisible=false

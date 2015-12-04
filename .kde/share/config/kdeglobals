@@ -93,7 +93,7 @@ ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
 DirSelectDialog Size=792,592
-History Items[$e]=
+History Items[$e]=file://$HOME/temp,file://$HOME
 
 [General]
 BrowserApplication[$e]=chromium-browser.desktop
@@ -110,9 +110,14 @@ widgetStyle=breeze
 Theme=breeze
 
 [KDE]
+DoubleClickInterval=400
+ShowDeleteCommand=true
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
+StartDragDist=4
+StartDragTime=500
+WheelScrollLines=6
 contrast=4
 
 [KFileDialog Settings]
@@ -121,7 +126,7 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=160
+Preview Width=149
 Previews=false
 Show Bookmarks=false
 Show Full Path=false
@@ -131,7 +136,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=263
+Speedbar Width=243
 View Style=Simple
 listViewIconSize=0
 
