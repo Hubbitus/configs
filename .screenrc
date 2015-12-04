@@ -30,10 +30,12 @@ backtick 1 0 1 bash -c 'mpv --msg-level=all=no /usr/share/sounds/Oxygen-Sys-App-
 # http://aperiodic.net/screen/monitoring
 activity "%c activity -> %n%f %t^G %1`"
 
+#mousetrack on
+
 #http://linsovet.com/content/%D0%B7%D0%B0%D0%B9%D1%82%D0%B8-%D0%B2-screen-%D0%BD%D0%B0-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5#comment-2017
 screen -t EGAIS 0 bash -c 'cd /home/pasha/Projects/RLH/main.branch/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t UNIDATA_rlh 1 bash -c 'cd /home/pasha/Projects/UniData/unidata/branches/unidata_RLH/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
-screen -t UnidataGroovyExits 1 bash -c 'cd /home/pasha/Projects/UniData/UnidataGroovyUserExits/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
+screen -t Ansible 1 bash -c 'cd /home/pasha/Projects/Ansible.cfg/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t Tomcat 1 bash -c 'cd /opt/servers/apache-tomcat-7.0.57-ui ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t 'Tomcat logs' 1 bash -c 'cd /opt/servers/apache-tomcat-7.0.57-ui/logs ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t bash 1 bash -c 'TERM=xterm-256color mc -x --skin=gotar; bash'
