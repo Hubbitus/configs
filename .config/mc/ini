@@ -96,7 +96,7 @@ menubar_visible=1
 free_space=1
 horizontal_split=0
 vertical_equal=1
-left_panel_size=111
+left_panel_size=107
 horizontal_equal=1
 top_panel_size=1
 
@@ -116,6 +116,12 @@ clipboard_paste=
 base_color=
 xterm-256color=
 color_terminals=
+
+linux=
+
+xterm=
+
+screen=
 
 [HotlistConfig]
 expanded_view_of_groups=0
@@ -147,12 +153,15 @@ f5=^`[15~
 f6=^`[17~
 f7=^`[18~
 f8=^`[19~
-f15=^`[15\;2~
-f16=^`[17\;2~
-f17=^`[18\;2~
-f18=^`[19\;2~
+f15=\\e[31~
+f16=\\e[32~
+f17=\\e[33~
+f18=\\e[34~
 f19=\\e[20\;2~
-f20=\\e[21\;2~
+f20=\\eOA\\eOB
+
+f13=\\e[28~
+f14=\\e[29~
 
 [Panelize]
 Изменённые файлы под контролем git=git ls-files --modified
