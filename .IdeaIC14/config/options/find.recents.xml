@@ -1,68 +1,68 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>upd</find>
-      <find>delete</find>
-      <find>upda</find>
-      <find>insert</find>
+      <find>xml-apis</find>
+      <find>CREATE INDEX</find>
+      <find>ObservableListWrapper</find>
+      <find>uid</find>
+      <find>sql</find>
+      <find>sq_bo_forestry_locality</find>
+      <find>sq_bo_forestry</find>
+      <find>ContractHardwoodDealRequest</find>
+      <find>count</find>
+      <find>Start</find>
+      <find>return_count</find>
+      <find>underlyingGovernmentRegistrationNumber</find>
+      <find>Сменить пароль</find>
+      <find>inidata-logo.svg</find>
+      <find>unidata-logo.svg</find>
+      <find>logo-unidata.svg</find>
+      <find>barsSignalsDBUrl</find>
+      <find>CREATE</find>
+      <find>READ</find>
+      <find>woodC</find>
+      <find>FederalDistrict</find>
+      <find>316</find>
+      <find>FEDERAL_DISTRICT</find>
+      <find>wood-classes</find>
       <find>federal-districts</find>
-      <find>hibe</find>
-      <find>vali</find>
-      <find>fin</find>
-      <find>error.wood.class.deprecated</find>
-      <find>depre</find>
-      <find>Fede</find>
-      <find>api.notFound</find>
-      <find>valid</find>
-      <find>api.notFound.constituentEntiry</find>
-      <find>findA</find>
-      <find>Mapper</find>
-      <find>getBy</find>
-      <find>lo</find>
-      <find>logger</find>
-      <find>handle</find>
-      <find>slf</find>
-      <find>extra</find>
-      <find>update</find>
-      <find>401</find>
-      <find>federal-district</find>
-      <find>constituent-entities</find>
-      <find>400</find>
-      <find>find</find>
-      <find>ConstituentEntity</find>
-      <find>OBJECT_MAPPER</find>
+      <find>federalDistrict</find>
+      <find>woodClass</find>
+      <find>WOOD_</find>
+      <find>mtolstyh-think1447058778761</find>
+      <find>mtolstyh-think</find>
     </findStrings>
     <replaceStrings>
-      <replace>jq</replace>
-      <replace>zabbix-agent-postgres-eqais-queries</replace>
-      <replace>#</replace>
-      <replace>Restart tomcat</replace>
-      <replace>Restart our tomcats</replace>
-      <replace>pgpool_backends</replace>
-      <replace>ERROR_</replace>
-      <replace>ERROR_204</replace>
-      <replace>ERROR_210</replace>
-      <replace>token</replace>
-      <replace>rel_report_to_element</replace>
-      <replace>Unidata</replace>
-      <replace>groovyUserExitListener</replace>
-      <replace>unidata</replace>
-      <replace>FORESTRY_READ</replace>
-      <replace>@Grab</replace>
-      <replace>package ru.rlh.egais.portal.backend.dto.</replace>
-      <replace>package ru.rlh.egais.portal.api.dto.</replace>
-      <replace>import ru.rlh.egais.portal.api.dto.</replace>
-      <replace>import static ru.rlh.egais.portal.api.dto.</replace>
-      <replace>package ru.rlh.egais.portal.api.dto;</replace>
-      <replace>import ru.rlh.egais.portal.api.dtometa.statemachine.ObjectStatus;</replace>
-      <replace>import ru.rlh.egais.portal.backend.dao.RestPageRequest;</replace>
-      <replace>ru.rlh.egais.portal.api.dtometa.enums.</replace>
-      <replace>ru.rlh.egais.portal.api.dto.</replace>
-      <replace>constituent-entities</replace>
       <replace>api.notFound.constituentEntity</replace>
       <replace>forestry</replace>
       <replace>forestries</replace>
       <replace>Forestry</replace>
+      <replace>StateAuthority</replace>
+      <replace>SubForestry</replace>
+      <replace>subforestries</replace>
+      <replace>/rest/lu/tracts</replace>
+      <replace>Tract</replace>
+      <replace>egaisUserExitListener</replace>
+      <replace>bo_tract</replace>
+      <replace>Invalid</replace>
+      <replace>@Service(&quot;$1&quot;)\npublic class (.+) implements (.+)</replace>
+      <replace>@Service(&quot;$2&quot;)\npublic class $1 implements $2</replace>
+      <replace>@$1(&quot;$5$6$7&quot;)\n$2$3 {</replace>
+      <replace>@$1(&quot;$5$6$7&quot;)\n$2class $3 {</replace>
+      <replace>@$1(&quot;$4$6$7&quot;)\n$2class $3 {</replace>
+      <replace>/rest/bo/lease-contracts</replace>
+      <replace>ContractLease</replace>
+      <replace>HardwoodDeal</replace>
+      <replace>ContractHardwoodDeal</replace>
+      <replace>WoodClass</replace>
+      <replace>TnvedClass</replace>
+      <replace>WOOD_CLASS</replace>
+      <replace>TNVED_CLASS</replace>
+      <replace>tnved-class</replace>
+      <replace>wood-classes</replace>
+      <replace>woodClass</replace>
+      <replace>tnvedClass</replace>
+      <replace>TNVED_</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>
@@ -71,15 +71,15 @@
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/performance_tune</dir>
       <dir>$USER_HOME$/Projects/Ansible.cfg/roles</dir>
       <dir>$USER_HOME$/Projects/Ansible.cfg/test-dev/roles/ansible-postgresql-manager</dir>
-      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration/V3.0</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database</dir>
-      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/2.0_support/database/db/migration</dir>
       <dir>$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH/backend/src/main/resources/spring</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/portal-core</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/dto</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/core/src</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration/V3.0</dir>
     </dirStrings>
   </component>
 </application>

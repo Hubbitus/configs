@@ -1,0 +1,8 @@
+ideanginx9
+CVS
+InspectorGroovy
+org.jetbrains.android
+InspectorGeneral
+hg4idea
+org.jetbrains.idea.eclipse
+com.wix.scss.lint

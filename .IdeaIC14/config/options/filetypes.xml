@@ -20,6 +20,7 @@
       <mapping ext="clean" type="PLAIN_TEXT" />
       <mapping ext="te" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="mvn" type="PLAIN_TEXT" />
       <mapping ext="conf" type="nginx file type" />
     </extensionMap>

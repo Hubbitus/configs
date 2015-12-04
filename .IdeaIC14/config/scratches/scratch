@@ -1,0 +1,53 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class DateParsingTest {
+
+    public static final SimpleDateFormat dateParser = new SimpleDateFormat(
+        "yyyy MM dd zzz");
+
+    public static boolean testParsing1(String... list) throws ParseException {
+        boolean result = true;
+        for (String each : list) {
+            Date parsed = dateParser.parse(each);
+            String formated = dateParser.format(parsed);
+            if (!formated.equals(each)) {
+                result = false;
+                break;
+            }
+        }
+        return result;
+    }
+
+    public static boolean testParsing2(String... list) throws ParseException {
+        boolean result = true;
+        Map<String, Date> tempMap = new HashMap<>();
+        for (String each : list) {
+            tempMap.put(each, dateParser.parse(each));
+        }
+        Set<Map.Entry<String, Date>> entrySet = tempMap.entrySet();
+        for (Map.Entry<String, Date> each : entrySet) {
+            String formated = dateParser.format(each.getValue());
+            if (!formated.equals(each.getKey())) {
+                result = false;
+                break;
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        try {
+            System.out.println(testParsing1("2015 01 01 MSK", "2015 01 02 MSK" , "2015 01 03 MSK"));
+            System.out.println(testParsing1("2015 01 01 MSK", "2015 01 01 YEKT", "2015 01 01 NOVT"));
+            System.out.println(testParsing2("2015 01 01 MSK", "2015 01 02 MSK" , "2015 01 03 MSK"));
+            System.out.println(testParsing2("2015 01 01 MSK", "2015 01 01 YEKT", "2015 01 01 NOVT"));
+        } catch (Throwable ex) {
+            ex.printStackTrace();
+        }
+    }
+}

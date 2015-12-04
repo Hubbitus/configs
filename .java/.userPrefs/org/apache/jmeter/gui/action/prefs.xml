@@ -2,7 +2,9 @@
 <!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
 <map MAP_XML_VERSION="1.0">
 <entry key="laf" value="javax.swing.plaf.nimbus.NimbusLookAndFeel"/>
-<entry key="recent_file_0" value="/home/pasha/Projects/Test-loading/jmeter/egais2.jmx"/>
-<entry key="recent_file_1" value="/home/pasha/Projects/Test-loading/jmeter/egais1.jmx"/>
-<entry key="recent_file_2" value="/home/pasha/Projects/Test-loading/jmeter/egais 0.jmx"/>
+<entry key="recent_file_0" value="/home/pasha/remote/perf@egais.db.slave/home/perf/Ansible/_jmeter/egais2.jmx"/>
+<entry key="recent_file_1" value="/home/pasha/remote/perf@egais.db.slave/home/perf/Ansible/_jmeter/test_iterations/longPerfTest1409-0/egais2.longPerfTest1409-0.jmx"/>
+<entry key="recent_file_2" value="/home/pasha/Projects/Test-loading/jmeter/egais2.jmx"/>
+<entry key="recent_file_3" value="/home/pasha/Projects/Test-loading/jmeter/egais1.jmx"/>
+<entry key="recent_file_4" value="/home/pasha/Projects/Test-loading/jmeter/egais 0.jmx"/>
 </map>

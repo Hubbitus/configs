@@ -128,7 +128,6 @@
           <content-type name="SQL" enabled="true" />
           <content-type name="PL/SQL" enabled="true" />
           <content-type name="Groovy" enabled="true" />
-          <content-type name="YAML" enabled="true" />
           <content-type name="Bash" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>

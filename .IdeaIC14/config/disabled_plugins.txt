@@ -1,8 +1,8 @@
-org.jetbrains.android
-org.intellij.scala
 hg4idea
+InspectorGroovy
 InspectorGeneral
 CVS
 RESTClient
 org.jetbrains.idea.eclipse
-InspectorGroovy
+org.intellij.scala
+org.jetbrains.android

@@ -1,0 +1,33 @@
+[General]
+ThumbnailBarIsVisible=true
+
+[ImageView]
+ThumbnailSplitterSizes=320,92
+
+[KPropertiesDialog]
+Height 1050=415
+Width 1680=480
+
+[MainWindow]
+Height 1050=539
+Height 768=480
+State=AAAA/wAAAAD9AAAAAAAAA6sAAAGfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=939
+Width 1680=1035
+Window-Maximized 1050x1680=true
+
+[Recent Files]
+File1[$e]=$HOME/temp/IM/WD.xpm
+File2[$e]=$HOME/Downloads/000.png
+Name1[$e]=WD.xpm
+Name2[$e]=000.png
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=true

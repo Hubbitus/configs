@@ -43,6 +43,7 @@ Word Wrap Marker=false
 
 [View]
 Allow Mark Menu=true
+Auto Brackets=false
 Auto Center Lines=0
 Auto Completion=true
 Bookmark Menu Sorting=0
@@ -64,7 +65,7 @@ Scroll Bar Mini Map=false
 Scroll Bar Mini Map All=false
 Scroll Bar Mini Map Width=60
 Scroll Past End=false
-Search/Replace Flags=140
+Search/Replace Flags=1036
 Show Scrollbars=0
 Show Word Count=false
 Smart Copy Cut=false

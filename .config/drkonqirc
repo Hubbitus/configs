@@ -1,2 +1,6 @@
+[General]
+Height 1050=320
+Width 1680=640
+
 [SystemInformation]
 CompiledSources=false

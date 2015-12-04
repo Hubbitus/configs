@@ -147,10 +147,10 @@
     <location key="#xdebugger.XInspectDialog.1366.0.1920.1080" x="1980" y="267" />
     <location key="com.intellij.ide.util.TipDialog.0.472.1366.768" x="394" y="675" />
     <location key="com.intellij.ide.util.TipDialog.1710.0.1920.1080" x="2324" y="359" />
-    <location key="DiffContextDialog.1710.0.1920.1080" x="1839" y="91" />
-    <location key="CommitChangelistDialog2.1710.0.1920.1080" x="2037" y="0" />
+    <location key="DiffContextDialog.1710.0.1920.1080" x="1710" y="0" />
+    <location key="CommitChangelistDialog2.1710.0.1920.1080" x="1710" y="0" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1710.0.1920.1080" x="2346" y="375" />
-    <location key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1710.0.1920.1080" x="2521" y="391" />
+    <location key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1710.0.1920.1080" x="1710" y="0" />
     <location key="WELCOME_SCREEN.1710.0.1920.1080" x="2611" y="540" />
     <location key="findTextDialog.1710.0.1920.1080" x="2403" y="279" />
     <location key="FileChooserDialogImpl.1710.0.1920.1080" x="2444" y="235" />
@@ -168,14 +168,14 @@
     <location key="IdeErrosDialog.1710.0.1920.1080" x="2095" y="354" />
     <location key="vcs.ApplyPatchDifferentiatedDialog.1710.0.1920.1080" x="2175" y="28" />
     <location key="DiffWindow.1710.0.1920.1080" x="1710" y="0" />
-    <location key="ProcessPopupWindow.1710.0.1920.1080" x="2332" y="340" />
+    <location key="ProcessPopupWindow.1710.0.1920.1080" x="2332" y="304" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1710.0.1920.1080" x="2070" y="193" />
     <location key="NewModule_or_Project.wizard.1710.0.1920.1080" x="2161" y="382" />
     <location key="com.intellij.ide.util.TipDialog.0.448.1366.768" x="393" y="649" />
     <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.1710.0.1920.1080" x="2437" y="416" />
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.1710.0.1920.1080" x="2277" y="0" />
     <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.1710.0.1920.1080" x="2090" y="280" />
-    <location key="#xdebugger.evaluate.1710.0.1920.1080" x="1954" y="123" />
+    <location key="#xdebugger.evaluate.1710.0.1920.1080" x="2149" y="357" />
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages.1710.0.1920.1080" x="2359" y="409" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.1710.0.1920.1080" x="2343" y="288" />
     <location key="#com.intellij.ide.util.PackageChooserDialog.1710.0.1920.1080" x="2345" y="316" />
@@ -189,6 +189,100 @@
     <location key="#com.intellij.debugger.actions.ViewTextAction.1710.0.1920.1080" x="2445" y="393" />
     <location key="MultipleFileMergeDialog.1710.0.1920.1080" x="2200" y="263" />
     <location key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog.1710.0.1920.1080" x="2345" y="286" />
+    <location key="export.test.results.1710.0.1920.1080" x="2401" y="364" />
+    <location key="IgnoreUnversionedDialog.1710.0.1920.1080" x="2088" y="368" />
+    <location key="#com.intellij.refactoring.memberPullUp.PullUpDialog.1710.0.1920.1080" x="2319" y="317" />
+    <location key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.1710.0.1920.1080" x="2320" y="273" />
+    <location key="svn.sslCredentialsDialog.1710.0.1920.1080" x="2411" y="448" />
+    <location key="SettingsEditor.1710.0.1920.1080" x="1937" y="202" />
+    <location key="svn.repositoryBrowser.1710.0.1920.1080" x="2315" y="262" />
+    <location key="Subversion.BranchConfigurationDialog.1710.0.1920.1080" x="2050" y="366" />
+    <location key="dock-window-1.1710.0.1920.1080" x="1652" y="90" />
+    <location key="refactoring.ChangeSignatureDialog.1710.0.1920.1080" x="2329" y="170" />
+    <location key="new project wizard.1710.0.1920.1080" x="2220" y="151" />
+    <location key="#Project_Structure.1710.0.1920.1080" x="2095" y="113" />
+    <location key="DetectedRootsChooserDialog.1710.0.1920.1080" x="2369" y="256" />
+    <location key="com.intellij.ide.util.TipDialog.1670.0.1920.1080" x="2284" y="357" />
+    <location key="FileChooserDialogImpl.1670.0.1920.1080" x="2297" y="142" />
+    <location key="DiffContextDialog.1670.0.1920.1080" x="1764" y="100" />
+    <location key="VCS.ChangeListViewerDialog.1670.0.1920.1080" x="2212" y="334" />
+    <location key="DetectedRootsChooserDialog.1670.0.1920.1080" x="2329" y="256" />
+    <location key="#xdebugger.evaluate.1670.0.1920.1080" x="2010" y="399" />
+    <location key="CommitChangelistDialog2.1670.0.1920.1080" x="1765" y="152" />
+    <location key="#com.intellij.ide.util.MemberChooser.1670.0.1920.1080" x="2381" y="254" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1670.0.1920.1080" x="2306" y="293" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1670.0.1920.1080" x="1682" y="93" />
+    <location key="findTextDialog.1670.0.1920.1080" x="2336" y="402" />
+    <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.1670.0.1920.1080" x="1888" y="167" />
+    <location key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog.1670.0.1920.1080" x="1741" y="75" />
+    <location key="RollbackChangesDialog.1670.0.1920.1080" x="2299" y="268" />
+    <location key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1670.0.1920.1080" x="2267" y="292" />
+    <location key="WELCOME_SCREEN.1459.0.1680.1050" x="2221" y="525" />
+    <location key="com.intellij.ide.util.TipDialog.1459.0.1680.1050" x="1933" y="342" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1459.0.1680.1050" x="1877" y="95" />
+    <location key="EditParametersPopupWindow.1459.0.1680.1050" x="2028" y="402" />
+    <location key="#com.intellij.ide.macro.MacrosDialog.1459.0.1680.1050" x="2033" y="157" />
+    <location key="#com.intellij.tools.OutputFiltersDialog.1459.0.1680.1050" x="2122" y="385" />
+    <location key="#com.intellij.tools.ToolEditorDialog.1459.0.1680.1050" x="1944" y="261" />
+    <location key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey.1459.0.1680.1050" x="1889" y="279" />
+    <location key="FileChooserDialogImpl.1459.0.1680.1050" x="2004" y="278" />
+    <location key="com.intellij.execution.impl.RunConfigurationBeforeRunProvider.dimensionServiceKey;.1459.0.1680.1050" x="2060" y="401" />
+    <location key="#xdebugger.evaluate.1459.0.1680.1050" x="2142" y="224" />
+    <location key="SettingsEditor.1670.0.1920.1080" x="2056" y="194" />
+    <location key="ProcessPopupWindow.1670.0.1920.1080" x="1848" y="565" />
+    <location key="WELCOME_SCREEN.1670.0.1920.1080" x="2572" y="540" />
+    <location key="#com.intellij.unscramble.UnscrambleDialog.1670.0.1920.1080" x="1833" y="53" />
+    <location key="DBNavigator.ProjectSettingsDialog.1670.0.1920.1080" x="2105" y="193" />
+    <location key="FileDocumentManager.FileCacheConflict.1670.0.1920.1080" x="2198" y="395" />
+    <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.1670.0.1920.1080" x="2282" y="391" />
+    <location key="extract.method.dialog.1670.0.1920.1080" x="2564" y="401" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.1670.0.1920.1080" x="2259" y="152" />
+    <location key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog.0.0.0.0" x="1549" y="654" />
+    <location key="OptionsEditor.1670.0.1920.1080" x="2055" y="113" />
+    <location key="VCS.ChangelistChooser.1670.0.1920.1080" x="2390" y="369" />
+    <location key="WELCOME_SCREEN.0.528.1366.768" x="683" y="384" />
+    <location key="#xdebugger.XInspectDialog.1670.0.1920.1080" x="2030" y="238" />
+    <location key="#com.intellij.refactoring.turnRefsToSuper.TurnRefsToSuperDialog.1670.0.1920.1080" x="2295" y="397" />
+    <location key="#com.intellij.ide.util.PackageChooserDialog.1670.0.1920.1080" x="2304" y="316" />
+    <location key="vcs.ApplyPatchDifferentiatedDialog.1670.0.1920.1080" x="2306" y="119" />
+    <location key="IdeErrosDialog.1670.0.1920.1080" x="2055" y="356" />
+    <location key="#Servers.1670.0.1920.1080" x="2047" y="119" />
+    <location key="SimpleOpenTaskDialog.1670.0.1920.1080" x="2317" y="423" />
+    <location key="com.intellij.ide.util.TipDialog.0.528.1366.768" x="393" y="729" />
+    <location key="refactoring.ChangeSignatureDialog.1670.0.1920.1080" x="2316" y="170" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.1670.0.1920.1080" x="2305" y="288" />
+    <location key="com.intellij.ide.util.TipDialog.1664.0.1680.1050" x="2138" y="342" />
+    <location key="FileChooserDialogImpl.1664.0.1680.1050" x="2209" y="278" />
+    <location key="#xdebugger.evaluate.1664.0.1680.1050" x="1996" y="63" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1664.0.1680.1050" x="2159" y="278" />
+    <location key="FileDocumentManager.FileCacheConflict.1664.0.1680.1050" x="1664" y="133" />
+    <location key="CommitChangelistDialog2.1664.0.1680.1050" x="2078" y="229" />
+    <location key="replaceTextDialog.1670.0.1920.1080" x="2366" y="304" />
+    <location key="ReplaceDuplicatesPrompt.1670.0.1920.1080" x="2042" y="472" />
+    <location key="com.intellij.testIntegration.createTest.CreateTestDialog.1670.0.1920.1080" x="2259" y="281" />
+    <location key="org.jetbrains.idea.svn.dialogs.ToBeMergedDialog.1670.0.1920.1080" x="1666" y="0" />
+    <location key="DiffWindow.1670.0.1920.1080" x="1670" y="0" />
+    <location key="MultipleFileMergeDialog.1670.0.1920.1080" x="1987" y="259" />
+    <location key="RegExHelpPopup.1670.0.1920.1080" x="2193" y="353" />
+    <location key="svn.sslCredentialsDialog.1670.0.1920.1080" x="2371" y="448" />
+    <location key="NewModule_or_Project.wizard.1670.0.1920.1080" x="2180" y="334" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.1670.0.1920.1080" x="1770" y="100" />
+    <location key="#Grep_Console.1670.0.1920.1080" x="2111" y="363" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1670.0.1920.1080" x="2306" y="388" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogintegrate.1670.0.1920.1080" x="2199" y="425" />
+    <location key="#Browse_Repositories.1670.0.1920.1080" x="1942" y="250" />
+    <location key="IgnoreUnversionedDialog.1670.0.1920.1080" x="2142" y="633" />
+    <location key="com.intellij.openapi.vcs.changes.UnversionedViewDialog.1670.0.1920.1080" x="2232" y="287" />
+    <location key="dock-window-1.1670.0.1920.1080" x="2349" y="0" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1670.0.1920.1080" x="2260" y="335" />
+    <location key="new project wizard.1670.0.1920.1080" x="2180" y="169" />
+    <location key="Subversion.BranchConfigurationDialog.1670.0.1920.1080" x="2261" y="385" />
+    <location key="svn.repositoryBrowser.1670.0.1920.1080" x="2410" y="281" />
+    <location key="#com.intellij.debugger.actions.ViewTextAction.1670.0.1920.1080" x="2445" y="490" />
+    <location key="com.intellij.execution.impl.RunConfigurationBeforeRunProvider.dimensionServiceKey;.1670.0.1920.1080" x="2242" y="416" />
+    <location key="org.jetbrains.idea.maven.utils.RepositoryAttachDialog.1670.0.1920.1080" x="2229" y="360" />
+    <location key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog.1670.0.1920.1080" x="2286" y="235" />
+    <location key="findTextDialog.0.0.0.0" x="426" y="239" />
     <size key="svn.sslDialog.0.0.1920.1080" width="471" height="206" />
     <size key="svn.passwordDialog.0.0.1920.1080" width="496" height="201" />
     <size key="svn.sslCredentialsDialog.0.0.1920.1080" width="403" height="187" />
@@ -245,10 +339,10 @@
     <size key="GrepConsoleSettings.1920.476.1366.768" width="921" height="577" />
     <size key="PyManagePackagesDialog.1366.0.1920.1080" width="904" height="568" />
     <size key="DiffContextDialog.1366.0.1920.1080" width="1613" height="884" />
-    <size key="GridCell.Tab.0.left.0.0.0.0" width="1324" height="194" />
-    <size key="GridCell.Tab.0.center.0.0.0.0" width="1324" height="194" />
-    <size key="GridCell.Tab.0.right.0.0.0.0" width="1324" height="194" />
-    <size key="GridCell.Tab.0.bottom.0.0.0.0" width="1324" height="194" />
+    <size key="GridCell.Tab.0.left.0.0.0.0" width="1226" height="146" />
+    <size key="GridCell.Tab.0.center.0.0.0.0" width="1226" height="146" />
+    <size key="GridCell.Tab.0.right.0.0.0.0" width="1226" height="146" />
+    <size key="GridCell.Tab.0.bottom.0.0.0.0" width="1226" height="146" />
     <size key="GridCell.Tab.1.left.1366.0.1920.1080" width="1763" height="353" />
     <size key="GridCell.Tab.1.center.1366.0.1920.1080" width="1763" height="353" />
     <size key="GridCell.Tab.1.right.1366.0.1920.1080" width="1763" height="353" />
@@ -350,22 +444,22 @@
     <size key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog.1366.0.1680.1050" width="532" height="511" />
     <size key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.1366.0.1920.1080" width="583" height="537" />
     <size key="#xdebugger.XInspectDialog.1366.0.1920.1080" width="653" height="460" />
-    <size key="DiffContextDialog.1710.0.1920.1080" width="1544" height="905" />
-    <size key="CommitChangelistDialog2.1710.0.1920.1080" width="1366" height="1080" />
+    <size key="DiffContextDialog.1710.0.1920.1080" width="1803" height="1080" />
+    <size key="CommitChangelistDialog2.1710.0.1920.1080" width="1805" height="1080" />
     <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1710.0.1920.1080" width="531" height="337" />
-    <size key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1710.0.1920.1080" width="181" height="304" />
+    <size key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1710.0.1920.1080" width="1805" height="1080" />
     <size key="findTextDialog.1710.0.1920.1080" width="416" height="529" />
-    <size key="FileChooserDialogImpl.1710.0.1920.1080" width="432" height="496" />
+    <size key="FileChooserDialogImpl.1710.0.1920.1080" width="471" height="496" />
     <size key="#Gradle.1710.0.1920.1080" width="863" height="597" />
-    <size key="GridCell.Tab.0.left.1710.0.1920.1080" width="1763" height="402" />
-    <size key="GridCell.Tab.0.center.1710.0.1920.1080" width="1763" height="402" />
-    <size key="GridCell.Tab.0.right.1710.0.1920.1080" width="1763" height="402" />
-    <size key="GridCell.Tab.0.bottom.1710.0.1920.1080" width="1763" height="402" />
+    <size key="GridCell.Tab.0.left.1710.0.1920.1080" width="1763" height="417" />
+    <size key="GridCell.Tab.0.center.1710.0.1920.1080" width="1763" height="417" />
+    <size key="GridCell.Tab.0.right.1710.0.1920.1080" width="1763" height="417" />
+    <size key="GridCell.Tab.0.bottom.1710.0.1920.1080" width="1763" height="417" />
     <size key="VCS.ChangeListViewerDialog.1710.0.1920.1080" width="708" height="596" />
-    <size key="GridCell.Tab.1.left.1710.0.1920.1080" width="1763" height="393" />
-    <size key="GridCell.Tab.1.center.1710.0.1920.1080" width="1763" height="393" />
-    <size key="GridCell.Tab.1.right.1710.0.1920.1080" width="1763" height="393" />
-    <size key="GridCell.Tab.1.bottom.1710.0.1920.1080" width="1763" height="393" />
+    <size key="GridCell.Tab.1.left.1710.0.1920.1080" width="1763" height="417" />
+    <size key="GridCell.Tab.1.center.1710.0.1920.1080" width="1763" height="417" />
+    <size key="GridCell.Tab.1.right.1710.0.1920.1080" width="1763" height="417" />
+    <size key="GridCell.Tab.1.bottom.1710.0.1920.1080" width="1763" height="417" />
     <size key="FileDocumentManager.FileCacheConflict.1710.0.1920.1080" width="1366" height="452" />
     <size key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1710.0.1920.1080" width="1141" height="172" />
     <size key="replaceTextDialog.1710.0.1920.1080" width="425" height="582" />
@@ -373,7 +467,7 @@
     <size key="#com.intellij.ide.util.MemberChooser.1710.0.1920.1080" width="382" height="591" />
     <size key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1710.0.1920.1080" width="532" height="496" />
     <size key="com.intellij.testIntegration.createTest.CreateTestDialog.1710.0.1920.1080" width="625" height="504" />
-    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.1710.0.1920.1080" width="601" height="300" />
+    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.1710.0.1920.1080" width="618" height="300" />
     <size key="IdeErrosDialog.1710.0.1920.1080" width="1032" height="375" />
     <size key="vcs.ApplyPatchDifferentiatedDialog.1710.0.1920.1080" width="909" height="848" />
     <size key="DiffWindow.1710.0.1920.1080" width="1805" height="1080" />
@@ -382,7 +476,7 @@
     <size key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.1710.0.1920.1080" width="348" height="250" />
     <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.1710.0.1920.1080" width="671" height="1080" />
     <size key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.1710.0.1920.1080" width="1041" height="522" />
-    <size key="#xdebugger.evaluate.1710.0.1920.1080" width="1195" height="716" />
+    <size key="#xdebugger.evaluate.1710.0.1920.1080" width="1366" height="723" />
     <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages.1710.0.1920.1080" width="504" height="264" />
     <size key="XDebugger.FullValuePopup.1710.0.1920.1080" width="903" height="542" />
     <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.1710.0.1920.1080" width="532" height="511" />
@@ -398,9 +492,140 @@
     <size key="#com.intellij.debugger.actions.ViewTextAction.1710.0.1920.1080" width="332" height="296" />
     <size key="MultipleFileMergeDialog.1710.0.1920.1080" width="609" height="528" />
     <size key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog.1710.0.1920.1080" width="532" height="511" />
-    <extendedState key="CommittedChanges.SplitterProportions.1" state="500" />
-    <extendedState key="DiffContextDialog" state="0" />
+    <size key="export.test.results.1710.0.1920.1080" width="420" height="355" />
+    <size key="IgnoreUnversionedDialog.1710.0.1920.1080" width="965" height="190" />
+    <size key="#com.intellij.refactoring.memberPullUp.PullUpDialog.1710.0.1920.1080" width="585" height="448" />
+    <size key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.1710.0.1920.1080" width="583" height="537" />
+    <size key="svn.sslCredentialsDialog.1710.0.1920.1080" width="403" height="187" />
+    <size key="SettingsEditor.1710.0.1920.1080" width="1030" height="694" />
+    <size key="svn.repositoryBrowser.1710.0.1920.1080" width="664" height="524" />
+    <size key="Subversion.BranchConfigurationDialog.1710.0.1920.1080" width="850" height="313" />
+    <size key="dock-window-1.1710.0.1920.1080" width="886" height="660" />
+    <size key="refactoring.ChangeSignatureDialog.1710.0.1920.1080" width="565" height="742" />
+    <size key="new project wizard.1710.0.1920.1080" width="783" height="780" />
+    <size key="#Project_Structure.1710.0.1920.1080" width="1032" height="857" />
+    <size key="DetectedRootsChooserDialog.1710.0.1920.1080" width="484" height="570" />
+    <size key="FileChooserDialogImpl.1670.0.1920.1080" width="697" height="496" />
+    <size key="GridCell.Tab.0.left.1670.0.1920.1080" width="1763" height="188" />
+    <size key="GridCell.Tab.0.center.1670.0.1920.1080" width="1763" height="188" />
+    <size key="GridCell.Tab.0.right.1670.0.1920.1080" width="1763" height="188" />
+    <size key="GridCell.Tab.0.bottom.1670.0.1920.1080" width="1763" height="188" />
+    <size key="GridCell.Tab.1.left.1670.0.1920.1080" width="1483" height="346" />
+    <size key="GridCell.Tab.1.center.1670.0.1920.1080" width="1483" height="346" />
+    <size key="GridCell.Tab.1.right.1670.0.1920.1080" width="1483" height="346" />
+    <size key="GridCell.Tab.1.bottom.1670.0.1920.1080" width="1483" height="346" />
+    <size key="XDebugger.FullValuePopup.1670.0.1920.1080" width="908" height="542" />
+    <size key="DiffContextDialog.1670.0.1920.1080" width="1325" height="850" />
+    <size key="VCS.ChangeListViewerDialog.1670.0.1920.1080" width="871" height="581" />
+    <size key="DetectedRootsChooserDialog.1670.0.1920.1080" width="484" height="570" />
+    <size key="#xdebugger.evaluate.1670.0.1920.1080" width="1171" height="324" />
+    <size key="CommitChangelistDialog2.1670.0.1920.1080" width="1424" height="768" />
+    <size key="#com.intellij.ide.util.MemberChooser.1670.0.1920.1080" width="382" height="575" />
+    <size key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1670.0.1920.1080" width="532" height="496" />
+    <size key="findTextDialog.1670.0.1920.1080" width="419" height="529" />
+    <size key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.1670.0.1920.1080" width="1024" height="522" />
+    <size key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog.1670.0.1920.1080" width="1603" height="880" />
+    <size key="RollbackChangesDialog.1670.0.1920.1080" width="544" height="550" />
+    <size key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1670.0.1920.1080" width="869" height="304" />
+    <size key="GridCell.Tab.0.left.1459.0.1680.1050" width="1473" height="302" />
+    <size key="GridCell.Tab.0.center.1459.0.1680.1050" width="1473" height="302" />
+    <size key="GridCell.Tab.0.right.1459.0.1680.1050" width="1473" height="302" />
+    <size key="GridCell.Tab.0.bottom.1459.0.1680.1050" width="1473" height="302" />
+    <size key="GridCell.Tab.1.left.1459.0.1680.1050" width="1473" height="359" />
+    <size key="GridCell.Tab.1.center.1459.0.1680.1050" width="1473" height="359" />
+    <size key="GridCell.Tab.1.right.1459.0.1680.1050" width="1473" height="359" />
+    <size key="GridCell.Tab.1.bottom.1459.0.1680.1050" width="1473" height="359" />
+    <size key="EditParametersPopupWindow.1459.0.1680.1050" width="384" height="248" />
+    <size key="#com.intellij.ide.macro.MacrosDialog.1459.0.1680.1050" width="760" height="811" />
+    <size key="#com.intellij.tools.OutputFiltersDialog.1459.0.1680.1050" width="316" height="235" />
+    <size key="#com.intellij.tools.ToolEditorDialog.1459.0.1680.1050" width="676" height="481" />
+    <size key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey.1459.0.1680.1050" width="787" height="441" />
+    <size key="FileChooserDialogImpl.1459.0.1680.1050" width="432" height="496" />
+    <size key="com.intellij.execution.impl.RunConfigurationBeforeRunProvider.dimensionServiceKey;.1459.0.1680.1050" width="320" height="250" />
+    <size key="#xdebugger.evaluate.1459.0.1680.1050" width="563" height="521" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.1459.0.1680.1050" width="941" height="693" />
+    <size key="SettingsEditor.1670.0.1920.1080" width="1107" height="694" />
+    <size key="ProcessPopupWindow.1670.0.1920.1080" width="1037" height="150" />
+    <size key="#com.intellij.unscramble.UnscrambleDialog.1670.0.1920.1080" width="1109" height="669" />
+    <size key="DBNavigator.ProjectSettingsDialog.1670.0.1920.1080" width="932" height="696" />
+    <size key="FileDocumentManager.FileCacheConflict.1670.0.1920.1080" width="746" height="296" />
+    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.1670.0.1920.1080" width="581" height="300" />
+    <size key="extract.method.dialog.1670.0.1920.1080" width="532" height="458" />
+    <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.1670.0.1920.1080" width="332" height="749" />
+    <size key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog.0.0.0.0" width="1525" height="880" />
+    <size key="OptionsEditor.1670.0.1920.1080" width="1032" height="857" />
+    <size key="VCS.ChangelistChooser.1670.0.1920.1080" width="362" height="344" />
+    <size key="GridCell.Tab.0.left.0.528.1366.768" width="1753" height="309" />
+    <size key="GridCell.Tab.0.center.0.528.1366.768" width="1753" height="309" />
+    <size key="GridCell.Tab.0.right.0.528.1366.768" width="1753" height="309" />
+    <size key="GridCell.Tab.0.bottom.0.528.1366.768" width="1753" height="309" />
+    <size key="GridCell.Tab.1.left.0.528.1366.768" width="1753" height="423" />
+    <size key="GridCell.Tab.1.center.0.528.1366.768" width="1753" height="423" />
+    <size key="GridCell.Tab.1.right.0.528.1366.768" width="1753" height="423" />
+    <size key="GridCell.Tab.1.bottom.0.528.1366.768" width="1753" height="423" />
+    <size key="#xdebugger.XInspectDialog.1670.0.1920.1080" width="943" height="460" />
+    <size key="#com.intellij.refactoring.turnRefsToSuper.TurnRefsToSuperDialog.1670.0.1920.1080" width="552" height="289" />
+    <size key="#com.intellij.ide.util.PackageChooserDialog.1670.0.1920.1080" width="532" height="454" />
+    <size key="vcs.ApplyPatchDifferentiatedDialog.1670.0.1920.1080" width="531" height="848" />
+    <size key="IdeErrosDialog.1670.0.1920.1080" width="1032" height="375" />
+    <size key="#Servers.1670.0.1920.1080" width="1249" height="684" />
+    <size key="SimpleOpenTaskDialog.1670.0.1920.1080" width="508" height="240" />
+    <size key="javadoc.popup.1670.0.1920.1080" width="446" height="164" />
+    <size key="DebuggerActiveHint.1670.0.1920.1080" width="1412" height="431" />
+    <size key="refactoring.ChangeSignatureDialog.1670.0.1920.1080" width="509" height="742" />
+    <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.1670.0.1920.1080" width="532" height="511" />
+    <size key="GridCell.Tab.0.left.1664.0.1680.1050" width="1483" height="371" />
+    <size key="GridCell.Tab.0.center.1664.0.1680.1050" width="1483" height="371" />
+    <size key="GridCell.Tab.0.right.1664.0.1680.1050" width="1483" height="371" />
+    <size key="GridCell.Tab.0.bottom.1664.0.1680.1050" width="1483" height="371" />
+    <size key="FileChooserDialogImpl.1664.0.1680.1050" width="432" height="496" />
+    <size key="GridCell.Tab.1.left.1664.0.1680.1050" width="1483" height="371" />
+    <size key="GridCell.Tab.1.center.1664.0.1680.1050" width="1483" height="371" />
+    <size key="GridCell.Tab.1.right.1664.0.1680.1050" width="1483" height="371" />
+    <size key="GridCell.Tab.1.bottom.1664.0.1680.1050" width="1483" height="371" />
+    <size key="#xdebugger.evaluate.1664.0.1680.1050" width="1008" height="696" />
+    <size key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1664.0.1680.1050" width="532" height="496" />
+    <size key="XDebugger.FullValuePopup.1664.0.1680.1050" width="764" height="527" />
+    <size key="GridCell.Tab.0.left.0.520.1366.768" width="1324" height="208" />
+    <size key="GridCell.Tab.0.center.0.520.1366.768" width="1324" height="208" />
+    <size key="GridCell.Tab.0.right.0.520.1366.768" width="1324" height="208" />
+    <size key="GridCell.Tab.0.bottom.0.520.1366.768" width="1324" height="208" />
+    <size key="FileDocumentManager.FileCacheConflict.1664.0.1680.1050" width="1525" height="790" />
+    <size key="CommitChangelistDialog2.1664.0.1680.1050" width="695" height="594" />
+    <size key="replaceTextDialog.1670.0.1920.1080" width="640" height="597" />
+    <size key="ReplaceDuplicatesPrompt.1670.0.1920.1080" width="1059" height="138" />
+    <size key="com.intellij.testIntegration.createTest.CreateTestDialog.1670.0.1920.1080" width="625" height="521" />
+    <size key="org.jetbrains.idea.svn.dialogs.ToBeMergedDialog.1670.0.1920.1080" width="1813" height="1084" />
+    <size key="DiffWindow.1670.0.1920.1080" width="1805" height="1080" />
+    <size key="MultipleFileMergeDialog.1670.0.1920.1080" width="1005" height="528" />
+    <size key="RegExHelpPopup.1670.0.1920.1080" width="602" height="320" />
+    <size key="svn.sslCredentialsDialog.1670.0.1920.1080" width="403" height="187" />
+    <size key="NewModule_or_Project.wizard.1670.0.1920.1080" width="783" height="414" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.1670.0.1920.1080" width="1601" height="880" />
+    <size key="#Grep_Console.1670.0.1920.1080" width="921" height="356" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1670.0.1920.1080" width="531" height="337" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogintegrate.1670.0.1920.1080" width="744" height="232" />
+    <size key="#Browse_Repositories.1670.0.1920.1080" width="832" height="696" />
+    <size key="IgnoreUnversionedDialog.1670.0.1920.1080" width="549" height="190" />
+    <size key="com.intellij.openapi.vcs.changes.UnversionedViewDialog.1670.0.1920.1080" width="772" height="478" />
+    <size key="dock-window-1.1670.0.1920.1080" width="981" height="704" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.1670.0.1920.1080" width="624" height="412" />
+    <size key="new project wizard.1670.0.1920.1080" width="783" height="744" />
+    <size key="Subversion.BranchConfigurationDialog.1670.0.1920.1080" width="618" height="313" />
+    <size key="svn.repositoryBrowser.1670.0.1920.1080" width="317" height="524" />
+    <size key="#com.intellij.debugger.actions.ViewTextAction.1670.0.1920.1080" width="332" height="296" />
+    <size key="com.intellij.execution.impl.RunConfigurationBeforeRunProvider.dimensionServiceKey;.1670.0.1920.1080" width="660" height="250" />
+    <size key="org.jetbrains.idea.maven.utils.RepositoryAttachDialog.1670.0.1920.1080" width="688" height="213" />
+    <size key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog.1670.0.1920.1080" width="570" height="613" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.1670.0.1920.1080" width="1507" height="693" />
+    <size key="findTextDialog.0.0.0.0" width="416" height="529" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
     <extendedState key="CommittedChanges.SplitterProportions.0" state="700" />
     <extendedState key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" state="0" />
+    <extendedState key="dock-window-1" state="0" />
+    <extendedState key="DiffContextDialog" state="0" />
+    <extendedState key="CommittedChanges.SplitterProportions.1" state="500" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
   </component>
 </application>

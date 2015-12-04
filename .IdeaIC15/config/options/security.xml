@@ -1,0 +1,14 @@
+<application>
+  <component name="PasswordDatabase">
+    <option name="MASTER_PASSWORD_INFO" />
+    <option name="PASSWORDS">
+      <array>
+        <array />
+        <array />
+      </array>
+    </option>
+  </component>
+  <component name="SSHConnectionSettings">
+    <successfulAuthentication user="backup@git.hubbitus.info" method="publickey" />
+  </component>
+</application>

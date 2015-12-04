@@ -1,5 +1,5 @@
 [General]
-SplitterSizes=240,399
+SplitterSizes=572,952
 
 [KFileDialog Settings]
 Recent Files[$e]=datastudio.sh,/opt/jmeter/jmeter-logo.png,/opt/jmeter/bin/jmeter,/opt/aqua/datastudio/datastudio-128x128.png,/opt/aqua/datastudio/datastudio.sh
@@ -8,7 +8,8 @@ Recent URLs[$e]=/opt/aqua/datastudio/,/opt/jmeter/bin/,/opt/jmeter/
 [MainWindow]
 Height 1050=480
 Height 1080=480
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAGfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABfUAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1680=640
-Width 1920=640
+Width 1920=1046
+Window-Maximized 1050x1680=true

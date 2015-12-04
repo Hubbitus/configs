@@ -6,6 +6,9 @@ Favorites=Shell.profile
 
 [MainWindow]
 Height 1050=480
+Height 768=480
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAHFAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
+Width 1366=640
 Width 1680=640
+Window-Maximized 1050x1680=true

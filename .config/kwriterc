@@ -1,6 +1,10 @@
 [Audio Preview Settings]
 Autoplay=true
 
+[FileDialogSize]
+Height 768=480
+Width 1366=464
+
 [General Options]
 ShowMenuBar=true
 ShowPath=false
@@ -8,46 +12,42 @@ ShowStatusBar=true
 
 [KFileDialog Settings]
 Height 1080=540
-Height 768=450
-Recent Files[$e]=$HOME/remote/backup@ks1.hubbitus.info/home/backup/SHARED.pasha.data/DOCS/Надя-в-больнице.адрес
+Height 768=512
+Recent Files[$e]=$HOME/temp/db_schema.errors,$HOME/deal,$HOME/temp/default.xml,$HOME/egais_labels_structure_describe.psql,$HOME/java-rest-interfaces
 Recent URLs[$e]=$HOME/temp/,$HOME/remote/backup@ks1.hubbitus.info/home/backup/SHARED.pasha.data/DOCS/
-Width 1366=901
-Width 1920=960
+Width 1366=903
+Width 1920=903
 
 [KTextEditor::Search]
 Replace History=\\\\[\\\\e,\\\\[\\\\\\\\e,\\\\t,\\\\n
-Search History=checkI,\\\\e,err,\\\\d+ ms,SELECT doc.id AS document_id\\, doc.contract_num\\, doc.contract_start_date\\, doc.contract_end_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​ ,c0af73c5-f7cc-4347-8713-e4adb3a64af6,\\\\\\\\t,\\\\\\\\n
+Search History=ru.rlh.egais.portal.backend.configuration.a.a,so.,duration: 5\\\\d{6\\,}.\\\\d+ ms,unidata-conf.xml,checkI,\\\\e,err,\\\\d+ ms,SELECT doc.id AS document_id\\, doc.contract_num\\, doc.contract_start_date\\, doc.contract_end_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​ ,c0af73c5-f7cc-4347-8713-e4adb3a64af6,\\\\\\\\t,\\\\\\\\n
 
 [MainWindow]
 Height 0=140
 Height 1050=470
-Height 1080=706
+Height 1080=317
 Height 768=479
-State=AAAA/wAAAAD9AAAAAAAAA3MAAAGVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABw0AAAPaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 0=564
 Width 1366=902
 Width 1680=883
-Width 1920=1003
+Width 1920=902
+Window-Maximized 1050x1680=true
+Window-Maximized 1080x1920=true
 
 [Recent Files]
-File1[$e]=$HOME/remote/egais.main.log/etc/logstash/conf.d/patterns/taskdata
-File10[$e]=$HOME/remote/backup@ks1.hubbitus.info/home/backup/SHARED.pasha.data/DOCS/Надя-в-больнице.адрес
-File2[$e]=$HOME/remote/egais.main.log/etc/logstash/conf.d/applog.conf
-File3[$e]=$HOME/temp/insertAndReturnId
-File4[$e]=$HOME/temp/idea_taskdata_codestyle.xml
-File5[$e]=$HOME/Projects/Test-loading/Postgres/performance.devel.sql
-File6[$e]=$HOME/temp/pasha.ant/imus/IdeaProjects/imus-trunk/ascug-maket/ascug-esb-modules/imus-ais-adapter/devel/ascug.module.source.1c
-File7[$e]=$HOME/temp/pasha.ant/imus/IdeaProjects/imus-trunk/ascug-maket/ascug-esb-modules/imus-ais-adapter/src/main/resources/ascug.1cws.wsdl
-File8[$e]=$HOME/temp/jira-compact.user.css/jira-compact.user.css
-File9[$e]=http://in
-Name1[$e]=taskdata
-Name10[$e]=Надя-в-больнице.адрес
-Name2[$e]=applog.conf
-Name3[$e]=insertAndReturnId
-Name4[$e]=idea_taskdata_codestyle.xml
-Name5[$e]=performance.devel.sql
-Name6[$e]=ascug.module.source.1c
-Name7[$e]=ascug.1cws.wsdl
-Name8[$e]=jira-compact.user.css
-Name9[$e]=in
+File1[$e]=$HOME/.config/mail/I'm a fool
+File2[$e]=http://0.0.0.1
+File3[$e]=http://0.0.0.2
+File4[$e]=$HOME/egais_labels_structure_describe.psql
+File5[$e]=$HOME/deal
+File6[$e]=$HOME/SOFT/review/python-openpyxl/1279785-python-openpyxl/review.txt
+File7[$e]=zip:/home/pasha/temp/Рослесхоз_v1.zip/Commons.xsd
+Name1[$e]=I'm a fool
+Name2[$e]=1
+Name3[$e]=2
+Name4[$e]=egais_labels_structure_describe.psql
+Name5[$e]=deal
+Name6[$e]=review.txt
+Name7[$e]=Commons.xsd

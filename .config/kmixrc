@@ -1,4 +1,8 @@
+[$Version]
+update_info=disable_kmix.upd:PlasmaVolume_DisableKMixAutostart
+
 [Global]
+AutoStart=false
 AutoUseMultimediaKeys=true
 ConfigVersion=3
 DefaultCardOnStart=
@@ -10,6 +14,7 @@ Position=0,0
 Size=640,480
 Soundmenu.Mixers=
 Visible=false
+startkdeRestore=false
 
 [Profiles]
 PulseAudio::Capture_Devices:1=PulseAudio.Capture_Devices.1.default

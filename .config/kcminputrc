@@ -3,3 +3,9 @@ KeyboardRepeating=0
 NumLock=2
 RepeatDelay=660
 RepeatRate=25
+
+[Mouse]
+Acceleration=3
+MouseButtonMapping=RightHanded
+ReverseScrollPolarity=false
+Threshold=4

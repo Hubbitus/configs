@@ -1,13 +1,13 @@
 kcminputrc Mouse cursorTheme 'breeze_cursors'
 /home/pasha/.config/kcminputrc
-/etc/xdg/kcminputrc
+!/etc/xdg/kcminputrc
 !/home/pasha/.local/share/config/kcminputrc
 !/usr/local/share/config/kcminputrc
 !/usr/share/config/kcminputrc
 *
 kcminputrc Mouse cursorSize ''
 /home/pasha/.config/kcminputrc
-/etc/xdg/kcminputrc
+!/etc/xdg/kcminputrc
 !/home/pasha/.local/share/config/kcminputrc
 !/usr/local/share/config/kcminputrc
 !/usr/share/config/kcminputrc
@@ -28,7 +28,7 @@ ksplashrc KSplash Engine KSplashQML
 *
 kdeglobals KScreen ScaleFactor 1
 /home/pasha/.config/kdeglobals
-/etc/xdg/kdeglobals
+!/etc/xdg/kdeglobals
 !/home/pasha/.local/share/config/kdeglobals
 !/usr/local/share/config/kdeglobals
 !/usr/share/config/kdeglobals

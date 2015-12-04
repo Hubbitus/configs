@@ -33,7 +33,9 @@
           <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+          </root>
         </sourcePath>
       </roots>
       <additional />

@@ -27,6 +27,15 @@ plugin=org.kde.plasma.systemloadviewer
 DialogHeight=480
 DialogWidth=640
 
+[Containments][1][Applets][18][Configuration][General]
+cpuIOWaitColor=1,9,128
+cpuUserColor=59,134,2
+memApplicationColor=255,1,221
+memBuffersColor=220,220,220
+memCachedColor=128,128,128
+monitorType=Compact Bar
+setColorsManually=true
+
 [Containments][1][Applets][19][Configuration][General]
 sources=disk%2Fsda_(8%3A0)%2FRate%2Fwblk
 
@@ -70,24 +79,14 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][1][Applets][22][Configuration][General]
-sources=network%2Finterfaces%2Fwlp4s0%2Ftransmitter%2Fdata
-
-[Containments][1][Applets][23]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][1][Applets][23][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
+sources=network%2Finterfaces%2Fwlp4s0mon%2Ftransmitter%2Fdata,network%2Finterfaces%2Fwlp4s0%2Ftransmitter%2Fdata
 
 [Containments][1][Applets][23][Configuration][General]
 color=translucent
 noteId=45b58a7e-24bb-45a2-90c4-705a656461
 
-[Containments][1][Applets][24][Configuration][General]
-applicationName=IntelliJ IDEA Community Edition
-iconName=/opt/idea-IC-141.1532.4/bin/idea.png
-url=file:///usr/local/share/applications/jetbrains-idea-ce.desktop
+[Containments][1][Applets][25][Configuration][General]
+noteId=d5fb9659-8781-48cb-97f4-d521e0cc1e
 
 [Containments][1][Applets][3]
 immutability=1
@@ -99,11 +98,12 @@ plugin=org.kde.plasma.taskmanager
 
 [Containments][1][Applets][4][Configuration][ConfigDialog]
 DialogHeight=480
-DialogWidth=640
+DialogWidth=984
 
 [Containments][1][Applets][4][Configuration][General]
-highlightWindows=true
+middleClickAction=Close
 showOnlyCurrentDesktop=true
+sortingStrategy=1
 
 [Containments][1][Applets][5]
 immutability=1
@@ -157,12 +157,17 @@ DialogWidth=640
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][30]
+immutability=1
+plugin=org.kde.plasma.volume
+
 [Containments][1][Applets][5][Configuration][Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.plasma.pkupdates
 
 [Containments][1][Applets][5][Configuration][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.ktp-contactlist,org.kde.plasma.networkmanagement,org.kde.plasma.pkupdates,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.ktp-contactlist,org.kde.plasma.networkmanagement,org.kde.plasma.pkupdates,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+knownItems=org.kde.ktp-contactlist,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.pkupdates,org.kde.plasma.printmanager,org.kde.plasma.volume
 
 [Containments][1][Applets][6]
 immutability=1
@@ -170,8 +175,13 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][6][Configuration][Appearance]
 boldText=true
+dateFormat=isoDate
+fontFamily=Abyssinica SIL
+italicText=true
+selectedTimeZones=Local,Local
 showDate=true
 showSeconds=true
+use24hFormat=2
 
 [Containments][1][Applets][6][Configuration][ConfigDialog]
 DialogHeight=480
@@ -182,7 +192,7 @@ DialogHeight=1050
 DialogWidth=236
 
 [Containments][1][General]
-AppletOrder=2;3;23;4;5;18;21;22;6
+AppletOrder=2;3;4;5;18;21;22;6
 
 [Containments][20]
 activityId=fb03ff7f-aff2-44f7-b520-f862fe706d90
@@ -194,7 +204,9 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][20][General]
-positions=1,10,desktop:/trash.desktop,0,1,desktop:/Home.desktop,0,0,desktop:/jetbrains-idea-ce.desktop,0,3,desktop:/chrome-https___chrome.google.com_webstore_launcher_fhbjgbiflinjbdggehcddcbncdddomop.desktop,0,2,desktop:/netbeans-8.0.2.desktop,0,4
+ToolBoxButtonState=top
+ToolBoxButtonX=426
+positions=1,10,desktop:/gnote.desktop,0,2,desktop:/trash.desktop,0,1,desktop:/Home.desktop,0,0
 sortMode=-1
 
 [Containments][20][Wallpaper][org.kde.image][General]
@@ -210,9 +222,35 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][7][Applets][26]
+immutability=1
+plugin=org.kde.plasma.systemmonitor.diskactivity
+
+[Containments][7][Applets][26][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][7][Applets][26][Configuration][General]
+sources=disk%2Fsda_(8%3A0)%2FRate%2Fwblk,disk%2Fsdb_(8%3A16)%2FRate%2Fwblk,disk%2Fsdc_(8%3A32)%2FRate%2Fwblk,disk%2Fzram0_(252%3A0)%2FRate%2Fwblk,disk%2Fzram1_(252%3A1)%2FRate%2Fwblk,disk%2Fzram2_(252%3A2)%2FRate%2Fwblk,disk%2Fzram3_(252%3A3)%2FRate%2Fwblk,disk%2Fzram4_(252%3A4)%2FRate%2Fwblk,disk%2Fzram5_(252%3A5)%2FRate%2Fwblk,disk%2Fzram6_(252%3A6)%2FRate%2Fwblk,disk%2Fzram7_(252%3A7)%2FRate%2Fwblk
+
+[Containments][7][Applets][28][Configuration][General]
+verticalLayout=true
+
+[Containments][7][Applets][29]
+immutability=1
+plugin=org.kde.plasma.systemmonitor.cpu
+
+[Containments][7][Applets][32][Configuration][General]
+noteId=a5fb0a51-e1b2-4e88-abb6-6b2977914e
+
+[Containments][7][General]
+ItemsGeometries=Applet-26:0,112,368,480,0;Applet-29:368,144,368,448,0;
+positions=1,11,desktop:/gnote.desktop,0,2,desktop:/trash.desktop,0,1,desktop:/Home.desktop,0,0
+sortMode=-1
+
 [Containments][7][Wallpaper][org.kde.image][General]
 height=1050
 width=1680
 
 [General]
-immutability=2
+immutability=1

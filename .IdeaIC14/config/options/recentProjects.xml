@@ -2,40 +2,39 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/Projects/UniData/UnidataRestClient" />
         <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/main" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
+        <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/qa" />
+        <option value="$USER_HOME$/Projects/RLH/qa.branch" />
+        <option value="$USER_HOME$/Projects/RLH/decompile.recompile" />
+        <option value="$USER_HOME$/Projects/RLH/decompile" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/main" />
+        <option value="$USER_HOME$/Projects/UniData/main.branch.Proguard" />
+        <option value="$USER_HOME$/Projects/Ansible.cfg" />
+        <option value="$USER_HOME$/Projects/_OPEN/ImapTree" />
+        <option value="$USER_HOME$/Projects/UniData/UnidataGroovyUserExits" />
+        <option value="$USER_HOME$/Projects/RLH/performance_tune.branch" />
         <option value="$USER_HOME$/Projects/UniData/EgaisCxfRestClient" />
         <option value="$USER_HOME$/Projects/_TEST/CxfRestService" />
         <option value="$USER_HOME$/Projects/_TEST/gs-consuming-rest/complete" />
         <option value="$USER_HOME$/Projects/_TEST/gs-consuming-rest" />
         <option value="$USER_HOME$/Projects/_TEST/spring-jax-rs-client-proxy" />
         <option value="$USER_HOME$/Projects/_TEST/tesb-rt-se" />
-        <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
-        <option value="$USER_HOME$/Projects/RLH/performance_tune.branch" />
-        <option value="$USER_HOME$/Projects/UniData/UnidataRestClient" />
-        <option value="$USER_HOME$/Projects/UniData/UnidataGroovyUserExits" />
         <option value="$USER_HOME$/Projects/_TEST/CxfRestClient" />
         <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/2.0_support" />
         <option value="$USER_HOME$/temp/es-morph/elasticsearch-analysis-morphology-1.2.1" />
         <option value="$USER_HOME$/Projects/UniData/main" />
-        <option value="$USER_HOME$/Projects/RLH/qa.branch" />
-        <option value="$USER_HOME$/Projects/Ansible.cfg" />
         <option value="$USER_HOME$/Projects/UnidataRestClient" />
         <option value="$USER_HOME$/Projects/UniData/test-user-exits" />
-        <option value="$USER_HOME$/Projects/RLH/main.branch" />
-        <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/qa" />
-        <option value="$USER_HOME$/Projects/_Outer/j-groovierspringcode/groovierspring.ipr" />
-        <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/egais_portal_implementation_main" />
-        <option value="$USER_HOME$/Projects/Outer/gradle-tomcat-plugin" />
-        <option value="$USER_HOME$/Projects/Test-loading" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
-        <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/main" />
+        <option value="$USER_HOME$/Projects/UniData/UnidataRestClient" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Projects/RLH/egais/portal/implementation/main" />
-    <option name="lastProjectLocation" value="$USER_HOME$/Projects/_TEST/gs-consuming-rest" />
+    <option name="lastPath" value="$USER_HOME$/Projects/UniData/UnidataRestClient" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Projects/RLH" />
   </component>
 </application>

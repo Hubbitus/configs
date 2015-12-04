@@ -1,5 +1,16 @@
 [Compositing]
+AnimationSpeed=4
+Backend=OpenGL
+Enabled=true
+GLColorCorrection=false
+GLCore=true
+GLPlatformInterface=glx
+GLPreferBufferSwap=a
+GLTextureFilter=2
+HiddenPreviews=5
 OpenGLIsUnsafe=false
+UnredirectFullscreen=false
+XRenderSmoothScale=false
 
 [Desktops]
 Number=4
@@ -17,6 +28,15 @@ UseWindowMoving=true
 [Effect-Glide]
 GlideAngle=0
 GlideEffect=1
+
+[Effect-Magnifier]
+InitialZoom=1
+
+[Effect-MouseMark]
+Color=128,255,128
+
+[Effect-PresentWindows]
+ShowPanel=true
 
 [Effect-Zoom]
 InitialZoom=1
@@ -44,13 +64,13 @@ cubeEnabled=true
 cubeslideEnabled=true
 desktopchangeosdEnabled=false
 glideEnabled=true
-kwin4_effect_fadeEnabled=false
 kwin4_effect_scaleinEnabled=true
-magiclampEnabled=true
-minimizeanimationEnabled=false
+magnifierEnabled=true
+mousemarkEnabled=true
 sheetEnabled=true
 slideEnabled=false
 wobblywindowsEnabled=true
+zoomEnabled=false
 
 [Script-desktopchangeosd]
 PopupHideDelay=1000

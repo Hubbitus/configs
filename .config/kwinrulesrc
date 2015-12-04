@@ -1,2 +1,16 @@
 [General]
+ColorScheme[$d]
 count=0
+fixed[$d]
+font[$d]
+menuFont[$d]
+smallestReadableFont[$d]
+toolBarFont[$d]
+widgetStyle[$d]
+
+[Icons]
+Theme[$d]
+
+[KDE]
+ColorScheme[$d]
+widgetStyle[$d]

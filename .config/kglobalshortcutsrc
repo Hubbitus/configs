@@ -1,11 +1,15 @@
+[ActivityManager]
+_k_friendly_name=ActivityManager
+switch-to-activity-fb03ff7f-aff2-44f7-b520-f862fe706d90=none,none,Переключиться на комнату «Начальная комната»
+
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Выбрать следующую раскладку клавиатуры
 _k_friendly_name=KDE Daemon
 
 [amarok]
-_k_friendly_name=Amarok
+_k_friendly_name=amarok
 decreaseVolume=,Meta+-,Уменьшить громкость
-increaseVolume=Meta++,Meta++,Увеличить громкость
+increaseVolume=,Meta++,Увеличить громкость
 loveTrack=Meta+L,Meta+L,Last.fm: пометить текущую дорожку как «любимую»
 mute=Meta+M,Meta+M,Выключить звук
 next=Media Next,Media Next,Следующая дорожка
@@ -42,7 +46,7 @@ Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Ум�
 Hibernate=Hibernate,Hibernate,Спящий режим
 Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Увеличить яркость подсветки клавиатуры
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Увеличить яркость экрана
-PowerOff=Power Off,Power Off,
+PowerOff=Power Off,Power Off,Выключить компьютер
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Показать активность системы
 Sleep=Sleep,Sleep,Ждущий режим
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Переключение подсветки клавиатуры
@@ -57,10 +61,10 @@ _k_friendly_name=KDE Daemon
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Поиск
 
 [kmix]
-_k_friendly_name=kmix
-decrease_volume=Volume Down,Volume Down,Decrease Volume
-increase_volume=Volume Up,Volume Up,Increase Volume
-mute=Volume Mute,Volume Mute,Mute
+_k_friendly_name=Громкость
+decrease_volume=Volume Down,Volume Down,Уменьшить громкость
+increase_volume=Volume Up,Volume Up,Увеличить громкость
+mute=Volume Mute,Volume Mute,Выключить звук
 
 [krunner]
 _k_friendly_name=krunner
@@ -77,6 +81,8 @@ _k_friendly_name=ksmserver
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Активировать привлечение внимания к окну
+ClearLastMouseMark=Meta+Shift+F12\tMeta+Z,Meta+Shift+F12,Очистить последнюю метку мыши
+ClearMouseMarks=Meta+Shift+F11\tMeta+C,Meta+Shift+F11,Очистить все метки мыши
 Cube=Ctrl+F11,Ctrl+F11,Куб с рабочими столами
 Cylinder=none,none,Цилиндр с рабочими столами
 Decrease Opacity=none,none,Уменьшить непрозрачность окна на 5%
@@ -222,12 +228,12 @@ Window to Screen 5=none,none,Переместить окно на экран 5
 Window to Screen 6=none,none,Переместить окно на экран 6
 Window to Screen 7=none,none,Переместить окно на экран 7
 _k_friendly_name=KWin
-view_actual_size=Meta+0,Meta+0,Фактический размер
-view_zoom_in=Meta+=,Meta+=,Увеличить
-view_zoom_out=Meta+-,Meta+-,Уменьшить
+view_actual_size=,Meta+0,Фактический размер
+view_zoom_in=Meta++,Meta+=,Увеличить
+view_zoom_out=,Meta+-,Уменьшить
 
 [mediacontrol]
-_k_friendly_name=Управление медиапроигрывателем
+_k_friendly_name=mediacontrol
 nextmedia=,Media Next,Перейти к следующей дорожке
 playpausemedia=,Media Play,Начать/приостановить воспроизведение
 previousmedia=,Media Previous,Перейти к предыдущей дорожке

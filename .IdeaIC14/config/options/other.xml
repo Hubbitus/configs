@@ -76,6 +76,26 @@
   <component name="ExternalResourceManagerImpl">
     <resource url="http://schemas.xmlsoap.org/soap/envelope/" location="$USER_HOME$/.IdeaIC14/system/extResources/a74f2ac0_.xml" />
   </component>
+  <component name="RecentTaskRepositories">
+    <JIRA shared="true" url="http://jira.taskdata.com:9000">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>RLH {id} {summary}
+
+Problem/Task: Подробное описание задачи или бага
+
+Fix/Solution: Подробное описание решение или фикса с фокусом с ответом на вопросы &quot;Зачем, почему, каким образом...&quot; не спускаясь на уровень того, какие строчки кода вы меняли.</commitMessageFormat>
+      <password>dfe3dfc4dfecdfc5df9ddf80df89dfdadfc5dfdddfcfdfd8</password>
+      <option name="jiraVersion" value="6.4.11" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="assignee = currentUser() AND resolution = Unresolved ORDER BY updatedDate DESC" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>palekseev</username>
+    </JIRA>
+  </component>
   <component name="RefactoringSettings">
     <option name="MOVE_PREVIEW_USAGES" value="false" />
   </component>

@@ -1,0 +1,86 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>bo_woodlot_elements</find>
+      <find>bo_contract_forest_works</find>
+      <find>fileTree</find>
+      <find>woodlot</find>
+      <find>core</find>
+      <find>link</find>
+      <find>cmd.run(object, statusTo);</find>
+      <find>svn</find>
+      <find>sona</find>
+      <find>destinationDir</find>
+      <find>egais_curr_id</find>
+      <find>c.</find>
+      <find>case ['i</find>
+      <find>C.</find>
+      <find>count</find>
+      <find>public-self-care</find>
+      <find>self</find>
+      <find>dea</find>
+      <find>insert</find>
+      <find>ins</find>
+      <find>CompanyType</find>
+      <find>DocumentInfoType</find>
+      <find>string-12</find>
+      <find>string-200</find>
+      <find>IFrame</find>
+      <find>classpath</find>
+      <find>bootstrap.js</find>
+      <find>class</find>
+      <find>boo</find>
+      <find>boots</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>StateAuthority</replace>
+      <replace>SubForestry</replace>
+      <replace>subforestries</replace>
+      <replace>/rest/lu/tracts</replace>
+      <replace>Tract</replace>
+      <replace>egaisUserExitListener</replace>
+      <replace>bo_tract</replace>
+      <replace>Invalid</replace>
+      <replace>@Service(&quot;$1&quot;)\npublic class (.+) implements (.+)</replace>
+      <replace>@Service(&quot;$2&quot;)\npublic class $1 implements $2</replace>
+      <replace>@$1(&quot;$5$6$7&quot;)\n$2$3 {</replace>
+      <replace>@$1(&quot;$5$6$7&quot;)\n$2class $3 {</replace>
+      <replace>@$1(&quot;$4$6$7&quot;)\n$2class $3 {</replace>
+      <replace>/rest/bo/lease-contracts</replace>
+      <replace>ContractLease</replace>
+      <replace>HardwoodDeal</replace>
+      <replace>ContractHardwoodDeal</replace>
+      <replace>WoodClass</replace>
+      <replace>TnvedClass</replace>
+      <replace>WOOD_CLASS</replace>
+      <replace>TNVED_CLASS</replace>
+      <replace>tnved-class</replace>
+      <replace>wood-classes</replace>
+      <replace>woodClass</replace>
+      <replace>tnvedClass</replace>
+      <replace>TNVED_</replace>
+      <replace>upsertEgaisBeforeExecutor</replace>
+      <replace>#</replace>
+      <replace>unidata</replace>
+      <replace>l</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/controller/rest</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/performance_tune</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/roles</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/test-dev/roles/ansible-postgresql-manager</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/2.0_support/database/db/migration</dir>
+      <dir>$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH/backend/src/main/resources/spring</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/portal-core</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/dto</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/core/src</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration/V3.0</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/rest-client/src/test/java/ru/rlh/egais/portal/api/client</dir>
+    </dirStrings>
+  </component>
+</application>

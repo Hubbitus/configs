@@ -1,8 +1,11 @@
 [Favorites]
-FavoriteURLs=/usr/share/applications/systemsettings.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/org.kde.konsole.desktop,/usr/local/share/applications/jetbrains-idea-ce.desktop,/usr/share/applications/chromium-browser.desktop,/home/pasha/.local/share/applications/netbeans-8.0.2.desktop,/home/pasha/.local/share/applications/Aqua DataStudio.desktop,/usr/share/applications/firefox.desktop,/usr/share/applications/mozilla-thunderbird.desktop,/usr/share/applications/gajim.desktop,/home/pasha/.local/share/applications/Jmeter.desktop,kcm_kscreen.desktop
+FavoriteURLs=/usr/share/applications/systemsettings.desktop,/usr/share/applications/org.kde.konsole.desktop,/usr/share/applications/chromium-browser.desktop,/home/pasha/.local/share/applications/netbeans-8.0.2.desktop,/home/pasha/.local/share/applications/Aqua DataStudio.desktop,/usr/share/applications/firefox.desktop,/usr/share/applications/mozilla-thunderbird.desktop,/usr/share/applications/gajim.desktop,/home/pasha/.local/share/applications/Jmeter.desktop,kcm_kscreen.desktop,/usr/share/applications/org.kde.dolphin.desktop,/home/pasha/.local/share/applications/jetbrains-idea-ce.desktop
 
 [KRunner]
 loadAll=false
 
 [KRunner][PlasmaRunnerManager]
 pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations,baloosearch
+
+[RecentlyUsed]
+Applications=jetbrains-idea-ce.desktop,Aqua DataStudio.desktop,kcm_kscreen.desktop,mozilla-thunderbird.desktop,boswars.desktop
