@@ -2,18 +2,21 @@
 #http://taint.org/wk/RemoteLoginAutoScreen
 
 # https://bbs.archlinux.org/viewtopic.php?id=67464
+# https://wiki.archlinux.org/index.php/GNU_Screen#Use_256_colors
+#term screen-256color
 term xterm-256color
+#attrcolor b ".I"    # allow bold colors - necessary for some reason
+#terminfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'   # tell screen how to set colors. AB = background, AF=foreground
+#defbce on    # use current bg color for erased chars
 
 termcap xterm 'XT'
 terminfo xterm 'XT'
 
 # https://wiki.archlinux.org/index.php/GNU_Screen#Use_X_scrolling_mechanism
 termcapinfo xterm* ti@:te@
-#???#termcapinfo xterm 'bc@:bs@'
+termcapinfo xterm 'bc@:bs@'
 altscreen on
-
 defscrollback 1000
-
 defutf8 on
 
 # https://wiki.archlinux.org/index.php/GNU_Screen#Fix_for_Name_column_in_windowlist_only_show_.22bash.22
@@ -25,7 +28,7 @@ hardstatus alwayslastline
 
 # http://aperiodic.net/screen/commands:backtick
 # Activity command - play. Unfortunately & work only for full command, not for parts
-backtick 1 0 1 bash -c 'mpv --msg-level=all=no /usr/share/sounds/Oxygen-Sys-App-Error-Serious-Very.ogg ; xcowsay --time=5 "Screen activity detected" 2>/dev/null || xmessage -timeout 5 -nearmouse "Screen activity detected"' &
+backtick 1 0 1 bash -c 'function run(){ dtach -n $(mktemp -u /tmp/screen.backtrick.XXXXX) $@; }; run mpv --msg-level=all=no /usr/share/sounds/Oxygen-Sys-App-Error-Serious-Very.ogg ; run xcowsay --time=5 "Screen activity detected" 2>/dev/null || run xmessage -timeout 5 -nearmouse "Screen activity detected" '
 
 # http://aperiodic.net/screen/monitoring
 activity "%c activity -> %n%f %t^G %1`"
@@ -39,3 +42,5 @@ screen -t Ansible 1 bash -c 'cd /home/pasha/Projects/Ansible.cfg/ ; TERM=xterm-2
 screen -t Tomcat 1 bash -c 'cd /opt/servers/apache-tomcat-7.0.57-ui ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t 'Tomcat logs' 1 bash -c 'cd /opt/servers/apache-tomcat-7.0.57-ui/logs ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t bash 1 bash -c 'TERM=xterm-256color mc -x --skin=gotar; bash'
+screen -t 256color-test /usr/bin/mc --skin=modarin256-defbg
+
