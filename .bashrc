@@ -30,7 +30,7 @@ alias fgrep='fgrep --color'
 
 alias ll='ls -l --color=auto'
 
-alias fly='gradle flywayRepair ; gradle flywayMigrate -i | ts'
+alias fly='gradle -b standalone.gradle flywayRepair ; gradle -b standalone.gradle flywayMigrate -i | /usr/bin/ts "%H:%M:%.S"'
 
 # Allow user aliases in sudo http://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias sudo='sudo '
@@ -92,7 +92,7 @@ alias св=cd
 # Nice to long time test: gotar, modarcon16*, modarin256* (with root), nicedark, xoria256 + transparent background in ini
 # Until https://bugzilla.redhat.com/show_bug.cgi?id=1288446 resolved it can't be 256 color
 #alias mc='TERM=xterm-256color mc -x --skin=gotar'
-alias mc='TERM=xterm mc -x --skin=modarcon16'
+alias mc='TERM=screen-256color mc -x --skin=modarcon16'
 
 alias yakuake='yakuake.start.dbus'
 
@@ -224,7 +224,7 @@ export CLASSPATH=$CLASSPATH:.
 
 # Do not auto update screen titles!
 #export PROMPT_COMMAND='if [ ! "screen" = "${TERM:0:6}" ]; then printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"; else echo ""; fi'
-#?export PROMPT_COMMAND=''
+export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
 
