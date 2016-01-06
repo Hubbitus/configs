@@ -1,0 +1,16 @@
+# Window Switch Configuration File
+
+
+
+winswitch_software_version="0.12.21"
+protocol="smb"
+namespace=None
+host="127.0.0.1"
+port=139
+path="pasha"
+fs_type="Disk"
+auth_mode="login"
+username="pasha"
+password=None
+comment="Home directory"
+options={}

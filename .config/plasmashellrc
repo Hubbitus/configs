@@ -55,6 +55,10 @@ Recent URLs[$e]=/usr/bin/
 Height 1080=422
 Width 1920=510
 
+[PlasmaRunnerManager]
+LaunchCounts=2 services_skype.desktop,1 services_Jmeter.desktop
+pluginWhiteList=services,places,shell,bookmarks,recentdocuments,locations,baloosearch
+
 [PlasmaViews][Panel 1][Vertical1024]
 thickness=30
 
@@ -77,4 +81,4 @@ length=768
 thickness=98
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/updates/01-fedora-org.kde.plasma.pkupdates.js,/usr/share/plasma/shells/org.kde.plasma.desktop/updates/00-start-here-kde-fedora-2.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/updates/01-fedora-org.kde.plasma.pkupdates.js,/usr/share/plasma/shells/org.kde.plasma.desktop/updates/00-start-here-kde-fedora-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc-1.js

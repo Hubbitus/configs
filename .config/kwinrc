@@ -64,6 +64,7 @@ cubeEnabled=true
 cubeslideEnabled=true
 desktopchangeosdEnabled=false
 glideEnabled=true
+kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_scaleinEnabled=true
 magnifierEnabled=true
 mousemarkEnabled=true

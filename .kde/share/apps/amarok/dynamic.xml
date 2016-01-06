@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biasedPlaylists version="2" current="0">
+    <playlist>
+        <title>Случайные дорожки</title>
+        <randomBias/>
+    </playlist>
+    <playlist>
+        <title>Рок- и поп-музыка</title>
+        <searchQueryBias>
+            <filter>жанр:Рок AND жанр:Поп</filter>
+        </searchQueryBias>
+    </playlist>
+    <playlist>
+        <title>Прослушивание целых альбомов</title>
+        <ifElseBias>
+            <albumPlayBias>
+                <follow>dontCare</follow>
+            </albumPlayBias>
+            <searchQueryBias>
+                <filter>номер_дорожки:1</filter>
+            </searchQueryBias>
+        </ifElseBias>
+    </playlist>
+    <playlist>
+        <title>Высоко оценённые</title>
+        <partBias>
+            <randomBias weight="0.3"/>
+            <tagMatchBias weight="0.5">
+                <field>rating</field>
+                <numValue>5</numValue>
+                <numValue2>0</numValue2>
+                <condition>greater</condition>
+            </tagMatchBias>
+            <tagMatchBias weight="0.2">
+                <field>rating</field>
+                <numValue>8</numValue>
+                <numValue2>0</numValue2>
+                <condition>greater</condition>
+            </tagMatchBias>
+        </partBias>
+    </playlist>
+</biasedPlaylists>

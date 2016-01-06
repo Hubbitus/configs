@@ -1,6 +1,9 @@
 [Defaults]
 Profile=По умолчанию
 
+[PROFILE_Default]
+EmailClient=/usr/lib64/chromium/chromium-wrapper
+
 [PROFILE_По умолчанию]
 EmailClient[$e]=thunderbird
 ServerType=

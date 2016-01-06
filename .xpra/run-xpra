@@ -1,0 +1,29 @@
+#!/bin/sh
+USERNAME="pasha"; export USERNAME
+LANG="ru_RU.UTF-8"; export LANG
+TERM="xterm-256color"; export TERM
+SHELL="/bin/bash"; export SHELL
+XAUTHORITY="/tmp/xauth-1000-_0"; export XAUTHORITY
+HOSTNAME="hubbitus.taskdata.note"; export HOSTNAME
+DBUS_SESSION_BUS_ADDRESS="unix:abstract\=/tmp/dbus-IVP1uVZ4Xm,guid\=63128debb18c1125acf064285686ac4f"; export DBUS_SESSION_BUS_ADDRESS
+PWD="/home/pasha"; export PWD
+PULSE_SERVER="unix:/tmp/pulse-61/native"; export PULSE_SERVER
+USER="pasha"; export USER
+HOME="/home/pasha"; export HOME
+PATH="/opt/sencha/cmd-5.1.3.61:/opt/sencha/cmd-5.1.3.61:/opt/sencha/cmd-5.1.3.61:/opt/sencha/cmd-5.1.3.61:/opt/sencha/cmd/Sencha/Cmd/5.1.3.61:/opt/sencha/cmd-5.1.3.61:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/pasha/bin:/usr/sbin:/home/pasha/bin/php_templates:/opt/cuda/bin:/opt/grails/bin:/home/pasha/bin:/usr/sbin:/home/pasha/bin/php_templates:/home/pasha/bin:/usr/sbin:/home/pasha/bin/php_templates:/opt/cuda/bin:/opt/grails/bin:/home/pasha/bin:/usr/sbin:/home/pasha/bin/php_templates:/opt/cuda/bin:/opt/grails/bin:/home/pasha/bin:/usr/sbin:/home/pasha/bin/php_templates:/opt/cuda/bin:/opt/grails/bin:/home/pasha/bin:/usr/sbin:/home/pasha/bin/php_templates:/opt/cuda/bin:/opt/grails/bin":"$PATH"; export PATH
+ALSA_PCM_NAME="pulse"; export ALSA_PCM_NAME
+cd "/home/pasha"
+_XPRA_PYTHON="/usr/bin/python"
+_XPRA_SCRIPT="/usr/bin/xpra"
+
+if which "$_XPRA_PYTHON" > /dev/null && [ -e "$_XPRA_SCRIPT" ]; then
+    # Happypath:
+    exec "$_XPRA_PYTHON" "$_XPRA_SCRIPT" "$@"
+else
+    cat >&2 <<END
+    Could not find one or both of '$_XPRA_PYTHON' and '$_XPRA_SCRIPT'
+    Perhaps your environment has changed since the xpra server was started?
+    I'll just try executing 'xpra' with current PATH, and hope...
+END
+    exec xpra "$@"
+fi

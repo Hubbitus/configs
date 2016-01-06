@@ -8,4 +8,4 @@ loadAll=false
 pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations,baloosearch
 
 [RecentlyUsed]
-Applications=jetbrains-idea-ce.desktop,Aqua DataStudio.desktop,kcm_kscreen.desktop,mozilla-thunderbird.desktop,boswars.desktop
+Applications=Aqua DataStudio.desktop,boswars.desktop,chromium-browser.desktop,kcm_kscreen.desktop,mozilla-thunderbird.desktop

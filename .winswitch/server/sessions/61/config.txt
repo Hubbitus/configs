@@ -1,0 +1,60 @@
+# Window Switch Configuration File
+
+
+
+winswitch_software_version="0.12.21"
+# Identification:
+ID="a6fd1e3a1c914e26a1660fac12379208"
+display=":61"
+name=""
+user="pasha"
+session_type="xpra"
+start_time=1451666511
+# Connection point:
+host="127.0.0.1"
+port=15062
+password="238a61b51b7c4f7ab80a550431703c3a90b5762994e3413c9ad9e7c4329bd7f8"
+encrypted_password=""
+# ownership:
+owner="6ad418e468eb4af2b4c9e440e7c945ca"
+actor=""
+# command details:
+command=""
+commands=[]
+arguments=""
+command_uuid=""
+# virtualization settings:
+full_desktop=False
+shared_desktop=False
+read_only=False
+shadowed_display=""
+# screen settings:
+screen_size=None
+# status:
+status="starting"
+preload=True
+# sound options:
+can_export_sound=False
+can_import_sound=False
+can_clone_sound=True
+uses_sound_out=False
+uses_sound_in=False
+ipp_pid=-1
+ipp_address=""
+xauth_file=""
+xauth_cookie="238a61b51b7c4f7ab80a550431703c3a90b5762994e3413c9ad9e7c4329bd7f8"
+dbus_pid=12270
+dbus_address="unix:abstract=/tmp/dbus-IVP1uVZ4Xm,guid=63128debb18c1125acf064285686ac4f"
+pulse_pid=12276
+pulse_address="unix:/tmp/pulse-61/native"
+server_process_pid=-1
+command_process_pid=-1
+onexit_kill_pids["00-pulse"]=12276
+onexit_kill_pids["10-dbus"]=12270
+options={}
+gst_export_plugin="pulsesrc"
+gst_export_plugin_options["server"]=unix:/tmp/pulse-61/native
+gst_import_plugin="pulsesink"
+gst_import_plugin_options["server"]=unix:/tmp/pulse-61/native
+gst_clone_plugin=""
+gst_clone_plugin_options={}

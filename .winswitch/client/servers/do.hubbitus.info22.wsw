@@ -1,0 +1,47 @@
+# Window Switch Configuration File
+
+
+
+winswitch_software_version="0.12.21"
+# Identity
+ID=""
+name=""
+type="workstation"
+# Require an SSH tunnel to access this server?:
+ssh_tunnel=True
+# Protocols that can be tunnelled:
+tunnel_fs=False
+tunnel_sink=True
+tunnel_source=True
+tunnel_clone=True
+tunnel_printer=False
+# Authentication key (public part of the key):
+crypto_modulus=0
+crypto_public_exponent=0
+# Connection details:
+host="do.hubbitus.info"
+port=22
+username="pasha"
+encrypted_password="860f1ea5e9ba62002b11ceeb1eaa95d75d5b4938:"
+administrator_login=""
+default_command_port=0
+command_port_auto=True
+line_speed=1000000
+timeout=20
+# SSH Authentication keyfile to use:
+ssh_keyfile="/home/pasha/.ssh/id_rsa"
+ssh_pub_keyfile="/home/pasha/.ssh/id_rsa.pub"
+encrypted_ssh_keyfile_passphrase=""
+ssh_hostkey_fingerprint=""
+# Flags and session type settings:
+enabled=True
+auto_connect=True
+auto_start=True
+preload_tunnels=True
+preferred_session_type="xpra"
+preferred_desktop_type="vnc"
+local_shortcuts=[]
+auto_resume=False
+dynamic=False
+local=False
+locale=""

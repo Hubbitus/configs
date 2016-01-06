@@ -1,0 +1,50 @@
+2015-12-07 22:53:26,173 server uuid is ccf8e4e7ca8249a4b0e00fac20e520db
+2015-12-07 22:53:26,315 no authentication module specified with 'password_file', using 'file' based authentication
+2015-12-07 22:53:26,335 no authentication module specified with 'password_file', using 'file' based authentication
+** Message: pygobject_register_sinkfunc is deprecated (GstObject)
+2015-12-07 22:53:26,388 using notification forwarder: DBUSNotificationsForwarder(org.freedesktop.Notifications)
+2015-12-07 22:53:26,390 xpra server version 0.15.9 (r11348)
+2015-12-07 22:53:26,390 running with pid 15789
+2015-12-07 22:53:26,417 failed to connect to avahi's dbus interface: org.freedesktop.systemd1.LoadFailed: Unit dbus-org.freedesktop.Avahi.service failed to load: No such file or directory.
+2015-12-07 22:53:26,417 you may want to disable mdns support to avoid this
+2015-12-07 22:53:26,418 failed to connect to avahi's dbus interface: org.freedesktop.systemd1.LoadFailed: Unit dbus-org.freedesktop.Avahi.service failed to load: No such file or directory.
+2015-12-07 22:53:26,418 you may want to disable mdns support to avoid this
+2015-12-07 22:53:26,418 xpra is ready.
+2015-12-07 22:53:27,423 New unix-domain connection received
+2015-12-07 22:53:27,424 Connection lost
+2015-12-07 22:53:37,785 New unix-domain connection received
+2015-12-07 22:53:37,786 Connection lost
+2015-12-07 22:53:39,148 New unix-domain connection received
+2015-12-07 22:53:39,149 Connection lost
+2015-12-07 22:54:39,209 New unix-domain connection received
+2015-12-07 22:54:39,210 Connection lost
+2015-12-07 22:55:41,350 New unix-domain connection received
+2015-12-07 22:55:41,352 Connection lost
+2015-12-07 22:55:43,059 New unix-domain connection received
+2015-12-07 22:55:43,061 Connection lost
+2015-12-07 22:57:21,356 New unix-domain connection received
+2015-12-07 22:57:21,357 Connection lost
+2015-12-07 22:57:42,571 New unix-domain connection received
+2015-12-07 22:57:42,595 Authentication required, Password File Authenticator sending challenge for 'pasha' using digest hmac
+2015-12-07 22:57:42,646 New unix-domain connection received
+2015-12-07 22:57:42,647 Connection lost
+2015-12-07 22:57:43,147 New unix-domain connection received
+2015-12-07 22:57:43,148 Connection lost
+2015-12-07 22:57:43,648 New unix-domain connection received
+2015-12-07 22:57:43,649 Connection lost
+2015-12-07 22:57:44,148 New unix-domain connection received
+2015-12-07 22:57:44,149 Connection lost
+2015-12-07 22:57:44,649 New unix-domain connection received
+2015-12-07 22:57:44,649 Connection lost
+2015-12-07 22:57:45,149 New unix-domain connection received
+2015-12-07 22:57:45,150 Connection lost
+2015-12-07 22:57:45,662 Connection lost
+2015-12-07 22:59:37,510 New unix-domain connection received
+2015-12-07 22:59:37,511 Connection lost
+2015-12-07 22:59:39,392 New unix-domain connection received
+2015-12-07 22:59:39,394 Connection lost
+2015-12-08 19:19:04,175 
+2015-12-08 19:19:04,473 got signal SIGTERM, exiting
+2015-12-08 19:19:03,677 
+2015-12-08 19:19:04,988 got signal SIGTERM, exiting
+Xpra: Fatal IO error 11 (Ресурс временно недоступен) on X server :63.

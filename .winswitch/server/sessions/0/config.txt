@@ -1,0 +1,59 @@
+# Window Switch Configuration File
+
+
+
+winswitch_software_version="0.12.21"
+# Identification:
+ID="078226cd3ae14ba6933f802381c688cf"
+display=":0"
+name="pasha' Desktop"
+user="pasha"
+session_type="X11"
+start_time=1451659224
+# Connection point:
+host="127.0.0.1"
+port=6060
+password="5ae2c46b2b8746e7bfb3f5e04977bd97c230c4cd66cc46239b68bfd27c6c0dbf"
+encrypted_password=""
+# ownership:
+owner="6ad418e468eb4af2b4c9e440e7c945ca"
+actor="6ad418e468eb4af2b4c9e440e7c945ca"
+# command details:
+command="KDE"
+commands=[]
+arguments=""
+command_uuid=""
+# virtualization settings:
+full_desktop=True
+shared_desktop=False
+read_only=False
+shadowed_display=""
+# screen settings:
+screen_size="3046x1080"
+# status:
+status="available"
+preload=False
+# sound options:
+can_export_sound=True
+can_import_sound=True
+can_clone_sound=True
+uses_sound_out=False
+uses_sound_in=False
+ipp_pid=-1
+ipp_address=""
+xauth_file=""
+xauth_cookie="5ae2c46b2b8746e7bfb3f5e04977bd97c230c4cd66cc46239b68bfd27c6c0dbf"
+dbus_pid=-1
+dbus_address=""
+pulse_pid=-1
+pulse_address="unix:/run/user/1000/pulse/native"
+server_process_pid=-1
+command_process_pid=-1
+onexit_kill_pids={}
+options={}
+gst_export_plugin="pulsesrc"
+gst_export_plugin_options["server"]=unix:/run/user/1000/pulse/native
+gst_import_plugin="pulsesink"
+gst_import_plugin_options["server"]=unix:/run/user/1000/pulse/native
+gst_clone_plugin=""
+gst_clone_plugin_options={}

@@ -44,20 +44,23 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
+favorites=/usr/share/applications/systemsettings.desktop,/usr/share/applications/org.kde.konsole.desktop,/usr/share/applications/chromium-browser.desktop,/home/pasha/.local/share/applications/netbeans-8.0.2.desktop,/home/pasha/.local/share/applications/Aqua DataStudio.desktop,/usr/share/applications/firefox.desktop,/usr/share/applications/mozilla-thunderbird.desktop,/usr/share/applications/gajim.desktop,/home/pasha/.local/share/applications/Jmeter.desktop,kcm_kscreen.desktop,/usr/share/applications/org.kde.dolphin.desktop,/home/pasha/.local/share/applications/jetbrains-idea-ce.desktop
 icon=start-here-kde-fedora
+systemApplications=systemsettings.desktop,
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=480
 DialogWidth=640
 
 [Containments][1][Applets][2][Configuration][General]
+favorites=systemsettings.desktop,org.kde.konsole.desktop,chromium-browser.desktop,netbeans-8.0.2.desktop,Aqua DataStudio.desktop,firefox.desktop,mozilla-thunderbird.desktop,gajim.desktop,Jmeter.desktop,org.kde.dolphin.desktop,jetbrains-idea-ce.desktop,kcm_kscreen.desktop
 icon=start-here-kde-fedora
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
 
 [Containments][1][Applets][2][Shortcuts]
-global=Meta+Esc
+global=Alt+F1
 
 [Containments][1][Applets][21]
 immutability=1
@@ -92,6 +95,12 @@ noteId=d5fb9659-8781-48cb-97f4-d521e0cc1e
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][1][Applets][39][Configuration][General]
+applicationName=Браузер Chromium
+genericName=Веб-браузер
+iconName=chromium
+url=file:///usr/share/applications/chromium-browser.desktop
+
 [Containments][1][Applets][4]
 immutability=1
 plugin=org.kde.plasma.taskmanager
@@ -101,6 +110,7 @@ DialogHeight=480
 DialogWidth=984
 
 [Containments][1][Applets][4][Configuration][General]
+launchers=file:///usr/share/applications/gnote.desktop?wmClass=Gnote
 middleClickAction=Close
 showOnlyCurrentDesktop=true
 sortingStrategy=1
@@ -117,26 +127,6 @@ DialogWidth=640
 formfactor=2
 location=6
 
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][10]
-immutability=1
-plugin=org.kde.plasma.clipboard
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][11]
-immutability=1
-plugin=org.kde.plasma.devicenotifier
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][12]
-immutability=1
-plugin=org.kde.plasma.printmanager
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][13]
-immutability=1
-plugin=org.kde.plasma.notifications
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][14]
-immutability=1
-plugin=org.kde.plasma.battery
-
 [Containments][1][Applets][5][Configuration][Containments][8][Applets][15]
 immutability=1
 plugin=org.kde.ktp-contactlist
@@ -145,25 +135,41 @@ plugin=org.kde.ktp-contactlist
 DialogHeight=480
 DialogWidth=640
 
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][16]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][16][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][17]
-immutability=1
-plugin=org.kde.plasma.bluetooth
-
 [Containments][1][Applets][5][Configuration][Containments][8][Applets][30]
+immutability=1
+plugin=org.kde.plasma.pkupdates
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][31]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][32]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][9]
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][33]
 immutability=1
-plugin=org.kde.plasma.pkupdates
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][34]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][35]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][36]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][37]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][1][Applets][5][Configuration][Containments][8][Applets][38]
+immutability=1
+plugin=org.kde.plasma.bluetooth
 
 [Containments][1][Applets][5][Configuration][General]
 extraItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.ktp-contactlist,org.kde.plasma.networkmanagement,org.kde.plasma.pkupdates,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume
@@ -188,7 +194,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][1][ConfigDialog]
-DialogHeight=1050
+DialogHeight=1080
 DialogWidth=236
 
 [Containments][1][General]

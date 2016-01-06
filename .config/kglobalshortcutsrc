@@ -31,7 +31,7 @@ stop_after_current=Meta+Shift+V,Meta+Shift+V,Остановить после т�
 toggleMainWindow=none,none,Показать/скрыть главное окно
 
 [kaccess]
-Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
+Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Включить/выключить зачитывание с экрана
 _k_friendly_name=kaccess
 
 [kcm_touchpad]
@@ -48,7 +48,7 @@ Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Ув�
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Увеличить яркость экрана
 PowerOff=Power Off,Power Off,Выключить компьютер
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Показать активность системы
-Sleep=Sleep,Sleep,Ждущий режим
+Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Переключение подсветки клавиатуры
 _k_friendly_name=KDE Daemon
 display=Display,Display,Сменить экран
@@ -92,6 +92,7 @@ ExposeClass=Ctrl+F7,Ctrl+F7,Показать окна одного класса
 Increase Opacity=none,none,Увеличить непрозрачность окна на 5%
 Invert Screen Colors=none,none,Инвертировать цвета экрана
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Удалить окно
+Lock Session=\t,Ctrl+Alt+L\tScreensaver,Заблокировать сеанс
 MoveMouseToCenter=Meta+F6,Meta+F6,Переместить мышь в центр
 MoveMouseToFocus=Meta+F5,Meta+F5,Переместить мышь в фокус ввода
 MoveZoomDown=Meta+Down,Meta+Down,Переместить увеличенную область вниз
@@ -133,17 +134,17 @@ Switch to Desktop 7=none,none,Переключиться на рабочий с�
 Switch to Desktop 8=none,none,Переключиться на рабочий стол 8
 Switch to Desktop 9=none,none,Переключиться на рабочий стол 9
 Switch to Next Desktop=none,none,Переключиться на следующий рабочий стол
-Switch to Next Screen=none,none,Переключиться на следующий рабочий стол
+Switch to Next Screen=none,none,Переключиться на следующий экран
 Switch to Previous Desktop=none,none,Переключиться на предыдущий рабочий стол
 Switch to Previous Screen=none,none,Переключиться на предыдущий экран
-Switch to Screen 0=none,none,Переключиться на рабочий стол 0
-Switch to Screen 1=none,none,Переключиться на рабочий стол 1
-Switch to Screen 2=none,none,Переключиться на рабочий стол 2
-Switch to Screen 3=none,none,Переключиться на рабочий стол 3
-Switch to Screen 4=none,none,Переключиться на рабочий стол 4
-Switch to Screen 5=none,none,Переключиться на рабочий стол 5
-Switch to Screen 6=none,none,Переключиться на рабочий стол 6
-Switch to Screen 7=none,none,Переключиться на рабочий стол 7
+Switch to Screen 0=none,none,Переключиться на экран 0
+Switch to Screen 1=none,none,Переключиться на экран 1
+Switch to Screen 2=none,none,Переключиться на экран 2
+Switch to Screen 3=none,none,Переключиться на экран 3
+Switch to Screen 4=none,none,Переключиться на экран 4
+Switch to Screen 5=none,none,Переключиться на экран 5
+Switch to Screen 6=none,none,Переключиться на экран 6
+Switch to Screen 7=none,none,Переключиться на экран 7
 Toggle Window Raise/Lower=none,none,Переключить передний/задний план
 Walk Through Desktop List=none,none,По списку рабочих столов вперёд
 Walk Through Desktop List (Reverse)=none,none,По списку рабочих столов назад
@@ -241,7 +242,7 @@ stopmedia=,Media Stop,Остановить воспроизведение
 
 [plasmashell]
 _k_friendly_name=Plasma
-activate widget 2=Meta+Esc,none,Сделать виджет «Меню запуска приложений» активным
+activate widget 2=Alt+F1,none,Сделать виджет «Меню запуска приложений» активным
 activate widget 21=none,none,Сделать виджет «Монитор нагрузки процессора» активным
 clear-history=none,none,Очистить историю буфера обмена
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Включить действия с буфером обмена
@@ -252,7 +253,7 @@ manage activities=Meta+Q,Meta+Q,Комнаты...
 next activity=Meta+Tab,none,Walk through activities
 previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R\tCtrl+Shift+K,Ctrl+Alt+R,Ручной выбор действия с буфером обмена
-show dashboard=Ctrl+F12,Ctrl+F12,Показать приборную доску
+show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-on-mouse-pos=\tAlt+K,none,Открывать Klipper на месте указателя мыши
 stop current activity=Meta+S,Meta+S,Прекратить выполнение текущей комнаты
 

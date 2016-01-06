@@ -93,7 +93,7 @@ ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
 DirSelectDialog Size=792,592
-History Items[$e]=file://$HOME/temp,file://$HOME
+History Items[$e]=file://$HOME/Projects/RLH/egais/portal/implementation/main/portal-ui/app,file://$HOME/temp,file://$HOME
 
 [General]
 BrowserApplication[$e]=chromium-browser.desktop
@@ -115,7 +115,7 @@ ShowDeleteCommand=true
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
-StartDragDist=4
+StartDragDist=3
 StartDragTime=500
 WheelScrollLines=6
 contrast=4
@@ -126,7 +126,7 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=149
+Preview Width=145
 Previews=false
 Show Bookmarks=false
 Show Full Path=false
@@ -136,7 +136,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=243
+Speedbar Width=310
 View Style=Simple
 listViewIconSize=0
 

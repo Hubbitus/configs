@@ -1,0 +1,37 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+Icon=drive-harddisk
+LastNameSeen=SYSTEM_DRV
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+Icon=drive-harddisk
+LastNameSeen=Windows7_OS
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda5]
+Icon=drive-harddisk
+LastNameSeen=Жёсткий диск (500,0 МиБ)
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda7]
+Icon=drive-harddisk
+LastNameSeen=fedora_hubbitus
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=inner_ssd_16Gb
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdc2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=ssd_main
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdc3]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=EFI SYSTEM
+LastSeenMounted=true

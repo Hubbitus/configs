@@ -1,5 +1,7 @@
 [General]
 Height 1050=320
+Height 768=320
+Width 1366=640
 Width 1680=640
 
 [SystemInformation]

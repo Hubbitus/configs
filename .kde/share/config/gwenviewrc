@@ -13,13 +13,13 @@ Recent URLs[$ie]=/run/media/pasha/LINFLASH4G/foto/2015-09-24/
 Width 1680[$i]=763
 
 [MainWindow]
-Height 1050=667
+Height 1050=768
 Height 1080=788
-Height 768=916
-State=AAAA/wAAAAD9AAAAAAAAA/AAAAJaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABCcAAAK/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1366=1063
-Width 1680=1008
+Width 1680=1063
 Width 1920=999
 
 [Recent Dirs]
@@ -28,10 +28,20 @@ Width 1920=999
 [Recent Files]
 File1[$e]=$HOME/Downloads/Screenshot from 2015-10-20 192842.png
 File2[$e]=$HOME/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/DOCS/Олег/Паспорт/Passport_2-3.jpg
-File3[$e]=$HOME/temp/unidata-rights-data-screen.png
+File3[$e]=$HOME/remote/htc/storage/sdcard0/DCIM/100MEDIA/IMAG2173.jpg
+File4[$e]=$HOME/remote/htc/storage/sdcard0/DCIM/100MEDIA/IMAG2174.jpg
+File5[$e]=$HOME/remote/htc/storage/sdcard0/DCIM/100MEDIA/IMAG2175.jpg
+File6[$e]=$HOME/remote/htc/storage/sdcard0/DCIM/100MEDIA/IMAG2176.jpg
+File7[$e]=$HOME/remote/htc/storage/sdcard0/DCIM/100MEDIA/IMAG2179.jpg
+File8[$e]=$HOME/remote/htc/storage/sdcard0/DCIM/100MEDIA/IMAG2178.jpg
 Name1[$e]=Screenshot from 2015-10-20 192842.png
 Name2[$e]=Passport_2-3.jpg
-Name3[$e]=unidata-rights-data-screen.png
+Name3[$e]=IMAG2173.jpg
+Name4[$e]=IMAG2174.jpg
+Name5[$e]=IMAG2175.jpg
+Name6[$e]=IMAG2176.jpg
+Name7[$e]=IMAG2179.jpg
+Name8[$e]=IMAG2178.jpg
 
 [SideBar-BrowseMode]
 IsVisible=false

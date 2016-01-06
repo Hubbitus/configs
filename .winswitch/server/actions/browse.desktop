@@ -1,0 +1,9 @@
+[Desktop Entry]
+Comment=Browse files on this computer
+Terminal=false
+NoDisplay=false
+Name=Browse
+Encoding=UTF-8
+Exec=thunar ~/Desktop
+Type=Application
+Icon=browse.png
