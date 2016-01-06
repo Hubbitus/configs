@@ -1,4 +1,5 @@
 ENTRY "EGAIS main.branch" URL "/home/pasha/Projects/RLH/main.branch"
+ENTRY "/home/pasha/Projects/RLH/egais/portal/implementation/branches" URL "/home/pasha/Projects/RLH/egais/portal/implementation/branches"
 ENTRY "UNIDATA unidata_RLH" URL "/home/pasha/Projects/UniData/unidata/branches/unidata_RLH"
 ENTRY "/opt/servers/apache-tomcat-7.0.57-backend" URL "/opt/servers/apache-tomcat-7.0.57-backend"
 ENTRY "/opt/servers/apache-tomcat-7.0.57-ui" URL "/opt/servers/apache-tomcat-7.0.57-ui"
