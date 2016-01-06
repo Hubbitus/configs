@@ -13,24 +13,6 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="bo_contract_plants_sale|EgaisPendingOperationsCleanup" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="id" value="605a7801-86f6-44cb-a1fd-fae5587e5efa" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-2013" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                          <option name="id" value="bb5c29df-8f24-4f84-825e-27be72a62028" />
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="continueMatching" value="true" />
                       <option name="grepExpression" value="concat\(lease\.bo_state_authority_fkey" />
@@ -457,9 +439,6 @@
                 <option name="name" value="new" />
               </GrepExpressionGroup>
               <GrepExpressionGroup>
-                <option name="name" value="new" />
-              </GrepExpressionGroup>
-              <GrepExpressionGroup>
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
@@ -478,6 +457,25 @@
                             </GrepColor>
                           </option>
                           <option name="id" value="f13994af-7cef-4e7f-96bf-b8281402886b" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="Server startup in \d+ ms" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="id" value="a92d2b7f-0818-4554-8175-fc0cc4aaf008" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-13893875" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="bold" value="true" />
+                          <option name="id" value="7f4d6056-4896-4717-94d1-50598301ea1e" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>

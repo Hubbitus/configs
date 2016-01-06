@@ -1,84 +1,16 @@
 <application>
   <component name="PropertiesComponent">
-    <property name="log.debug.categories" value="" />
     <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
     <property name="DefaultHtmlDoctype.Refreshed" value="2" />
-    <property name="installation.uid" value="ef3a9edb-bd75-422e-822e-a3e416f550cb" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/qa&#10;/home/pasha/Projects/RLH/main.branch/portal-ui&#10;/home/pasha/Projects/RLH/main.branch/portal-ui/sencha.debug.app.build.hack&#10;/home/pasha/Projects/RLH/main.branch/ui.redeploy.clean&#10;/home/pasha/temp/Рослесхоз_v1/SimpleType.xsd&#10;/home/pasha/SOFT/kernel/f23-hubbitus/config-generic&#10;/home/pasha/SOFT/kernel/f23-hubbitus/kernel.spec&#10;/home/pasha/Projects/UniData/unidata/branches/unidata_RLH.src_stripped&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main.src_stripped&#10;/opt/servers/apache-tomcat-7.0.57-ui/logs/egais_portal_ui.log&#10;/home/pasha/temp/unidata_metamodel-localhost.xml&#10;/home/pasha/Projects/Ansible.cfg/test-dev/TestFacts.yml&#10;/home/pasha/Projects/Ansible.cfg/test-dev/TestArrays.yml&#10;/home/pasha/Projects/RLH/egais/portal/implementation/branches/3.17-support&#10;/home/pasha/Projects/Ansible.cfg&#10;/home/pasha&#10;/home/pasha/temp/unidata_meta-qa.xml&#10;/home/pasha/temp/default.xml&#10;/home/pasha/Projects/Ansible.cfg/Unidata:Update.yml&#10;/home/pasha/Projects/RLH/qa.branch&#10;/home/pasha/Projects/RLH/egais/portal/implementation/tags/3.17.2/target/core-3.17.2.jar.obfuscation.map&#10;/home/pasha/temp/postgresql-2015-11-13_000000.log&#10;/home/pasha/temp/proguard.extract/ru/rlh/egais/portal/backend/integration/soap/b/i.class&#10;/home/pasha/temp/proguard.extract/ru/rlh/egais/portal/backend/integration/soap/a.class&#10;/opt/servers/apache-tomcat-7.0.57-ui/webapps/portal-api##3.17.rc1_svn8803_2015.11.12..17.06.40/WEB-INF/lib&#10;/home/pasha/Projects/UniData/UnidataRestClient&#10;/home/pasha/Projects/UniData/unidata/branches/unidata_RLH/ui.hack.redeploy.clean&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/portal-api/core/src/main/java&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/portal-api/core/src&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/portal-api/core/src/tools/groovy/generate-error-list.groovy" />
-    <property name="last.imported.location" value="$USER_HOME$/Projects/_TEST/logstash-patterns-core" />
-    <property name="create.project.preferred.importer" value="Existing Sources" />
-    <property name="ProjectStructure.SecondLevelElements" value="0.2" />
-    <property name="project.jdk.splitter" value="0.2" />
-    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
-    <property name="lastTip" value="5" />
+    <property name="installed.kotlin.plugin.version" value="1.0.0-beta-2428-IJ143-18" />
+    <property name="installation.uid" value="664e21f3-6075-4731-a415-d585ba8a74a4" />
+    <property name="file.chooser.recent.files" value="/opt/configuration/logback-ui.xml&#10;/opt/servers/apache-tomcat-7.0.57-ui/logs/egais_portal_ui.log&#10;/home/pasha/Projects/Ansible.cfg&#10;/home/pasha/Projects/UniData/unidata/branches/unidata_RLH&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/target&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main&#10;/home/pasha/Projects/RLH/main.branch" />
+    <property name="lastTip" value="6" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
-    <property name="PLUGIN_FILTER" value="scss&#10;sass&#10;bash&#10;decomp&#10;JD" />
-    <property name="last.used.gradle.home" value="/usr/share/gradle" />
-    <property name="ProjectStructure.TopLevelElements" value="0.15" />
-    <property name="project.wizard.group" value="JAVA_MODULE" />
-    <property name="project.wizard.template" value="Java" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="KEYMAP" value="clone&#10;select&#10;selec&#10;clone car&#10;Forwa" />
-    <property name="ColorChooser.RecentColors" value="16-255-53-255,,,255-5-10-255,,,48-24-255-255,,,255-163-34-255,,,255-253-178-255,,,255-16-239-255,,,23-18-255-255,,,88-110-255-255,,,255-38-240-255,,,0-255-255-255,,,255-53-26-255,,,1-255-8-255,,,255-248-35-255,,,26-255-56-255" />
-    <property name="Copy.OpenInEditor" value="true" />
-    <property name="MoveFile.OpenInEditor" value="true" />
-    <property name="ExpandEnvironmentPanel" value="true" />
-    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
-    <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
-    <property name="history_persistence" value="[{&quot;request_time&quot;:1437060384826,&quot;request_body&quot;:&quot;&quot;,&quot;request_headers&quot;:{&quot;Cookie&quot;:&quot;EGAIS_AUTH_TOKEN=QzMrVWV6ajJZUTVqQktrdGVBdko0dz09OndSRzFqVHVkcldiZEtiTTFnbEdhQ0E9PQ&quot;},&quot;request_method&quot;:&quot;GET&quot;,&quot;request_url&quot;:&quot;http://egais.perf.app.node1:8081/portal-api/rest/bo/lease-contracts?_dc=1437054865552&amp;return_count=no&amp;page=1&amp;start=0&amp;size=20&quot;},{&quot;request_time&quot;:1437060378768,&quot;request_body&quot;:&quot;&quot;,&quot;request_headers&quot;:{&quot;Cookie&quot;:&quot;EGAIS_AUTH_TOKEN=QzMrVWV6ajJZUTVqQktrdGVBdko0dz09OndSRzFqVHVkcldiZEtiTTFnbEdhQ0E9PQ&quot;},&quot;request_method&quot;:&quot;GET&quot;,&quot;request_url&quot;:&quot;http://egais.perf.app.node1:8081/portal-api/rest/bo/lease-contracts?_dc=1437054865552&amp;return_count=no&amp;page=1&amp;start=0&amp;size=20&quot;},{&quot;request_time&quot;:1437060377854,&quot;request_body&quot;:&quot;&quot;,&quot;request_headers&quot;:{&quot;Cookie&quot;:&quot;EGAIS_AUTH_TOKEN=QzMrVWV6ajJZUTVqQktrdGVBdko0dz09OndSRzFqVHVkcldiZEtiTTFnbEdhQ0E9PQ&quot;},&quot;request_method&quot;:&quot;GET&quot;,&quot;request_url&quot;:&quot;http://egais.perf.app.node1:8081/portal-api/rest/bo/lease-contracts?_dc=1437054865552&amp;return_count=no&amp;page=1&amp;start=0&amp;size=20&quot;},{&quot;request_time&quot;:1437060350383,&quot;request_body&quot;:&quot;&quot;,&quot;request_headers&quot;:{},&quot;request_method&quot;:&quot;GET&quot;,&quot;request_url&quot;:&quot;http://egais.perf.app.node1:8081/portal-api/rest/bo/lease-contracts?_dc=1437054865552&amp;return_count=no&amp;page=1&amp;start=0&amp;size=20&quot;}]" />
-    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
-    <property name="fileTypeChangedCounter" value="22" />
-    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
-    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
-    <property name="color.picker.is.hsb" value="false" />
-    <property name="power.save.mode" value="false" />
-    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.6031008" />
     <property name="decompiler.legal.notice.accepted" value="true" />
-    <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.41532257" />
-    <property name="delete.locally.added.files" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="FileTemplates.CurrentTab" value="Includes" />
-    <property name="FileTemplates.SelectedTemplate" value="File Header" />
-    <property name="MoveClassWithTarget.OpenInEditor" value="false" />
-    <property name="UNSCRAMBLE_LOG_FILE_URL" value="" />
-    <property name="UNSCRAMBLE_LOG_FILE_LAST_URL" value="" />
-    <property name="Gradle.Splitter.Proportion" value="0.30294287" />
-    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
-    <property name="sm_test_statistics_table_columnsOrder0" value="0" />
-    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
-    <property name="sm_test_statistics_table_columnsOrder1" value="1" />
-    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
-    <property name="sm_test_statistics_table_columnsOrder2" value="2" />
-    <property name="test_tree_console_proprtion" value="0.23193394" />
-    <property name="junit_statistics_table_columnsWidth0" value="75" />
-    <property name="junit_statistics_table_columnsOrder0" value="0" />
-    <property name="junit_statistics_table_columnsWidth1" value="75" />
-    <property name="junit_statistics_table_columnsOrder1" value="1" />
-    <property name="junit_statistics_table_columnsWidth2" value="75" />
-    <property name="junit_statistics_table_columnsOrder2" value="2" />
-    <property name="junit_statistics_table_columnsWidth3" value="75" />
-    <property name="junit_statistics_table_columnsOrder3" value="3" />
-    <property name="junit_statistics_table_columnsWidth4" value="75" />
-    <property name="junit_statistics_table_columnsOrder4" value="4" />
-    <property name="junit_statistics_table_columnsWidth5" value="75" />
-    <property name="junit_statistics_table_columnsOrder5" value="5" />
-    <property name="JUnitSupport.hidePassedTests" value="false" />
-    <property name="MoveClass.OpenInEditor" value="true" />
-    <property name="settings.code.style.selected.tab.JAVA" value="Wrapping and Braces" />
-    <property name="create.member.preselect.anonymous" value="false" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="null.splitter" value="0.3" />
-    <property name="filter_non_existing" value="false" />
-    <property name="GradleSupport.hidePassedTests" value="false" />
-    <property name="MoveMember.OpenInEditor" value="true" />
-    <property name="installed.kotlin.plugin.version" value="1.0.0-beta-1103-IJ143-27" />
-    <property name="kotlin.lastUpdateCheck" value="1447070861684" />
-    <property name="JUnit.Splitter.Proportion" value="0.25274092" />
-    <property name="JUnitSupport.hideIgnoredTests" value="false" />
-    <property name="JUnitSupport.scrollToSource" value="false" />
-    <property name="JUnitSupport.openFailureLine" value="true" />
-    <property name="CommittedChanges.SplitterProportions.0" value="700" />
-    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+    <property name="KEYMAP" value="Mute" />
+    <property name="ColorChooser.RecentColors" value="43-255-13-255" />
   </component>
 </application>

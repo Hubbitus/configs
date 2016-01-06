@@ -7,8 +7,11 @@
       <item value="IDEA14.1" />
       <item value="IDEA_14_1_EAP" />
       <item value="IDEA_15_EAP" />
+      <item value="IDEA_EAP" />
+      <item value="IDEA_Beta" />
+      <item value="IDEA_Release" />
     </knownUpdateChannels>
-    <option name="LAST_TIME_CHECKED" value="1437823368982" />
-    <option name="LAST_BUILD_CHECKED" value="IC-141.1532" />
+    <option name="LAST_TIME_CHECKED" value="1451297192045" />
+    <option name="LAST_BUILD_CHECKED" value="IC-143.1184" />
   </component>
 </application>

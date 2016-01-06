@@ -1,45 +1,38 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>bo_woodlot_elements</find>
-      <find>bo_contract_forest_works</find>
-      <find>fileTree</find>
-      <find>woodlot</find>
-      <find>core</find>
-      <find>link</find>
-      <find>cmd.run(object, statusTo);</find>
-      <find>svn</find>
-      <find>sona</find>
-      <find>destinationDir</find>
-      <find>egais_curr_id</find>
-      <find>c.</find>
-      <find>case ['i</find>
-      <find>C.</find>
-      <find>count</find>
-      <find>public-self-care</find>
-      <find>self</find>
-      <find>dea</find>
-      <find>insert</find>
-      <find>ins</find>
-      <find>CompanyType</find>
-      <find>DocumentInfoType</find>
-      <find>string-12</find>
-      <find>string-200</find>
-      <find>IFrame</find>
-      <find>classpath</find>
-      <find>bootstrap.js</find>
-      <find>class</find>
-      <find>boo</find>
-      <find>boots</find>
+      <find>EGAIS_CONFIG</find>
+      <find>saml.egais.portal.ui.url</find>
+      <find>mapper</find>
+      <find>FAIL_ON_UNKNOWN_PROPERTIES</find>
+      <find>rel_declaration_to_element</find>
+      <find>rel_wood_breed_tnved_class</find>
+      <find>jackson</find>
+      <find>WoodlotElementBreedInfo diff</find>
+      <find>SUM(hardwood_volume) hardwood_volume</find>
+      <find>SUM(hardwood_volume)</find>
+      <find>detail.bo_contract_hardwood_fkey</find>
+      <find>bo_hardwood_deal_details</find>
+      <find>SELECT detail.bo_contract_hardwood_fkey, SUM(hardwood_volume) hardwood_volume FROM bo_hardwood_deal_details detail GROUP BY detail.bo_contract_hardwood_fkey)</find>
+      <find>buyer.inn = ?</find>
+      <find>.innerJoin(sellerEntity.as(&quot;seller&quot;)</find>
+      <find>buyer.inn =</find>
+      <find>check</find>
+      <find>generateKey</find>
+      <find>inn</find>
+      <find>party_inn_</find>
+      <find>sellerEntity.as(&quot;seller&quot;)</find>
+      <find>sellerInn</find>
+      <find>5049019393</find>
+      <find>logSql</find>
+      <find>SELE</find>
+      <find>SELECT</find>
+      <find>SELECT</find>
+      <find>logS</find>
+      <find>after</find>
+      <find>afterRe</find>
     </findStrings>
     <replaceStrings>
-      <replace>StateAuthority</replace>
-      <replace>SubForestry</replace>
-      <replace>subforestries</replace>
-      <replace>/rest/lu/tracts</replace>
-      <replace>Tract</replace>
-      <replace>egaisUserExitListener</replace>
-      <replace>bo_tract</replace>
       <replace>Invalid</replace>
       <replace>@Service(&quot;$1&quot;)\npublic class (.+) implements (.+)</replace>
       <replace>@Service(&quot;$2&quot;)\npublic class $1 implements $2</replace>
@@ -63,6 +56,13 @@
       <replace>#</replace>
       <replace>unidata</replace>
       <replace>l</replace>
+      <replace>ForestDeclaration</replace>
+      <replace>ContractForestDeclaration</replace>
+      <replace>contract-forest-declarations</replace>
+      <replace>$1</replace>
+      <replace>&lt;++</replace>
+      <replace>Woodlot</replace>
+      <replace>WoodlotElement</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>

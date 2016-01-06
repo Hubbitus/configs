@@ -1,6 +1,5 @@
 <application>
   <component name="PasswordDatabase">
-    <option name="MASTER_PASSWORD_INFO" />
     <option name="PASSWORDS">
       <array>
         <array />

@@ -1,54 +1,20 @@
 <application>
   <component name="libraryTable">
-    <library name="groovy-2.4.0">
-      <CLASSES>
-        <root url="jar:///usr/share/groovy/lib/ant-antlr.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/ant-junit.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/ant-launcher.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/ant.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/bsf.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/commons-cli.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/commons-logging.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/gpars.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-ant-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-bsf-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-console-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-docgenerator-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-groovydoc-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-groovysh-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-jmx-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-json-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-jsr223-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-nio-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-servlet-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-sql-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-swing-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-templates-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-test-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-testng-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/groovy-xml-2.4.0.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/hamcrest-core.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/ivy.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/jansi.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/jcommander.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/jline.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/jsp-api.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/junit.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/multiverse-core.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/qdox.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/servlet-api.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/testng.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/xmlpull.jar!/" />
-        <root url="jar:///usr/share/groovy/lib/xstream.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="org.apache.ivy:ivy:2.4.0" type="repository">
       <properties maven-id="org.apache.ivy:ivy:2.4.0" />
       <CLASSES>
         <root url="jar://$USER_HOME$/Projects/RLH/egais/portal/implementation/main/lib/ivy-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="org.codehaus.groovy:groovy-all:2.4.5" type="repository">
+      <properties maven-id="org.codehaus.groovy:groovy-all:LATEST" />
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -73,9 +39,7 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES>
-        <root url="jar://$USER_HOME$/.ideaLibSources/svnkit-1.8.11-sources.jar!/" />
-      </SOURCES>
+      <SOURCES />
     </library>
     <library name="Python 3.4.2 (/usr/bin/python3) interpreter library">
       <CLASSES>
@@ -84,8 +48,8 @@
         <root url="file:///usr/lib64/python3.4/lib-dynload" />
         <root url="file:///usr/lib64/python3.4/site-packages" />
         <root url="file:///usr/lib/python3.4/site-packages" />
+        <root url="file://$USER_HOME$/.IdeaIC15/system/python_stubs/-2066100795" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$USER_HOME$/.IdeaIC14/system/python_stubs/-2066100795" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
@@ -94,8 +58,8 @@
         <root url="file:///usr/lib64/python3.4/lib-dynload" />
         <root url="file:///usr/lib64/python3.4/site-packages" />
         <root url="file:///usr/lib/python3.4/site-packages" />
+        <root url="file://$USER_HOME$/.IdeaIC15/system/python_stubs/-2066100795" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$USER_HOME$/.IdeaIC14/system/python_stubs/-2066100795" />
       </SOURCES>
     </library>
   </component>

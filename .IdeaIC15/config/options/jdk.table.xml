@@ -46,6 +46,7 @@
     <jdk version="2">
       <name value="Python 3.4.2 (/usr/bin/python3)" />
       <type value="Python SDK" />
+      <version value="Python 3.4.3" />
       <homePath value="/usr/bin/python3" />
       <roots>
         <annotationsPath>

@@ -19,6 +19,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="CopyElement" />
+  <action id="Debug" />
   <action id="Editor SearchWeb">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
@@ -82,4 +83,7 @@
   </action>
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
 </keymap>

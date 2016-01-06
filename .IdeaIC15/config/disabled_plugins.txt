@@ -1,8 +1,8 @@
-ideanginx9
-CVS
 InspectorGroovy
-org.jetbrains.android
 InspectorGeneral
+org.jetbrains.android
+com.wix.scss.lint
+ideanginx9
 hg4idea
 org.jetbrains.idea.eclipse
-com.wix.scss.lint
+CVS
