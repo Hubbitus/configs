@@ -1,5 +1,5 @@
 [user]
-	name = Hubbitus
+	name = Pavel Alexeev
 	email = pahan@hubbitus.info
 
 # Colors from http://jblevins.org/log/git-colors
@@ -54,6 +54,10 @@
 	ignore = update-index --assume-unchanged
 	unignore = update-index --no-assume-unchanged
 	ignored = !git ls-files -v | grep ^[[:lower:]]
+	# http://githowto.com/ru/aliases
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
 
 [branch]
 	# https://www.atlassian.com/git/tutorial/remote-repositories#!pull

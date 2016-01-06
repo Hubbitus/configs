@@ -84,6 +84,7 @@
 /.kde/share/apps/konqueror/faviconrc.lock
 /.kde/share/apps/gwenview/recentfolders
 /.kde/share/apps/korganizer/
+/.kde/share/apps/kcookiejar/cookies
 
 /.java/fonts/1.8.*
 /.ideaLibSources
@@ -108,3 +109,13 @@
 /.httpie/sessions/
 /.fedora/
 /.boswars/
+
+/.ICEauthority
+
+/.winswitch/client/sessions/*
+
+# Its contain private key info
+/.config/copr
+
+# Embedded MySQL database
+/.kde/share/apps/amarok/mysqle
