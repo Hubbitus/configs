@@ -19,9 +19,9 @@ alias ndrpm='rpm -Uhv --excludedocs'
 alias rf='rpm -qf'
 alias rq='rpm -q'
 
-alias g=git
-alias s=svn
+alias g='LANG=en_US.utf8 git'
 
+alias s=sleep
 alias e=mcedit
 
 alias grep='grep --color'
@@ -39,7 +39,8 @@ alias yum='nice -n19 yum'
 
 alias ap=ansible-playbook
 
-#alias rpmbuild='nice -n18 rpmbuild --target=athlon | egrep "Записан:|Wrote:" | cut -d" " -f2 | xargs -r rpmlint'
+alias en='export LANG=en_US.utf8'
+
 rpmbuild (){
 	ionice -c3 nice -n18 /usr/bin/rpmbuild "$@" | egrep "Записан:|Wrote:" | cut -d" " -f2 | xargs -rI{} sh -c 'F="{}"; echo "rpmlint of: $F"; rpmlint "$F"'
 }
@@ -116,7 +117,7 @@ function setYakuakeTabName(){
 
 local sessionId="$( qdbus org.kde.yakuake /yakuake/sessions activeSessionId )"
 
-	[ 'true' == $( qdbus org.kde.yakuake /yakuake/MainWindow_1 org.qtproject.Qt.QWidget.isActiveWindow ) ] && \
+	[ 'true' == "$( qdbus org.kde.yakuake /yakuake/MainWindow_1 org.qtproject.Qt.QWidget.isActiveWindow )" ] && \
 		[ '|' != "$( qdbus org.kde.yakuake /yakuake/tabs tabTitle $sessionId | cut -c1 )" ] && \
 			qdbus org.kde.yakuake /yakuake/tabs setTabTitle $sessionId "$1"
 }
@@ -228,11 +229,9 @@ export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
 
-export SENCHA_CMD_3_0_0="/opt/sencha/cmd-5.1.3.61"
-export PATH=$SENCHA_CMD_3_0_0:$PATH
-
 #? [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 
 alias b='source ~/.bashrc'
 [ -f ~/.bashrc.PS1 ] && source ~/.bashrc.PS1
+
