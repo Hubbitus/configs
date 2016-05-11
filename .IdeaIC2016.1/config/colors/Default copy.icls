@@ -1,0 +1,13 @@
+<scheme name="Default copy" version="142" parent_scheme="Default">
+  <option name="LINE_SPACING" value="1.0" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+    <option name="EDITOR_FONT_SIZE" value="10" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Courier 10 Pitch" />
+    <option name="EDITOR_FONT_SIZE" value="10" />
+  </font>
+  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+</scheme>

@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <soap:Fault>
+            <faultcode>soap:Server</faultcode>
+            <faultstring>EGAIS SOAP API operation failed</faultstring>
+            <detail>
+                <EgaisFault xmlns:ns3="http://data.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                            xmlns="http://api.lesegais.ru/"
+                            egaisVersion="3.20.2.dev4.minSecRes.11338.2016.04.12..17.37.40"
+                            operationId="27ef0274-fa27-454a-9d09-315a9458c32b">
+                    <error errorCode="6002"
+                           userMessage="Невозможно выполнить преход статуса [EDITING] в статус [DELETED] для [Договор аренды лесных участков,P_105859]."/>
+                </EgaisFault>
+            </detail>
+        </soap:Fault>
+    </soap:Body>
+</soap:Envelope>

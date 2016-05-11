@@ -1,0 +1,9 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker local" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://127.0.0.1:2376" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>

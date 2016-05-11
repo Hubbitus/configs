@@ -1,0 +1,103 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="$SearchWeb">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="alt f9" />
+  </action>
+  <action id="ConvertIndentsToTabs">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="CopyElement" />
+  <action id="Debug" />
+  <action id="Editor SearchWeb">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt subtract" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt add" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="alt numpad0" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="PreviousTab" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="RunToCursor" />
+  <action id="ShowContent" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
+</keymap>

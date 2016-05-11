@@ -1,0 +1,10 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://cxf.apache.org/schemas/configuration/cxf-beans.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/5b196030_cxf-beans.xsd" />
+    <resource url="http://cxf.apache.org/schemas/configuration/parameterized-types.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/2b84f58e_parameterized-types.xsd" />
+    <resource url="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/beee9943_web-app_3_0.xsd" />
+    <resource url="http://schemas.xmlsoap.org/soap/envelope/" location="$USER_HOME$/.IdeaIC14/system/extResources/a74f2ac0_.xml" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/334543e7_spring-beans.xsd" />
+    <resource url="http://www.w3.org/2001/xml.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/9b192256_xml.xsd" />
+  </component>
+</application>

@@ -1,0 +1,295 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/RLH/portal" />
+        <option value="$USER_HOME$/Projects/Ansible.cfg" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/main" />
+        <option value="$USER_HOME$/Projects/RLH/GIT.test.clone" />
+        <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/main" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/tests/JmeterElasticsearchBackendListener" />
+        <option value="$USER_HOME$/Projects/UniData/UnidataRestClient" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/tests/Ansible.cfg" />
+        <option value="$USER_HOME$/machine-learning.coursera/LearnInProgress/final.assignment/Kaggle" />
+        <option value="$USER_HOME$/Projects/_Outer/openl-tablets" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/tests/unidata-jms-perf-listener" />
+        <option value="$USER_HOME$/machine-learning.coursera/LearnInProgress/final.assignment/Review" />
+        <option value="/opt/servers/apache-tomcat-7.0.57-ui/webapps/unidata-backend/WEB-INF/lib" />
+        <option value="$USER_HOME$/Projects/UniData/JMSListener" />
+        <option value="$USER_HOME$/Projects/UniData/JmeterElasticsearchBackendListener" />
+        <option value="$USER_HOME$/Projects/UniData/Jmeter-ElasticsearchBackendListener" />
+        <option value="$USER_HOME$/temp/machine-learning.coursera/LearnInProgress/Titanic.1/idea" />
+        <option value="$USER_HOME$/Projects/_TEST/geb" />
+        <option value="$USER_HOME$/Projects/RLH/main.branch" />
+        <option value="$USER_HOME$/Projects/UniData/poc/FIAS" />
+        <option value="$USER_HOME$/Projects/UniData/fias/main" />
+        <option value="$USER_HOME$/Projects/UniData/UnidataGroovyUserExits" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/RLH/portal" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Projects/RLH/portal" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Projects/Ansible.cfg">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1462875345620" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/RLH/GIT.test.clone">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461841260699" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/RLH/egais/portal/implementation/main">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461687956397" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/RLH/main.branch">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1453475477575" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/RLH/portal">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1462957278573" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/JMSListener">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455281368089" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/Jmeter-ElasticsearchBackendListener">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455005552569" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/JmeterElasticsearchBackendListener">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1455281366632" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/UnidataGroovyUserExits">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1184" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1453196810377" />
+              <option name="buildTimestamp" value="1449435600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/UnidataRestClient">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461233038544" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/fias/main">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1184" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1453296328790" />
+              <option name="buildTimestamp" value="1449435600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/poc/FIAS">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1453305170127" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461170359849" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/unidata/main">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461960622571" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/unidata/tests/Ansible.cfg">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1460626656546" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/unidata/tests/JmeterElasticsearchBackendListener">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.597" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1461603361654" />
+              <option name="buildTimestamp" value="1459198800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/UniData/unidata/tests/unidata-jms-perf-listener">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.2287" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1457965130784" />
+              <option name="buildTimestamp" value="1456174800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/_Outer/openl-tablets">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.258" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1458731362131" />
+              <option name="buildTimestamp" value="1458162000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/_TEST/geb">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1454076114149" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/machine-learning.coursera/LearnInProgress/final.assignment/Kaggle">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.258" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459370228155" />
+              <option name="buildTimestamp" value="1458162000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/machine-learning.coursera/LearnInProgress/final.assignment/Review">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.2287" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1456924063944" />
+              <option name="buildTimestamp" value="1456174800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/temp/machine-learning.coursera/LearnInProgress/Titanic.1/idea">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1454278956978" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/opt/servers/apache-tomcat-7.0.57-ui/webapps/unidata-backend/WEB-INF/lib">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-143.1821" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1456412356089" />
+              <option name="buildTimestamp" value="1453150800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Projects/RLH" />
+  </component>
+</application>

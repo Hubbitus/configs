@@ -1,0 +1,142 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="DependencyUISettings">
+    <option name="UI_FLATTEN_PACKAGES" value="false" />
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
+  <component name="ErrorReportConfigurable">
+    <option name="ITN_LOGIN" value="Hubbitus" />
+    <option name="ITN_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_ITN_PASSWORD" value="false" />
+    <option name="EMAIL" value="" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="/usr/bin/python3" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="/usr/bin/python3" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentTaskRepositories">
+    <JIRA shared="true" url="http://jira.taskdata.com">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>RLH {id} {summary}
+
+Problem/Task: 
+
+Fix/Solution:</commitMessageFormat>
+      <password>dfe3dfc4dfecdfc5df9ddf80df89dfdadfc5dfdddfcfdfd8</password>
+      <option name="jiraVersion" value="6.4.11" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>palekseev</username>
+    </JIRA>
+    <JIRA shared="true" url="http://jira.taskdata.com:9000">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>RLH {id} {summary}
+
+Problem/Task: 
+
+Fix/Solution:</commitMessageFormat>
+      <password>dfe3dfc4dfecdfc5df9ddf80df89dfdadfc5dfdddfcfdfd8</password>
+      <option name="jiraVersion" value="6.4.11" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>palekseev</username>
+    </JIRA>
+    <JIRA shared="true" url="https://unidata.atlassian.net">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>Unidata {id} Title: {summary}
+Problem/Task:
+Fix/Solution:</commitMessageFormat>
+      <password>dfe3dfc4dfecdfc5df9ddf80df89dfdadfc5dfdddfcfdfd8</password>
+      <option name="jiraVersion" value="7.1.0-OD-05-006" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username>palekseev</username>
+    </JIRA>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://svn.taskdata.com/svn/taskdata/" />
+        <option value="https://94.75.213.135/svn/taskdata/Customer/dev/RLH" />
+        <option value="https://94.75.213.135/svn/taskdata/" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://svn.taskdata.com/svn/taskdata/" />
+        <option value="https://svn.taskdata.com/svn" />
+        <option value="http://svn.taskdata.com/svn" />
+        <option value="https://94.75.213.135/svn/taskdata/Customer/dev/RLH" />
+        <option value="https://94.75.213.135/svn/taskdata/" />
+      </list>
+    </option>
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="https://94.75.213.135/svn/taskdata/Customer/dev/RLH/egais/portal/implementation/branches/qa">
+          <value>
+            <set>
+              <option value="$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/qa" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://94.75.213.135/svn/taskdata/TaskData/dev/unidata/branches/unidata_RLH">
+          <value>
+            <set>
+              <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
