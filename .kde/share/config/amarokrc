@@ -5,6 +5,9 @@ update_info=amarok.upd:1
 Current Analyzer=Blocky
 Height=120
 
+[Collection]
+Use Charset Detector=true
+
 [Collection Browser]
 TreeCategory=3,1
 View Mode=NormalCollections
@@ -12,8 +15,18 @@ View Mode=NormalCollections
 [Collection Folders]
 2=./home/pasha
 
+[Collection Transcoding Preference]
+Encoder=INVALID
+TrackSelection=0
+
+[ConfigDialog]
+Height 1080=542
+Width 1920=819
+
 [Cover Fetcher]
 Height 1050=321
+Height 768=321
+Width 1366=637
 Width 1680=1553
 
 [File Browser]
@@ -22,34 +35,45 @@ Current Directory=file:///home/pasha
 [General]
 Browser Path=root list
 First Run=false
-HiddenOnExit=true
+HiddenOnExit=false
 
 [General Options]
+AutoGetCoverArt=true
+Dynamic Mode=true
 PlayFirstRunJingle=false
 
 [MainWindow]
 Height 1050=580
-Height 768=580
-State=AAAA/wAAAAD9AAAAAQAAAAAAAARgAAAB7fwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAADxAAAAzAEAAAP7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAADyAAACgwAAAZQBAAAD+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAAN2AAAA6gAAAMwBAAADAAAAAAAAAe0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+Height 1080=1081
+Height 768=697
+State=AAAA/wAAAAD9AAAAAQAAAAAAAATLAAACZPwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAAEzAAAAyAD////7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAE5AAACjgAAAZAA////+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAAPNAAAA/gAAAMgA////AAAAAAAAAmQAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1366=1120
+Width 1366=1227
 Width 1680=1120
+Width 1920=1921
 
 [MusicBrainzTagDialog]
 Height 1050=300
+Height 1080=300
 Width 1680=550
+Width 1920=550
 
 [Notification Messages]
 hideOnCloseInfo=false
 
 [Playback]
-Master Volume=47
+Master Volume=53
+Pause On Suspend=true
 
 [Playlist Search]
 MatchAlbum=true
 MatchArtist=true
+MatchGenre=true
 MatchTrack=true
 ShowOnlyMatches=false
+
+[Playlist Sorting]
+SortPath=
 
 [Podcast View]
 Merged View=false
@@ -60,25 +84,25 @@ Maximum Simultaneous Downloads=4
 Maximum Simultaneous Updates=4
 
 [Recently Played]
-Display Names=Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Вася Обломов - Memento Mori (Из к/ф "Духless 2"),sberbank.phone.card.block.error.volume - up,Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Селигер 2009 - Кто\\, если не мы,yO5Eegi6LReIP8WOVT MjkbOS X2xv 8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q - 7MjYw==,Vajkule L.(Ja vischla na Pika - Telegramma,Êðàñíàÿ ïëåñåíü - Çäîðîâ\\, Áðàòàíû...!
-Last Played Dates=2015-12-06T19:08:39,2015-12-06T19:08:45,2015-12-06T19:08:52,2015-12-07T08:38:38,2015-12-12T23:43:24,2015-12-12T23:44:19,2016-01-04T18:50:25,2016-01-04T18:56:05,2016-01-04T18:57:25,2016-01-04T18:57:52
-Urls=file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/temp/sberbank.card.block.error/sberbank.phone.card.block.error.volume-up.ogg,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9C%D1%83%D0%B7_%D0%A1%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D1%80/%D0%9A%D1%82%D0%BE%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BD%D0%B5%20%D0%BC%D1%8B.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/5yO5Eegi6LReIP8WOVT_MjkbOS_X2xv_8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q-7MjYw==.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/Lajma_Vajkule_-_Telegramma.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C%20-%20%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2\\,%20%D0%91%D1%80%D0%B0%D1%82%D0%B0%D0%BD%D1%8B...!.mp3
+Display Names=Вася Обломов - Memento Mori (Из к/ф "Духless 2"),sberbank.phone.card.block.error.volume - up,Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Вася Обломов - Memento Mori (Из к/ф "Духless 2"),Селигер 2009 - Кто\\, если не мы,yO5Eegi6LReIP8WOVT MjkbOS X2xv 8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q - 7MjYw==,Vajkule L.(Ja vischla na Pika - Telegramma,Êðàñíàÿ ïëåñåíü - Çäîðîâ\\, Áðàòàíû...!,Óñïåíñêàÿ Ëþáîâü - Êàðóñåëü
+Last Played Dates=2015-12-06T19:08:45,2015-12-06T19:08:52,2015-12-07T08:38:38,2015-12-12T23:43:24,2015-12-12T23:44:19,2016-01-04T18:50:25,2016-01-04T18:56:05,2016-01-04T18:57:25,2016-01-04T18:57:52,2016-03-13T15:13:04
+Urls=file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/temp/sberbank.card.block.error/sberbank.phone.card.block.error.volume-up.ogg,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9C%D1%83%D0%B7_%D0%A1%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D1%80/%D0%9A%D1%82%D0%BE%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BD%D0%B5%20%D0%BC%D1%8B.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/5yO5Eegi6LReIP8WOVT_MjkbOS_X2xv_8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q-7MjYw==.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/Lajma_Vajkule_-_Telegramma.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C%20-%20%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2\\,%20%D0%91%D1%80%D0%B0%D1%82%D0%B0%D0%BD%D1%8B...!.mp3,file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C%20%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F/%D0%9B%D1%83%D0%B1%D0%BE%D0%B2%D1%8C%20%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20-%20%D0%9A%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D1%8C.mp3
 
 [Saved Playlists View]
 Merged View=false
 
 [ScriptManager]
-LastUpdateCheck=1451922349
+LastUpdateCheck=1460535298
 
 [Session]
-LastPlaying=7
+LastPlaying=8
 
 [StatSyncing]
 checkedFields=rating,firstplay,lastplay,playcount,label
 excludedLabels=
-providerEnabledStatuses=true,false
-providerIds=localCollection,/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3
-providerNames=Локальная коллекция,HTC One S
+providerEnabledStatuses=true,false,false
+providerIds=localCollection,/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3,/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3
+providerNames=Локальная коллекция,HTC One S,HTC One S
 
 [TagDialog]
 CurrentTab=3

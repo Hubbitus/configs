@@ -2,71 +2,54 @@
 <playlist version="1" xmlns="http://xspf.org/ns/0/">
   <trackList>
     <track>
-      <location>file:///usr/share/kde4/apps/amarok/data/first_run_jingle.ogg</location>
-      <identifier>file:///usr/share/kde4/apps/amarok/data/first_run_jingle.ogg</identifier>
-      <title>Art Of Nations (Amarok Theme)</title>
-      <creator>allMeadow &amp; Rob Costlow</creator>
-      <annotation>This Amarok theme was made by allMeadow &amp; Rob Costlow especially for Amarok. You can check out more of their projects at Magnatune.com or at www.reconstructionmusic.org</annotation>
-      <album>www.reconstructionmusic.org</album>
+      <location>file:///home/pasha/Downloads/UshakovDima/War%20of%20the%20world%20side%201.MP3</location>
+      <identifier>file:///home/pasha/Downloads/UshakovDima/War%20of%20the%20world%20side%201.MP3</identifier>
+      <title>1 - The Comming Of The Martians</title>
+      <creator>JEFF WAYNE</creator>
+      <annotation>1. The eve of the war&#xd;
+2. Horsell common and the heat ray&#xd;
+3. The artilleryman and the fighting machine&#xd;
+4. Forever autumn&#xd;
+5. Thunder child&#xd;
+&#xd;
+Prodiced by Jeff Wayne, all music&#xd;
+All lyrics by Garry Osborne&#xd;
+Engineered by Geoff Young&#xd;
+Recorded at Advision Studios, London</annotation>
+      <album>War of the world</album>
       <trackNum>1</trackNum>
-      <duration>40000</duration>
+      <duration>2730000</duration>
     </track>
     <track>
-      <location>file:///home/pasha/temp/sberbank.card.block.error/sberbank.phone.card.block.error.volume-up.ogg</location>
-      <identifier>file:///home/pasha/temp/sberbank.card.block.error/sberbank.phone.card.block.error.volume-up.ogg</identifier>
-      <title>up</title>
-      <creator>sberbank.phone.card.block.error.volume</creator>
-      <duration>51000</duration>
+      <location>file:///home/pasha/Downloads/UshakovDima/War%20of%20the%20world%20side%202.MP3</location>
+      <identifier>file:///home/pasha/Downloads/UshakovDima/War%20of%20the%20world%20side%202.MP3</identifier>
+      <title>War of the world side 2</title>
+      <creator>JEFF WAYNE</creator>
+      <annotation>1. The red weed (part one)&#xd;
+2. The spirit of man&#xd;
+3. The red weed (part two)&#xd;
+4. Brave new world&#xd;
+5. Dead London&#xd;
+6. Epilogue (part one)&#xd;
+7. Epilogue (part two) {Nasa}&#xd;
+&#xd;
+Prodiced by Jeff Wayne, all music&#xd;
+All lyrics by Garry Osborne&#xd;
+Engineered by Geoff Young&#xd;
+Recorded at Advision Studios, London</annotation>
+      <album>War of the world</album>
+      <trackNum>2</trackNum>
+      <duration>3051000</duration>
     </track>
     <track>
-      <location>file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3</location>
-      <identifier>file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3</identifier>
-      <title>Memento Mori (Из к/ф "Духless 2")</title>
-      <creator>Вася Обломов</creator>
-      <album>Memento Mori (Из к/ф "Духless 2") - Single</album>
+      <location>file:///home/pasha/Downloads/UshakovDima/War%20Of%20The%20Worlds%20-%20Eve%20Of%20The%20War%20(Original%20Mix%201978).mp3</location>
+      <identifier>file:///home/pasha/Downloads/UshakovDima/War%20Of%20The%20Worlds%20-%20Eve%20Of%20The%20War%20(Original%20Mix%201978).mp3</identifier>
+      <title>Eve Of The War (Original Mix 1978)</title>
+      <creator>War Of The Worlds</creator>
+      <annotation>Collection DJ gemini (Track)</annotation>
+      <album>War Of The Worlds</album>
       <trackNum>1</trackNum>
-      <duration>216000</duration>
-    </track>
-    <track>
-      <location>file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3</location>
-      <identifier>file:///home/pasha/VO---Duhless-2_-_ubey-idiota-v-sebe-samom-Memento-Mori.mp3</identifier>
-      <title>Memento Mori (Из к/ф "Духless 2")</title>
-      <creator>Вася Обломов</creator>
-      <album>Memento Mori (Из к/ф "Духless 2") - Single</album>
-      <trackNum>1</trackNum>
-      <duration>216000</duration>
-    </track>
-    <track>
-      <location>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9C%D1%83%D0%B7_%D0%A1%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D1%80/%D0%9A%D1%82%D0%BE%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BD%D0%B5%20%D0%BC%D1%8B.mp3</location>
-      <identifier>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9C%D1%83%D0%B7_%D0%A1%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D1%80/%D0%9A%D1%82%D0%BE%20%D0%B5%D1%81%D0%BB%D0%B8%20%D0%BD%D0%B5%20%D0%BC%D1%8B.mp3</identifier>
-      <title>Кто, если не мы</title>
-      <creator>Селигер 2009</creator>
-      <duration>248000</duration>
-    </track>
-    <track>
-      <location>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/5yO5Eegi6LReIP8WOVT_MjkbOS_X2xv_8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q-7MjYw==.mp3</location>
-      <identifier>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/5yO5Eegi6LReIP8WOVT_MjkbOS_X2xv_8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q-7MjYw==.mp3</identifier>
-      <title>7MjYw==</title>
-      <creator>yO5Eegi6LReIP8WOVT MjkbOS X2xv 8ipP5cqpFkXm7eF58Cse25YzlRrK5u8aGjNeTuiDb4DotEoxxnIMlnd2o5csMLnyxFPImakpNnCyfT8AZs4sWoelTHP6z37h8Mt2qAg-BYQgH88q</creator>
-      <trackNum>5</trackNum>
-      <duration>202000</duration>
-    </track>
-    <track>
-      <location>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/Lajma_Vajkule_-_Telegramma.mp3</location>
-      <identifier>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/For%20women/Lajma_Vajkule_-_Telegramma.mp3</identifier>
-      <title>Telegramma</title>
-      <creator>Vajkule L.(Ja vischla na Pika</creator>
-      <album>Mixmusicmp3.com</album>
-      <trackNum>8</trackNum>
-      <duration>284000</duration>
-    </track>
-    <track>
-      <location>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C%20-%20%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2,%20%D0%91%D1%80%D0%B0%D1%82%D0%B0%D0%BD%D1%8B...!.mp3</location>
-      <identifier>file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C%20-%20%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2,%20%D0%91%D1%80%D0%B0%D1%82%D0%B0%D0%BD%D1%8B...!.mp3</identifier>
-      <title>Çäîðîâ, Áðàòàíû...!</title>
-      <creator>Êðàñíàÿ ïëåñåíü</creator>
-      <album>ÑÎÞÇ 828</album>
-      <duration>179000</duration>
+      <duration>546000</duration>
     </track>
   </trackList>
 </playlist>

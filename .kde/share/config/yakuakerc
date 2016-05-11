@@ -10,6 +10,9 @@ FirstRun=false
 [Favorite Profiles]
 Favorites=
 
+[Shortcuts]
+toggle-window-state=F12
+
 [Window]
 Height=100
 Width=100

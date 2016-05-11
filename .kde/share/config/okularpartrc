@@ -6,3 +6,4 @@ UseKTTSD=false
 
 [PageView]
 MouseMode=RectSelect
+ViewContinuous=false

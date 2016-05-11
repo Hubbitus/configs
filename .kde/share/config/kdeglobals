@@ -93,7 +93,7 @@ ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
 DirSelectDialog Size=792,592
-History Items[$e]=file://$HOME/Projects/RLH/egais/portal/implementation/main/portal-ui/app,file://$HOME/temp,file://$HOME
+History Items[$e]=file://$HOME/temp/Alex-Richard,file://$HOME/Projects/RLH/egais/portal/implementation/main/portal-ui/app,file://$HOME/temp,file://$HOME
 
 [General]
 BrowserApplication[$e]=chromium-browser.desktop
@@ -130,15 +130,18 @@ Preview Width=145
 Previews=false
 Show Bookmarks=false
 Show Full Path=false
-Show Preview=true
+Show Preview=false
 Show Speedbar=true
 Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=310
+Speedbar Width=262
 View Style=Simple
 listViewIconSize=0
+
+[KShortcutsDialog Settings]
+Dialog Size=1781,1058
 
 [PreviewSettings]
 MaximumRemoteSize=0

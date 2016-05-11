@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="compilerPhase" value="4"/>
+  <entry key="decompiledFontSize" value="12"/>
+  <entry key="frameHeight" value="1084"/>
+  <entry key="frameWidth" value="1813"/>
+  <entry key="frameX" value="1362"/>
+  <entry key="frameY" value="0"/>
+  <entry key="horizontalSplitterLocation" value="253"/>
+  <entry key="showClosureClasses" value="false"/>
+  <entry key="showScriptClass" value="true"/>
+  <entry key="showScriptFreeForm" value="false"/>
+  <entry key="showTreeView" value="true"/>
+  <entry key="verticalSplitterLocation" value="326"/>
+</map>

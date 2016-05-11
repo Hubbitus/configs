@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Gnote
+Name[ru]=Gnote
+Comment=Take notes, link ideas, and stay organized
+Comment[ru]=Делайте заметки, связывайте идеи, организуйте себя
+GenericName=Note-taker
+GenericName[ru]=Записная книжка
+Keywords=notes;idea;link;organize;
+Exec=gnote %u
+Icon=gnote
+MimeType=x-scheme-handler/note;
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnote
+X-GNOME-Bugzilla-Component=main
+X-GNOME-Bugzilla-Version=3.18.1
+X-XFCE-Source=file:///usr/share/applications/gnote.desktop

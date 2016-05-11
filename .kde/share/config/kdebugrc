@@ -25,6 +25,9 @@ InfoOutput=2
 [kdecore (KLibrary)]
 InfoOutput=2
 
+[kdecore (KPluginInfo)]
+InfoOutput=2
+
 [kdecore (services)]
 InfoOutput=2
 
@@ -41,6 +44,12 @@ InfoOutput=2
 InfoOutput=4
 
 [kio_trash]
+InfoOutput=4
+
+[kioexec]
+InfoOutput=4
+
+[kmahjongg]
 InfoOutput=4
 
 [unnamed app]

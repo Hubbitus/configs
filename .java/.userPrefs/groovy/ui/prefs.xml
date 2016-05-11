@@ -2,11 +2,11 @@
 <!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
 <map MAP_XML_VERSION="1.0">
   <entry key="autoClearOutput" value="true"/>
-  <entry key="currentFileChooserDir" value="/home/pasha/Projects/RLH/main.branch"/>
-  <entry key="inputAreaHeight" value="449"/>
-  <entry key="inputAreaWidth" value="1487"/>
-  <entry key="outputAreaHeight" value="488"/>
-  <entry key="outputAreaWidth" value="1523"/>
+  <entry key="currentFileChooserDir" value="/home/pasha/temp"/>
+  <entry key="inputAreaHeight" value="282"/>
+  <entry key="inputAreaWidth" value="1140"/>
+  <entry key="outputAreaHeight" value="321"/>
+  <entry key="outputAreaWidth" value="1176"/>
   <entry key="showScriptInOutput" value="false"/>
   <entry key="threadInterrupt" value="true"/>
   <entry key="visualizeScriptResults" value="true"/>

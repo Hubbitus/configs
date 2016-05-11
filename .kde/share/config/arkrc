@@ -9,16 +9,27 @@ State=AAAA/wAAAAD9AAAAAAAAAoAAAAGHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG
 ToolBarsMovable=Disabled
 Width 1680=640
 Width 1920=640
+splitterSizes=450,189
 
 [Open-with settings]
 CompletionMode=5
-History=kwrite
+History=oocalc,kwrite
 
 [Recent Files]
-File1[$e]=$HOME/temp/bug-1291003.zip
-File2[$e]=$HOME/temp/HL2015-slides.rar
-Name1[$e]=bug-1291003.zip
-Name2[$e]=HL2015-slides.rar
+File1[$e]=$HOME/temp/avocode-app-linux-2.4.5.zip
+File2[$e]=$HOME/temp/powa-archivist-REL_3_0_0.zip
+File3[$e]=$HOME/temp/Unidata-stress/JMeterPlugins-ExtrasLibs-1.3.1.zip
+File4[$e]=$HOME/temp/jmeter-elasticsearch.jar
+File5[$e]=$HOME/Downloads/Export-5(all).7z
+File6[$e]=$HOME/Downloads/lesegais-api-soapui-project.7z
+File7[$e]=$HOME/temp/dezign.zip
+Name1[$e]=avocode-app-linux-2.4.5.zip
+Name2[$e]=powa-archivist-REL_3_0_0.zip
+Name3[$e]=JMeterPlugins-ExtrasLibs-1.3.1.zip
+Name4[$e]=jmeter-elasticsearch.jar
+Name5[$e]=Export-5(all).7z
+Name6[$e]=lesegais-api-soapui-project.7z
+Name7[$e]=dezign.zip
 
 [Viewer]
 Height 1050=1021

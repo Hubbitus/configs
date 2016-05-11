@@ -1,0 +1,14 @@
+Use_Label=true
+Show_Values=false
+Show_Bars=true
+Colorize_Values=true
+Color_In=#231EFF
+Color_Out=#A52A2A
+Text=eth
+Network_Device=enp0s25
+Max_In=4096
+Max_Out=4096
+Auto_Max=true
+Update_Interval=500
+Values_As_Bits=false
+

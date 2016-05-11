@@ -52,8 +52,6 @@
       <property name="XF86Memo" type="string" value="xfce4-notes"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
-      <property name="XF86Calculator" type="string" value="galculator"/>
-      <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
       <property name="XF86AudioPlay" type="string" value="pragha --pause"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
@@ -62,6 +60,34 @@
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86Calendar" type="string" value="orage"/>
       <property name="override" type="bool" value="true"/>
+      <property name="XF86Calculator" type="string" value="/usr/bin/qalculate-gtk"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;Cyrillic_te" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="XF86WakeUp" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;n" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;t" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/usr/bin/xfce4-terminal">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="Print" type="string" value="/usr/bin/ksnapshot"/>
+      <property name="Menu" type="string" value="xfce4-popup-applicationsmenu"/>
+      <property name="F12" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;F8" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Super&gt;grave" type="string" value="yakuake"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -142,7 +168,6 @@
       <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
       <property name="&lt;Alt&gt;F9" type="string" value="hide_window_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="string" value="down_workspace_key"/>
-      <property name="&lt;Alt&gt;F8" type="string" value="resize_window_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
       <property name="Escape" type="string" value="cancel_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;End" type="string" value="move_window_next_workspace_key"/>
@@ -159,7 +184,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Primary&gt;F2" type="string" value="workspace_2_key"/>
       <property name="&lt;Primary&gt;F4" type="string" value="workspace_4_key"/>
-      <property name="&lt;Primary&gt;F5" type="string" value="workspace_5_key"/>
       <property name="&lt;Primary&gt;F6" type="string" value="workspace_6_key"/>
       <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
       <property name="&lt;Primary&gt;F8" type="string" value="workspace_8_key"/>

@@ -1,8 +1,25 @@
+[BrowseView]
+ShowApplicationVersions=true
+
+[FilterMenu]
+FilterNative=true
+FilterNewest=true
+
+[MainUi]
+Height 1080=1051
+Height 768=739
+Width 1366=1268
+Width 1920=1805
+
 [SessionInstaller]
 Height 1050=280
 Height 1080=280
 Width 1680=430
 Width 1920=430
+
+[UpdateView]
+ShowSizes=true
+ShowVersions=true
 
 [requirementsDialog]
 Height 1050=817

@@ -1,0 +1,60 @@
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop,xfce-display-settings.desktop,org.kde.ksysguard.desktop,gxneur.desktop,Aqua-data-studio-IDE.desktop,jetbrains-idea-ce1.desktop,virt-manager.desktop,firefox.desktop,virtualbox.desktop
+recent=exo-mail-reader.desktop,virtualbox.desktop,jetbrains-idea-ce1.desktop,virt-manager.desktop,exo-file-manager.desktop,libreoffice-writer.desktop,kde4-kmahjongg.desktop,gxneur.desktop,Aqua-data-studio-IDE.desktop,wesnoth.desktop,gnome-chess.desktop,firefox.desktop,exo-web-browser.desktop,kde4-yakuake.desktop,exo-terminal-emulator.desktop
+button-title=Приложения
+button-icon=xfce4-whiskermenu
+button-single-row=false
+show-button-title=false
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=true
+item-icon-size=2
+hover-switch-category=false
+category-icon-size=1
+load-hierarchy=false
+recent-items-max=15
+favorites-in-recent=true
+display-recent-default=false
+position-search-alternate=false
+position-commands-alternate=false
+position-categories-alternate=false
+menu-width=480
+menu-height=592
+menu-opacity=100
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-lockscreen=xflock4
+show-command-lockscreen=true
+command-switchuser=gdmflexiserver
+show-command-switchuser=true
+command-logout=xfce4-session-logout
+show-command-logout=true
+command-menueditor=/usr/bin/menulibre
+show-command-menueditor=true
+command-profile=mugshot
+show-command-profile=true
+search-actions=4
+
+[action0]
+name=Man-страницы
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Википедия
+pattern=!w
+command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=Выполнить в терминале
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=Открыть URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+

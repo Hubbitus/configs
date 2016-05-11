@@ -1,2 +1,16 @@
 [$Version]
 update_info=konsole_remove_background_mode.upd:2.11.0-remove-background-mode
+
+[klipper]
+_k_friendly_name=Klipper
+clear-history=none,none,Очистить историю буфера обмена
+clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Включить действия с буфером обмена
+cycleNextAction=none,none,Более старое содержимое буфера обмена
+cyclePrevAction=none,none,Более новое содержимое буфера обмена
+edit_clipboard=none,none,Редактировать содержимое...
+repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Ручной выбор действия с буфером обмена
+show-on-mouse-pos=Alt+K,none,Открывать Klipper на месте указателя мыши
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=Ctrl+`,F12,Отрыть/Свернуть Yakuake

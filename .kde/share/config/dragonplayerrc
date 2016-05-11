@@ -3,10 +3,19 @@ TimeFormat=1
 Volume=1
 
 [MainWindow]
-Height 1050=569
-State=AAAA/wAAAAD9AAAAAAAAAosAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1050=341
+State=AAAA/wAAAAD9AAAAAAAAApEAAAGjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1680=651
+Width 1680=657
+
+[file:///home/pasha/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/Music/0_PlayList.cool/Трофим/Trofim_Vzaymy\x5btorrents.ru\x5d/Трофим - Эх, дал бы кто взаймы.avi]
+Brightness=0
+Contrast=0
+Date=23/04/2016
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
 
 [file:///home/pasha/temp/HTC-MEDIA-MOVE/100MEDIA/VIDEO0002.mp4]
 Brightness=0

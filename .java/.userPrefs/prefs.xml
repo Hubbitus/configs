@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="Squirrel.alwaysAdoptAllColumnHeaders" value="true"/>
+  <entry key="Squirrel.globalPrefsSheetHeight" value="600"/>
+  <entry key="Squirrel.globalPrefsSheetWidth" value="1222"/>
+  <entry key="Squirrel.hibernateplugin.chkShowQualified" value="false"/>
+  <entry key="Squirrel.hibernateplugin.lastSelectedTab" value="0"/>
+  <entry key="Squirrel.objTreeSearchFilter" value="false"/>
+  <entry key="Squirrel.selAliasIndex" value="0"/>
+  <entry key="Squirrel.selDriverIndex" value="54"/>
+  <entry key="Squirrel.viewAliasesAsTree" value="false"/>
+  <entry key="SquirrelSQL.hibernate.limitObjectsCountVal" value="100"/>
+  <entry key="squirrelSql_dock_divider_loc.Aliases" value="150"/>
+  <entry key="squirrelSql_dock_divider_loc.Drivers" value="241"/>
+  <entry key="squirrelSql_mainPanel_sel_tab_ix" value="1"/>
+  <entry key="squirrelSql_sqlPanel_divider_loc" value="158"/>
+</map>

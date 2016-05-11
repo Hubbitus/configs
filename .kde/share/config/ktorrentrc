@@ -1,0 +1,31 @@
+[FileSelectDlg]
+download_location_history=/home/pasha/temp/Alex-Richard/
+file_view=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02M\x00\x00\x00\x02\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01È\x00\x00\x00\x01\x00\x00\x00\x00
+move_on_completion_location_history=
+show_file_tree=true
+size=769,529
+
+[InfoWidgetPlugin]
+InfoWidgetPluginEnabled=true
+
+[KFileDialog Settings][$i]
+Height 1050[$i]=450
+Recent Files[$ie]=123.torrent,$HOME/temp/Alex-Richard/123.torrent
+Recent URLs[$ie]=$HOME/temp/Alex-Richard/
+Width 1680[$i]=720
+
+[MainWindow]
+Height 1050=1021
+Height 768=739
+State=AAAA/wAAAAD9AAAAAAAABgoAAAKJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBUAG8AcgByAGUAbgB0AHMAVABvAG8AbABCAGEAcgEAAAJi/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1546
+Width 1680=1546
+
+[Recent Dirs]
+openTorrent[$e]=file://$HOME/temp/Alex-Richard/,$HOME/
+
+[downloads]
+lastSaveDir=/home/pasha/temp/Alex-Richard/
+oldTorrentsImported=true
+tempDir=file:///home/pasha/.kde/share/apps/ktorrent/

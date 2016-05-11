@@ -11,14 +11,14 @@ done=1
 mtime=1376511772
 
 [devicepreference.upd]
-ctime=1447522798
+ctime=1458124124
 done=DevicesMovedToPlatformPlugin,DevicesUIDsChanged
-mtime=1446642375
+mtime=1457071848
 
 [drkonqi-rename-config-section.upd]
-ctime=1447522798
+ctime=1458124124
 done=kde-4.11
-mtime=1446642375
+mtime=1457071848
 
 [grantleetheme.upd]
 ctime=1448270517
@@ -26,19 +26,19 @@ done=initial-grantlee-theme-migration
 mtime=1435254458
 
 [kcookiescfg.upd]
-ctime=1449743243
+ctime=1458724991
 done=kde2.2/b1,kde3.1/cvs,kde4.10/git
-mtime=1446676150
+mtime=1457653817
 
 [kded.upd]
-ctime=1449743243
+ctime=1458724991
 done=kde3.0
-mtime=1446676150
+mtime=1457653817
 
 [kget.upd]
-ctime=1446890528
+ctime=1458816539
 done=2.8.0,2.8.0/multiseg,2.8.0/sensitive,2.8.0/limitdownloads
-mtime=1432540203
+mtime=1446697385
 
 [kgthemeprovider-migration.upd]
 ctime=1446890527
@@ -46,14 +46,14 @@ done=bomber,granatier,kbounce,kbreakout,kdiamond,killbots,klickety,klines,kmines
 mtime=1420009179
 
 [kio_help.upd]
-ctime=1449743243
+ctime=1458724991
 done=kde3_2
-mtime=1446676150
+mtime=1457653817
 
 [kioslave.upd]
-ctime=1449743243
+ctime=1458724991
 done=kde2.2/r2,kde2.2/r3
-mtime=1446676150
+mtime=1457653817
 
 [knode.upd]
 ctime=1448270532
@@ -81,22 +81,22 @@ done=preKDE3_a,3.1-1
 mtime=1435254458
 
 [ksslcertificatemanager.upd]
-ctime=1449743243
+ctime=1458724991
 done=kde4.2
-mtime=1446676150
+mtime=1457653817
 
 [kuriikwsfilter.upd]
-ctime=1447522798
+ctime=1458124124
 done=post-kde3.1/cvs,pre-kde4.9
-mtime=1446642375
+mtime=1457071848
 
 [kwallet-4.13.upd]
-ctime=1447522798
+ctime=1458124124
 done=kde4.13
-mtime=1446642375
+mtime=1457071848
 
 [mailtransports.upd]
-ctime=1450899201
+ctime=1458067251
 done=initial-kmail-migration,initial-knode-migration
 mtime=1435149794
 
@@ -106,9 +106,9 @@ done=initial-newmailnotifier-migration
 mtime=1435264963
 
 [okular.upd]
-ctime=1446890528
+ctime=1458816539
 done=sep_settings
-mtime=1432454216
+mtime=1455253709
 
 [yakuake.upd]
 ctime=1446890820
