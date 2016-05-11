@@ -119,3 +119,18 @@
 
 # Embedded MySQL database
 /.kde/share/apps/amarok/mysqle
+
+/VirtualBox VMs/
+/machine-learning.coursera/
+
+# It contains password and can't be shared
+/.zabbix
+
+/.squirrel-sql-fx/
+/.squirrel-sql/
+
+/.qalculate/qalc.history
+
+/.ipython/profile_default/log/
+/.ipython/profile_default/security/
+/.ipython/profile_default/history.sqlite
