@@ -3,7 +3,7 @@
     <jdk version="2">
       <name value="1.8" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.8.0_65&quot;" />
+      <version value="java version &quot;1.8.0_72&quot;" />
       <homePath value="/usr/lib/jvm/java-1.8.0-openjdk" />
       <roots>
         <annotationsPath>
@@ -38,6 +38,13 @@
           <root type="composite">
             <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
             <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
           </root>
         </sourcePath>
       </roots>
@@ -59,7 +66,41 @@
             <root type="simple" url="file:///usr/lib64/python3.4/lib-dynload" />
             <root type="simple" url="file:///usr/lib64/python3.4/site-packages" />
             <root type="simple" url="file:///usr/lib/python3.4/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.local/lib/python3.4/site-packages" />
             <root type="simple" url="file://$USER_HOME$/.IdeaIC15/system/python_stubs/-2066100795" />
+            <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 2.7.10 (/usr/bin/python2.7)" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.10" />
+      <homePath value="/usr/bin/python2.7" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file:///usr/lib64/python2.7" />
+            <root type="simple" url="file:///usr/lib64/python2.7/plat-linux2" />
+            <root type="simple" url="file:///usr/lib64/python2.7/lib-tk" />
+            <root type="simple" url="file:///usr/lib64/python2.7/lib-dynload" />
+            <root type="simple" url="file:///usr/lib64/python2.7/site-packages" />
+            <root type="simple" url="file:///usr/lib64/python2.7/site-packages/Numeric" />
+            <root type="simple" url="file:///usr/lib64/python2.7/site-packages/gst-0.10" />
+            <root type="simple" url="file:///usr/lib64/python2.7/site-packages/gtk-2.0" />
+            <root type="simple" url="file:///usr/lib/python2.7/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.IdeaIC15/system/python_stubs/-1247972723" />
             <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
           </root>
         </classPath>

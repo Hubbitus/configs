@@ -44,15 +44,15 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="ThreadsContent" />
-        <option name="minimizedInGrid" value="true" />
+        <option name="minimizedInGrid" value="false" />
         <option name="placeInGrid" value="left" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
       </ViewImpl>
       <TabImpl>
         <option name="displayName" value="Debugger" />
-        <option name="leftProportion" value="0.17849758" />
-        <option name="rightProportion" value="0.321847" />
+        <option name="leftProportion" value="0.2299249" />
+        <option name="rightProportion" value="0.2235702" />
       </TabImpl>
       <TabImpl>
         <option name="bottomProportion" value="0.0" />

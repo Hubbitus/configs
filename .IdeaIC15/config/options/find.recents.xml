@@ -1,68 +1,68 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>EGAIS_CONFIG</find>
-      <find>saml.egais.portal.ui.url</find>
-      <find>mapper</find>
-      <find>FAIL_ON_UNKNOWN_PROPERTIES</find>
-      <find>rel_declaration_to_element</find>
-      <find>rel_wood_breed_tnved_class</find>
       <find>jackson</find>
-      <find>WoodlotElementBreedInfo diff</find>
-      <find>SUM(hardwood_volume) hardwood_volume</find>
-      <find>SUM(hardwood_volume)</find>
-      <find>detail.bo_contract_hardwood_fkey</find>
-      <find>bo_hardwood_deal_details</find>
-      <find>SELECT detail.bo_contract_hardwood_fkey, SUM(hardwood_volume) hardwood_volume FROM bo_hardwood_deal_details detail GROUP BY detail.bo_contract_hardwood_fkey)</find>
-      <find>buyer.inn = ?</find>
-      <find>.innerJoin(sellerEntity.as(&quot;seller&quot;)</find>
-      <find>buyer.inn =</find>
-      <find>check</find>
-      <find>generateKey</find>
-      <find>inn</find>
-      <find>party_inn_</find>
-      <find>sellerEntity.as(&quot;seller&quot;)</find>
-      <find>sellerInn</find>
-      <find>5049019393</find>
-      <find>logSql</find>
-      <find>SELE</find>
-      <find>SELECT</find>
-      <find>SELECT</find>
-      <find>logS</find>
-      <find>after</find>
-      <find>afterRe</find>
+      <find>The following SQL script being used</find>
+      <find>m</find>
+      <find>BINARY</find>
+      <find>timest</find>
+      <find>has not created</find>
+      <find>pref</find>
+      <find>servi</find>
+      <find>93</find>
+      <find>SQL error while fetching stored</find>
+      <find>error while fetching stored</find>
+      <find>jcr</find>
+      <find>selectRowSql</find>
+      <find>war</find>
+      <find>idColumnType</find>
+      <find>table</find>
+      <find>tableManipulation</find>
+      <find>quot</find>
+      <find>quote</find>
+      <find>CREATE_TABLE</find>
+      <find>create</find>
+      <find>INSERT_ID</find>
+      <find>SELECT_ID</find>
+      <find>tableManipulation|config</find>
+      <find>createT</find>
+      <find>wra</find>
+      <find>dependencies</find>
+      <find>clean</find>
+      <find>unidata_default_analyzer</find>
+      <find>analyzer</find>
     </findStrings>
     <replaceStrings>
-      <replace>Invalid</replace>
-      <replace>@Service(&quot;$1&quot;)\npublic class (.+) implements (.+)</replace>
-      <replace>@Service(&quot;$2&quot;)\npublic class $1 implements $2</replace>
-      <replace>@$1(&quot;$5$6$7&quot;)\n$2$3 {</replace>
-      <replace>@$1(&quot;$5$6$7&quot;)\n$2class $3 {</replace>
-      <replace>@$1(&quot;$4$6$7&quot;)\n$2class $3 {</replace>
-      <replace>/rest/bo/lease-contracts</replace>
-      <replace>ContractLease</replace>
-      <replace>HardwoodDeal</replace>
-      <replace>ContractHardwoodDeal</replace>
-      <replace>WoodClass</replace>
-      <replace>TnvedClass</replace>
-      <replace>WOOD_CLASS</replace>
-      <replace>TNVED_CLASS</replace>
-      <replace>tnved-class</replace>
-      <replace>wood-classes</replace>
-      <replace>woodClass</replace>
-      <replace>tnvedClass</replace>
-      <replace>TNVED_</replace>
-      <replace>upsertEgaisBeforeExecutor</replace>
-      <replace>#</replace>
-      <replace>unidata</replace>
-      <replace>l</replace>
-      <replace>ForestDeclaration</replace>
-      <replace>ContractForestDeclaration</replace>
-      <replace>contract-forest-declarations</replace>
-      <replace>$1</replace>
-      <replace>&lt;++</replace>
-      <replace>Woodlot</replace>
-      <replace>WoodlotElement</replace>
+      <replace>unidata-db-create</replace>
+      <replace>unidata-db-import</replace>
+      <replace>unidata-import</replace>
+      <replace>unidata_test_data_backup</replace>
+      <replace>staging_db.host</replace>
+      <replace>unidata_db.host</replace>
+      <replace>unidata_db..port</replace>
+      <replace>unidata_db.port</replace>
+      <replace>unidata_db.user</replace>
+      <replace>unidata_db.pass</replace>
+      <replace>unidata_db.name</replace>
+      <replace>unidata_db.schm</replace>
+      <replace>unidata_db.pg_url</replace>
+      <replace>unidata_deploy_artefact.backend</replace>
+      <replace>unidata_deploy_artefact.frontend</replace>
+      <replace>unidata_es.version</replace>
+      <replace>unidata_es.host</replace>
+      <replace>unidata_es.cluster_name</replace>
+      <replace>unidata_es.index_name</replace>
+      <replace>unidata_db.svn_url</replace>
+      <replace>staging_db.pass</replace>
+      <replace>staging_db.user</replace>
+      <replace>staging_db.data_backup</replace>
+      <replace>staging_db.name</replace>
+      <replace>staging_db.schm</replace>
+      <replace>staging_</replace>
+      <replace>{{postgres_data_directory}}</replace>
+      <replace>rc6</replace>
+      <replace>1.0-rc7</replace>
+      <replace>getTableName()</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>
@@ -79,8 +79,16 @@
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/dto</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/core/src</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration</dir>
-      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration/V3.0</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/portal-api/rest-client/src/test/java/ru/rlh/egais/portal/api/client</dir>
+      <dir>$USER_HOME$/Projects/UniData/unidata/main/backend/src/main/java/com/unidata/mdm/cleanse</dir>
+      <dir>$USER_HOME$/Projects/UniData/fias/main</dir>
+      <dir>$USER_HOME$/Projects/UniData/UnidataRestClient</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/test-dev/roles/hosts-egais-group</dir>
+      <dir>$USER_HOME$/Projects/UniData/unidata/main/database</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/roles/unidata-db-create</dir>
+      <dir>$USER_HOME$/Projects/UniData/unidata/main</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/roles/postgres/files</dir>
+      <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database/db/migration/V3.0</dir>
     </dirStrings>
   </component>
 </application>

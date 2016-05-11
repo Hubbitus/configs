@@ -2,15 +2,45 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
     <property name="DefaultHtmlDoctype.Refreshed" value="2" />
-    <property name="installed.kotlin.plugin.version" value="1.0.0-beta-2428-IJ143-18" />
+    <property name="installed.kotlin.plugin.version" value="1.0.0-release-IJ143-75" />
     <property name="installation.uid" value="664e21f3-6075-4731-a415-d585ba8a74a4" />
-    <property name="file.chooser.recent.files" value="/opt/configuration/logback-ui.xml&#10;/opt/servers/apache-tomcat-7.0.57-ui/logs/egais_portal_ui.log&#10;/home/pasha/Projects/Ansible.cfg&#10;/home/pasha/Projects/UniData/unidata/branches/unidata_RLH&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/target&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main&#10;/home/pasha/Projects/RLH/main.branch" />
-    <property name="lastTip" value="6" />
+    <property name="file.chooser.recent.files" value="/opt/servers/apache-tomcat-7.0.57-ui/logs/webstudio.log&#10;/home/pasha/Projects/_Outer/openl-tablets/backend.hack.redeploy.clean&#10;/opt/servers/apache-tomcat-7.0.57-ui/logs/egais_portal_ui.log&#10;/home/pasha/Projects/_Outer/openl-tablets&#10;/home/pasha/temp/publishedEndpointUrl.1.diff&#10;/home/pasha/machine-learning.coursera/LearnInProgress/final.assignment/Kaggle&#10;/home/pasha/machine-learning.coursera/LearnInProgress/final.assignment/Review&#10;/home/pasha/machine-learning.coursera/LearnInProgress/final.assignment/Review/Mike_Miroshnichenko.py&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/portal-api/dto/src/main/java/ru/rlh/egais/portal/api/exception&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/portal-api/core/src/main/java/ru/rlh/egais/portal/backend/exception&#10;/home/pasha/Projects/RLH/egais/portal/implementation/main/portal-api/dto/src/main/java/ru/rlh/egais/portal/api&#10;/home/pasha/Projects/UniData/unidata/tests/ttt.patch&#10;/opt/servers/apache-tomcat-7.0.57-ui/webapps/unidata-backend/WEB-INF/lib&#10;/opt/servers/apache-tomcat-7.0.57-ui/webapps/unidata-backend/WEB-INF/templates&#10;/opt/servers/apache-tomcat-7.0.57-ui/conf/unidata/backend.properties&#10;/home/pasha/Projects/UniData/unidata/main/frontend/build/development/Unidata/customer.json&#10;/home/pasha/Projects/Ansible.cfg/PgSetupReplica.yml&#10;/home/pasha/Projects/UniData/Take_in_account_data_import_option_for_uploading_import_tool.patch&#10;/home/pasha/Projects/UniData/unnamed1.patch&#10;/home/pasha/Projects/UniData/unnamed.patch&#10;/home/pasha/Projects/UniData/unidata/tests/Ansible.cfg&#10;/home/pasha/Projects/UniData/unidata/tests/JmeterElasticsearchBackendListener&#10;/home/pasha/Projects/UniData/unidata/tests/unidata-jms-perf-listener&#10;/home/pasha/Projects/UniData/JMSListener/src/main/java/com/taskdata/jmslistener/UnidataJmsPerfListener.groovy&#10;/home/pasha/Projects/UniData/JMSListener/src/main/resources/rpm/scripts&#10;/home/pasha/.gradle/caches/modules-2/files-2.1/org.cloudfoundry/cf-gradle-plugin/1.1.2/9849556e08dcc82a1c02a1ce7275df8542c56467&#10;/home/pasha/Projects/UniData/JMSListener&#10;/home/pasha/Projects/UniData/Unidata-migrate-to-elasticsearch-2.2.patch&#10;/home/pasha/Projects/UniData/JmeterElasticsearchBackendListener/build.gradle&#10;/home/pasha/Projects/UniData/Jmeter-ElasticsearchBackendListener" />
+    <property name="lastTip" value="96" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
     <property name="KEYMAP" value="Mute" />
-    <property name="ColorChooser.RecentColors" value="43-255-13-255" />
+    <property name="ColorChooser.RecentColors" value="43-255-13-255,,,112-255-216-255,,,85-196-65-255,,,37-147-14-255" />
+    <property name="PLUGIN_FILTER" value="csv&#10;ivy&#10;IvyIDEA&#10;.spec&#10;rpm" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder0" value="0" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder1" value="1" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder2" value="2" />
+    <property name="JUnit.Splitter.Proportion" value="0.4005655" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="project.wizard.group" value="PYTHON_MODULE" />
+    <property name="project.wizard.template" value="Python" />
+    <property name="fileTypeChangedCounter" value="7" />
+    <property name="last.used.gradle.home" value="/usr/share/gradle" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="GradleModuleWizard.inheritGroupId" value="true" />
+    <property name="GradleModuleWizard.inheritVersion" value="true" />
+    <property name="RunConfigurable.dividerProportion" value="0.23641564" />
+    <property name="MoveClass.OpenInEditor" value="false" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.7227273" />
+    <property name="selected.color.option.type" value="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <property name="settings.code.style.selected.tab.Python" value="Wrapping and Braces" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.32528734" />
+    <property name="TEMPLATES_FILTER_HISTORY" value="" />
+    <property name="#xdebugger.evaluate.splitter" value="0.36" />
   </component>
 </application>

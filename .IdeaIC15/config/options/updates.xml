@@ -3,15 +3,13 @@
     <knownUpdateChannels>
       <item value="IDEA12" />
       <item value="IDEA13.1" />
-      <item value="IDEA_14_EAP" />
       <item value="IDEA14.1" />
-      <item value="IDEA_14_1_EAP" />
       <item value="IDEA_15_EAP" />
       <item value="IDEA_EAP" />
       <item value="IDEA_Beta" />
       <item value="IDEA_Release" />
     </knownUpdateChannels>
-    <option name="LAST_TIME_CHECKED" value="1451297192045" />
-    <option name="LAST_BUILD_CHECKED" value="IC-143.1184" />
+    <option name="LAST_TIME_CHECKED" value="1457946069061" />
+    <option name="LAST_BUILD_CHECKED" value="IC-143.2287" />
   </component>
 </application>

@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="gradle tomcatRun" description="Run tomcatRun gradle with enabled debugging" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="GRADLE_OPTS='-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8002' gradle" />
-      <option name="PARAMETERS" value="tomcatRun" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-</toolSet>

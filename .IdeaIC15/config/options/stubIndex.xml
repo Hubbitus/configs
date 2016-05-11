@@ -2,14 +2,6 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="Py.class.attributes" />
-        <option value="Python.Decorator" />
-        <option value="Py.instanceAttribute.name" />
-        <option value="Py.variable.shortName" />
-        <option value="Py.class.super" />
-        <option value="Py.function.shortName" />
-        <option value="Py.class.shortNameInsensitive" />
-        <option value="Py.class.shortName" />
         <option value="sc.implicit.function.name" />
         <option value="sc.self.type.class.name.key" />
         <option value="sc.super.class.name" />
@@ -40,6 +32,7 @@
         <option value="java.field.name" />
         <option value="java.class.extlist" />
         <option value="java.annotations" />
+        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex" />
@@ -69,6 +62,14 @@
         <option value="gr.field.name" />
         <option value="gr.script.fqn" />
         <option value="gr.class.fqn" />
+        <option value="Py.class.attributes" />
+        <option value="Python.Decorator" />
+        <option value="Py.instanceAttribute.name" />
+        <option value="Py.variable.shortName" />
+        <option value="Py.class.super" />
+        <option value="Py.function.shortName" />
+        <option value="Py.class.shortNameInsensitive" />
+        <option value="Py.class.shortName" />
         <option value="bash.var" />
         <option value="bash.vardef" />
         <option value="bash.scriptCommandReference" />

@@ -1,8 +1,0 @@
-hg4idea
-InspectorGroovy
-InspectorGeneral
-CVS
-RESTClient
-org.jetbrains.idea.eclipse
-org.intellij.scala
-org.jetbrains.android

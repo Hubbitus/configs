@@ -8,5 +8,6 @@
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
     <entry key="analyze.exceptions.on.the.fly" value="true" />
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
+    <entry key="SBT.system.in.process" value="true" />
   </component>
 </application>
