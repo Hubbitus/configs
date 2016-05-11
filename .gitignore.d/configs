@@ -125,6 +125,7 @@
 
 # It contains password and can't be shared
 /.zabbix
+/.docker/
 
 /.squirrel-sql-fx/
 /.squirrel-sql/
@@ -134,3 +135,5 @@
 /.ipython/profile_default/log/
 /.ipython/profile_default/security/
 /.ipython/profile_default/history.sqlite
+
+/.gnupg/
