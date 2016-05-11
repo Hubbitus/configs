@@ -1,0 +1,11 @@
+{
+  "NotebookApp": {
+    "extra_template_paths": [
+      "/home/pasha/.local/share/jupyter/templates"
+    ],
+    "server_extensions": [
+      "nbextensions"
+    ]
+  },
+  "version": 1
+}
