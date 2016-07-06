@@ -3,7 +3,7 @@
     <jdk version="2">
       <name value="1.8" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.8.0_91&quot;" />
+      <version value="java version &quot;1.8.0_92&quot;" />
       <homePath value="/usr/lib/jvm/java-1.8.0-openjdk" />
       <roots>
         <annotationsPath>
@@ -48,6 +48,9 @@
             <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
             <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
             <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
+            <root type="simple" url="jar:///usr/lib/jvm/java-1.8.0-openjdk/src.zip!/" />
           </root>
         </sourcePath>
       </roots>
@@ -56,7 +59,7 @@
     <jdk version="2">
       <name value="Python 3.4.2 (/usr/bin/python3)" />
       <type value="Python SDK" />
-      <version value="Python 3.4.3" />
+      <version value="Python 3.5.1" />
       <homePath value="/usr/bin/python3" />
       <roots>
         <annotationsPath>
@@ -64,12 +67,11 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="file:///usr/lib64/python3.4" />
-            <root type="simple" url="file:///usr/lib64/python3.4/plat-linux" />
-            <root type="simple" url="file:///usr/lib64/python3.4/lib-dynload" />
-            <root type="simple" url="file://$USER_HOME$/.local/lib/python3.4/site-packages" />
-            <root type="simple" url="file:///usr/lib64/python3.4/site-packages" />
-            <root type="simple" url="file:///usr/lib/python3.4/site-packages" />
+            <root type="simple" url="file:///usr/lib64/python3.5" />
+            <root type="simple" url="file:///usr/lib64/python3.5/plat-linux" />
+            <root type="simple" url="file:///usr/lib64/python3.5/lib-dynload" />
+            <root type="simple" url="file:///usr/lib64/python3.5/site-packages" />
+            <root type="simple" url="file:///usr/lib/python3.5/site-packages" />
             <root type="simple" url="file://$USER_HOME$/.IdeaIC2016.1/system/python_stubs/-2066100795" />
             <root type="simple" url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
           </root>

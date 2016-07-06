@@ -1,6 +1,9 @@
 <application>
   <component name="ScratchFileService">
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.adoc" value="AsciiDoc" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.groovy" value="Groovy" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" value="XML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="Groovy" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10" value="XML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11" value="Bash" />

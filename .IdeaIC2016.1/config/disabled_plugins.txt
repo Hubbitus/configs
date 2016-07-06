@@ -1,6 +1,6 @@
-org.jetbrains.idea.eclipse
-org.jetbrains.android
-InspectorGeneral
-com.wix.scss.lint
-hg4idea
 CVS
+org.jetbrains.idea.eclipse
+com.wix.scss.lint
+org.jetbrains.android
+hg4idea
+InspectorGeneral

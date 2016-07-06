@@ -1,12 +1,21 @@
 <application>
   <component name="libraryTable">
-    <library name="org.apache.ivy:ivy:2.4.0" type="repository">
-      <properties maven-id="org.apache.ivy:ivy:2.4.0" />
+    <library name="5.1.1">
       <CLASSES>
-        <root url="jar://$USER_HOME$/Projects/RLH/egais/portal/implementation/main/lib/ivy-2.4.0.jar!/" />
+        <root url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39" />
+        <root url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/jetty-webapp-8.1.7.v20120910-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/jetty-server-8.1.7.v20120910-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/jetty-servlet-8.1.7.v20120910-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/ant-1.8.4-sources.jar!/" />
+      </SOURCES>
+      <jarDirectory url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" recursive="false" type="SOURCES" />
     </library>
     <library name="org.codehaus.groovy:groovy-all:2.4.5" type="repository">
       <properties maven-id="org.codehaus.groovy:groovy-all:LATEST" />
@@ -25,33 +34,47 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.6/groovy-all-2.4.6.jar!/" />
         <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.6/groovy-all-2.4.6.jar!/" />
         <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.6/groovy-all-2.4.6.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.6/groovy-all-2.4.6.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.7/groovy-all-2.4.7.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
     <library name="Python 2.7.10 (/usr/bin/python2.7) interpreter library">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
+      <ANNOTATIONS>
+        <root url="file:///usr/lib64/python2.7" />
+      </ANNOTATIONS>
+      <CLASSES>
+        <root url="file:///usr/lib/python2.7" />
+        <root url="file:///usr/lib64/python2.7" />
+        <root url="file:///usr/lib64/python2.7" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="file:///usr/lib64/python2.7" />
+      </JAVADOC>
+      <NATIVE>
+        <root url="file:///usr/lib/python2.7/site-packages" />
+        <root url="file:///usr/lib64/python2.7" />
+      </NATIVE>
+      <SOURCES>
+        <root url="file:///usr/lib64/python2.7" />
+        <root url="file:///usr/lib64/python2.7" />
+      </SOURCES>
+      <jarDirectory url="file:///usr/lib64/python2.7" recursive="false" />
+      <jarDirectory url="file:///usr/lib64/python2.7" recursive="false" type="SOURCES" />
     </library>
     <library name="Python 3.4.2 (/usr/bin/python3) interpreter library">
       <CLASSES>
         <root url="file:///usr/lib64/python3.4" />
-        <root url="file:///usr/lib64/python3.4/plat-linux" />
-        <root url="file:///usr/lib64/python3.4/lib-dynload" />
         <root url="file:///usr/lib64/python3.4/site-packages" />
         <root url="file:///usr/lib/python3.4/site-packages" />
-        <root url="file://$USER_HOME$/.IdeaIC15/system/python_stubs/-2066100795" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
         <root url="file:///usr/lib64/python3.4" />
-        <root url="file:///usr/lib64/python3.4/plat-linux" />
-        <root url="file:///usr/lib64/python3.4/lib-dynload" />
         <root url="file:///usr/lib64/python3.4/site-packages" />
         <root url="file:///usr/lib/python3.4/site-packages" />
-        <root url="file://$USER_HOME$/.IdeaIC15/system/python_stubs/-2066100795" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </SOURCES>
     </library>

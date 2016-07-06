@@ -32,6 +32,10 @@
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="alt subtract" />
   </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="alt add" />
   </action>
@@ -61,6 +65,7 @@
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="NextTab" />
+  <action id="PlantUML.Update" />
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
     <keyboard-shortcut first-keystroke="alt up" />

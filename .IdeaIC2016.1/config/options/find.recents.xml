@@ -1,51 +1,38 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>senchaEnvironment</find>
-      <find>TESTING</find>
-      <find>-before-build</find>
-      <find>build.environment</find>
-      <find>propert</find>
-      <find>propertie</find>
-      <find>Sencha cmd found</find>
-      <find>getProperties</find>
-      <find>clean</find>
-      <find>init-local</find>
-      <find>clea</find>
-      <find>upgrade</find>
-      <find>force_restart_services</find>
-      <find>downloa</find>
-      <find>app</find>
-      <find>cmd.dir</find>
-      <find>portal.j</find>
-      <find>5.1.</find>
-      <find>lesHoz</find>
-      <find>basedir</find>
-      <find>К сожалению, ЕГАИС не поддерживает версию вашего браузера</find>
-      <find>page</find>
-      <find>svn</find>
-      <find>sencha_find-cmd-in-shell</find>
-      <find>find-cmd-in-shell</find>
-      <find>before-build</find>
-      <find>sencha</find>
-      <find>5.1.0.107</find>
-      <find>wra</find>
-      <find>curr</find>
+      <find>@Cache</find>
+      <find>rel_wood_breed_tnved_class</find>
+      <find>rtcl.lu_wood_breed_fkey</find>
+      <find>elementBreedInfoSortId</find>
+      <find>tnv</find>
+      <find>sort</find>
+      <find>woodBreedDao</find>
+      <find>project.properties</find>
+      <find>Count</find>
+      <find>props</find>
+      <find>props|git</find>
+      <find>GITrev</find>
+      <find>allp</find>
+      <find>GIT</find>
+      <find>GIT.rev</find>
+      <find>plugin</find>
+      <find>git</find>
+      <find>print</find>
+      <find>bree</find>
+      <find>send</find>
+      <find>tag</find>
+      <find>parse</find>
+      <find>SELECT MAX(version) FROM history.bo_history WHERE object_key=?</find>
+      <find>SELECT MAX(version)</find>
+      <find>public Integer getVersion(String id)</find>
+      <find>getDisplayVersion</find>
+      <find>bo_history</find>
+      <find>SELECT count(*) over() full_count, h.*, s.la</find>
+      <find>histo</find>
+      <find>woodSortDao</find>
     </findStrings>
     <replaceStrings>
-      <replace>unidata_db.name</replace>
-      <replace>unidata_db.schm</replace>
-      <replace>unidata_db.pg_url</replace>
-      <replace>unidata_deploy_artefact.backend</replace>
-      <replace>unidata_deploy_artefact.frontend</replace>
-      <replace>unidata_es.version</replace>
-      <replace>unidata_es.host</replace>
-      <replace>unidata_es.cluster_name</replace>
-      <replace>unidata_es.index_name</replace>
-      <replace>unidata_db.svn_url</replace>
-      <replace>staging_db.pass</replace>
-      <replace>staging_db.user</replace>
-      <replace>staging_db.data_backup</replace>
       <replace>staging_db.name</replace>
       <replace>staging_db.schm</replace>
       <replace>staging_</replace>
@@ -63,13 +50,25 @@
       <replace>Do it again - now error must be thrown</replace>
       <replace>version=&quot;1&quot;</replace>
       <replace>rlh.</replace>
+      <replace>senchaCmdDir</replace>
+      <replace>reported</replace>
+      <replace>unidata_pg</replace>
+      <replace>staging_pg</replace>
+      <replace>postgres_pg_hba_default</replace>
+      <replace>postgres_pg_hba_streaming_slaves</replace>
+      <replace>postgres_pg_hba_custom</replace>
+      <replace>postgres_admin_user</replace>
+      <replace>postgres_streaming_master</replace>
+      <replace>postgres_version</replace>
+      <replace>- include: ../../includes/_common_handlers.yml</replace>
+      <replace>GIT.rev</replace>
+      <replace>versioning.info.build</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/controller/rest</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/performance_tune</dir>
-      <dir>$USER_HOME$/Projects/Ansible.cfg/roles</dir>
       <dir>$USER_HOME$/Projects/Ansible.cfg/test-dev/roles/ansible-postgresql-manager</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/database</dir>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/branches/2.0_support/database/db/migration</dir>
@@ -92,6 +91,9 @@
       <dir>$USER_HOME$/Projects/UniData/unidata/main</dir>
       <dir>$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH</dir>
       <dir>$USER_HOME$/Projects/RLH/portal/portal-ui/app</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/roles/unidata-perf-cleardata</dir>
+      <dir>$USER_HOME$/Projects/Ansible.cfg/roles</dir>
+      <dir>$USER_HOME$/Projects/RLH/portal/database/db</dir>
     </dirStrings>
   </component>
 </application>
