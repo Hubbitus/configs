@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Xfce</Name>
+	<DefaultAppDirs />
+	<DefaultDirectoryDirs />
+	<DefaultMergeDirs />
+	<Include>
+		<Category>X-Xfce-Toplevel</Category>
+	</Include>
+	<MergeFile type="parent">/etc/xdg/menus/xfce-applications.menu</MergeFile>
+	<Menu>
+		<Name>Settings</Name>
+		<Directory>xfce-settings.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Separator />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>SystemConfig</Name>
+		<Directory>SystemConfig.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>SQuirreL-SQL-Client-izpack</Name>
+		<Directory>SQuirreL-SQL-Client-izpack.directory</Directory>
+		<DirectoryDir>/home/pasha/.local/share/desktop-directories</DirectoryDir>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Wine</Name>
+		<Directory>Wine.directory</Directory>
+		<Menu>
+			<Name>wine-Programs</Name>
+			<Directory>wine-Programs.directory</Directory>
+			<DirectoryDir>/home/pasha/.local/share/desktop-directories</DirectoryDir>
+			<Layout>
+				<Merge type="menus" />
+				<Merge type="files" />
+			</Layout>
+		</Menu>
+		<Layout>
+			<Merge type="menus" />
+			<Menuname>wine-Programs</Menuname>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>xfce-graphics.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>geeqie.desktop</Filename>
+			<Filename>org.kde.kruler.desktop</Filename>
+			<Filename>libreoffice-draw.desktop</Filename>
+			<Filename>shotwell.desktop</Filename>
+			<Filename>shotwell-viewer.desktop</Filename>
+			<Filename>sK1.desktop</Filename>
+			<Filename>ufraw.desktop</Filename>
+			<Filename>gimp.desktop</Filename>
+			<Filename>simple-scan.desktop</Filename>
+			<Filename>inkscape.desktop</Filename>
+			<Filename>gwenview.desktop</Filename>
+			<Filename>kamoso.desktop</Filename>
+			<Filename>kcolorchooser.desktop</Filename>
+			<Filename>kolourpaint.desktop</Filename>
+			<Filename>ksnapshot.desktop</Filename>
+			<Filename>okularApplication_plucker.desktop</Filename>
+			<Filename>okularApplication_djvu.desktop</Filename>
+			<Filename>okularApplication_dvi.desktop</Filename>
+			<Filename>okularApplication_mobi.desktop</Filename>
+			<Filename>okularApplication_ooo.desktop</Filename>
+			<Filename>okularApplication_chm.desktop</Filename>
+			<Filename>okularApplication_fax.desktop</Filename>
+			<Filename>okularApplication_epub.desktop</Filename>
+			<Filename>okularApplication_tiff.desktop</Filename>
+			<Filename>okularApplication_ghostview.desktop</Filename>
+			<Filename>okularApplication_comicbook.desktop</Filename>
+			<Filename>okularApplication_kimgio.desktop</Filename>
+			<Filename>okular.desktop</Filename>
+			<Filename>okularApplication_fb.desktop</Filename>
+			<Filename>okularApplication_xps.desktop</Filename>
+			<Filename>okularApplication_txt.desktop</Filename>
+			<Filename>okularApplication_pdf.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Documentation</Name>
+		<Directory>Documentation.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>fedora-release-notes.desktop</Filename>
+			<Filename>xfce4-about.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Games</Name>
+		<Directory>xfce-games.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>alienarena.desktop</Filename>
+			<Filename>boswars.desktop</Filename>
+			<Filename>darkplaces-quake.desktop</Filename>
+			<Filename>org.kde.kmines.desktop</Filename>
+			<Filename>org.kde.kpat.desktop</Filename>
+			<Filename>openarena.desktop</Filename>
+			<Filename>redeclipse.desktop</Filename>
+			<Filename>wine-winemine.desktop</Filename>
+			<Filename>xcowfortune.desktop</Filename>
+			<Filename>kmahjongg.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>xfce-accessories.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>fusion-icon.desktop</Filename>
+			<Filename>compiz-start.desktop</Filename>
+			<Filename>gnote.desktop</Filename>
+			<Filename>org.kde.kate.desktop</Filename>
+			<Filename>org.kde.kcalc.desktop</Filename>
+			<Filename>org.kde.KCharSelect.desktop</Filename>
+			<Filename>org.kde.kfontview.desktop</Filename>
+			<Filename>org.kde.kwrite.desktop</Filename>
+			<Filename>leafpad.desktop</Filename>
+			<Filename>qalculate-gtk.desktop</Filename>
+			<Filename>qlipper.desktop</Filename>
+			<Filename>xarchiver.desktop</Filename>
+			<Filename>org.kde.AddPrinter.desktop</Filename>
+			<Filename>xfce4-notes.desktop</Filename>
+			<Filename>xfce4-run.desktop</Filename>
+			<Filename>xfce4-clipman.desktop</Filename>
+			<Filename>org.kde.ConfigurePrinter.desktop</Filename>
+			<Filename>xfce4-about.desktop</Filename>
+			<Filename>hamster-time-tracker-overview.desktop</Filename>
+			<Filename>org.kde.PrintQueue.desktop</Filename>
+			<Filename>gxneur.desktop</Filename>
+			<Filename>kdeneur.desktop</Filename>
+			<Filename>xfce4-appfinder.desktop</Filename>
+			<Filename>menulibre.desktop</Filename>
+			<Filename>xfce4-screenshooter.desktop</Filename>
+			<Filename>org.gnome.gedit.desktop</Filename>
+			<Filename>hamster-time-tracker.desktop</Filename>
+			<Filename>hamster-windows-service.desktop</Filename>
+			<Filename>exo-file-manager.desktop</Filename>
+			<Filename>exo-terminal-emulator.desktop</Filename>
+			<Filename>ark.desktop</Filename>
+			<Filename>k4dirstat.desktop</Filename>
+			<Filename>krusader.desktop</Filename>
+			<Filename>qalculate_kde.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Network</Name>
+		<Directory>xfce-network.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>clamz.desktop</Filename>
+			<Filename>firefox.desktop</Filename>
+			<Filename>gajim.desktop</Filename>
+			<Filename>kde5-nm-connection-editor.desktop</Filename>
+			<Filename>org.kde.konversation.desktop</Filename>
+			<Filename>gajim-remote.desktop</Filename>
+			<Filename>pmchart.desktop</Filename>
+			<Filename>psi-plus.desktop</Filename>
+			<Filename>qupzilla.desktop</Filename>
+			<Filename>qutim.desktop</Filename>
+			<Filename>remmina.desktop</Filename>
+			<Filename>skype.desktop</Filename>
+			<Filename>mozilla-thunderbird.desktop</Filename>
+			<Filename>vncviewer.desktop</Filename>
+			<Filename>winswitch.desktop</Filename>
+			<Filename>wireshark.desktop</Filename>
+			<Filename>xpra.desktop</Filename>
+			<Filename>xpra_launcher.desktop</Filename>
+			<Filename>chromium-browser.desktop</Filename>
+			<Filename>exo-web-browser.desktop</Filename>
+			<Filename>org.kde.bluedevilwizard.desktop</Filename>
+			<Filename>bssh.desktop</Filename>
+			<Filename>bvnc.desktop</Filename>
+			<Filename>chromium-app-list.desktop</Filename>
+			<Filename>org.kde.bluedevilsendfile.desktop</Filename>
+			<Filename>exo-mail-reader.desktop</Filename>
+			<Filename>kget.desktop</Filename>
+			<Filename>konqbrowser.desktop</Filename>
+			<Filename>ktorrent.desktop</Filename>
+			<Filename>keditbookmarks.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Directory>xfce-multimedia.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>gnome-istanbul.desktop</Filename>
+			<Filename>lash-panel.desktop</Filename>
+			<Filename>qt-recordmydesktop.desktop</Filename>
+			<Filename>yarock.desktop</Filename>
+			<Filename>mpv.desktop</Filename>
+			<Filename>pavucontrol.desktop</Filename>
+			<Filename>org.gnome.Cheese.desktop</Filename>
+			<Filename>amarok_containers.desktop</Filename>
+			<Filename>amarok.desktop</Filename>
+			<Filename>amzdownloader.desktop</Filename>
+			<Filename>dragonplayer.desktop</Filename>
+			<Filename>k3b.desktop</Filename>
+			<Filename>kscd.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Education</Name>
+		<Directory>xfce-education.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>libreoffice-math.desktop</Filename>
+			<Filename>qalculate_kde.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Office</Name>
+		<Directory>xfce-office.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>freemind.desktop</Filename>
+			<Filename>htmldoc.desktop</Filename>
+			<Filename>libreoffice-startcenter.desktop</Filename>
+			<Filename>libreoffice-calc.desktop</Filename>
+			<Filename>libreoffice-draw.desktop</Filename>
+			<Filename>libreoffice-impress.desktop</Filename>
+			<Filename>libreoffice-math.desktop</Filename>
+			<Filename>libreoffice-writer.desktop</Filename>
+			<Filename>projectlibre.desktop</Filename>
+			<Filename>texstudio.desktop</Filename>
+			<Filename>vym.desktop</Filename>
+			<Filename>xmind.desktop</Filename>
+			<Filename>xfce4-dict.desktop</Filename>
+			<Filename>calligra.desktop</Filename>
+			<Filename>flow.desktop</Filename>
+			<Filename>sheets.desktop</Filename>
+			<Filename>stage.desktop</Filename>
+			<Filename>calligrawords_ascii.desktop</Filename>
+			<Filename>words.desktop</Filename>
+			<Filename>kexi.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>chrome-apps</Name>
+		<Directory>chrome-apps.directory</Directory>
+		<DirectoryDir>/home/pasha/.local/share/desktop-directories</DirectoryDir>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Other</Name>
+		<Directory>xfce-other.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>chrome-hgmloofddffdnphfgcellkdfbfbjeloo-Default.desktop</Filename>
+			<Filename>mount-archive.desktop</Filename>
+			<Filename>wine-extension-vbs.desktop</Filename>
+			<Filename>wine-extension-bci.desktop</Filename>
+			<Filename>compiz.desktop</Filename>
+			<Filename>chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop</Filename>
+			<Filename>chrome-coobgpohoikkiipiblmjeljniedjpjpf-Default.desktop</Filename>
+			<Filename>wine-extension-chm.desktop</Filename>
+			<Filename>kmailservice5.desktop</Filename>
+			<Filename>libreoffice-xsltfilter.desktop</Filename>
+			<Filename>wine-extension-ini.desktop</Filename>
+			<Filename>wine-extension-txt.desktop</Filename>
+			<Filename>oocalc.desktop</Filename>
+			<Filename>openbox.desktop</Filename>
+			<Filename>paraview.desktop</Filename>
+			<Filename>wine-extension-url.desktop</Filename>
+			<Filename>gcr-viewer.desktop</Filename>
+			<Filename>wine-extension-xml.desktop</Filename>
+			<Filename>wine-extension-htm.desktop</Filename>
+			<Filename>wine-extension-msp.desktop</Filename>
+			<Filename>wine-extension-gif.desktop</Filename>
+			<Filename>wine-extension-jpe.desktop</Filename>
+			<Filename>wine-extension-jfif.desktop</Filename>
+			<Filename>wine-extension-png.desktop</Filename>
+			<Filename>wine.desktop</Filename>
+			<Filename>wine-extension-hlp.desktop</Filename>
+			<Filename>wine-extension-wri.desktop</Filename>
+			<Filename>wine-extension-rtf.desktop</Filename>
+			<Filename>chrome-blpcfgokakmgnkcojhhkbfbldkacnbeo-Default.desktop</Filename>
+			<Filename>chrome-apdfllckaahabafndbhieahigkjlhalf-Default.desktop</Filename>
+			<Filename>chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop</Filename>
+			<Filename>abrt-applet.desktop</Filename>
+			<Filename>chrome-https___chrome.google.com_webstore_launcher_fhbjgbiflinjbdggehcddcbncdddomop.desktop</Filename>
+			<Filename>chrome-nmmhkkegccagdldgiimedpiccmgmieda-Default.desktop</Filename>
+			<Filename>gcr-prompter.desktop</Filename>
+			<Filename>nm-applet.desktop</Filename>
+			<Filename>nm-vpnc-auth-dialog.desktop</Filename>
+			<Filename>ktelnetservice5.desktop</Filename>
+			<Filename>notification-daemon.desktop</Filename>
+			<Filename>panel-desktop-handler.desktop</Filename>
+			<Filename>kwalletmanager5-kwalletd.desktop</Filename>
+			<Filename>Java~v7 Documentation.desktop</Filename>
+			<Filename>Java~v7 Project Specifier.desktop</Filename>
+			<Filename>kmailservice.desktop</Filename>
+			<Filename>apper_settings.desktop</Filename>
+			<Filename>apper_updates.desktop</Filename>
+			<Filename>ktelnetservice.desktop</Filename>
+			<Filename>kwalletmanager-kwalletd.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Directory>xfce-development.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>org.gnome.Devhelp.desktop</Filename>
+			<Filename>eclipse.desktop</Filename>
+			<Filename>eclipse-cdt.desktop</Filename>
+			<Filename>gradle.desktop</Filename>
+			<Filename>gtk3-demo.desktop</Filename>
+			<Filename>gtk3-icon-browser.desktop</Filename>
+			<Filename>jetbrains-idea-ce1.desktop</Filename>
+			<Filename>meld.desktop</Filename>
+			<Filename>java-1.8.0-openjdk-1.8.0.72-9.b16.fc23.x86_64-jconsole.desktop</Filename>
+			<Filename>pgadmin3.desktop</Filename>
+			<Filename>pgmodeler.desktop</Filename>
+			<Filename>proguard.desktop</Filename>
+			<Filename>qt5-qdbusviewer.desktop</Filename>
+			<Filename>spyder.desktop</Filename>
+			<Filename>vstudio.desktop</Filename>
+			<Filename>gtk3-widget-factory.desktop</Filename>
+			<Filename>groovy.desktop</Filename>
+			<Filename>Aqua-data-studio-IDE.desktop</Filename>
+			<Filename>kdiff3.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Directory>xfce-system.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>cockpit.desktop</Filename>
+			<Filename>org.kde.discover.desktop</Filename>
+			<Filename>org.kde.dolphin.desktop</Filename>
+			<Filename>liveusb-creator.desktop</Filename>
+			<Filename>fedora-release-notes.desktop</Filename>
+			<Filename>gsmartcontrol.desktop</Filename>
+			<Filename>org.kde.konsole.desktop</Filename>
+			<Filename>org.kde.kwalletmanager5.desktop</Filename>
+			<Filename>pmchart.desktop</Filename>
+			<Filename>qterminal.desktop</Filename>
+			<Filename>qterminal_drop.desktop</Filename>
+			<Filename>qterminal_drop-qt5.desktop</Filename>
+			<Filename>qterminal-qt5.desktop</Filename>
+			<Filename>rpmdepsize.desktop</Filename>
+			<Filename>yumex-local.desktop</Filename>
+			<Filename>xfce4-session-logout.desktop</Filename>
+			<Filename>xfce4-taskmanager.desktop</Filename>
+			<Filename>org.kde.PartitionManager.desktop</Filename>
+			<Filename>Thunar-bulk-rename.desktop</Filename>
+			<Filename>virt-manager.desktop</Filename>
+			<Filename>avahi-discover.desktop</Filename>
+			<Filename>Thunar-folder-handler.desktop</Filename>
+			<Filename>xfce4-sensors.desktop</Filename>
+			<Filename>gparted.desktop</Filename>
+			<Filename>org.kde.ksysguard.desktop</Filename>
+			<Filename>gnome-abrt.desktop</Filename>
+			<Filename>xfce4-terminal.desktop</Filename>
+			<Filename>terminator.desktop</Filename>
+			<Filename>liveinst.desktop</Filename>
+			<Filename>colordkdeiccimporter.desktop</Filename>
+			<Filename>Thunar.desktop</Filename>
+			<Filename>k3b.desktop</Filename>
+			<Filename>kfmclient.desktop</Filename>
+			<Filename>kfmclient_dir.desktop</Filename>
+			<Filename>kfmclient_html.desktop</Filename>
+			<Filename>kfmclient_war.desktop</Filename>
+			<Filename>kuser.desktop</Filename>
+			<Filename>kwalletmanager.desktop</Filename>
+			<Filename>yakuake.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Layout>
+		<Filename>xfce4-run.desktop</Filename>
+		<Separator />
+		<Filename>exo-terminal-emulator.desktop</Filename>
+		<Filename>exo-file-manager.desktop</Filename>
+		<Filename>exo-mail-reader.desktop</Filename>
+		<Filename>exo-web-browser.desktop</Filename>
+		<Separator />
+		<Menuname>Settings</Menuname>
+		<Menuname>SystemConfig</Menuname>
+		<Separator />
+		<Menuname>SQuirreL-SQL-Client-izpack</Menuname>
+		<Menuname>Wine</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Documentation</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Network</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>chrome-apps</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>System</Menuname>
+		<Separator />
+		<Filename>xfce4-session-logout.desktop</Filename>
+		<Filename>Aqua-data-studio-IDE.desktop</Filename>
+	</Layout>
+</Menu>

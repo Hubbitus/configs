@@ -1,0 +1,12 @@
+[Audio Preview Settings]
+Autoplay=true
+
+[FileDialogSize]
+Height 1050=480
+Height 1080=480
+Width 1680=640
+Width 1920=640
+
+[KFileDialog Settings]
+Recent Files[$e]=egais.dbm,file://$HOME/temp/forest.png,file://$HOME/Projects/RLH/main.branch/database/model/egais.dbm,file://$HOME/Projects/RLH/egais/portal/implementation/main/database/model/egais.dbm
+Recent URLs[$e]=file://$HOME/Projects/RLH/egais/portal/implementation/main/database/model/,file://$HOME/Projects/RLH/main.branch/database/model/,file://$HOME/Projects/RLH/main.branch/database/,file://$HOME/Projects/RLH/main.branch/,file://$HOME/Projects/RLH/main.branch/target/,file:///usr/bin/,file://$HOME/temp/
