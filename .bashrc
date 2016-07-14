@@ -20,7 +20,11 @@ alias rf='rpm -qf'
 alias rq='rpm -q'
 
 alias g='LANG=en_US.utf8 git'
-
+# Provide also completions like in git
+# http://stackoverflow.com/questions/342969/how-do-i-get-bash-completion-to-work-with-aliases
+. /usr/share/bash-completion/completions/git
+__git_complete g __git_main
+alias d=docker
 alias s=sleep
 alias e=mcedit
 
@@ -109,8 +113,8 @@ alias svn='ionice -c3 colorsvn'
 alias t='cd ~/temp'
 
 # Idea diff and merge  http://www.jetbrains.com/idea/webhelp/running-intellij-idea-as-a-diff-or-merge-command-line-tool.html
-alias idiff='/opt/JetBrains/idea/bin/idea.sh diff'
-alias imerge='/opt/JetBrains/idea/bin/idea.sh merge'
+alias idiff='/opt/idea/bin/idea.sh diff'
+alias imerge='/opt/idea/bin/idea.sh merge'
 
 # If at that moment yakuake active and NOT start from | (to allow manually name it later) - set it title to first argument of ssh* command (user@host assummed)
 function setYakuakeTabName(){
@@ -224,14 +228,10 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun
 export CLASSPATH=$CLASSPATH:.
 
 # Do not auto update screen titles!
-#export PROMPT_COMMAND='if [ ! "screen" = "${TERM:0:6}" ]; then printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"; else echo ""; fi'
-export PROMPT_COMMAND=''
+#? export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
 
-#? [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-
 alias b='source ~/.bashrc'
-[ -f ~/.bashrc.PS1 ] && source ~/.bashrc.PS1
+#? [ -f ~/.bashrc.PS1 ] && source ~/.bashrc.PS1
 
