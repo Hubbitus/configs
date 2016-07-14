@@ -30,9 +30,14 @@
 	editor = mcedit
 	quotepath = false
 	compression = 9
+	autocrlf = input
 
 [merge]
 	tool = meld
+
+# Workaround of BUG https://bugzilla.redhat.com/show_bug.cgi?id=1216120#c3
+[mergetool "meld"]
+	hasOutput = true
 
 [push]
 #?	default = simple
@@ -40,10 +45,20 @@
 
 # http://alblue.bandlem.com/2011/04/git-tip-of-week-aliases.html
 [alias]
-	st = status
-	s = status
+	a = add
+	b = branch
 	c = commit
+	# "commit and push". http://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
+	cp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+	ch = checkout
+	s = status
+	st = status
 	d = diff
+	r = remote -v
+	# http://stackoverflow.com/questions/11269256/how-to-name-and-retrieve-a-stash-by-name-in-git
+	sshow = "!f() { git stash show stash^{/$*}; }; f"
+	sshowdiff = "!f() { git stash show -p stash^{/$*} -p; }; f"
+	sapply = "!f() { git stash apply stash^{/$*}; }; f"
 
 	# Define 'git last' to show last commit message
 	last = show -s HEAD^{commit}
@@ -59,6 +74,10 @@
 	type = cat-file -t
 	dump = cat-file -p
 
+	# http://stackoverflow.com/questions/1064361/unable-to-show-a-git-tree-in-terminal
+	tree = log --graph --oneline --all
+
 [branch]
 	# https://www.atlassian.com/git/tutorial/remote-repositories#!pull
 	autosetuprebase = always
+
