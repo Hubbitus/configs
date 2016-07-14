@@ -1,5 +1,5 @@
 #
-#Thu Jul 23 13:55:18 MSK 2015
+#Wed Feb 10 18:08:53 MSK 2016
 property.visualeditingprops=true
 property.queryanalyzerupdate=true
 property.visualeditingdrop=true
@@ -45,6 +45,7 @@ property.ansipadding=true
 connection.objectexclusion=
 property.quotedidentifier=true
 property.queryanalyzerselect=true
+connection.oraconntype=SID
 property.dbaccessonly=false
 connection.username=postgres
 connection.schemainclusion=
@@ -70,7 +71,7 @@ property.jconnectdriver=false
 property.tabledataeditorinsert=true
 property.noheaderrow=false
 property.queryanalyzerddl=true
-connection.host=192.168.3.5
+connection.host=192.168.1.5
 connection.sid=zabbix_db
 property.shell.stoponsqlerror=true
 property.spacelimit=
