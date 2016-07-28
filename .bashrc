@@ -228,7 +228,7 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun
 export CLASSPATH=$CLASSPATH:.
 
 # Do not auto update screen titles!
-#? export PROMPT_COMMAND=''
+export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
 
