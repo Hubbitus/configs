@@ -29,14 +29,12 @@
 /.wireshark/
 /.thunderbird/
 /.thumbnails/
-/.IdeaIC1*/system/
-/.IdeaIC1*/config/plugins/
-/.IdeaIC1*/config/tasks/
+/.IdeaIC*/system/
+/.IdeaIC*/config/plugins/
+/.IdeaIC*/config/tasks/
 /.Skype
 /.ansible
 /.cache
-/.datastudio/history/
-/.datastudio/logs/
 /.dbus
 /.fedora/fedora_session
 /.gem
@@ -95,6 +93,13 @@
 
 # It usefull for versioning, but it store pasword hashes together. So excluding.
 /.datastudio/connections
+/.datastudio/history/
+/.datastudio/logs/
+/.datastudio/datastudio-lock.properties
+/.datastudio/license.activate
+/.datastudio/license.properties
+/.datastudio/workspace.dat
+
 
 # It is auto written
 /.config/Skype/Skype.conf
@@ -137,3 +142,24 @@
 /.ipython/profile_default/history.sqlite
 
 /.gnupg/
+
+# It is itself git repo under hood
+/.password-store/
+
+/.config/skypeforlinux/Cache
+/.config/skypeforlinux/GPUCache
+/.config/skypeforlinux/Local Storage
+/.config/skypeforlinux/logs
+/.config/skypeforlinux/updates
+/.config/skypeforlinux/Cookies
+/.config/skypeforlinux/Cookies-journal
+/.config/skypeforlinux/SS
+/.config/skypeforlinux/WebRTCIdentityStore
+/.config/skypeforlinux/WebRTCIdentityStore-journal
+/.config/skypeforlinux/device-info.json
+/.config/skypeforlinux/ecscache.json
+
+/.config/scudcloud/data7/
+
+# No need save calculate history
+/.qalculate/qalculate-gtk.cfg
