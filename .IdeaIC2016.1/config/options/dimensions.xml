@@ -8,18 +8,18 @@
     <location key="CommitChangelistDialog2.1366.0.1920.1080" x="1719" y="86" />
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1366.0.1920.1080" x="2002" y="294" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1366.0.1920.1080" x="1583" y="274" />
-    <location key="findTextDialog.1366.0.1920.1080" x="1579" y="145" />
-    <location key="VCS.ChangeListViewerDialog.1366.0.1920.1080" x="1432" y="194" />
+    <location key="findTextDialog.1366.0.1920.1080" x="1541" y="145" />
+    <location key="VCS.ChangeListViewerDialog.1366.0.1920.1080" x="1366" y="194" />
     <location key="RollbackChangesDialog.1366.0.1920.1080" x="2024" y="338" />
     <location key="VCS.ChangelistChooser.1366.0.1920.1080" x="2116" y="454" />
     <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1366.0.1920.1080" x="2005" y="456" />
     <location key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog.1366.0.1920.1080" x="2028" y="375" />
-    <location key="#xdebugger.evaluate.1366.0.1920.1080" x="1573" y="527" />
+    <location key="#xdebugger.evaluate.1366.0.1920.1080" x="1335" y="425" />
     <location key="ProcessPopupWindow.1366.0.1920.1080" x="1597" y="765" />
     <location key="DBNavigator.ProjectSettingsDialog.1366.0.1920.1080" x="1802" y="192" />
     <location key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.1366.0.1920.1080" x="2178" y="388" />
     <location key="svn.sslCredentialsDialog.1366.0.1920.1080" x="2068" y="445" />
-    <location key="DiffContextDialog.1366.0.1920.1080" x="1531" y="157" />
+    <location key="DiffContextDialog.1366.0.1920.1080" x="1366" y="23" />
     <location key="IdeErrosDialog.1366.0.1920.1080" x="1689" y="384" />
     <location key="#xdebugger.XInspectDialog.1366.0.1920.1080" x="2021" y="295" />
     <location key="com.intellij.ide.util.TipDialog.1366.0.1680.1050" x="1840" y="342" />
@@ -73,7 +73,7 @@
     <location key="ReplaceDuplicatesPrompt.1366.0.1680.1050" x="1739" y="471" />
     <location key="GrepConsoleSettings.1366.0.1920.1080" x="1362" y="0" />
     <location key="replaceTextDialog.1366.0.1920.1080" x="1968" y="243" />
-    <location key="ReplaceDuplicatesPrompt.1366.0.1920.1080" x="1778" y="626" />
+    <location key="ReplaceDuplicatesPrompt.1366.0.1920.1080" x="1769" y="523" />
     <location key="vcs.ApplyPatchDifferentiatedDialog.1366.0.1920.1080" x="2001" y="116" />
     <location key="MergeDialog.1366.0.1920.1080" x="1490" y="232" />
     <location key="com.intellij.ide.util.TipDialog.1878.0.1920.1080" x="2549" y="357" />
@@ -132,7 +132,7 @@
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.1366.0.1920.1080" x="2089" y="170" />
     <location key="findTextDialog.0.0.1366.768" x="371" y="82" />
     <location key="DiffContextDialog.0.0.1366.768" x="118" y="60" />
-    <location key="CommitChangelistDialog2.0.0.1366.768" x="1624" y="170" />
+    <location key="CommitChangelistDialog2.0.0.1366.768" x="0" y="34" />
     <location key="SimpleOpenTaskDialog.0.0.1366.768" x="450" y="256" />
     <location key="VCS.ChangelistChooser.0.0.1366.768" x="431" y="189" />
     <location key="SettingsEditor.0.0.1366.768" x="90" y="17" />
@@ -154,17 +154,17 @@
     <location key="replaceTextDialog.0.0.1366.768" x="340" y="80" />
     <location key="ReplaceDuplicatesPrompt.0.0.1366.768" x="164" y="626" />
     <size key="FileChooserDialogImpl.1366.0.1920.1080" width="699" height="746" />
-    <size key="GridCell.Tab.0.left.1366.0.1920.1080" width="1739" height="333" />
-    <size key="GridCell.Tab.0.center.1366.0.1920.1080" width="1739" height="333" />
-    <size key="GridCell.Tab.0.right.1366.0.1920.1080" width="1739" height="333" />
-    <size key="GridCell.Tab.0.bottom.1366.0.1920.1080" width="1739" height="333" />
-    <size key="GridCell.Tab.1.left.1366.0.1920.1080" width="1739" height="350" />
-    <size key="GridCell.Tab.1.center.1366.0.1920.1080" width="1739" height="350" />
-    <size key="GridCell.Tab.1.right.1366.0.1920.1080" width="1739" height="350" />
-    <size key="GridCell.Tab.1.bottom.1366.0.1920.1080" width="1739" height="350" />
+    <size key="GridCell.Tab.0.left.1366.0.1920.1080" width="1499" height="401" />
+    <size key="GridCell.Tab.0.center.1366.0.1920.1080" width="1499" height="401" />
+    <size key="GridCell.Tab.0.right.1366.0.1920.1080" width="1499" height="401" />
+    <size key="GridCell.Tab.0.bottom.1366.0.1920.1080" width="1499" height="401" />
+    <size key="GridCell.Tab.1.left.1366.0.1920.1080" width="1499" height="295" />
+    <size key="GridCell.Tab.1.center.1366.0.1920.1080" width="1499" height="295" />
+    <size key="GridCell.Tab.1.right.1366.0.1920.1080" width="1499" height="295" />
+    <size key="GridCell.Tab.1.bottom.1366.0.1920.1080" width="1499" height="295" />
     <size key="ProcessPopupWindow.1366.0.1920.1080" width="1231" height="174" />
     <size key="CommitChangelistDialog2.1366.0.1920.1080" width="1008" height="910" />
-    <size key="#xdebugger.evaluate.1366.0.1920.1080" width="1344" height="572" />
+    <size key="#xdebugger.evaluate.1366.0.1920.1080" width="1344" height="856" />
     <size key="DebuggerActiveHint.1366.0.1920.1080" width="698" height="402" />
     <size key="XDebugger.FullValuePopup.1366.0.1920.1080" width="764" height="527" />
     <size key="#xdebugger.XInspectDialog.1366.0.1920.1080" width="561" height="460" />
@@ -232,10 +232,10 @@
     <size key="#com.intellij.debugger.actions.ViewTextAction.1366.0.1920.1080" width="703" height="579" />
     <size key="#xdebugger.XInspectDialog.1366.0.1680.1050" width="694" height="460" />
     <size key="MergeDialog.1366.0.1920.1080" width="1366" height="719" />
-    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1185" height="210" />
-    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1185" height="210" />
-    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1185" height="210" />
-    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1185" height="210" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1185" height="258" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1185" height="258" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1185" height="258" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1185" height="258" />
     <size key="GridCell.Tab.0.left.1720.0.1920.1080" width="1763" height="365" />
     <size key="GridCell.Tab.0.center.1720.0.1920.1080" width="1763" height="365" />
     <size key="GridCell.Tab.0.right.1720.0.1920.1080" width="1763" height="365" />
@@ -256,10 +256,10 @@
     <size key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1366.0.1920.1080" width="1026" height="171" />
     <size key="#Browse_Repositories.1366.0.1920.1080" width="830" height="695" />
     <size key="DetectedRootsChooserDialog.1366.0.1920.1080" width="496" height="569" />
-    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1185" height="210" />
-    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1185" height="210" />
-    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1185" height="210" />
-    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1185" height="210" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1185" height="301" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1185" height="301" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1185" height="301" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1185" height="301" />
     <size key="#Grep_Console.1366.0.1920.1080" width="898" height="355" />
     <size key="#com.intellij.fileTypes.FileTypeChooser.1366.0.1920.1080" width="619" height="411" />
     <size key="replaceTextDialog.1366.0.1920.1080" width="481" height="610" />
@@ -313,5 +313,8 @@
     <size key="#com.intellij.unscramble.UnscrambleDialog.1366.0.1920.1080" width="651" height="664" />
     <size key="replaceTextDialog.0.0.1366.768" width="549" height="606" />
     <size key="ReplaceDuplicatesPrompt.0.0.1366.768" width="1063" height="133" />
+    <size key="IdeErrosDialog.0.0.1366.768" width="877" height="370" />
+    <size key="XDebugger.FullValuePopup.0.0.1366.768" width="621" height="389" />
+    <size key="vcs.ApplyPatchDifferentiatedDialog.1366.0.1920.1080" width="539" height="843" />
   </component>
 </application>

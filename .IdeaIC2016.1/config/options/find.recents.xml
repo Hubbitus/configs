@@ -1,39 +1,38 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>@Cache</find>
-      <find>rel_wood_breed_tnved_class</find>
-      <find>rtcl.lu_wood_breed_fkey</find>
-      <find>elementBreedInfoSortId</find>
-      <find>tnv</find>
-      <find>sort</find>
-      <find>woodBreedDao</find>
-      <find>project.properties</find>
-      <find>Count</find>
-      <find>props</find>
-      <find>props|git</find>
-      <find>GITrev</find>
-      <find>allp</find>
-      <find>GIT</find>
-      <find>GIT.rev</find>
-      <find>plugin</find>
-      <find>git</find>
-      <find>print</find>
-      <find>bree</find>
-      <find>send</find>
+      <find>1.0-rc8</find>
+      <find>обязательно использовать в запросе на обновление объекта</find>
+      <find>UPDATE_NOT</find>
+      <find>woodlotE</find>
+      <find>Дата обновления</find>
+      <find>unc</find>
+      <find>SELECT detail.bo_contract_hardwood_fkey, SUM(hardwood_volume) hardwood_volume</find>
+      <find>SUM(hardwood_volume) hardwood_volume</find>
+      <find>SUM(hardwood_volume)</find>
+      <find>GROUP BY detail.bo_contract_hardwood_fkey</find>
+      <find>s1.bo_contract_hardwood_fkey</find>
+      <find>DatabaseVersionValidator</find>
+      <find>amount</find>
+      <find>test.json</find>
+      <find>igno</find>
+      <find>insertedId</find>
+      <find>contractReport</find>
+      <find>hardwood_volume</find>
+      <find>versio</find>
+      <find>'TEST</find>
+      <find>versioning</find>
+      <find>versioning:2.</find>
+      <find>branchParser</find>
+      <find>versioni</find>
       <find>tag</find>
-      <find>parse</find>
-      <find>SELECT MAX(version) FROM history.bo_history WHERE object_key=?</find>
-      <find>SELECT MAX(version)</find>
-      <find>public Integer getVersion(String id)</find>
-      <find>getDisplayVersion</find>
-      <find>bo_history</find>
-      <find>SELECT count(*) over() full_count, h.*, s.la</find>
-      <find>histo</find>
-      <find>woodSortDao</find>
+      <find>ReleaseInfo</find>
+      <find>displayMode</find>
+      <find>full</find>
+      <find>releaseP</find>
+      <find>s1</find>
     </findStrings>
     <replaceStrings>
-      <replace>staging_db.name</replace>
       <replace>staging_db.schm</replace>
       <replace>staging_</replace>
       <replace>{{postgres_data_directory}}</replace>
@@ -63,6 +62,7 @@
       <replace>- include: ../../includes/_common_handlers.yml</replace>
       <replace>GIT.rev</replace>
       <replace>versioning.info.build</replace>
+      <replace>1.0-rc9</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/Projects/RLH/egais/portal/implementation/main/service-backend/src/main/java/ru/rlh/egais/portal/backend/dao/impl</dir>

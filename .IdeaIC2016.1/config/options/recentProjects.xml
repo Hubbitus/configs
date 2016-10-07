@@ -3,10 +3,11 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/Projects/RLH/portal" />
+        <option value="$USER_HOME$/Projects/_Outer/_participation/versioning" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/main" />
+        <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
         <option value="$USER_HOME$/Projects/_Outer/mybatis-paginator" />
         <option value="$USER_HOME$/Projects/Ansible.cfg" />
-        <option value="$USER_HOME$/Projects/UniData/unidata/branches/unidata_RLH" />
-        <option value="$USER_HOME$/Projects/UniData/unidata/main" />
         <option value="$USER_HOME$/Projects/_TEST/geb" />
         <option value="$USER_HOME$/Projects/RLH/documentation" />
         <option value="$USER_HOME$/Projects/Ansible.hubbitus" />
@@ -110,7 +111,7 @@
               <option name="build" value="IC-145.1617" />
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1467790897998" />
+              <option name="projectOpenTimestamp" value="1468493330351" />
               <option name="buildTimestamp" value="1464901200000" />
             </RecentProjectMetaInfo>
           </value>
@@ -198,7 +199,7 @@
               <option name="build" value="IC-145.1617" />
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1467050313577" />
+              <option name="projectOpenTimestamp" value="1468246354929" />
               <option name="buildTimestamp" value="1464901200000" />
             </RecentProjectMetaInfo>
           </value>
@@ -209,7 +210,7 @@
               <option name="build" value="IC-145.1617" />
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1466756762010" />
+              <option name="projectOpenTimestamp" value="1468409903903" />
               <option name="buildTimestamp" value="1464901200000" />
             </RecentProjectMetaInfo>
           </value>
@@ -244,6 +245,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1457965130784" />
               <option name="buildTimestamp" value="1456174800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/_Outer/_participation/versioning">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-145.1617" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1468441180617" />
+              <option name="buildTimestamp" value="1464901200000" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -326,6 +338,6 @@
         </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$/Projects/_Outer" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Projects/_Outer/_participation" />
   </component>
 </application>

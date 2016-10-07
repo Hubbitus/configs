@@ -10,5 +10,6 @@
   <component name="SSHConnectionSettings">
     <successfulAuthentication user="backup@git.hubbitus.info" method="publickey" />
     <successfulAuthentication user="git@git.taskdata.com:7022" method="publickey" />
+    <successfulAuthentication user="git@github.com" method="publickey" />
   </component>
 </application>
