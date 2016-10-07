@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# Created by Red Hat Desktop Switcher
+
+if [ -e "$HOME/.Xclients-$HOSTNAME$DISPLAY" ]; then
+    exec $HOME/.Xclients-$HOSTNAME$DISPLAY
+else
+    exec $HOME/.Xclients-default
+fi
