@@ -86,6 +86,8 @@ filepos_max_saved_entries=1024
 
 editor_wordcompletion_collect_entire_file=false
 
+editor_state_full_filename=0
+
 [Layout]
 message_visible=1
 keybar_visible=1
@@ -96,7 +98,7 @@ menubar_visible=1
 free_space=1
 horizontal_split=0
 vertical_equal=1
-left_panel_size=107
+left_panel_size=135
 horizontal_equal=1
 top_panel_size=1
 
@@ -123,6 +125,8 @@ xterm=
 
 screen=
 
+screen-256color=
+
 [HotlistConfig]
 expanded_view_of_groups=0
 
@@ -148,6 +152,8 @@ select_flags=6
 
 simple_swap=false
 
+panel_scroll_center=false
+
 [terminal:xterm-256color]
 f5=^`[15~
 f6=^`[17~
@@ -162,6 +168,41 @@ f20=\\eOA\\eOB
 
 f13=\\e[28~
 f14=\\e[29~
+
+[DiffView]
+show_symbols=false
+show_numbers=false
+tab_size=8
+diff_quality=0
+diff_ignore_tws=false
+diff_ignore_all_space=false
+diff_ignore_space_change=false
+diff_tab_expansion=false
+diff_ignore_case=false
+
+[terminal:screen-256color]
+f3=\\e[[C
+f4=\\e[[D
+
+f1=\\eOP
+f2=\\e[[B
+f5=^`[15~
+f6=^`[17~
+f7=^`[18~
+f8=^`[19~
+f9=\\e[20~
+f10=\\e[21~
+f11=\\e[23~
+f12=\\e[24~
+f13=\\eO2R
+f14=\\eO2S
+f15=^`[15\;2~
+f16=^`[17\;2~
+f17=^`[18\;2~
+f18=^`[19\;2~
+
+f19=\\e[20\;2~
+f20=\\e[21~
 
 [Panelize]
 Изменённые файлы под контролем git=git ls-files --modified
