@@ -51,11 +51,22 @@
 	# "commit and push". http://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
 	cp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 	ch = checkout
+	d = diff
+	d-ignore-space-at-eol = diff --ignore-space-at-eol
+	d-ignore-spaces = diff --ignore-blank-lines --ignore-space-change
+	f = fetch
+	ph = push
+	pl = pull
+	ps = push
+	r = remote -v
 	s = status
 	st = status
-	d = diff
-	r = remote -v
+
+
+
 	# http://stackoverflow.com/questions/11269256/how-to-name-and-retrieve-a-stash-by-name-in-git
+	# ssave "some meaningfull name"
+	ssave = stash save
 	sshow = "!f() { git stash show stash^{/$*}; }; f"
 	sshowdiff = "!f() { git stash show -p stash^{/$*} -p; }; f"
 	sapply = "!f() { git stash apply stash^{/$*}; }; f"
@@ -77,7 +88,16 @@
 	# http://stackoverflow.com/questions/1064361/unable-to-show-a-git-tree-in-terminal
 	tree = log --graph --oneline --all
 
+	# http://stackoverflow.com/questions/1527234/finding-a-branch-point-with-git
+	branchdiff = !sh -c \"git diff `git oldest-ancestor`..\"
+	branchlog = !sh -c \"git log `git oldest-ancestor`..\"
+
 [branch]
 	# https://www.atlassian.com/git/tutorial/remote-repositories#!pull
-	autosetuprebase = always
+#?	autosetuprebase = always
 
+[rerere]
+	enabled = true
+	autoupdate = true
+[pull]
+	rebase = false
