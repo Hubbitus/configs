@@ -1,5 +1,5 @@
 [General]
-history=gedit,kwrite,ko,kwin --replace,yakuake,xrandr --auto,kscre,mc,skype,systemse,nautilus
+history=kscre,kch,parav,gedit,write,kedit,dit,oocalc,yakuake,killall yakuake,kwrite,ko,kwin --replace,xrandr --auto,mc,skype,systemse,nautilus
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_org.gnome.gedit.desktop,1 services_kde4-yakuake.desktop,1 services_wireshark.desktop,1 services_groovy.desktop,1 services_org.kde.KCharSelect.desktop,1 services_kcm_kscreen.desktop,2 services_org.kde.kwrite.desktop,1 shell_nautilus
+LaunchCounts=1 shell_nautilus,1 services_groovy.desktop,1 services_wireshark.desktop,1 services_org.kde.KCharSelect.desktop,2 services_org.kde.kwrite.desktop,1 services_org.gnome.gedit.desktop,1 services_kde4-yakuake.desktop,4 services_kcm_kscreen.desktop

@@ -1,4 +1,28 @@
 [Added Associations]
 x-scheme-handler/http=exo-web-browser.desktop
 x-scheme-handler/https=exo-web-browser.desktop
+application/zip=xarchiver.desktop;vym.desktop;
+application/vnd.ms-excel=libreoffice-calc.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
+application/pdf=evince.desktop;kde4-okularApplication_pdf.desktop;okularApplication_pdf.desktop;gimp.desktop;
+text/plain=org.gnome.gedit.desktop;
+video/mp4=mpv.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;
+image/jpeg=geeqie.desktop;gimp.desktop;kde4-okularApplication_kimgio.desktop;
+image/png=gimp.desktop;geeqie.desktop;wine-extension-png.desktop;
+audio/mpeg=kde4-amarok.desktop;userapp-parole-KMMKFY.desktop;mpv.desktop;
+text/x-log=org.gnome.gedit.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+application/x-virtualbox-vbox=virtualbox.desktop;
+image/gif=firefox.desktop;geeqie.desktop;wine-extension-gif.desktop;
+application/javascript=org.gnome.gedit.desktop;
+application/x-rar=org.kde.ark.desktop;
+application/xml=org.kde.kwrite.desktop;
+application/vnd.visio=libreoffice-draw.desktop;inkscape.desktop;
+application/sql=org.gnome.gedit.desktop;
+text/html=chromium-browser.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 
+[Default Applications]
+x-scheme-handler/tg=telegramdesktop.desktop

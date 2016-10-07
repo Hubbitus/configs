@@ -12,18 +12,18 @@ Width 1680=763
 
 [MainWindow]
 CommandList=
-Height 1050=1021
-Height 1080=1051
+Height 1050=697
+Height 1080=1021
 Height 768=1021
 HostList=
-SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Вкладка 1.sgrd
-SplitterSizeList=1340,464
-State=AAAA/wAAAAD9AAAAAAAABw0AAAPGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Вкладка 1.sgrd,Вкладка 2.sgrd
+SplitterSizeList=1360,0
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKXAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1366=1805
-Width 1680=1805
-Width 1920=1805
-Window-Maximized 1050x1680=true
+Width 1680=1366
+Width 1920=1775
+Window-Maximized 1080x1920=true
 Window-Maximized 768x1366=true
-currentSheet=0
+currentSheet=3
 isMinimized=false

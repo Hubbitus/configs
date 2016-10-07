@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="compositing_manager" mtime="1458241833" type="bool" value="true"/>
+</gconf>

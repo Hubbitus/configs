@@ -1,19 +1,27 @@
 [Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=SYSTEM_DRV
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=Windows7_OS
 LastSeenMounted=false
 
+[Devices][/org/freedesktop/UDisks2/block_devices/sda3]
+EverMounted=true
+LastSeenMounted=false
+
 [Devices][/org/freedesktop/UDisks2/block_devices/sda5]
+EverMounted=true
 Icon=drive-harddisk
-LastNameSeen=Жёсткий диск (500,0 МиБ)
+LastNameSeen=boot
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda7]
+EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=fedora_hubbitus
 LastSeenMounted=false
@@ -35,3 +43,9 @@ EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=EFI SYSTEM
 LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdd1]
+EverMounted=true
+Icon=drive-removable-media-usb-pendrive
+LastNameSeen=Kanonichno
+LastSeenMounted=false

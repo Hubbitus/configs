@@ -3,7 +3,7 @@ Autoplay=true
 
 [FileDialogSize]
 Height 768=480
-Width 1366=464
+Width 1366=640
 
 [General Options]
 ShowMenuBar=true
@@ -19,41 +19,42 @@ Width 1366=903
 Width 1920=903
 
 [KTextEditor::Search]
-Replace History=\\\\[\\\\e,\\\\[\\\\\\\\e,\\\\t,\\\\n
-Search History=hardw,ru.rlh.egais.portal.backend.configuration.a.a,so.,duration: 5\\\\d{6\\,}.\\\\d+ ms,unidata-conf.xml,checkI,\\\\e,err,\\\\d+ ms,SELECT doc.id AS document_id\\, doc.contract_num\\, doc.contract_start_date\\, doc.contract_end_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​ ,c0af73c5-f7cc-4347-8713-e4adb3a64af6,\\\\\\\\t,\\\\\\\\n
+Replace History=Bianco Prieto-Ilarion,Get,Create,Packages,XDTOFactory,WSReferences,No such file or directory,\\\\[\\\\e,\\\\[\\\\\\\\e,\\\\t,\\\\n
+Search History=From:\\\\s+\\\\nBianco Prieto-Ilarion,From:\\\\s+Bianco Prieto-Ilarion,Bianco Prieto-Ilarion (ГЛР implementor),inn,Получить,Создать,Пакеты,ФабрикаXDTO,WSСсылки,Нет такого файла или каталога,hardw,ru.rlh.egais.portal.backend.configuration.a.a,so.,duration: 5\\\\d{6\\,}.\\\\d+ ms,unidata-conf.xml,checkI,\\\\e,err,\\\\d+ ms,SELECT doc.id AS document_id\\, doc.contract_num\\, doc.contract_start_date\\, doc.contract_end_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​,SELECT doc.id AS document_id\\,​ doc.contract_num\\,​ doc.contract_start_date\\,​ doc.contract_end_date\\,​ doc.doc_type_text\\,​ doc.doc_type_fkey\\,​ source_system.id as source_system_id\\,​ source_system.label as source_system_label\\,​ doc.updated_by_system\\,​ doc.source_key\\,​ doc.contract_term_in_months\\,​ doc.lu_land_type_fkey\\,​ const_entity.id as const_entity_id\\,​ const_entity.name as const_entity_name\\,​ state_authority.id as state_authority_id\\,​ state_authority.name as state_authority_name\\,​ state_authority.address as state_authority_address\\,​ federal_district.id as federal_district_id\\,​ federal_district.name as federal_district_name\\,​ federal_district.short_name as federal_district_short_name\\,​ federal_district.short_name_eng as federal_district_short_name_eng\\,​ contract.id AS contract_id\\,​ contract.create_date\\,​ contract.update_date\\,​ contract.created_by\\,​ contract.updated_by\\,​ contract.coniferous_volume\\,​ contract.hardwood_volume\\,​ contract.softwood_volume\\,​ ,c0af73c5-f7cc-4347-8713-e4adb3a64af6,\\\\\\\\t,\\\\\\\\n
 
 [MainWindow]
 Height 0=140
-Height 1050=470
-Height 1080=373
-Height 768=373
-State=AAAA/wAAAAD9AAAAAAAABfUAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1050=346
+Height 1080=346
+Height 768=346
+State=AAAA/wAAAAD9AAAAAAAABvYAAAPpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 0=564
 Width 1024=640
-Width 1366=902
-Width 1680=883
-Width 1920=902
-Window-Maximized 1050x1680=true
+Width 1366=1097
+Width 1680=1097
+Width 1920=1097
+Window-Maximized 1080x1920=true
+Window-Maximized 768x1366=true
 
 [Recent Files]
-File1[$e]=http://0.0.0.2
-File10[$e]=$HOME/temp/0001-Fix-API-uploads-after-frontend-refactoring.patch
-File2[$e]=$HOME/SOFT/review/python-openpyxl/1279785-python-openpyxl/review.txt
-File3[$e]=zip:/home/pasha/temp/Рослесхоз_v1.zip/Commons.xsd
-File4[$e]=$HOME/temp/hexer.spec
-File5[$e]=$HOME/Downloads/style.css
-File6[$e]=$HOME/temp/userparameter_jmx.bin
-File7[$e]=$HOME/temp/login_helper.sh
-File8[$e]=$HOME/temp/zbx_export_template_JMS-EGAIS.xml
-File9[$e]=http://sqlbuilderstatic.java
-Name1[$e]=2
-Name10[$e]=0001-Fix-API-uploads-after-frontend-refactoring.patch
-Name2[$e]=review.txt
-Name3[$e]=Commons.xsd
-Name4[$e]=hexer.spec
-Name5[$e]=style.css
-Name6[$e]=userparameter_jmx.bin
-Name7[$e]=login_helper.sh
-Name8[$e]=zbx_export_template_JMS-EGAIS.xml
-Name9[$e]=SQLBuilderStatic.java
+File1[$e]=$HOME/temp/egais-hotfix/versioning-2.0.0.pom
+File10[$e]=$HOME/.local/share/gnote/Backup/1f67b355-bc32-4e0e-b4a5-030d86e150cc.note
+File2[$e]=$HOME/temp/integrationSevice.xml
+File3[$e]=$HOME/temp/ID-centos7-vmware-46291-1469447495444-1-16-1-1-1
+File4[$e]=$HOME/UnidataIntegration-1C-soapui-project.xml
+File5[$e]=$HOME/temp/1c-notification-unescaped.xml
+File6[$e]=$HOME/temp/test.txt
+File7[$e]=$HOME/temp/glr/log.html
+File8[$e]=$HOME/temp/glr/Lookups/Party/bo_party.sql
+File9[$e]=$HOME/SOFT/FEDORA/reviews/mingw-podofo/0/1378807-mingw-podofo/review.txt
+Name1[$e]=versioning-2.0.0.pom
+Name10[$e]=1f67b355-bc32-4e0e-b4a5-030d86e150cc.note
+Name2[$e]=integrationSevice.xml
+Name3[$e]=ID-centos7-vmware-46291-1469447495444-1-16-1-1-1
+Name4[$e]=UnidataIntegration-1C-soapui-project.xml
+Name5[$e]=1c-notification-unescaped.xml
+Name6[$e]=test.txt
+Name7[$e]=log.html
+Name8[$e]=bo_party.sql
+Name9[$e]=review.txt

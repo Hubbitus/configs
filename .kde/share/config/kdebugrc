@@ -52,5 +52,11 @@ InfoOutput=4
 [kmahjongg]
 InfoOutput=4
 
+[plan]
+InfoOutput=2
+
+[plan (Scripting)]
+InfoOutput=2
+
 [unnamed app]
 InfoOutput=4

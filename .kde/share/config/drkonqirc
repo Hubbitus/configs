@@ -3,6 +3,8 @@ update_info=drkonqi-rename-config-section.upd:kde-4.11
 
 [General]
 Height 1050=329
+Height 768=337
+Width 1366=640
 Width 1680=640
 
 [SystemInformation]

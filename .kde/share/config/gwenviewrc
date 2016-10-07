@@ -16,7 +16,7 @@ Width 1680[$i]=763
 Height 1050=1051
 Height 1080=1081
 Height 768=769
-State=AAAA/wAAAAD9AAAAAAAABgoAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABgUAAAO/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1366=1367
 Width 1680=1681
@@ -30,16 +30,10 @@ PrintScaleMode=PrintOptionsPage::ScaleToCustomSize
 <copyMoveOrLink>[$e]=file:///run/media/pasha/LINFLASH4G/foto/2015-09-24/,$HOME/
 
 [Recent Files]
-File1[$e]=$HOME/remote/backup@store.hubbitus.info/home/backup/SHARED.pasha.data/DOCS/Олег/Паспорт/Passport_2-3.jpg
-File2[$e]=$HOME/temp/hl/logo-en.svg.png
-File3[$e]=$HOME/temp/Васька/0.jpg
-File4[$e]=$HOME/temp/Васька/1.jpg
-File5[$e]=$HOME/temp/Васька/3.jpg
-Name1[$e]=Passport_2-3.jpg
-Name2[$e]=logo-en.svg.png
-Name3[$e]=0.jpg
-Name4[$e]=1.jpg
-Name5[$e]=3.jpg
+File1[$e]=$HOME/temp/Редуктор.косилки/IMAG0097.jpg
+File2[$e]=$HOME/temp/Редуктор.косилки/IMAG0100.jpg
+Name1[$e]=IMAG0097.jpg
+Name2[$e]=IMAG0100.jpg
 
 [SideBar-BrowseMode]
 IsVisible=false

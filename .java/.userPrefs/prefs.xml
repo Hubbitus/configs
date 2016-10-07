@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
 <map MAP_XML_VERSION="1.0">
+  <entry key="JetBrains.UserIdOnMachine" value="260a7c6e-47df-481a-81b2-a86500e555fd"/>
+  <entry key="Squirrel.RecentFilesDialogHeight" value="500"/>
+  <entry key="Squirrel.RecentFilesDialogWidth" value="500"/>
+  <entry key="Squirrel.aliasPropsSheetHeight" value="600"/>
+  <entry key="Squirrel.aliasPropsSheetWidth" value="600"/>
   <entry key="Squirrel.alwaysAdoptAllColumnHeaders" value="true"/>
+  <entry key="Squirrel.favouriteAliasFiles.expanded" value="false"/>
+  <entry key="Squirrel.favouriteFiles.expanded" value="false"/>
+  <entry key="Squirrel.filechoosermanager.preselfilefilter" value="FILE_ENDING_NONE"/>
   <entry key="Squirrel.globalPrefsSheetHeight" value="600"/>
   <entry key="Squirrel.globalPrefsSheetWidth" value="1222"/>
   <entry key="Squirrel.hibernateplugin.chkShowQualified" value="false"/>
   <entry key="Squirrel.hibernateplugin.lastSelectedTab" value="0"/>
   <entry key="Squirrel.objTreeSearchFilter" value="false"/>
-  <entry key="Squirrel.selAliasIndex" value="0"/>
+  <entry key="Squirrel.recentAliasFiles.expanded" value="false"/>
+  <entry key="Squirrel.recentFiles.expanded" value="true"/>
+  <entry key="Squirrel.selAliasIndex" value="5"/>
   <entry key="Squirrel.selDriverIndex" value="54"/>
+  <entry key="Squirrel.syntax.last.find_0" value="bhdrd"/>
+  <entry key="Squirrel.syntax.last.find_1" value="tmp"/>
+  <entry key="Squirrel.syntax.last.find_2" value="bo_system_fkey_pkey"/>
+  <entry key="Squirrel.syntax.last.find_3" value="bo_print_form_meta_pkey"/>
+  <entry key="Squirrel.syntax.last.find_4" value="bo_forest_providing_pkey"/>
   <entry key="Squirrel.viewAliasesAsTree" value="false"/>
+  <entry key="SquirrelSQL.csvexport.commandString" value="openoffice.org-2.0 -calc %file"/>
+  <entry key="SquirrelSQL.csvexport.csvencoding" value="UTF-8"/>
+  <entry key="SquirrelSQL.csvexport.csvfile" value="/home/pasha/temp/visforms"/>
+  <entry key="SquirrelSQL.csvexport.executeCommand" value="false"/>
+  <entry key="SquirrelSQL.csvexport.exportcomplete" value="true"/>
+  <entry key="SquirrelSQL.csvexport.formatCSV" value="false"/>
+  <entry key="SquirrelSQL.csvexport.formatXLS" value="true"/>
+  <entry key="SquirrelSQL.csvexport.formatXLS_OLD" value="false"/>
+  <entry key="SquirrelSQL.csvexport.formatXML" value="false"/>
+  <entry key="SquirrelSQL.csvexport.lineSeparator" value="DEFAULT"/>
+  <entry key="SquirrelSQL.csvexport.sepearatorChar" value=","/>
+  <entry key="SquirrelSQL.csvexport.sepearatorTab" value="false"/>
+  <entry key="SquirrelSQL.csvexport.useGlobalPrefsFomating" value="true"/>
+  <entry key="SquirrelSQL.csvexport.withColumnHeaders" value="true"/>
   <entry key="SquirrelSQL.hibernate.limitObjectsCountVal" value="100"/>
-  <entry key="squirrelSql_dock_divider_loc.Aliases" value="150"/>
+  <entry key="squirrelSql_dock_divider_loc.Aliases" value="167"/>
   <entry key="squirrelSql_dock_divider_loc.Drivers" value="241"/>
-  <entry key="squirrelSql_mainPanel_sel_tab_ix" value="1"/>
-  <entry key="squirrelSql_sqlPanel_divider_loc" value="158"/>
+  <entry key="squirrelSql_mainPanel_sel_tab_ix" value="0"/>
+  <entry key="squirrelSql_sqlPanel_divider_loc" value="225"/>
+  <entry key="squirrelSql_toolsPopup_ctrl_t_count" value="4"/>
 </map>

@@ -2,7 +2,7 @@
 # All values writted XNeur
 
 # Config version
-Version 0.17.0
+Version 0.19.0
 
 # Work in manual mode
 ManualMode Yes
@@ -43,12 +43,12 @@ ExcludeApp rdesktop
 #SetManualApp Anjuta
 
 # Binds hotkeys for some actions
-AddBind ChangeWord Break
+AddBind ChangeWord Alt comma
 AddBind TranslitWord 
 AddBind ChangecaseWord 
 AddBind PreviewChangeWord 
 AddBind ChangeString 
-AddBind ChangeSelected Shift Break
+AddBind ChangeSelected Shift Alt comma
 AddBind TranslitSelected Alt Scroll_Lock
 AddBind ChangecaseSelected Shift Alt Break
 AddBind PreviewChangeSelected Control Pause
@@ -95,46 +95,46 @@ PlaySounds Yes
 # This option defined sound playing volume percent
 # Example:
 #SoundVolumePercent 10
-SoundVolumePercent 15
+SoundVolumePercent 2
 
 # Binds sounds for some actions
-AddSound XneurStart Disable 
-AddSound XneurReload Disable 
-AddSound XneurStop Disable 
+AddSound XneurStart 
+AddSound XneurReload 
+AddSound XneurStop 
 AddSound PressKeyLayout1 Disable /usr/share/xneur/sounds/layout1type.wav
 AddSound PressKeyLayout2 Disable /usr/share/xneur/sounds/layout2type.wav
-AddSound PressKeyLayout3 Disable 
-AddSound PressKeyLayout4 Disable 
-AddSound EnableLayout1 Disable 
-AddSound EnableLayout2 Disable 
-AddSound EnableLayout3 Disable 
-AddSound EnableLayout4 Disable 
+AddSound PressKeyLayout3 
+AddSound PressKeyLayout4 
+AddSound EnableLayout1 
+AddSound EnableLayout2 
+AddSound EnableLayout3 
+AddSound EnableLayout4 
 AddSound AutomaticChangeWord Enable /usr/share/xneur/sounds/itemback.wav
-AddSound ManualChangeWord Disable 
-AddSound ManualTranslitWord Disable 
-AddSound ManualChangecaseWord Disable 
-AddSound ManualPreviewChangeWord Disable 
-AddSound ChangeString Disable 
-AddSound ChangeSelected Disable 
-AddSound TranslitSelected Disable 
-AddSound ChangecaseSelected Disable 
-AddSound PreviewChangeSelected Disable 
-AddSound ChangeClipboard Disable 
-AddSound TranslitClipboard Disable 
-AddSound ChangecaseClipboard Disable 
-AddSound PreviewChangeClipboard Disable 
+AddSound ManualChangeWord 
+AddSound ManualTranslitWord 
+AddSound ManualChangecaseWord 
+AddSound ManualPreviewChangeWord 
+AddSound ChangeString 
+AddSound ChangeSelected 
+AddSound TranslitSelected 
+AddSound ChangecaseSelected 
+AddSound PreviewChangeSelected 
+AddSound ChangeClipboard 
+AddSound TranslitClipboard 
+AddSound ChangecaseClipboard 
+AddSound PreviewChangeClipboard 
 AddSound ReplaceAbbreviation Enable /usr/share/xneur/sounds/switch.wav
-AddSound CorrectIncidentalCaps Disable 
-AddSound CorrectTwoCapitalLetter Disable 
-AddSound CorrectTwoSpaceWithCommaAndSpace Disable 
-AddSound CorrectTwoMinusWithDash Disable 
-AddSound CorrectCWithCopyright Disable 
-AddSound CorrectTMWithTrademark Disable 
-AddSound CorrectRWithRegistered Disable 
-AddSound CorrectThreePointsWithEllipsis Disable 
-AddSound CorrectMisprint Disable 
+AddSound CorrectIncidentalCaps 
+AddSound CorrectTwoCapitalLetter 
+AddSound CorrectTwoSpaceWithCommaAndSpace 
+AddSound CorrectTwoMinusWithDash 
+AddSound CorrectCWithCopyright 
+AddSound CorrectTMWithTrademark 
+AddSound CorrectRWithRegistered 
+AddSound CorrectThreePointsWithEllipsis 
+AddSound CorrectMisprint 
 AddSound ExecuteUserAction Enable /usr/share/xneur/sounds/switch.wav
-AddSound BlockKeyboardAndMouseEvents Disable 
+AddSound BlockKeyboardAndMouseEvents 
 AddSound UnblockKeyboardAndMouseEvents 
 
 # This option enable or disable self education of xneur
@@ -166,7 +166,12 @@ SaveSelectionMode Yes
 # This option enable or disable rotating layout after convert selected text
 # Example:
 #RotateLayoutAfterChangeSelectedMode No
-RotateLayoutAfterChangeSelectedMode No
+RotateLayoutAfterChangeSelectedMode Yes
+
+# Add Applications names to include it to delay sending process
+# Xneur will be delay KeyPress and KeyRelease events for this applications
+# Example:
+#DelaySendingEventApp Firefox
 
 # This option define delay before sendind events to application (in milliseconds between 0 to 50).
 SendDelay 3
@@ -220,7 +225,7 @@ CorrectTwoSpaceWithCommaAndSpace No
 # This option enable or disable correction of two minus with a dash
 # Example:
 #CorrectTwoMinusWithDash Yes
-CorrectTwoMinusWithDash No
+CorrectTwoMinusWithDash Yes
 
 # This option enable or disable correction of two minus with a emdash
 # Example:
@@ -230,22 +235,22 @@ CorrectDashWithEmDash Yes
 # This option enable or disable correction of (c) with a copyright sign
 # Example:
 #CorrectCWithCopyright Yes
-CorrectCWithCopyright No
+CorrectCWithCopyright Yes
 
 # This option enable or disable correction of (tm) with a trademark sign
 # Example:
 #CorrectTMWithTrademark Yes
-CorrectTMWithTrademark No
+CorrectTMWithTrademark Yes
 
 # This option enable or disable correction of (r) with a registered sign
 # Example:
 #CorrectRWithRegistered Yes
-CorrectRWithRegistered No
+CorrectRWithRegistered Yes
 
 # This option enable or disable correction of three points with a ellipsis sign
 # Example:
 #CorrectThreePointsWithEllipsis Yes
-CorrectThreePointsWithEllipsis No
+CorrectThreePointsWithEllipsis Yes
 
 # This option enable or disable correction of mispints
 # Example:
@@ -260,7 +265,7 @@ FlushBufferWhenPressEscape No
 # This option enable or disable flushing internal buffer when pressed Enter or Tab
 # Example:
 #FlushBufferWhenPressEnter Yes
-FlushBufferWhenPressEnter No
+FlushBufferWhenPressEnter Yes
 
 # This option disable or enable show OSD
 # Example:
@@ -276,40 +281,40 @@ FontOSD -*-*-*-*-*-*-32-*-*-*-*-*-*-u
 AddOSD XneurStart Enable X Neural Switcher запущен
 AddOSD XneurReload Enable X Neural Switcher перезагружен
 AddOSD XneurStop Enable X Neural Switcher остановлен
-AddOSD PressKeyLayout1 Disable 
-AddOSD PressKeyLayout2 Disable 
-AddOSD PressKeyLayout3 Disable 
-AddOSD PressKeyLayout4 Disable 
-AddOSD EnableLayout1 Disable 
-AddOSD EnableLayout2 Disable 
-AddOSD EnableLayout3 Disable 
-AddOSD EnableLayout4 Disable 
-AddOSD AutomaticChangeWord Disable 
-AddOSD ManualChangeWord Disable 
-AddOSD ManualTranslitWord Disable 
-AddOSD ManualChangecaseWord Disable 
-AddOSD ManualPreviewChangeWord Disable 
-AddOSD ChangeString Disable 
-AddOSD ChangeSelected Disable 
-AddOSD TranslitSelected Disable 
-AddOSD ChangecaseSelected Disable 
-AddOSD PreviewChangeSelected Disable 
-AddOSD ChangeClipboard Disable 
-AddOSD TranslitClipboard Disable 
-AddOSD ChangecaseClipboard Disable 
-AddOSD PreviewChangeClipboard Disable 
-AddOSD ReplaceAbbreviation Disable 
-AddOSD CorrectIncidentalCaps Disable 
-AddOSD CorrectTwoCapitalLetter Disable 
-AddOSD CorrectTwoSpaceWithCommaAndSpace Disable 
-AddOSD CorrectTwoMinusWithDash Disable 
-AddOSD CorrectCWithCopyright Disable 
-AddOSD CorrectTMWithTrademark Disable 
-AddOSD CorrectRWithRegistered Disable 
-AddOSD CorrectThreePointsWithEllipsis Disable 
-AddOSD CorrectMisprint Disable 
+AddOSD PressKeyLayout1
+AddOSD PressKeyLayout2
+AddOSD PressKeyLayout3
+AddOSD PressKeyLayout4
+AddOSD EnableLayout1
+AddOSD EnableLayout2
+AddOSD EnableLayout3
+AddOSD EnableLayout4
+AddOSD AutomaticChangeWord
+AddOSD ManualChangeWord
+AddOSD ManualTranslitWord
+AddOSD ManualChangecaseWord
+AddOSD ManualPreviewChangeWord
+AddOSD ChangeString
+AddOSD ChangeSelected
+AddOSD TranslitSelected
+AddOSD ChangecaseSelected
+AddOSD PreviewChangeSelected
+AddOSD ChangeClipboard
+AddOSD TranslitClipboard
+AddOSD ChangecaseClipboard
+AddOSD PreviewChangeClipboard
+AddOSD ReplaceAbbreviation
+AddOSD CorrectIncidentalCaps
+AddOSD CorrectTwoCapitalLetter
+AddOSD CorrectTwoSpaceWithCommaAndSpace
+AddOSD CorrectTwoMinusWithDash
+AddOSD CorrectCWithCopyright
+AddOSD CorrectTMWithTrademark
+AddOSD CorrectRWithRegistered
+AddOSD CorrectThreePointsWithEllipsis
+AddOSD CorrectMisprint
 AddOSD ExecuteUserAction Enable Выполняется команда
-AddOSD BlockKeyboardAndMouseEvents Disable 
+AddOSD BlockKeyboardAndMouseEvents
 AddOSD UnblockKeyboardAndMouseEvents
 
 # This option disable or enable show popup messages
@@ -326,40 +331,40 @@ PopupExpireTimeout 1000
 AddPopup XneurStart Enable X Neural Switcher запущен
 AddPopup XneurReload Enable X Neural Switcher перезагружен
 AddPopup XneurStop Enable X Neural Switcher остановлен
-AddPopup PressKeyLayout1 Disable 
-AddPopup PressKeyLayout2 Disable 
-AddPopup PressKeyLayout3 Disable 
-AddPopup PressKeyLayout4 Disable 
-AddPopup EnableLayout1 Disable 
-AddPopup EnableLayout2 Disable 
-AddPopup EnableLayout3 Disable 
-AddPopup EnableLayout4 Disable 
-AddPopup AutomaticChangeWord Disable 
-AddPopup ManualChangeWord Disable 
-AddPopup ManualTranslitWord Disable 
-AddPopup ManualChangecaseWord Disable 
-AddPopup ManualPreviewChangeWord Disable 
-AddPopup ChangeString Disable 
-AddPopup ChangeSelected Disable 
-AddPopup TranslitSelected Disable 
-AddPopup ChangecaseSelected Disable 
+AddPopup PressKeyLayout1
+AddPopup PressKeyLayout2
+AddPopup PressKeyLayout3
+AddPopup PressKeyLayout4
+AddPopup EnableLayout1
+AddPopup EnableLayout2
+AddPopup EnableLayout3
+AddPopup EnableLayout4
+AddPopup AutomaticChangeWord
+AddPopup ManualChangeWord
+AddPopup ManualTranslitWord
+AddPopup ManualChangecaseWord
+AddPopup ManualPreviewChangeWord
+AddPopup ChangeString
+AddPopup ChangeSelected
+AddPopup TranslitSelected
+AddPopup ChangecaseSelected
 AddPopup PreviewChangeSelected Enable Предпросмотр коррекции выделеного текста
-AddPopup ChangeClipboard Disable 
-AddPopup TranslitClipboard Disable 
-AddPopup ChangecaseClipboard Disable 
+AddPopup ChangeClipboard
+AddPopup TranslitClipboard
+AddPopup ChangecaseClipboard
 AddPopup PreviewChangeClipboard Enable Предпросмотр коррекции буфера обмена
-AddPopup ReplaceAbbreviation Disable 
-AddPopup CorrectIncidentalCaps Disable 
-AddPopup CorrectTwoCapitalLetter Disable 
-AddPopup CorrectTwoSpaceWithCommaAndSpace Disable 
-AddPopup CorrectTwoMinusWithDash Disable 
-AddPopup CorrectCWithCopyright Disable 
-AddPopup CorrectTMWithTrademark Disable 
-AddPopup CorrectRWithRegistered Disable 
-AddPopup CorrectThreePointsWithEllipsis Disable 
-AddPopup CorrectMisprint Disable 
+AddPopup ReplaceAbbreviation
+AddPopup CorrectIncidentalCaps
+AddPopup CorrectTwoCapitalLetter
+AddPopup CorrectTwoSpaceWithCommaAndSpace
+AddPopup CorrectTwoMinusWithDash
+AddPopup CorrectCWithCopyright
+AddPopup CorrectTMWithTrademark
+AddPopup CorrectRWithRegistered
+AddPopup CorrectThreePointsWithEllipsis
+AddPopup CorrectMisprint
 AddPopup ExecuteUserAction Enable Выполняется команда
-AddPopup BlockKeyboardAndMouseEvents Disable 
+AddPopup BlockKeyboardAndMouseEvents
 AddPopup UnblockKeyboardAndMouseEvents
 
 # This option disable or enable checking language on input process
@@ -433,5 +438,6 @@ TrackingMouse Yes
 # Example:
 #LoadModule libxntest.so
 LoadModule libxnstatistic.so
+LoadModule libxntest.so
 
 # That's all

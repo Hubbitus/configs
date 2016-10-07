@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=4
+AnimationSpeed=2
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
@@ -13,6 +13,10 @@ UnredirectFullscreen=false
 XRenderSmoothScale=false
 
 [Desktops]
+Name_1=Рабочее место 1
+Name_2=Рабочее место 2
+Name_3=Рабочее место 3
+Name_4=Рабочее место 4
 Number=4
 Rows=1
 
@@ -83,3 +87,10 @@ MaximizeButtonMiddleClickCommand=Maximize (vertical only)
 MaximizeButtonRightClickCommand=Maximize (horizontal only)
 RollOverDesktops=true
 TitlebarDoubleClickCommand=Maximize
+
+[org.kde.kdecoration2]
+BorderSize=Tiny
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
+library=org.kde.breeze

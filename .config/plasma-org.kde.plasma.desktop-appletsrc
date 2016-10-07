@@ -53,7 +53,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][1][Applets][2][Configuration][General]
-favorites=systemsettings.desktop,org.kde.konsole.desktop,chromium-browser.desktop,netbeans-8.0.2.desktop,Aqua DataStudio.desktop,firefox.desktop,mozilla-thunderbird.desktop,gajim.desktop,Jmeter.desktop,org.kde.dolphin.desktop,jetbrains-idea-ce.desktop,kcm_kscreen.desktop
+favorites=systemsettings.desktop,org.kde.konsole.desktop,chromium-browser.desktop,netbeans-8.0.2.desktop,Aqua DataStudio.desktop,Jmeter.desktop,jetbrains-idea-ce.desktop,kcm_kscreen.desktop,jetbrains-idea-ce1.desktop,mozilla-thunderbird.desktop
 icon=start-here-kde-fedora
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
@@ -82,7 +82,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][1][Applets][22][Configuration][General]
-sources=network%2Finterfaces%2Fwlp4s0mon%2Ftransmitter%2Fdata,network%2Finterfaces%2Fwlp4s0%2Ftransmitter%2Fdata
+sources=network%2Finterfaces%2Fwlp4s0mon%2Ftransmitter%2Fdata,network%2Finterfaces%2Fenp0s25%2Ftransmitter%2Fdata
 
 [Containments][1][Applets][23][Configuration][General]
 color=translucent
@@ -115,13 +115,19 @@ middleClickAction=Close
 showOnlyCurrentDesktop=true
 sortingStrategy=1
 
+[Containments][1][Applets][46][Configuration][General]
+applicationName=Браузер Chromium
+genericName=Веб-браузер
+iconName=chromium
+url=file:///usr/share/applications/chromium-browser.desktop
+
 [Containments][1][Applets][5]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][5][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
+DialogHeight=739
+DialogWidth=1266
 
 [Containments][1][Applets][5][Configuration][Containments][8]
 formfactor=2
@@ -157,11 +163,11 @@ plugin=org.kde.plasma.printmanager
 
 [Containments][1][Applets][5][Configuration][Containments][8][Applets][35]
 immutability=1
-plugin=org.kde.plasma.notifications
+plugin=touchpad
 
 [Containments][1][Applets][5][Configuration][Containments][8][Applets][36]
 immutability=1
-plugin=org.kde.plasma.battery
+plugin=org.kde.plasma.notifications
 
 [Containments][1][Applets][5][Configuration][Containments][8][Applets][37]
 immutability=1
@@ -172,8 +178,15 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][1][Applets][5][Configuration][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.ktp-contactlist,org.kde.plasma.networkmanagement,org.kde.plasma.pkupdates,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.battery,org.kde.ktp-contactlist,org.kde.plasma.networkmanagement,org.kde.plasma.pkupdates,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,touchpad
+hiddenItems=82103382,82103379,82103353,82103350,82103347,82103318,82103315,82103312,82103155,82103158,82103187,82103216,82103219,82103248,82103251,82103280,82103283
 knownItems=org.kde.ktp-contactlist,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.pkupdates,org.kde.plasma.printmanager,org.kde.plasma.volume
+
+[Containments][1][Applets][50][Configuration][General]
+applicationName=Браузер Chromium
+genericName=Веб-браузер
+iconName=chromium
+url=file:///usr/share/applications/chromium-browser.desktop
 
 [Containments][1][Applets][6]
 immutability=1
@@ -194,7 +207,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][1][ConfigDialog]
-DialogHeight=1080
+DialogHeight=1050
 DialogWidth=236
 
 [Containments][1][General]
@@ -209,13 +222,45 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][20][Applets][39][Configuration][General]
+noteId=79c80d8f-f7c0-420b-86a4-7c3d30cd05
+
+[Containments][20][Applets][40][Configuration][General]
+noteId=90c6ee7d-7036-4364-b968-614b12474a
+
 [Containments][20][General]
 ToolBoxButtonState=top
 ToolBoxButtonX=426
-positions=1,10,desktop:/gnote.desktop,0,2,desktop:/trash.desktop,0,1,desktop:/Home.desktop,0,0
+positions=1,10,desktop:/Home.desktop,0,0,desktop:/trash.desktop,0,1,desktop:/gnote.desktop,0,2
 sortMode=-1
 
 [Containments][20][Wallpaper][org.kde.image][General]
+height=768
+width=1366
+
+[Containments][30]
+activityId=00000000-0000-0000-0000-000000000000
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][30][Wallpaper][org.kde.image][General]
+height=1050
+width=1680
+
+[Containments][31]
+activityId=00000000-0000-0000-0000-000000000000
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][31][Wallpaper][org.kde.image][General]
 height=768
 width=1366
 
@@ -250,8 +295,8 @@ plugin=org.kde.plasma.systemmonitor.cpu
 noteId=a5fb0a51-e1b2-4e88-abb6-6b2977914e
 
 [Containments][7][General]
-ItemsGeometries=Applet-26:0,112,368,480,0;Applet-29:368,144,368,448,0;
-positions=1,11,desktop:/gnote.desktop,0,2,desktop:/trash.desktop,0,1,desktop:/Home.desktop,0,0
+ItemsGeometries=Applet-26:128,112,368,480,0;Applet-29:496,144,368,448,0;
+positions=1,12,desktop:/Home.desktop,0,0,desktop:/trash.desktop,0,1,desktop:/gnote.desktop,0,2
 sortMode=-1
 
 [Containments][7][Wallpaper][org.kde.image][General]

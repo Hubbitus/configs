@@ -76,7 +76,7 @@
       <property name="&lt;Primary&gt;t" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/usr/bin/xfce4-terminal">
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="Print" type="string" value="/usr/bin/ksnapshot"/>
@@ -88,6 +88,27 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;grave" type="string" value="yakuake"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Cyrillic_ie" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;Cyrillic_ie" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="ISO_Next_Group" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="Control_L" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="Super_L" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;t" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;t" type="string" value="/usr/bin/xfce4-terminal">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
     </property>
   </property>
   <property name="xfwm4" type="empty">

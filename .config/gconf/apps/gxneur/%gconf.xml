@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="icons_directory" mtime="1475698150" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="keyboard_properties" mtime="1475698150" type="string">
+		<stringvalue>StatusIcon</stringvalue>
+	</entry>
+	<entry name="rendering_engine" mtime="1475698150" type="string">
+		<stringvalue>StatusIcon</stringvalue>
+	</entry>
+	<entry name="show_in_the_tray" mtime="1475698150" type="string">
+		<stringvalue>Flag</stringvalue>
+	</entry>
+	<entry name="delay" mtime="1475698150" type="int" value="0"/>
+</gconf>

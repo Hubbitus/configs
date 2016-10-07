@@ -133,10 +133,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="0"
-         height="0"
+         width="250.93"
+         height="320.221"
          rx="0"
-         ry="0" />
+         ry="17.8274" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -333,7 +333,7 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;letter-spacing:0px;word-spacing:0px"
        selcue="1" />
     <eventcontext
        id="nodes"
@@ -351,10 +351,10 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
-       edit_clipping_paths="0"
-       edit_masks="0" />
+       x="946.815"
+       y="92.8372"
+       edit_clipping_paths="1"
+       edit_masks="1" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -369,7 +369,8 @@
        doh="1"
        dos="1"
        dol="1"
-       doo="1" />
+       doo="1"
+       mode="0" />
     <eventcontext
        id="spray"
        selcue="1"
@@ -577,8 +578,8 @@
        w="339"
        h="266"
        visible="1"
-       state="2"
-       placement="2" />
+       state="3"
+       placement="1" />
     <group
        id="find" />
     <group
@@ -603,7 +604,17 @@
        placement="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="2"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="1989"
+       y="242"
+       w="673"
+       h="595" />
     <group
        id="gradienteditor" />
     <group
@@ -612,9 +623,22 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="404"
+       h="454"
+       visible="1"
+       state="2"
+       placement="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="drawing" />
       <group
          id="defaultxdpi" />
     </group>
@@ -623,7 +647,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/pasha/temp"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -640,8 +664,9 @@
        enable_preview="1"
        path=""
        ask="1"
-       link="link"
-       scale="optimizeSpeed" />
+       link="embed"
+       scale="optimizeQuality"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -674,10 +699,10 @@
        panel_border="0"
        x="0"
        y="0"
-       w="339"
-       h="146"
+       w="404"
+       h="452"
        visible="1"
-       state="2"
+       state="3"
        placement="1" />
     <group
        id="extensioneditor" />
@@ -699,6 +724,24 @@
        on-focus="1.0"
        on-blur="0.50"
        animate-time="100" />
+    <group
+       id="objectattr"
+       panel_ratio="100"
+       panel_size="1"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="393"
+       h="262"
+       visible="0"
+       state="2"
+       placement="1">
+      <group
+         id=""
+         panel_size="0" />
+    </group>
   </group>
   <group
      id="printing">
@@ -984,18 +1027,19 @@
        id="rendering" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeQuality" />
   <group
      id="desktop"
-     style="">
+     style="fill:#f9f9f9;stroke:#b3b3b3;font-size:11.25px">
     <group
-       width="1366"
-       height="739"
-       x="1660"
-       y="179"
+       width="840"
+       height="480"
+       x="0"
+       y="0"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group

@@ -3,19 +3,19 @@ _k_friendly_name=ActivityManager
 switch-to-activity-fb03ff7f-aff2-44f7-b520-f862fe706d90=none,none,Переключиться на комнату «Начальная комната»
 
 [KDE Keyboard Layout Switcher]
-Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Выбрать следующую раскладку клавиатуры
-_k_friendly_name=KDE Daemon
+Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Выбрать следующую раскладку клавиатуры
+_k_friendly_name=KDE Keyboard Layout Switcher
 
 [amarok]
-_k_friendly_name=amarok
+_k_friendly_name=Amarok
 decreaseVolume=,Meta+-,Уменьшить громкость
 increaseVolume=,Meta++,Увеличить громкость
 loveTrack=Meta+L,Meta+L,Last.fm: пометить текущую дорожку как «любимую»
 mute=Meta+M,Meta+M,Выключить звук
-next=Media Next,Media Next,Следующая дорожка
-play_pause=Media Play,Media Play,Играть/Пауза
+next=Media Next,none,Следующая дорожка
+play_pause=Media Play,none,Играть/Пауза
 playlist_add=Meta+A,Meta+A,Добавить музыку...
-prev=Media Previous,Media Previous,Предыдущая дорожка
+prev=Media Previous,none,Предыдущая дорожка
 rate1=Meta+1,Meta+1,Оценить текущую дорожку на 1
 rate2=Meta+2,Meta+2,Оценить текущую дорожку на 2
 rate3=Meta+3,Meta+3,Оценить текущую дорожку на 3
@@ -26,7 +26,7 @@ seek_backward_medium=Meta+Shift+-,Meta+Shift+-,Seek Backward by 10 seconds
 seek_forward_medium=Meta+Shift++,Meta+Shift++,Seek Forward by 10 seconds
 showNotificationPopup=Meta+O,Meta+O,Показать экранное уведомление
 skipTrack=,Meta+S,Last.fm: пропустить текущую дорожку
-stop=Media Stop,Media Stop,Остановить воспроизведение
+stop=Media Stop,none,Остановить воспроизведение
 stop_after_current=Meta+Shift+V,Meta+Shift+V,Остановить после текущей дорожки
 toggleMainWindow=none,none,Показать/скрыть главное окно
 
@@ -38,7 +38,7 @@ _k_friendly_name=kaccess
 Disable Touchpad=,Touchpad Off,Выключить сенсорную панель
 Enable Touchpad=none,Touchpad On,Включить сенсорную панель
 Toggle Touchpad=none,Touchpad Toggle,Включить или выключить сенсорную панель
-_k_friendly_name=KDE Daemon
+_k_friendly_name=kcm_touchpad
 
 [kded5]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Уменьшить яркость подсветки клавиатуры
@@ -48,20 +48,30 @@ Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Ув�
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Увеличить яркость экрана
 PowerOff=Power Off,Power Off,Выключить компьютер
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Показать активность системы
-Sleep=Sleep,Sleep,Suspend
+Sleep=Sleep,Sleep,Ждущий режим
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Переключение подсветки клавиатуры
-_k_friendly_name=KDE Daemon
+_k_friendly_name=kded5
 display=Display,Display,Сменить экран
 
 [khotkeys]
-_k_friendly_name=KDE Daemon
+_k_friendly_name=khotkeys
 {2ac982e5-bb4b-4ff6-bb54-b65fa1b3c79f}=Print,none,Снимок экрана
 {48e417dd-b007-4419-bb91-a8d4bdefc33f}=Meta+E,none,Dolphin
 {d02aaa23-4678-4f56-bc79-69c01f3a743e}=Launch (1),none,KCalc
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Поиск
 
+[klipper]
+_k_friendly_name=Klipper
+clear-history=none,none,Очистить историю буфера обмена
+clipboard_action=,Ctrl+Alt+X,Включить действия с буфером обмена
+cycleNextAction=none,none,Более старое содержимое буфера обмена
+cyclePrevAction=none,none,Более новое содержимое буфера обмена
+edit_clipboard=none,none,Редактировать содержимое...
+repeat_action=,Ctrl+Alt+R,Ручной выбор действия с буфером обмена
+show-on-mouse-pos=Alt+K,none,Открывать Klipper на месте указателя мыши
+
 [kmix]
-_k_friendly_name=Громкость
+_k_friendly_name=kmix
 decrease_volume=Volume Down,Volume Down,Уменьшить громкость
 increase_volume=Volume Up,Volume Up,Увеличить громкость
 mute=Volume Mute,Volume Mute,Выключить звук
@@ -78,6 +88,11 @@ Log Out=Ctrl+Alt+Del,none,Завершить сеанс
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Завершить сеанс без подтверждения
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Перезагрузить компьютер без подтверждения
 _k_friendly_name=ksmserver
+
+[ktorrent]
+_k_friendly_name=ktorrent
+queue_suspend=Alt+Shift+P,Alt+Shift+P,Приостановить торренты
+show_kt=Alt+Shift+T,Alt+Shift+T,Скрыть или показать KTorrent
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Активировать привлечение внимания к окну
@@ -228,7 +243,7 @@ Window to Screen 4=none,none,Переместить окно на экран 4
 Window to Screen 5=none,none,Переместить окно на экран 5
 Window to Screen 6=none,none,Переместить окно на экран 6
 Window to Screen 7=none,none,Переместить окно на экран 7
-_k_friendly_name=KWin
+_k_friendly_name=kwin
 view_actual_size=,Meta+0,Фактический размер
 view_zoom_in=Meta++,Meta+=,Увеличить
 view_zoom_out=,Meta+-,Уменьшить
@@ -241,7 +256,7 @@ previousmedia=,Media Previous,Перейти к предыдущей дорож�
 stopmedia=,Media Stop,Остановить воспроизведение
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=plasmashell
 activate widget 2=Alt+F1,none,Сделать виджет «Меню запуска приложений» активным
 activate widget 21=none,none,Сделать виджет «Монитор нагрузки процессора» активным
 clear-history=none,none,Очистить историю буфера обмена
@@ -250,11 +265,11 @@ cycleNextAction=none,none,Более старое содержимое буфе�
 cyclePrevAction=none,none,Более новое содержимое буфера обмена
 edit_clipboard=none,none,Редактировать содержимое...
 manage activities=Meta+Q,Meta+Q,Комнаты...
-next activity=Meta+Tab,none,Walk through activities
-previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
+next activity=Meta+Tab,none,На одну комнату вперёд
+previous activity=Meta+Shift+Tab,none,На одну комнату назад
 repeat_action=Ctrl+Alt+R\tCtrl+Shift+K,Ctrl+Alt+R,Ручной выбор действия с буфером обмена
-show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
-show-on-mouse-pos=\tAlt+K,none,Открывать Klipper на месте указателя мыши
+show dashboard=Ctrl+F12,Ctrl+F12,Показать рабочий стол
+show-on-mouse-pos=\t,none,Открывать Klipper на месте указателя мыши
 stop current activity=Meta+S,Meta+S,Прекратить выполнение текущей комнаты
 
 [yakuake]

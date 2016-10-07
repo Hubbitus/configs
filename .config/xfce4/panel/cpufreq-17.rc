@@ -1,0 +1,10 @@
+timeout=1
+show_cpu=9
+show_icon=false
+show_label_freq=true
+show_label_governor=false
+show_warning=false
+keep_compact=true
+one_line=false
+fontname=Sans Italic 10
+

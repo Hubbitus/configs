@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
-<map MAP_XML_VERSION="1.0"/>
+<map MAP_XML_VERSION="1.0">
+  <entry key="user_id_on_machine" value="260a7c6e-47df-481a-81b2-a86500e555fd"/>
+</map>

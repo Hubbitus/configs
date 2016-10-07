@@ -31,7 +31,7 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGAAAAACAQAAAQAA
 Autoplay=true
 
 [ConfigDialog]
-Height 1050=515
+Height 1050=461
 Height 1080=461
 Width 1680=899
 Width 1920=1298
@@ -56,15 +56,15 @@ Height 1080=422
 Width 1920=510
 
 [PlasmaRunnerManager]
-LaunchCounts=2 services_skype.desktop,1 services_Jmeter.desktop
+LaunchCounts=1 services_kde4-apper.desktop,2 services_kcm_kscreen.desktop,3 services_skype.desktop,1 services_Jmeter.desktop,1 services_wireshark.desktop,1 services_org.kde.KCharSelect.desktop,2 shell_oocalc,1 services_pgmodeler.desktop,1 services_grub-customizer.desktop
 pluginWhiteList=services,places,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 1][Vertical1024]
 thickness=30
 
 [PlasmaViews][Panel 1][Vertical1050]
-length=1050
-thickness=155
+length=860
+thickness=134
 
 [PlasmaViews][Panel 1][Vertical1080]
 length=1080
@@ -76,9 +76,27 @@ thickness=115
 [PlasmaViews][Panel 1][Vertical1264]
 thickness=30
 
+[PlasmaViews][Panel 1][Vertical720]
+thickness=30
+
 [PlasmaViews][Panel 1][Vertical768]
+length=658
+thickness=100
+
+[PlasmaViews][Panel 30][Horizontal1280]
+thickness=30
+
+[PlasmaViews][Panel 30][Horizontal1366]
+thickness=32
+
+[PlasmaViews][Panel 30][Horizontal1680]
+thickness=30
+
+[PlasmaViews][Panel 30][Horizontal1920]
+length=1920
+
+[PlasmaViews][Panel 30][Vertical768]
 length=768
-thickness=98
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/updates/01-fedora-org.kde.plasma.pkupdates.js,/usr/share/plasma/shells/org.kde.plasma.desktop/updates/00-start-here-kde-fedora-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc-1.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/updates/01-fedora-org.kde.plasma.pkupdates.js,/usr/share/plasma/shells/org.kde.plasma.desktop/updates/00-start-here-kde-fedora-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc-1.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-kde-fedora-2.js

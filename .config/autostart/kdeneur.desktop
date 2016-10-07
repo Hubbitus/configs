@@ -1,12 +1,12 @@
 [Desktop Entry]
 Categories=Qt;KDE;Utility;
-Comment[ru]=Автоматический переключатель раскладки клавиатуры
 Comment=Автоматический переключатель раскладки клавиатуры
 Exec=kdeneur
 Icon=kdexneur
-Name[ru]=kdeNeur
 Name=kdeNeur
 StartupNotify=true
 Terminal=false
 Type=Application
 X-KDE-SubstituteUID=false
+Hidden=true
+

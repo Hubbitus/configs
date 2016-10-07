@@ -3,10 +3,10 @@
 <map MAP_XML_VERSION="1.0">
   <entry key="autoClearOutput" value="true"/>
   <entry key="currentFileChooserDir" value="/home/pasha/temp"/>
-  <entry key="inputAreaHeight" value="282"/>
-  <entry key="inputAreaWidth" value="1140"/>
-  <entry key="outputAreaHeight" value="321"/>
-  <entry key="outputAreaWidth" value="1176"/>
+  <entry key="inputAreaHeight" value="280"/>
+  <entry key="inputAreaWidth" value="894"/>
+  <entry key="outputAreaHeight" value="139"/>
+  <entry key="outputAreaWidth" value="930"/>
   <entry key="showScriptInOutput" value="false"/>
   <entry key="threadInterrupt" value="true"/>
   <entry key="visualizeScriptResults" value="true"/>

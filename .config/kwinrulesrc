@@ -1,6 +1,18 @@
+[1]
+Description=Параметры приложения для skype-bin
+autogroup=true
+autogroupfg=true
+autogroupfgrule=2
+autogrouprule=2
+clientmachine=hubbitus.taskdata.note
+clientmachinematch=0
+wmclass=skype-bin
+wmclasscomplete=false
+wmclassmatch=1
+
 [General]
 ColorScheme[$d]
-count=0
+count=1
 fixed[$d]
 font[$d]
 menuFont[$d]

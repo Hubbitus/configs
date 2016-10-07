@@ -1,3 +1,4 @@
-WebBrowser=chromium-browser
 MailReader=thunderbird
+TerminalEmulator=qterminal
+WebBrowser=chromium-browser
 

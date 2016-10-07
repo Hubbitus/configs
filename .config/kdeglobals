@@ -89,7 +89,6 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-BrowserApplication=chromium-browser.desktop
 ColorScheme=Breeze
 Name=Breeze
 shadeSortColumn=true
@@ -112,22 +111,22 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=149
+Preview Width=123
 Previews=false
 Show Bookmarks=true
 Show Full Path=false
-Show Preview=true
+Show Preview=false
 Show Speedbar=true
 Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=169
+Speedbar Width=181
 View Style=Simple
 listViewIconSize=0
 
 [KShortcutsDialog Settings]
-Dialog Size=611,480
+Dialog Size=613,480
 
 [PreviewSettings]
 MaximumRemoteSize=20971520
