@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<apiResponseBody xmlns="http://api.mdm.unidata.com/" xmlns:ns2="http://data.mdm.unidata.com/"
+						 xmlns:ns3="http://meta.mdm.unidata.com/" xmlns:ns4="http://classifier.mdm.unidata.com/">
+			<common version="3.0" platform="3.7" operationId="efb063c6-81b2-4b2f-84e3-47062aa632ab" exitCode="Success"
+					processingTime="335">
+				<message messageText="REQUEST_UPSERT: Completed successfully."/>
+			</common>
+			<responseAuthenticate isAdmin="true">
+				<sessionToken token="5bd91480-7099-4cd3-8e47-b51f96df2705"/>
+				<role name="ADMIN_SYSTEM_MANAGEMENT"/>
+				<role name="ADMIN_CLASSIFIER_MANAGEMENT"/>
+				<role name="ADMIN_DATA_MANAGEMENT"/>
+			</responseAuthenticate>
+			<responseUpsert originAction="Update">
+				<originKey id="ffe9cc3b-33c8-4e32-bad1-372babf52cfb" externalId="external-id-00"
+						   sourceSystem="data_steward" entityName="SUBJECTS"/>
+				<etalonKey id="ca5f3c51-8f46-482b-a7de-44c796a799a1"/>
+			</responseUpsert>
+		</apiResponseBody>
+	</soap:Body>
+</soap:Envelope>

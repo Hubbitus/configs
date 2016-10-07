@@ -1,0 +1,18 @@
+
+            <xs:documentation>
+                Ответ на запрос обновления документа.
+                Содержит полную запись (поля переданные клиентом + данные заполненные ЕГАИС).
+                Для дальнейшей работы с записью клиенту нужно сохранить (и передавать в последующих запросах):
+                - id
+                - updateDate
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="api:EgaisAbstractResponse">
+                <xs:choice minOccurs="1" maxOccurs="1">
+                    <xs:element name="contractLease" type="data:ContractLease" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="contractRight" type="data:ContractRight" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="contractForestWorks" type="data:ContractForestWorks" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="contractPlantsSale" type="data:ContractPlantsSale" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="contractForestDeclaration" type="data:ContractForestDeclaration" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="contractReport" type="data:ContractReport" minO

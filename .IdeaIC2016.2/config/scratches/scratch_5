@@ -1,0 +1,51 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header>
+        <EgaisResponseHeader xmlns:ns3="http://data.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                             xmlns="http://api.lesegais.ru/" operationId="f9ed69c5-bca6-4ef6-bcdd-25cc15978d0c"
+                             egaisVersion="3.20.2.dev4.minSecRes.10373.2016.02.19..14.16.05"/>
+    </soap:Header>
+    <soap:Body>
+        <ResponseGetDocument xmlns="http://api.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                             xmlns:ns3="http://data.lesegais.ru/">
+            <contractLease id="G_100150814" updateDate="2016-02-19T00:00:00.000+03:00" sourceSystem="G"
+                           sourceKey="100150814" updatedBy="admin" updatedBySystem="G">
+                <ns3:contractNumber>5031104880</ns3:contractNumber>
+                <ns3:landTypeId>1</ns3:landTypeId>
+                <ns3:partyId>G_11208460</ns3:partyId>
+                <ns3:startDate>2013-10-09T00:00:00.000+04:00</ns3:startDate>
+                <ns3:endDate>2014-09-08T00:00:00.000+04:00</ns3:endDate>
+                <ns3:woodlotElements>
+                    <ns3:woodlotElement id="G_5">
+                        <ns3:elementNumber>1</ns3:elementNumber>
+                        <ns3:constituentEntityId>50</ns3:constituentEntityId>
+                        <ns3:forestryId>G_01535</ns3:forestryId>
+                        <ns3:subForestryId>G_U3175</ns3:subForestryId>
+                        <ns3:forestBlockNumber>62</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>2,3</ns3:surveyPlotRange>
+                        <ns3:area>7.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_11913612">
+                        <ns3:elementNumber>1</ns3:elementNumber>
+                        <ns3:constituentEntityId>50</ns3:constituentEntityId>
+                        <ns3:forestryId>G_01586</ns3:forestryId>
+                        <ns3:subForestryId>G_U3325</ns3:subForestryId>
+                        <ns3:forestBlockNumber>5</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>5</ns3:surveyPlotRange>
+                        <ns3:area>5.0</ns3:area>
+                    </ns3:woodlotElement>
+                </ns3:woodlotElements>
+                <ns3:woodlotIds>
+                    <ns3:woodlotId id="G_11453">
+                        <ns3:value>000942-2013-09</ns3:value>
+                        <ns3:typeId>0</ns3:typeId>
+                    </ns3:woodlotId>
+                </ns3:woodlotIds>
+                <ns3:stateAuthorityId>50</ns3:stateAuthorityId>
+                <ns3:coniferousVolume>10.0</ns3:coniferousVolume>
+                <ns3:hardwoodVolume>5.0</ns3:hardwoodVolume>
+                <ns3:softwoodVolume>5.0</ns3:softwoodVolume>
+                <ns3:unclassifiedVolume>5.0</ns3:unclassifiedVolume>
+            </contractLease>
+        </ResponseGetDocument>
+    </soap:Body>
+</soap:Envelope>

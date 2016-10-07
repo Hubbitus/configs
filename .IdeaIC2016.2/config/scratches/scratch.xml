@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <putParty xmlns="http://1cws.taskdata.com/unidata" xmlns:ns2="http://v8.1c.ru/8.1/data/core">
+            <from uid="4ba1f478-1fb2-11e6-278f-001dd8b75182">
+                <name>TEST NAME</name>
+                <code>126</code>
+                <type>0</type>
+                <isResident>false</isResident>
+                <fullName>TEST FULL NAME UPDATED 13</fullName>
+                <inn>123456789</inn>
+                <kpp>987654321</kpp>
+            </from>
+        </putParty>
+    </soap:Body>
+</soap:Envelope>

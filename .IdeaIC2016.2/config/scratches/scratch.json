@@ -1,0 +1,275 @@
+{
+    "upsertEventDetails": {
+        "originRecord": null,
+        "etalonRecord": {
+            "id": null,
+            "simpleAttributes": [
+                {
+                    "name": "KOD",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "OGRN",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "KPP",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "123456789",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "INN",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "123456789",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "NAME_ORG",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "ENG_NAME",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "FULL_NAME",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ РОССИЯ TEST1",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                },
+                {
+                    "name": "NAME",
+                    "blobValue": null,
+                    "clobValue": null,
+                    "intValue": null,
+                    "dateValue": null,
+                    "timeValue": null,
+                    "timestampValue": null,
+                    "stringValue": {
+                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                        "declaredType": "java.lang.String",
+                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                        "value": "РОС",
+                        "nil": false,
+                        "globalScope": false,
+                        "typeSubstituted": false
+                    },
+                    "numberValue": null,
+                    "boolValue": null,
+                    "type": null,
+                    "value": null
+                }
+            ],
+            "complexAttributes": [
+                {
+                    "name": "MAIL",
+                    "nestedRecord": [
+                        {
+                            "id": null,
+                            "simpleAttributes": [
+                                {
+                                    "name": "EMAIL",
+                                    "blobValue": null,
+                                    "clobValue": null,
+                                    "intValue": null,
+                                    "dateValue": null,
+                                    "timeValue": null,
+                                    "timestampValue": null,
+                                    "stringValue": {
+                                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                                        "declaredType": "java.lang.String",
+                                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                                        "value": "email@example.com",
+                                        "nil": false,
+                                        "globalScope": false,
+                                        "typeSubstituted": false
+                                    },
+                                    "numberValue": null,
+                                    "boolValue": null,
+                                    "type": null,
+                                    "value": null
+                                },
+                                {
+                                    "name": "EMAIL_REGISTRATION",
+                                    "blobValue": null,
+                                    "clobValue": null,
+                                    "intValue": null,
+                                    "dateValue": null,
+                                    "timeValue": null,
+                                    "timestampValue": null,
+                                    "stringValue": {
+                                        "name": "{http://data.mdm.unidata.com/}stringValue",
+                                        "declaredType": "java.lang.String",
+                                        "scope": "com.unidata.mdm.data.AbstractSingleValueAttribute",
+                                        "value": "",
+                                        "nil": false,
+                                        "globalScope": false,
+                                        "typeSubstituted": false
+                                    },
+                                    "numberValue": null,
+                                    "boolValue": null,
+                                    "type": null,
+                                    "value": null
+                                }
+                            ],
+                            "complexAttributes": []
+                        }
+                    ]
+                }
+            ],
+            "etalonKey": {
+                "id": "ca5f3c51-8f46-482b-a7de-44c796a799a1"
+            },
+            "relations": {
+                "integralEntities": [],
+                "relationsTo": []
+            },
+            "infoSection": {
+                "entityName": "SUBJECTS",
+                "createdBy": "admin",
+                "updatedBy": "admin",
+                "status": "ACTIVE",
+                "approval": "APPROVED",
+                "rangeFrom": -2208999600000,
+                "rangeTo": 253402289999999,
+                "createDate": 1473362347848,
+                "updateDate": 1473362548145
+            }
+        },
+        "originKey": {
+            "id": "ffe9cc3b-33c8-4e32-bad1-372babf52cfb",
+            "externalId": "external-id-00",
+            "sourceSystem": "data_steward",
+            "entityName": "SUBJECTS"
+        },
+        "upsertActionType": "UPDATE",
+        "operationId": null
+    },
+    "mergeEventDetails": null,
+    "softDeleteEventDetails": null,
+    "restoreEventDetails": null,
+    "eventType": "UPSERT",
+    "eventDate": 1473362548267,
+    "publishDate": 1473362548267
+}

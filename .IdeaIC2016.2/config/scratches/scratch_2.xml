@@ -1,0 +1,687 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header>
+        <EgaisResponseHeader xmlns:ns3="http://data.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                             xmlns="http://api.lesegais.ru/" operationId="a41fd0aa-0cf4-4321-b4ac-efd58ca92b49"
+                             egaisVersion="@Denis--MAX-MyBatis-poc@.0ebb5fc.2016.08.22..21.28.56"/>
+    </soap:Header>
+    <soap:Body>
+        <ResponseGetDocument xmlns="http://api.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                             xmlns:ns3="http://data.lesegais.ru/">
+            <contractForestWorks id="P_1708" createDate="2015-06-24T00:00:00.000+03:00"
+                                 updateDate="2015-11-17T13:15:48.222+03:00" sourceSystem="P"
+                                 createdBy="forestry_00024_001" updatedBy="forestry_00024_001" updatedBySystem="P">
+                <ns3:contractNumber>б/н</ns3:contractNumber>
+                <ns3:status>editing</ns3:status>
+                <ns3:receiptDate>2015-01-12T03:00:00.000+03:00</ns3:receiptDate>
+                <ns3:registrationFailReason>попытка изменения формулировки выделов</ns3:registrationFailReason>
+                <ns3:partyId>G_15610677</ns3:partyId>
+                <ns3:startDate>2015-01-12T00:00:00.000+03:00</ns3:startDate>
+                <ns3:endDate>2015-12-31T00:00:00.000+03:00</ns3:endDate>
+                <ns3:woodlotElements>
+                    <ns3:woodlotElement id="P_4952474">
+                        <ns3:elementNumber>1</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>6</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>19</ns3:surveyPlotRange>
+                        <ns3:area>2.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952475">
+                        <ns3:elementNumber>2</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>6</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>24</ns3:surveyPlotRange>
+                        <ns3:area>2.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952476">
+                        <ns3:elementNumber>3</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>2</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>13</ns3:surveyPlotRange>
+                        <ns3:area>1.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953546">
+                        <ns3:elementNumber>4</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>17</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>17</ns3:surveyPlotRange>
+                        <ns3:area>6.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953555">
+                        <ns3:elementNumber>5</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>39</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>16</ns3:surveyPlotRange>
+                        <ns3:area>1.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953556">
+                        <ns3:elementNumber>6</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>27</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>24</ns3:surveyPlotRange>
+                        <ns3:area>4.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952479">
+                        <ns3:elementNumber>7</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>24</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>23</ns3:surveyPlotRange>
+                        <ns3:area>2.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952482">
+                        <ns3:elementNumber>8</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>39</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>20</ns3:surveyPlotRange>
+                        <ns3:area>2.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952491">
+                        <ns3:elementNumber>9</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>17</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>3</ns3:surveyPlotRange>
+                        <ns3:area>5.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952493">
+                        <ns3:elementNumber>10</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>16</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>9</ns3:surveyPlotRange>
+                        <ns3:area>5.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952494">
+                        <ns3:elementNumber>11</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>143</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>24</ns3:surveyPlotRange>
+                        <ns3:area>2.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954819">
+                        <ns3:elementNumber>12</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>272</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>21</ns3:surveyPlotRange>
+                        <ns3:area>1.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954820">
+                        <ns3:elementNumber>13</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>254</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>7,8</ns3:surveyPlotRange>
+                        <ns3:area>3.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954822">
+                        <ns3:elementNumber>14</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>260</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>23</ns3:surveyPlotRange>
+                        <ns3:area>1.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954823">
+                        <ns3:elementNumber>15</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>260</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>28</ns3:surveyPlotRange>
+                        <ns3:area>0.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954824">
+                        <ns3:elementNumber>16</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>260</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>2,3</ns3:surveyPlotRange>
+                        <ns3:area>1.5</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954940">
+                        <ns3:elementNumber>17</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>227170001</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>634</ns3:surveyPlotRange>
+                        <ns3:area>16.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954933">
+                        <ns3:elementNumber>18</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>1</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>19</ns3:surveyPlotRange>
+                        <ns3:area>11.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954934">
+                        <ns3:elementNumber>19</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>2</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>40</ns3:surveyPlotRange>
+                        <ns3:area>18.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954935">
+                        <ns3:elementNumber>20</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>253</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>24</ns3:surveyPlotRange>
+                        <ns3:area>57.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954938">
+                        <ns3:elementNumber>21</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>2</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>36</ns3:surveyPlotRange>
+                        <ns3:area>9.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954941">
+                        <ns3:elementNumber>22</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>227170001</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>359</ns3:surveyPlotRange>
+                        <ns3:area>11.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954942">
+                        <ns3:elementNumber>23</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>227160001</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>343</ns3:surveyPlotRange>
+                        <ns3:area>12.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954943">
+                        <ns3:elementNumber>24</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>227170001</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>633</ns3:surveyPlotRange>
+                        <ns3:area>17.0</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954575">
+                        <ns3:elementNumber>25</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>258</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>2</ns3:surveyPlotRange>
+                        <ns3:area>0.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952495">
+                        <ns3:elementNumber>26</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>142</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>1</ns3:surveyPlotRange>
+                        <ns3:area>1.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952496">
+                        <ns3:elementNumber>27</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>142</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>11</ns3:surveyPlotRange>
+                        <ns3:area>2.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952497">
+                        <ns3:elementNumber>28</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>140</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>10</ns3:surveyPlotRange>
+                        <ns3:area>1.8</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952498">
+                        <ns3:elementNumber>29</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>139</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>14</ns3:surveyPlotRange>
+                        <ns3:area>2.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952489">
+                        <ns3:elementNumber>30</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>5</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>20</ns3:surveyPlotRange>
+                        <ns3:area>1.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952490">
+                        <ns3:elementNumber>31</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>55</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>30</ns3:surveyPlotRange>
+                        <ns3:area>4.4</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952492">
+                        <ns3:elementNumber>32</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>16</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>14</ns3:surveyPlotRange>
+                        <ns3:area>2.9</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952499">
+                        <ns3:elementNumber>33</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>92</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>9</ns3:surveyPlotRange>
+                        <ns3:area>2.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952500">
+                        <ns3:elementNumber>34</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>145</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>10</ns3:surveyPlotRange>
+                        <ns3:area>1.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952501">
+                        <ns3:elementNumber>35</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>81</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>12</ns3:surveyPlotRange>
+                        <ns3:area>1.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952502">
+                        <ns3:elementNumber>36</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>79</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>26</ns3:surveyPlotRange>
+                        <ns3:area>4.7</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954552">
+                        <ns3:elementNumber>37</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>106</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>5</ns3:surveyPlotRange>
+                        <ns3:area>2.4</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954821">
+                        <ns3:elementNumber>38</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>253</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>9,10</ns3:surveyPlotRange>
+                        <ns3:area>3.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952477">
+                        <ns3:elementNumber>39</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>2</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>26</ns3:surveyPlotRange>
+                        <ns3:area>3.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952478">
+                        <ns3:elementNumber>40</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>1</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>36</ns3:surveyPlotRange>
+                        <ns3:area>2.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953544">
+                        <ns3:elementNumber>41</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>48</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>5</ns3:surveyPlotRange>
+                        <ns3:area>3.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952484">
+                        <ns3:elementNumber>42</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>142</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>25</ns3:surveyPlotRange>
+                        <ns3:area>1.8</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952485">
+                        <ns3:elementNumber>43</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>123</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>47</ns3:surveyPlotRange>
+                        <ns3:area>1.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952486">
+                        <ns3:elementNumber>44</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>137</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>11</ns3:surveyPlotRange>
+                        <ns3:area>2.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952487">
+                        <ns3:elementNumber>45</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>5</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>28</ns3:surveyPlotRange>
+                        <ns3:area>2.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952488">
+                        <ns3:elementNumber>46</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>5</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>32</ns3:surveyPlotRange>
+                        <ns3:area>2.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954930">
+                        <ns3:elementNumber>47</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>260</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>9</ns3:surveyPlotRange>
+                        <ns3:area>0.8</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954931">
+                        <ns3:elementNumber>48</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>260</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>26</ns3:surveyPlotRange>
+                        <ns3:area>1.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954932">
+                        <ns3:elementNumber>49</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>251</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>20,21</ns3:surveyPlotRange>
+                        <ns3:area>3.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954936">
+                        <ns3:elementNumber>50</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>249</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>46</ns3:surveyPlotRange>
+                        <ns3:area>4.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954553">
+                        <ns3:elementNumber>51</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>123</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>14</ns3:surveyPlotRange>
+                        <ns3:area>2.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954554">
+                        <ns3:elementNumber>52</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>8047</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>1-3,6,11,12,15,10,26-28,32-36,38</ns3:surveyPlotRange>
+                        <ns3:area>8.7</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954555">
+                        <ns3:elementNumber>53</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>46</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>21,26,31,32</ns3:surveyPlotRange>
+                        <ns3:area>2.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954556">
+                        <ns3:elementNumber>54</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>5</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>3,5</ns3:surveyPlotRange>
+                        <ns3:area>0.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954557">
+                        <ns3:elementNumber>55</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>275</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>4</ns3:surveyPlotRange>
+                        <ns3:area>2.9</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954558">
+                        <ns3:elementNumber>56</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>275</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>1</ns3:surveyPlotRange>
+                        <ns3:area>13.7</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954574">
+                        <ns3:elementNumber>57</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>258</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>1,3</ns3:surveyPlotRange>
+                        <ns3:area>1.8</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953545">
+                        <ns3:elementNumber>58</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>46</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>29</ns3:surveyPlotRange>
+                        <ns3:area>2.7</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953547">
+                        <ns3:elementNumber>59</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>85</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>10</ns3:surveyPlotRange>
+                        <ns3:area>0.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953548">
+                        <ns3:elementNumber>60</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>159</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>9</ns3:surveyPlotRange>
+                        <ns3:area>1.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953549">
+                        <ns3:elementNumber>61</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>94</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>20</ns3:surveyPlotRange>
+                        <ns3:area>2.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953550">
+                        <ns3:elementNumber>62</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>89</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>14</ns3:surveyPlotRange>
+                        <ns3:area>2.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953551">
+                        <ns3:elementNumber>63</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>137</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>11</ns3:surveyPlotRange>
+                        <ns3:area>2.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953552">
+                        <ns3:elementNumber>64</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>121</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>12</ns3:surveyPlotRange>
+                        <ns3:area>1.8</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953553">
+                        <ns3:elementNumber>65</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>77</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>7</ns3:surveyPlotRange>
+                        <ns3:area>2.7</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953554">
+                        <ns3:elementNumber>66</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>39</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>15</ns3:surveyPlotRange>
+                        <ns3:area>3.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4953557">
+                        <ns3:elementNumber>67</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>105</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>34</ns3:surveyPlotRange>
+                        <ns3:area>3.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952480">
+                        <ns3:elementNumber>68</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>28</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>29</ns3:surveyPlotRange>
+                        <ns3:area>2.6</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952481">
+                        <ns3:elementNumber>69</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>32</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>28</ns3:surveyPlotRange>
+                        <ns3:area>2.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4952483">
+                        <ns3:elementNumber>70</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>40</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>36</ns3:surveyPlotRange>
+                        <ns3:area>2.2</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954937">
+                        <ns3:elementNumber>71</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>253</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>2</ns3:surveyPlotRange>
+                        <ns3:area>4.3</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4954939">
+                        <ns3:elementNumber>72</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0014</ns3:subForestryId>
+                        <ns3:forestBlockNumber>8</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>15</ns3:surveyPlotRange>
+                        <ns3:area>1.1</ns3:area>
+                    </ns3:woodlotElement>
+                    <ns3:woodlotElement id="P_4856117">
+                        <ns3:elementNumber>73</ns3:elementNumber>
+                        <ns3:constituentEntityId>22</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00024</ns3:forestryId>
+                        <ns3:subForestryId>G_U0013</ns3:subForestryId>
+                        <ns3:forestBlockNumber>159</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>11</ns3:surveyPlotRange>
+                        <ns3:area>2.7</ns3:area>
+                    </ns3:woodlotElement>
+                </ns3:woodlotElements>
+                <ns3:woodlotIds/>
+                <ns3:stateAuthorityId>22</ns3:stateAuthorityId>
+                <ns3:coniferousVolume>7687.0</ns3:coniferousVolume>
+                <ns3:hardwoodVolume>0.0</ns3:hardwoodVolume>
+                <ns3:softwoodVolume>1122.0</ns3:softwoodVolume>
+            </contractForestWorks>
+        </ResponseGetDocument>
+    </soap:Body>
+</soap:Envelope>

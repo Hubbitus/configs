@@ -1,0 +1,94 @@
+try
+	objectForUpdate = Undefined;
+	if "00000000-0000-0000-0000-000000000000" = String(dataJson.upsertEventDetails.originKey.id) then // New object
+		objectForUpdate = Catalogs.Контрагенты.CreateItem();
+	else // update
+		objectForUpdate = _findRefByUID(from.uid, Catalogs.Контрагенты, "Party with UID [%s] not found").GetObject();
+	endIf;
+
+	objectForUpdate.Наименование = from.name;
+	objectForUpdate.Код = from.code;
+	if 1 = from.type then
+		objectForUpdate.ЮрФизЛицо = Enums.ЮрФизЛицо.ЮрЛицо;
+	else
+		objectForUpdate.ЮрФизЛицо = Enums.ЮрФизЛицо.ФизЛицо;
+	endIf;
+
+	objectForUpdate.НеЯвляетсяРезидентом = NOT from.isResident;
+
+	//? STATISTIC.OKOPF
+
+	objectForUpdate.НаименованиеПолное = from.fullName;
+	objectForUpdate.ИНН = from.inn;
+	objectForUpdate.КПП = from.kpp;
+	if Undefined <> from.statistic then
+		objectForUpdate.КодПоОКПО = from.statistic.OKPO_STRING;
+	endIf;
+	//? objectForUpdate.mainCompany = from.Общие
+
+	// First clear all contacts before repopulate:
+	// http://www.vdgb.ru/tehpodderzhka-1s/faq/kak-udalit-zapisi-nezavisimogo-registra-svedenij-s-otborom-po-konkretnoj-organizacii/
+	// http://j008.ru/ps/054_1C_regsved_edit
+	recordset = InformationRegisters.КонтактнаяИнформация.CreateRecordSet();
+	recordset.Filter.Объект.Set(objectForUpdate.Ref);
+	// Then add all new (http://www.forum.mista.ru/topic.php?id=698440)
+	for each contact in from.contacts.list do
+		newRecord = recordset.Add();
+		newRecord.Тип = Enums.ТипыКонтактнойИнформации[contact.type];
+		newRecord.Вид = Catalogs.ВидыКонтактнойИнформации.FindByDescription(contact.kind);
+		newRecord.Объект = objectForUpdate.Ref;
+		newRecord.Представление = contact.data;
+	endDo;
+	recordset.Write();
+
+	// Bank accounts:
+	// Select all current set and do full rewrite. If there more - mark tail as deleted.
+	// http://1c-uroki.ru/articles/lang_1C_spravochniki, http://devtrainingforum.v8.1c.ru/forum/thread.jsp?id=556994
+	recordset = Catalogs.БанковскиеСчета.Select(, objectForUpdate.Ref);
+	i = 0; hasNext = recordset.Next();  // CatalogSelection has not Count method unfortunately, only iterator
+	while (hasNext or i < from.banks.list.Count()) do
+		if i >= from.banks.list.Count() then // end input - delete tail
+			bankAccountRecord = recordset.GetObject();
+			bankAccountRecord.DeletionMark = true;
+			bankAccountRecord.Write();
+			hasNext = recordset.Next();
+			continue;
+		elsif NOT hasNext then // end stored records - add new
+			bankAccountRecord = Catalogs.БанковскиеСчета.CreateItem();
+		else
+			bankAccountRecord = recordset.GetObject();
+		endIf;
+		bankAccount = from.banks.list[i];
+
+		bank = Catalogs.Банки.FindByCode(bankAccount.bik);
+		if Catalogs.Банки.EmptyRef() = bank then
+			// Create new bank
+			bank = Catalogs.Банки.CreateItem();
+		else
+			bank = bank.GetObject();
+		endIf;
+		// Update bank in any case
+		bank.Code = bankAccount.bik;
+		bank.Наименование = bankAccount.name;
+		bank.Город = bankAccount.town;
+		bank.КоррСчет = bankAccount.cAccount;
+		bank.Write();
+
+		bankAccountRecord.DeletionMark = false;
+		bankAccountRecord.НомерСчета = bankAccount.rAccount;
+		bankAccountRecord.Банк = bank.Ref;
+		bankAccountRecord.Владелец = objectForUpdate.Ref;
+		bankAccountRecord.Наименование = "Расчётный";
+		// Required by 1C
+		bankAccountRecord.ВалютаДенежныхСредств = Catalogs.Валюты.FindByCode(810); // Российский рубль
+		bankAccountRecord.Write();
+		i = i + 1; hasNext = recordset.Next() and hasNext; // Next() cycled! After false it again became true!
+	endDo;
+
+	objectForUpdate.Write();
+	return StrReplace("Success. Stored object with id: %s", "%s", String(objectForUpdate.ref.UUID()));
+except
+	return DetailErrorDescription(ErrorInfo());
+endTry;
+
+return "Something go wrong!";

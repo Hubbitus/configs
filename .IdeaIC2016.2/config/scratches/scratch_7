@@ -1,0 +1,49 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header>
+        <EgaisResponseHeader xmlns:ns3="http://data.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                             xmlns="http://api.lesegais.ru/" operationId="793ccac9-7f24-4801-bff9-1b339605fc90"
+                             egaisVersion="3.20.2.dev4.minSecRes.10526.2016.03.02..20.06.23"/>
+    </soap:Header>
+    <soap:Body>
+        <ResponseInsertDocument xmlns="http://api.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                                xmlns:ns3="http://data.lesegais.ru/">
+            <contractLease id="P_105808" createDate="2016-03-03T00:00:00.000+03:00"
+                           updateDate="2016-03-03T00:00:00.000+03:00" sourceSystem="P" createdBy="admin"
+                           updatedBy="admin" updatedBySystem="P">
+                <ns3:contractNumber>test_soap_1456996755883</ns3:contractNumber>
+                <ns3:landTypeId>1</ns3:landTypeId>
+                <ns3:partyId>P_190467</ns3:partyId>
+                <ns3:startDate>2016-03-03T00:00:00.000+03:00</ns3:startDate>
+                <ns3:woodlotElements>
+                    <ns3:woodlotElement id="P_13375611">
+                        <ns3:elementNumber>1</ns3:elementNumber>
+                        <ns3:constituentEntityId>52</ns3:constituentEntityId>
+                        <ns3:forestryId>G_00132</ns3:forestryId>
+                        <ns3:subForestryId>G_U3400</ns3:subForestryId>
+                        <ns3:forestBlockNumber>124</ns3:forestBlockNumber>
+                        <ns3:surveyPlotRange>1-87</ns3:surveyPlotRange>
+                        <ns3:area>312.0</ns3:area>
+                    </ns3:woodlotElement>
+                </ns3:woodlotElements>
+                <ns3:woodlotIds/>
+                <ns3:stateAuthorityId>52</ns3:stateAuthorityId>
+                <ns3:coniferousVolume>1030.0</ns3:coniferousVolume>
+                <ns3:hardwoodVolume>50.0</ns3:hardwoodVolume>
+                <ns3:softwoodVolume>1500.0</ns3:softwoodVolume>
+                <ns3:unclassifiedVolume>0.0</ns3:unclassifiedVolume>
+                <ns3:subLeases>
+                    <ns3:subLease id="P_11">
+                        <ns3:number>0</ns3:number>
+                        <ns3:partyId>P_115588</ns3:partyId>
+                        <ns3:active>true</ns3:active>
+                    </ns3:subLease>
+                    <ns3:subLease id="P_12">
+                        <ns3:number>0</ns3:number>
+                        <ns3:partyId>P_190467</ns3:partyId>
+                        <ns3:active>true</ns3:active>
+                    </ns3:subLease>
+                </ns3:subLeases>
+            </contractLease>
+        </ResponseInsertDocument>
+    </soap:Body>
+</soap:Envelope>

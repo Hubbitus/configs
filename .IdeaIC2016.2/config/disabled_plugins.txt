@@ -1,0 +1,10 @@
+AntSupport
+CVS
+InspectorGeneral
+IntelliGuard
+com.thoughtworks.gauge
+com.wix.scss.lint
+hg4idea
+org.jetbrains.android
+org.jetbrains.idea.eclipse
+ru.trylogic.idea.gitlab.integration

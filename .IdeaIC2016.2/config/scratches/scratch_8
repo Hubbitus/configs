@@ -1,0 +1,5514 @@
+{
+    "picks_bans": [
+        {
+            "is_pick": false,
+            "hero_id": 95,
+            "order": 0,
+            "team": 1
+        },
+        {
+            "is_pick": false,
+            "hero_id": 39,
+            "order": 1,
+            "team": 0
+        },
+        {
+            "is_pick": false,
+            "hero_id": 99,
+            "order": 2,
+            "team": 1
+        },
+        {
+            "is_pick": false,
+            "hero_id": 41,
+            "order": 3,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 42,
+            "order": 4,
+            "team": 1
+        },
+        {
+            "is_pick": true,
+            "hero_id": 68,
+            "order": 5,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 22,
+            "order": 6,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 64,
+            "order": 7,
+            "team": 1
+        },
+        {
+            "is_pick": false,
+            "hero_id": 73,
+            "order": 8,
+            "team": 1
+        },
+        {
+            "is_pick": false,
+            "hero_id": 11,
+            "order": 9,
+            "team": 0
+        },
+        {
+            "is_pick": false,
+            "hero_id": 97,
+            "order": 10,
+            "team": 1
+        },
+        {
+            "is_pick": false,
+            "hero_id": 93,
+            "order": 11,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 98,
+            "order": 12,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 47,
+            "order": 13,
+            "team": 1
+        },
+        {
+            "is_pick": true,
+            "hero_id": 88,
+            "order": 14,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 110,
+            "order": 15,
+            "team": 1
+        },
+        {
+            "is_pick": false,
+            "hero_id": 48,
+            "order": 16,
+            "team": 0
+        },
+        {
+            "is_pick": false,
+            "hero_id": 35,
+            "order": 17,
+            "team": 1
+        },
+        {
+            "is_pick": true,
+            "hero_id": 67,
+            "order": 18,
+            "team": 0
+        },
+        {
+            "is_pick": true,
+            "hero_id": 8,
+            "order": 19,
+            "team": 1
+        }
+    ],
+    "finish": {
+        "tower_status_dire": 1972,
+        "barracks_status_dire": 63,
+        "barracks_status_radiant": 0,
+        "tower_status_radiant": 0,
+        "duration": 2980,
+        "radiant_win": false
+    },
+    "match_id": 247,
+    "start_time": 1430514316,
+    "times": [
+        0,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360,
+        420,
+        480,
+        540,
+        600,
+        660,
+        720,
+        780,
+        840,
+        900,
+        960,
+        1020,
+        1080,
+        1140,
+        1200,
+        1260,
+        1320,
+        1380,
+        1440,
+        1500,
+        1560,
+        1620,
+        1680,
+        1740,
+        1800,
+        1860,
+        1920,
+        1980,
+        2040,
+        2100,
+        2160,
+        2220,
+        2280,
+        2340,
+        2400,
+        2460,
+        2520,
+        2580,
+        2640,
+        2700,
+        2760,
+        2820,
+        2880,
+        2940,
+        3000
+    ],
+    "players": [
+        {
+            "buyback_log": [
+                {
+                    "key": null,
+                    "time": 2507
+                }
+            ],
+            "lh_t": [
+                0,
+                2,
+                7,
+                14,
+                20,
+                28,
+                33,
+                40,
+                45,
+                50,
+                57,
+                64,
+                68,
+                74,
+                76,
+                80,
+                89,
+                92,
+                92,
+                97,
+                97,
+                112,
+                115,
+                123,
+                124,
+                132,
+                146,
+                152,
+                166,
+                180,
+                180,
+                183,
+                185,
+                189,
+                201,
+                220,
+                225,
+                231,
+                253,
+                261,
+                275,
+                283,
+                293,
+                296,
+                296,
+                306,
+                319,
+                337,
+                347,
+                364,
+                365
+            ],
+            "obs_log": [],
+            "purchase_log": [
+                {
+                    "item_id": 44,
+                    "time": -73
+                },
+                {
+                    "item_id": 16,
+                    "time": -72
+                },
+                {
+                    "item_id": 182,
+                    "time": -71
+                },
+                {
+                    "item_id": 39,
+                    "time": -68
+                },
+                {
+                    "item_id": 16,
+                    "time": -66
+                },
+                {
+                    "item_id": 14,
+                    "time": 43
+                },
+                {
+                    "item_id": 71,
+                    "time": 43
+                },
+                {
+                    "item_id": 14,
+                    "time": 43
+                },
+                {
+                    "item_id": 29,
+                    "time": 175
+                },
+                {
+                    "item_id": 54,
+                    "time": 783
+                },
+                {
+                    "item_id": 46,
+                    "time": 847
+                },
+                {
+                    "item_id": 137,
+                    "time": 984
+                },
+                {
+                    "item_id": 46,
+                    "time": 1049
+                },
+                {
+                    "item_id": 46,
+                    "time": 1128
+                },
+                {
+                    "item_id": 22,
+                    "time": 1187
+                },
+                {
+                    "item_id": 22,
+                    "time": 1208
+                },
+                {
+                    "item_id": 46,
+                    "time": 1296
+                },
+                {
+                    "item_id": 46,
+                    "time": 1320
+                },
+                {
+                    "item_id": 46,
+                    "time": 1538
+                },
+                {
+                    "item_id": 19,
+                    "time": 1552
+                },
+                {
+                    "item_id": 174,
+                    "time": 1606
+                },
+                {
+                    "item_id": 22,
+                    "time": 1870
+                },
+                {
+                    "item_id": 18,
+                    "time": 1870
+                },
+                {
+                    "item_id": 170,
+                    "time": 1870
+                },
+                {
+                    "item_id": 46,
+                    "time": 1948
+                },
+                {
+                    "item_id": 46,
+                    "time": 1961
+                },
+                {
+                    "item_id": 24,
+                    "time": 2239
+                },
+                {
+                    "item_id": 147,
+                    "time": 2307
+                },
+                {
+                    "item_id": 196,
+                    "time": 2378
+                },
+                {
+                    "item_id": 46,
+                    "time": 2414
+                },
+                {
+                    "item_id": 46,
+                    "time": 2435
+                },
+                {
+                    "item_id": 46,
+                    "time": 2551
+                },
+                {
+                    "item_id": 53,
+                    "time": 2846
+                },
+                {
+                    "item_id": 114,
+                    "time": 2846
+                },
+                {
+                    "item_id": 61,
+                    "time": 2846
+                },
+                {
+                    "item_id": 25,
+                    "time": 2870
+                },
+                {
+                    "item_id": 63,
+                    "time": 2870
+                },
+                {
+                    "item_id": 17,
+                    "time": 2870
+                }
+            ],
+            "xp_t": [
+                0,
+                175,
+                396,
+                704,
+                846,
+                1034,
+                1171,
+                1627,
+                2081,
+                2427,
+                2829,
+                3161,
+                3511,
+                3903,
+                4895,
+                5052,
+                5568,
+                5881,
+                6205,
+                6428,
+                7463,
+                8286,
+                8676,
+                9233,
+                9664,
+                10392,
+                11682,
+                12043,
+                12624,
+                13459,
+                13459,
+                13577,
+                14836,
+                15228,
+                16062,
+                16745,
+                17307,
+                20343,
+                21087,
+                22179,
+                22642,
+                22942,
+                23192,
+                24343,
+                24343,
+                24668,
+                26986,
+                30854,
+                31022,
+                31393,
+                31470
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 831
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 1014
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1155
+                },
+                {
+                    "player": 6,
+                    "unit": "npc_dota_hero_juggernaut",
+                    "time": 1162
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 1525
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1892
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 2121
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 2336
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 2536
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 2743
+                },
+                {
+                    "player": 6,
+                    "unit": "npc_dota_hero_juggernaut",
+                    "time": 2758
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 2762
+                },
+                {
+                    "player": 6,
+                    "unit": "npc_dota_hero_juggernaut",
+                    "time": 2785
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 2789
+                }
+            ],
+            "gold_t": [
+                0,
+                277,
+                579,
+                955,
+                1294,
+                1720,
+                2017,
+                2436,
+                2738,
+                3058,
+                3443,
+                3834,
+                4093,
+                4435,
+                5278,
+                5573,
+                6029,
+                6437,
+                6660,
+                7297,
+                8332,
+                9025,
+                9287,
+                9674,
+                9934,
+                10379,
+                11425,
+                11815,
+                12405,
+                13329,
+                13429,
+                13642,
+                14314,
+                14579,
+                15280,
+                15847,
+                16545,
+                17890,
+                18652,
+                19323,
+                19766,
+                20037,
+                20347,
+                20715,
+                20815,
+                21108,
+                23114,
+                25946,
+                26246,
+                26723,
+                26811
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 51,
+                    "ability": 5334,
+                    "level": 1
+                },
+                {
+                    "time": 131,
+                    "ability": 5335,
+                    "level": 2
+                },
+                {
+                    "time": 204,
+                    "ability": 5334,
+                    "level": 3
+                },
+                {
+                    "time": 319,
+                    "ability": 5335,
+                    "level": 4
+                },
+                {
+                    "time": 451,
+                    "ability": 5335,
+                    "level": 5
+                },
+                {
+                    "time": 528,
+                    "ability": 5337,
+                    "level": 6
+                },
+                {
+                    "time": 639,
+                    "ability": 5335,
+                    "level": 7
+                },
+                {
+                    "time": 731,
+                    "ability": 5336,
+                    "level": 8
+                },
+                {
+                    "time": 897,
+                    "ability": 5334,
+                    "level": 9
+                },
+                {
+                    "time": 1004,
+                    "ability": 5334,
+                    "level": 10
+                },
+                {
+                    "time": 1093,
+                    "ability": 5337,
+                    "level": 11
+                },
+                {
+                    "time": 1314,
+                    "ability": 5002,
+                    "level": 12
+                },
+                {
+                    "time": 1400,
+                    "ability": 5336,
+                    "level": 13
+                },
+                {
+                    "time": 1618,
+                    "ability": 5336,
+                    "level": 14
+                },
+                {
+                    "time": 1639,
+                    "ability": 5336,
+                    "level": 15
+                },
+                {
+                    "time": 1870,
+                    "ability": 5337,
+                    "level": 16
+                },
+                {
+                    "time": 2037,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2179,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2284,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2323,
+                    "ability": 5002,
+                    "level": 20
+                },
+                {
+                    "time": 2531,
+                    "ability": 5002,
+                    "level": 21
+                },
+                {
+                    "time": 2808,
+                    "ability": 5002,
+                    "level": 22
+                },
+                {
+                    "time": 2861,
+                    "ability": 5002,
+                    "level": 23
+                },
+                {
+                    "time": 2861,
+                    "ability": 5002,
+                    "level": 24
+                }
+            ],
+            "hero_id": 67
+        },
+        {
+            "buyback_log": [],
+            "lh_t": [
+                0,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                4,
+                4,
+                6,
+                7,
+                7,
+                7,
+                10,
+                10,
+                10,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                21,
+                23,
+                23,
+                24,
+                26,
+                31,
+                31,
+                31,
+                31,
+                32,
+                41,
+                41,
+                43,
+                43,
+                43,
+                43,
+                50,
+                52,
+                52,
+                54,
+                57,
+                60,
+                61
+            ],
+            "obs_log": [
+                {
+                    "xy": [
+                        111,
+                        130
+                    ],
+                    "time": 1711
+                },
+                {
+                    "xy": [
+                        136,
+                        164
+                    ],
+                    "time": 1732
+                }
+            ],
+            "purchase_log": [
+                {
+                    "item_id": 45,
+                    "time": -84
+                },
+                {
+                    "item_id": 44,
+                    "time": -78
+                },
+                {
+                    "item_id": 39,
+                    "time": -76
+                },
+                {
+                    "item_id": 38,
+                    "time": -75
+                },
+                {
+                    "item_id": 38,
+                    "time": -75
+                },
+                {
+                    "item_id": 16,
+                    "time": -57
+                },
+                {
+                    "item_id": 16,
+                    "time": -54
+                },
+                {
+                    "item_id": 84,
+                    "time": 181
+                },
+                {
+                    "item_id": 29,
+                    "time": 300
+                },
+                {
+                    "item_id": 46,
+                    "time": 365
+                },
+                {
+                    "item_id": 46,
+                    "time": 585
+                },
+                {
+                    "item_id": 59,
+                    "time": 766
+                },
+                {
+                    "item_id": 180,
+                    "time": 811
+                },
+                {
+                    "item_id": 46,
+                    "time": 1063
+                },
+                {
+                    "item_id": 20,
+                    "time": 1068
+                },
+                {
+                    "item_id": 36,
+                    "time": 1068
+                },
+                {
+                    "item_id": 34,
+                    "time": 1068
+                },
+                {
+                    "item_id": 46,
+                    "time": 1094
+                },
+                {
+                    "item_id": 1,
+                    "time": 1289
+                },
+                {
+                    "item_id": 21,
+                    "time": 1433
+                },
+                {
+                    "item_id": 46,
+                    "time": 1537
+                },
+                {
+                    "item_id": 60,
+                    "time": 1753
+                },
+                {
+                    "item_id": 46,
+                    "time": 1896
+                },
+                {
+                    "item_id": 23,
+                    "time": 1967
+                },
+                {
+                    "item_id": 22,
+                    "time": 1967
+                },
+                {
+                    "item_id": 108,
+                    "time": 1972
+                },
+                {
+                    "item_id": 58,
+                    "time": 2290
+                }
+            ],
+            "xp_t": [
+                0,
+                13,
+                115,
+                177,
+                335,
+                523,
+                732,
+                1136,
+                1293,
+                1448,
+                1541,
+                1749,
+                1913,
+                2036,
+                2149,
+                2529,
+                3782,
+                3862,
+                5315,
+                5538,
+                5904,
+                6176,
+                7653,
+                7653,
+                8908,
+                10085,
+                11708,
+                12032,
+                12159,
+                12697,
+                12828,
+                12884,
+                13916,
+                17113,
+                17113,
+                17319,
+                17411,
+                20269,
+                20661,
+                23610,
+                24090,
+                24090,
+                26050,
+                26050,
+                26236,
+                26494,
+                26494,
+                26609,
+                26937,
+                27163,
+                27223
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 905
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 1140
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 1287
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 1409
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 2508
+                }
+            ],
+            "gold_t": [
+                0,
+                99,
+                243,
+                343,
+                499,
+                599,
+                872,
+                1044,
+                1144,
+                1320,
+                1456,
+                1556,
+                1656,
+                1827,
+                1927,
+                2105,
+                2905,
+                3005,
+                3897,
+                4157,
+                4579,
+                4769,
+                5427,
+                5527,
+                6203,
+                6501,
+                7082,
+                7284,
+                7474,
+                7915,
+                8015,
+                8159,
+                8918,
+                9882,
+                10142,
+                10242,
+                10542,
+                12195,
+                12487,
+                13335,
+                13512,
+                13612,
+                14351,
+                14451,
+                14686,
+                14877,
+                14977,
+                15116,
+                15362,
+                15515,
+                15606
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 54,
+                    "ability": 5462,
+                    "level": 1
+                },
+                {
+                    "time": 267,
+                    "ability": 5463,
+                    "level": 2
+                },
+                {
+                    "time": 351,
+                    "ability": 5462,
+                    "level": 3
+                },
+                {
+                    "time": 472,
+                    "ability": 5464,
+                    "level": 4
+                },
+                {
+                    "time": 598,
+                    "ability": 5462,
+                    "level": 5
+                },
+                {
+                    "time": 821,
+                    "ability": 5465,
+                    "level": 6
+                },
+                {
+                    "time": 971,
+                    "ability": 5462,
+                    "level": 7
+                },
+                {
+                    "time": 972,
+                    "ability": 5463,
+                    "level": 8
+                },
+                {
+                    "time": 1144,
+                    "ability": 5463,
+                    "level": 9
+                },
+                {
+                    "time": 1150,
+                    "ability": 5463,
+                    "level": 10
+                },
+                {
+                    "time": 1278,
+                    "ability": 5465,
+                    "level": 11
+                },
+                {
+                    "time": 1479,
+                    "ability": 5464,
+                    "level": 12
+                },
+                {
+                    "time": 1531,
+                    "ability": 5464,
+                    "level": 13
+                },
+                {
+                    "time": 1588,
+                    "ability": 5464,
+                    "level": 14
+                },
+                {
+                    "time": 1640,
+                    "ability": 5002,
+                    "level": 15
+                },
+                {
+                    "time": 1986,
+                    "ability": 5465,
+                    "level": 16
+                },
+                {
+                    "time": 1987,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2019,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2279,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2357,
+                    "ability": 5002,
+                    "level": 20
+                },
+                {
+                    "time": 2403,
+                    "ability": 5002,
+                    "level": 21
+                },
+                {
+                    "time": 2578,
+                    "ability": 5002,
+                    "level": 22
+                }
+            ],
+            "hero_id": 88
+        },
+        {
+            "buyback_log": [
+                {
+                    "key": null,
+                    "time": 2779
+                }
+            ],
+            "lh_t": [
+                0,
+                2,
+                7,
+                10,
+                13,
+                14,
+                19,
+                19,
+                25,
+                26,
+                28,
+                29,
+                31,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                37,
+                37,
+                44,
+                44,
+                44,
+                44,
+                44,
+                47,
+                48,
+                48,
+                48,
+                49,
+                57,
+                58,
+                60,
+                60,
+                60,
+                69,
+                71,
+                71,
+                78,
+                79,
+                79,
+                87,
+                93,
+                93,
+                97,
+                105,
+                112,
+                112
+            ],
+            "obs_log": [],
+            "purchase_log": [
+                {
+                    "item_id": 16,
+                    "time": -83
+                },
+                {
+                    "item_id": 16,
+                    "time": -83
+                },
+                {
+                    "item_id": 41,
+                    "time": 61
+                },
+                {
+                    "item_id": 29,
+                    "time": 169
+                },
+                {
+                    "item_id": 46,
+                    "time": 262
+                },
+                {
+                    "item_id": 46,
+                    "time": 400
+                },
+                {
+                    "item_id": 46,
+                    "time": 406
+                },
+                {
+                    "item_id": 59,
+                    "time": 564
+                },
+                {
+                    "item_id": 180,
+                    "time": 570
+                },
+                {
+                    "item_id": 46,
+                    "time": 786
+                },
+                {
+                    "item_id": 46,
+                    "time": 786
+                },
+                {
+                    "item_id": 46,
+                    "time": 860
+                },
+                {
+                    "item_id": 46,
+                    "time": 1062
+                },
+                {
+                    "item_id": 21,
+                    "time": 1169
+                },
+                {
+                    "item_id": 46,
+                    "time": 1204
+                },
+                {
+                    "item_id": 23,
+                    "time": 1404
+                },
+                {
+                    "item_id": 46,
+                    "time": 1453
+                },
+                {
+                    "item_id": 60,
+                    "time": 1501
+                },
+                {
+                    "item_id": 46,
+                    "time": 1532
+                },
+                {
+                    "item_id": 22,
+                    "time": 1932
+                },
+                {
+                    "item_id": 108,
+                    "time": 1950
+                },
+                {
+                    "item_id": 46,
+                    "time": 1951
+                },
+                {
+                    "item_id": 61,
+                    "time": 2015
+                },
+                {
+                    "item_id": 58,
+                    "time": 2327
+                },
+                {
+                    "item_id": 60,
+                    "time": 2329
+                },
+                {
+                    "item_id": 129,
+                    "time": 2334
+                },
+                {
+                    "item_id": 235,
+                    "time": 2334
+                },
+                {
+                    "item_id": 46,
+                    "time": 2578
+                },
+                {
+                    "item_id": 37,
+                    "time": 2715
+                }
+            ],
+            "xp_t": [
+                0,
+                268,
+                691,
+                1000,
+                1433,
+                1722,
+                2208,
+                2381,
+                2765,
+                2930,
+                3425,
+                3649,
+                3938,
+                4215,
+                4246,
+                4323,
+                4923,
+                5346,
+                5346,
+                5346,
+                6177,
+                6487,
+                7951,
+                8431,
+                8876,
+                10031,
+                10878,
+                10878,
+                11208,
+                11258,
+                11348,
+                11404,
+                11443,
+                14201,
+                14490,
+                14612,
+                14642,
+                17121,
+                17508,
+                18337,
+                18361,
+                19027,
+                19721,
+                19721,
+                20399,
+                20724,
+                22654,
+                26545,
+                26841,
+                27155,
+                27155
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 349
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 935
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 1158
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 1495
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1506
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1829
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 1924
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 1936
+                },
+                {
+                    "player": 6,
+                    "unit": "npc_dota_hero_juggernaut",
+                    "time": 2210
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 2210
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 2213
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 2215
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 2339
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 2492
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 2763
+                }
+            ],
+            "gold_t": [
+                0,
+                178,
+                475,
+                698,
+                911,
+                1051,
+                1483,
+                1645,
+                1976,
+                2112,
+                2291,
+                2503,
+                2676,
+                2891,
+                2991,
+                3226,
+                3515,
+                3798,
+                3898,
+                4158,
+                4817,
+                5123,
+                5860,
+                6278,
+                6607,
+                7405,
+                7898,
+                7998,
+                8210,
+                8520,
+                8620,
+                8720,
+                8867,
+                10914,
+                11215,
+                11365,
+                11665,
+                14151,
+                14456,
+                14921,
+                15021,
+                15399,
+                15670,
+                15770,
+                16211,
+                16489,
+                17618,
+                19218,
+                19408,
+                19659,
+                19728
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 0,
+                    "ability": 5110,
+                    "level": 1
+                },
+                {
+                    "time": 98,
+                    "ability": 5111,
+                    "level": 2
+                },
+                {
+                    "time": 156,
+                    "ability": 5111,
+                    "level": 3
+                },
+                {
+                    "time": 215,
+                    "ability": 5112,
+                    "level": 4
+                },
+                {
+                    "time": 296,
+                    "ability": 5111,
+                    "level": 5
+                },
+                {
+                    "time": 391,
+                    "ability": 5113,
+                    "level": 6
+                },
+                {
+                    "time": 507,
+                    "ability": 5111,
+                    "level": 7
+                },
+                {
+                    "time": 629,
+                    "ability": 5112,
+                    "level": 8
+                },
+                {
+                    "time": 996,
+                    "ability": 5112,
+                    "level": 9
+                },
+                {
+                    "time": 1200,
+                    "ability": 5112,
+                    "level": 10
+                },
+                {
+                    "time": 1220,
+                    "ability": 5113,
+                    "level": 11
+                },
+                {
+                    "time": 1414,
+                    "ability": 5110,
+                    "level": 12
+                },
+                {
+                    "time": 1527,
+                    "ability": 5110,
+                    "level": 13
+                },
+                {
+                    "time": 1567,
+                    "ability": 5002,
+                    "level": 14
+                },
+                {
+                    "time": 1986,
+                    "ability": 5110,
+                    "level": 15
+                },
+                {
+                    "time": 2004,
+                    "ability": 5113,
+                    "level": 16
+                },
+                {
+                    "time": 2275,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2277,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2506,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2809,
+                    "ability": 5002,
+                    "level": 20
+                },
+                {
+                    "time": 2826,
+                    "ability": 5002,
+                    "level": 21
+                },
+                {
+                    "time": 2851,
+                    "ability": 5002,
+                    "level": 22
+                }
+            ],
+            "hero_id": 22
+        },
+        {
+            "buyback_log": [],
+            "lh_t": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                2,
+                3,
+                4,
+                4,
+                4,
+                8,
+                8,
+                13,
+                13,
+                14,
+                15,
+                15,
+                15,
+                15,
+                16,
+                18,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                20,
+                21,
+                25,
+                27,
+                27,
+                27,
+                27,
+                30,
+                35,
+                42,
+                42,
+                45,
+                48,
+                51,
+                51
+            ],
+            "obs_log": [
+                {
+                    "xy": [
+                        145,
+                        118
+                    ],
+                    "time": 4
+                },
+                {
+                    "xy": [
+                        121,
+                        136
+                    ],
+                    "time": 514
+                },
+                {
+                    "xy": [
+                        98,
+                        154
+                    ],
+                    "time": 675
+                },
+                {
+                    "xy": [
+                        120,
+                        137
+                    ],
+                    "time": 976
+                },
+                {
+                    "xy": [
+                        148,
+                        107
+                    ],
+                    "time": 1195
+                },
+                {
+                    "xy": [
+                        111,
+                        130
+                    ],
+                    "time": 1568
+                },
+                {
+                    "xy": [
+                        128,
+                        146
+                    ],
+                    "time": 1592
+                },
+                {
+                    "xy": [
+                        115,
+                        93
+                    ],
+                    "time": 1991
+                },
+                {
+                    "xy": [
+                        144,
+                        118
+                    ],
+                    "time": 2006
+                },
+                {
+                    "xy": [
+                        148,
+                        107
+                    ],
+                    "time": 2287
+                }
+            ],
+            "purchase_log": [
+                {
+                    "item_id": 42,
+                    "time": -82
+                },
+                {
+                    "item_id": 44,
+                    "time": -81
+                },
+                {
+                    "item_id": 42,
+                    "time": -69
+                },
+                {
+                    "item_id": 16,
+                    "time": -57
+                },
+                {
+                    "item_id": 16,
+                    "time": -57
+                },
+                {
+                    "item_id": 34,
+                    "time": -51
+                },
+                {
+                    "item_id": 38,
+                    "time": -49
+                },
+                {
+                    "item_id": 181,
+                    "time": 165
+                },
+                {
+                    "item_id": 20,
+                    "time": 314
+                },
+                {
+                    "item_id": 36,
+                    "time": 400
+                },
+                {
+                    "item_id": 29,
+                    "time": 441
+                },
+                {
+                    "item_id": 46,
+                    "time": 453
+                },
+                {
+                    "item_id": 42,
+                    "time": 455
+                },
+                {
+                    "item_id": 42,
+                    "time": 455
+                },
+                {
+                    "item_id": 42,
+                    "time": 919
+                },
+                {
+                    "item_id": 42,
+                    "time": 1042
+                },
+                {
+                    "item_id": 42,
+                    "time": 1042
+                },
+                {
+                    "item_id": 46,
+                    "time": 1044
+                },
+                {
+                    "item_id": 60,
+                    "time": 1058
+                },
+                {
+                    "item_id": 21,
+                    "time": 1204
+                },
+                {
+                    "item_id": 42,
+                    "time": 1265
+                },
+                {
+                    "item_id": 43,
+                    "time": 1359
+                },
+                {
+                    "item_id": 42,
+                    "time": 1435
+                },
+                {
+                    "item_id": 42,
+                    "time": 1436
+                },
+                {
+                    "item_id": 23,
+                    "time": 1668
+                },
+                {
+                    "item_id": 22,
+                    "time": 1904
+                },
+                {
+                    "item_id": 108,
+                    "time": 1913
+                },
+                {
+                    "item_id": 42,
+                    "time": 1933
+                },
+                {
+                    "item_id": 42,
+                    "time": 1938
+                },
+                {
+                    "item_id": 42,
+                    "time": 2242
+                },
+                {
+                    "item_id": 59,
+                    "time": 2248
+                },
+                {
+                    "item_id": 180,
+                    "time": 2258
+                },
+                {
+                    "item_id": 46,
+                    "time": 2434
+                },
+                {
+                    "item_id": 4,
+                    "time": 2441
+                },
+                {
+                    "item_id": 28,
+                    "time": 2441
+                },
+                {
+                    "item_id": 187,
+                    "time": 2441
+                }
+            ],
+            "xp_t": [
+                0,
+                75,
+                296,
+                480,
+                591,
+                768,
+                1008,
+                1028,
+                1218,
+                1218,
+                1218,
+                1393,
+                1568,
+                1733,
+                2746,
+                3009,
+                3261,
+                3554,
+                3878,
+                4441,
+                5011,
+                5180,
+                5180,
+                5345,
+                6600,
+                6682,
+                7439,
+                7511,
+                7638,
+                7896,
+                8008,
+                8064,
+                9057,
+                9057,
+                9096,
+                9168,
+                9198,
+                10909,
+                10961,
+                10961,
+                11093,
+                11180,
+                11849,
+                11874,
+                12493,
+                12705,
+                12705,
+                12807,
+                13001,
+                13123,
+                13175
+            ],
+            "sen_log": [
+                {
+                    "xy": [
+                        137,
+                        90
+                    ],
+                    "time": 1391
+                },
+                {
+                    "xy": [
+                        144,
+                        91
+                    ],
+                    "time": 1400
+                }
+            ],
+            "kills_log": [
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 446
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1024
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1838
+                },
+                {
+                    "player": 5,
+                    "unit": "npc_dota_hero_phoenix",
+                    "time": 2204
+                }
+            ],
+            "gold_t": [
+                0,
+                99,
+                199,
+                299,
+                399,
+                557,
+                760,
+                860,
+                1194,
+                1294,
+                1394,
+                1494,
+                1594,
+                1739,
+                2299,
+                2437,
+                2579,
+                2814,
+                3308,
+                3728,
+                4201,
+                4490,
+                4590,
+                4733,
+                5379,
+                5479,
+                5820,
+                5920,
+                6020,
+                6367,
+                6508,
+                6608,
+                7425,
+                7525,
+                7785,
+                7885,
+                8225,
+                9816,
+                10080,
+                10265,
+                10365,
+                10465,
+                10767,
+                10930,
+                11173,
+                11463,
+                11563,
+                11724,
+                11896,
+                12062,
+                12131
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 43,
+                    "ability": 5347,
+                    "level": 1
+                },
+                {
+                    "time": 147,
+                    "ability": 5345,
+                    "level": 2
+                },
+                {
+                    "time": 253,
+                    "ability": 5347,
+                    "level": 3
+                },
+                {
+                    "time": 419,
+                    "ability": 5346,
+                    "level": 4
+                },
+                {
+                    "time": 723,
+                    "ability": 5347,
+                    "level": 5
+                },
+                {
+                    "time": 894,
+                    "ability": 5348,
+                    "level": 6
+                },
+                {
+                    "time": 896,
+                    "ability": 5346,
+                    "level": 7
+                },
+                {
+                    "time": 1011,
+                    "ability": 5346,
+                    "level": 8
+                },
+                {
+                    "time": 1208,
+                    "ability": 5346,
+                    "level": 9
+                },
+                {
+                    "time": 1463,
+                    "ability": 5347,
+                    "level": 10
+                },
+                {
+                    "time": 1478,
+                    "ability": 5348,
+                    "level": 11
+                },
+                {
+                    "time": 1987,
+                    "ability": 5345,
+                    "level": 12
+                },
+                {
+                    "time": 1988,
+                    "ability": 5345,
+                    "level": 13
+                },
+                {
+                    "time": 2284,
+                    "ability": 5345,
+                    "level": 14
+                },
+                {
+                    "time": 2647,
+                    "ability": 5002,
+                    "level": 15
+                }
+            ],
+            "hero_id": 68
+        },
+        {
+            "buyback_log": [
+                {
+                    "key": null,
+                    "time": 2926
+                }
+            ],
+            "lh_t": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                4,
+                5,
+                5,
+                10,
+                11,
+                13,
+                17,
+                21,
+                21,
+                21,
+                26,
+                28,
+                29,
+                34,
+                34,
+                35,
+                35,
+                41,
+                41,
+                42,
+                45,
+                54,
+                73,
+                75,
+                76,
+                79,
+                82,
+                100,
+                107,
+                113,
+                113,
+                118,
+                124,
+                129,
+                144,
+                156,
+                157,
+                157,
+                167,
+                167,
+                167,
+                172,
+                183,
+                195,
+                200
+            ],
+            "obs_log": [
+                {
+                    "xy": [
+                        89,
+                        161
+                    ],
+                    "time": -30
+                }
+            ],
+            "purchase_log": [
+                {
+                    "item_id": 182,
+                    "time": -83
+                },
+                {
+                    "item_id": 44,
+                    "time": -81
+                },
+                {
+                    "item_id": 39,
+                    "time": -80
+                },
+                {
+                    "item_id": 38,
+                    "time": -79
+                },
+                {
+                    "item_id": 38,
+                    "time": -77
+                },
+                {
+                    "item_id": 46,
+                    "time": 200
+                },
+                {
+                    "item_id": 29,
+                    "time": 365
+                },
+                {
+                    "item_id": 46,
+                    "time": 450
+                },
+                {
+                    "item_id": 46,
+                    "time": 541
+                },
+                {
+                    "item_id": 46,
+                    "time": 712
+                },
+                {
+                    "item_id": 180,
+                    "time": 752
+                },
+                {
+                    "item_id": 59,
+                    "time": 752
+                },
+                {
+                    "item_id": 46,
+                    "time": 768
+                },
+                {
+                    "item_id": 46,
+                    "time": 768
+                },
+                {
+                    "item_id": 46,
+                    "time": 856
+                },
+                {
+                    "item_id": 46,
+                    "time": 909
+                },
+                {
+                    "item_id": 46,
+                    "time": 1041
+                },
+                {
+                    "item_id": 28,
+                    "time": 1042
+                },
+                {
+                    "item_id": 27,
+                    "time": 1090
+                },
+                {
+                    "item_id": 178,
+                    "time": 1127
+                },
+                {
+                    "item_id": 60,
+                    "time": 1205
+                },
+                {
+                    "item_id": 46,
+                    "time": 1207
+                },
+                {
+                    "item_id": 59,
+                    "time": 1312
+                },
+                {
+                    "item_id": 46,
+                    "time": 1427
+                },
+                {
+                    "item_id": 46,
+                    "time": 1427
+                },
+                {
+                    "item_id": 46,
+                    "time": 1527
+                },
+                {
+                    "item_id": 61,
+                    "time": 1730
+                },
+                {
+                    "item_id": 129,
+                    "time": 1745
+                },
+                {
+                    "item_id": 121,
+                    "time": 1745
+                },
+                {
+                    "item_id": 46,
+                    "time": 1931
+                },
+                {
+                    "item_id": 46,
+                    "time": 1931
+                },
+                {
+                    "item_id": 60,
+                    "time": 1991
+                },
+                {
+                    "item_id": 58,
+                    "time": 2582
+                },
+                {
+                    "item_id": 61,
+                    "time": 2851
+                },
+                {
+                    "item_id": 180,
+                    "time": 2866
+                },
+                {
+                    "item_id": 180,
+                    "time": 2873
+                },
+                {
+                    "item_id": 129,
+                    "time": 2878
+                },
+                {
+                    "item_id": 235,
+                    "time": 2879
+                }
+            ],
+            "xp_t": [
+                0,
+                31,
+                299,
+                423,
+                423,
+                454,
+                908,
+                1217,
+                1500,
+                2083,
+                2413,
+                2588,
+                2776,
+                3707,
+                3769,
+                3815,
+                4178,
+                4562,
+                6911,
+                7134,
+                8535,
+                8907,
+                9284,
+                9676,
+                10121,
+                10285,
+                10522,
+                10924,
+                12140,
+                12388,
+                12438,
+                12556,
+                14868,
+                15334,
+                15706,
+                15948,
+                15978,
+                18877,
+                19082,
+                19320,
+                19601,
+                19905,
+                23153,
+                24304,
+                24553,
+                24640,
+                26595,
+                30335,
+                30655,
+                30841,
+                30942
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 736
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 1070
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 1077
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 1278
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 1392
+                },
+                {
+                    "player": 8,
+                    "unit": "npc_dota_hero_skeleton_king",
+                    "time": 1484
+                },
+                {
+                    "player": 6,
+                    "unit": "npc_dota_hero_juggernaut",
+                    "time": 1902
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 1907
+                },
+                {
+                    "player": 9,
+                    "unit": "npc_dota_hero_jakiro",
+                    "time": 2495
+                },
+                {
+                    "player": 7,
+                    "unit": "npc_dota_hero_viper",
+                    "time": 2503
+                }
+            ],
+            "gold_t": [
+                0,
+                99,
+                243,
+                343,
+                443,
+                543,
+                765,
+                909,
+                1151,
+                1458,
+                1599,
+                1782,
+                2074,
+                2671,
+                2771,
+                2965,
+                3269,
+                3615,
+                5045,
+                5512,
+                6154,
+                6299,
+                6740,
+                7082,
+                7628,
+                7774,
+                7995,
+                8410,
+                9213,
+                9568,
+                9713,
+                9938,
+                11391,
+                11876,
+                12354,
+                12704,
+                13004,
+                13305,
+                13531,
+                13735,
+                14162,
+                14519,
+                15912,
+                16012,
+                16321,
+                16421,
+                17783,
+                18875,
+                19200,
+                19521,
+                19627
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 101,
+                    "ability": 5526,
+                    "level": 1
+                },
+                {
+                    "time": 164,
+                    "ability": 5525,
+                    "level": 2
+                },
+                {
+                    "time": 365,
+                    "ability": 5525,
+                    "level": 3
+                },
+                {
+                    "time": 417,
+                    "ability": 5524,
+                    "level": 4
+                },
+                {
+                    "time": 506,
+                    "ability": 5525,
+                    "level": 5
+                },
+                {
+                    "time": 580,
+                    "ability": 5527,
+                    "level": 6
+                },
+                {
+                    "time": 721,
+                    "ability": 5524,
+                    "level": 7
+                },
+                {
+                    "time": 802,
+                    "ability": 5524,
+                    "level": 8
+                },
+                {
+                    "time": 1075,
+                    "ability": 5524,
+                    "level": 9
+                },
+                {
+                    "time": 1139,
+                    "ability": 5527,
+                    "level": 10
+                },
+                {
+                    "time": 1141,
+                    "ability": 5526,
+                    "level": 11
+                },
+                {
+                    "time": 1223,
+                    "ability": 5525,
+                    "level": 12
+                },
+                {
+                    "time": 1349,
+                    "ability": 5526,
+                    "level": 13
+                },
+                {
+                    "time": 1611,
+                    "ability": 5002,
+                    "level": 14
+                },
+                {
+                    "time": 1737,
+                    "ability": 5526,
+                    "level": 15
+                },
+                {
+                    "time": 1953,
+                    "ability": 5527,
+                    "level": 16
+                },
+                {
+                    "time": 2022,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2271,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2283,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2563,
+                    "ability": 5002,
+                    "level": 20
+                },
+                {
+                    "time": 2564,
+                    "ability": 5002,
+                    "level": 21
+                },
+                {
+                    "time": 2809,
+                    "ability": 5002,
+                    "level": 22
+                },
+                {
+                    "time": 2833,
+                    "ability": 5002,
+                    "level": 23
+                },
+                {
+                    "time": 2859,
+                    "ability": 5002,
+                    "level": 24
+                }
+            ],
+            "hero_id": 98
+        },
+        {
+            "buyback_log": [],
+            "lh_t": [
+                0,
+                0,
+                1,
+                2,
+                3,
+                3,
+                3,
+                4,
+                11,
+                11,
+                11,
+                11,
+                12,
+                14,
+                18,
+                18,
+                19,
+                19,
+                22,
+                24,
+                25,
+                33,
+                34,
+                39,
+                43,
+                43,
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                45,
+                45,
+                47,
+                48,
+                55,
+                55,
+                57,
+                57,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                67
+            ],
+            "obs_log": [
+                {
+                    "xy": [
+                        158,
+                        101
+                    ],
+                    "time": 8
+                }
+            ],
+            "purchase_log": [
+                {
+                    "item_id": 13,
+                    "time": -79
+                },
+                {
+                    "item_id": 13,
+                    "time": -79
+                },
+                {
+                    "item_id": 44,
+                    "time": -79
+                },
+                {
+                    "item_id": 39,
+                    "time": -78
+                },
+                {
+                    "item_id": 28,
+                    "time": 226
+                },
+                {
+                    "item_id": 92,
+                    "time": 294
+                },
+                {
+                    "item_id": 216,
+                    "time": 310
+                },
+                {
+                    "item_id": 29,
+                    "time": 498
+                },
+                {
+                    "item_id": 39,
+                    "time": 547
+                },
+                {
+                    "item_id": 27,
+                    "time": 621
+                },
+                {
+                    "item_id": 12,
+                    "time": 724
+                },
+                {
+                    "item_id": 46,
+                    "time": 764
+                },
+                {
+                    "item_id": 214,
+                    "time": 772
+                },
+                {
+                    "item_id": 46,
+                    "time": 960
+                },
+                {
+                    "item_id": 27,
+                    "time": 1054
+                },
+                {
+                    "item_id": 46,
+                    "time": 1179
+                },
+                {
+                    "item_id": 23,
+                    "time": 1309
+                },
+                {
+                    "item_id": 102,
+                    "time": 1411
+                },
+                {
+                    "item_id": 46,
+                    "time": 1583
+                },
+                {
+                    "item_id": 21,
+                    "time": 1596
+                },
+                {
+                    "item_id": 17,
+                    "time": 1596
+                },
+                {
+                    "item_id": 46,
+                    "time": 1788
+                },
+                {
+                    "item_id": 162,
+                    "time": 1814
+                },
+                {
+                    "item_id": 46,
+                    "time": 2041
+                },
+                {
+                    "item_id": 53,
+                    "time": 2262
+                },
+                {
+                    "item_id": 46,
+                    "time": 2281
+                },
+                {
+                    "item_id": 46,
+                    "time": 2615
+                },
+                {
+                    "item_id": 114,
+                    "time": 2869
+                },
+                {
+                    "item_id": 61,
+                    "time": 2869
+                }
+            ],
+            "xp_t": [
+                0,
+                124,
+                329,
+                525,
+                751,
+                782,
+                813,
+                937,
+                1492,
+                1770,
+                1894,
+                1894,
+                2327,
+                2611,
+                3168,
+                3426,
+                3906,
+                4031,
+                4330,
+                4487,
+                4580,
+                5302,
+                7560,
+                8000,
+                11011,
+                11787,
+                11787,
+                11872,
+                12052,
+                12883,
+                13085,
+                13785,
+                14337,
+                14337,
+                14337,
+                14617,
+                15827,
+                16356,
+                16356,
+                16768,
+                16768,
+                17067,
+                18276,
+                18276,
+                18276,
+                19840,
+                21017,
+                21017,
+                21017,
+                21034,
+                22427
+            ],
+            "sen_log": [
+                {
+                    "xy": [
+                        153,
+                        92
+                    ],
+                    "time": 118
+                }
+            ],
+            "kills_log": [
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 1394
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1404
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 1411
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 1488
+                }
+            ],
+            "gold_t": [
+                0,
+                99,
+                242,
+                382,
+                520,
+                620,
+                720,
+                856,
+                1272,
+                1372,
+                1472,
+                1572,
+                1716,
+                2063,
+                2331,
+                2591,
+                2931,
+                3031,
+                3256,
+                3470,
+                3612,
+                4028,
+                4629,
+                5111,
+                6573,
+                7061,
+                7161,
+                7261,
+                7361,
+                7779,
+                8124,
+                8396,
+                9236,
+                9375,
+                9475,
+                9647,
+                10280,
+                11736,
+                11836,
+                12017,
+                12117,
+                12420,
+                12834,
+                12934,
+                13409,
+                14259,
+                15127,
+                15507,
+                15607,
+                15707,
+                16310
+            ],
+            "ability_upgrades": [
+                {
+                    "time": -23,
+                    "ability": 5623,
+                    "level": 1
+                },
+                {
+                    "time": 150,
+                    "ability": 5625,
+                    "level": 2
+                },
+                {
+                    "time": 254,
+                    "ability": 5625,
+                    "level": 3
+                },
+                {
+                    "time": 483,
+                    "ability": 5626,
+                    "level": 4
+                },
+                {
+                    "time": 541,
+                    "ability": 5625,
+                    "level": 5
+                },
+                {
+                    "time": 750,
+                    "ability": 5630,
+                    "level": 6
+                },
+                {
+                    "time": 838,
+                    "ability": 5625,
+                    "level": 7
+                },
+                {
+                    "time": 925,
+                    "ability": 5626,
+                    "level": 8
+                },
+                {
+                    "time": 1148,
+                    "ability": 5626,
+                    "level": 9
+                },
+                {
+                    "time": 1359,
+                    "ability": 5626,
+                    "level": 10
+                },
+                {
+                    "time": 1360,
+                    "ability": 5630,
+                    "level": 11
+                },
+                {
+                    "time": 1481,
+                    "ability": 5623,
+                    "level": 12
+                },
+                {
+                    "time": 1482,
+                    "ability": 5623,
+                    "level": 13
+                },
+                {
+                    "time": 1482,
+                    "ability": 5623,
+                    "level": 14
+                },
+                {
+                    "time": 1716,
+                    "ability": 5002,
+                    "level": 15
+                },
+                {
+                    "time": 1912,
+                    "ability": 5630,
+                    "level": 16
+                },
+                {
+                    "time": 2305,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2511,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2724,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2827,
+                    "ability": 5002,
+                    "level": 20
+                }
+            ],
+            "hero_id": 110
+        },
+        {
+            "buyback_log": [
+                {
+                    "key": null,
+                    "time": 2762
+                }
+            ],
+            "lh_t": [
+                0,
+                4,
+                7,
+                12,
+                18,
+                25,
+                29,
+                36,
+                41,
+                44,
+                51,
+                59,
+                63,
+                73,
+                82,
+                86,
+                95,
+                108,
+                122,
+                130,
+                130,
+                131,
+                136,
+                149,
+                161,
+                172,
+                189,
+                199,
+                216,
+                218,
+                228,
+                232,
+                236,
+                236,
+                242,
+                260,
+                263,
+                266,
+                266,
+                268,
+                279,
+                290,
+                299,
+                299,
+                315,
+                327,
+                327,
+                327,
+                327,
+                331,
+                331
+            ],
+            "obs_log": [],
+            "purchase_log": [
+                {
+                    "item_id": 20,
+                    "time": -82
+                },
+                {
+                    "item_id": 16,
+                    "time": -82
+                },
+                {
+                    "item_id": 16,
+                    "time": -82
+                },
+                {
+                    "item_id": 36,
+                    "time": -82
+                },
+                {
+                    "item_id": 34,
+                    "time": -82
+                },
+                {
+                    "item_id": 14,
+                    "time": -79
+                },
+                {
+                    "item_id": 14,
+                    "time": -79
+                },
+                {
+                    "item_id": 14,
+                    "time": -75
+                },
+                {
+                    "item_id": 14,
+                    "time": -75
+                },
+                {
+                    "item_id": 71,
+                    "time": -75
+                },
+                {
+                    "item_id": 182,
+                    "time": -75
+                },
+                {
+                    "item_id": 20,
+                    "time": -73
+                },
+                {
+                    "item_id": 13,
+                    "time": -73
+                },
+                {
+                    "item_id": 73,
+                    "time": -73
+                },
+                {
+                    "item_id": 44,
+                    "time": -71
+                },
+                {
+                    "item_id": 39,
+                    "time": -70
+                },
+                {
+                    "item_id": 38,
+                    "time": -68
+                },
+                {
+                    "item_id": 14,
+                    "time": -67
+                },
+                {
+                    "item_id": 20,
+                    "time": -63
+                },
+                {
+                    "item_id": 29,
+                    "time": 113
+                },
+                {
+                    "item_id": 2,
+                    "time": 218
+                },
+                {
+                    "item_id": 50,
+                    "time": 218
+                },
+                {
+                    "item_id": 2,
+                    "time": 218
+                },
+                {
+                    "item_id": 26,
+                    "time": 389
+                },
+                {
+                    "item_id": 172,
+                    "time": 498
+                },
+                {
+                    "item_id": 46,
+                    "time": 504
+                },
+                {
+                    "item_id": 28,
+                    "time": 573
+                },
+                {
+                    "item_id": 12,
+                    "time": 585
+                },
+                {
+                    "item_id": 75,
+                    "time": 615
+                },
+                {
+                    "item_id": 88,
+                    "time": 615
+                },
+                {
+                    "item_id": 212,
+                    "time": 615
+                },
+                {
+                    "item_id": 22,
+                    "time": 736
+                },
+                {
+                    "item_id": 18,
+                    "time": 736
+                },
+                {
+                    "item_id": 170,
+                    "time": 794
+                },
+                {
+                    "item_id": 21,
+                    "time": 900
+                },
+                {
+                    "item_id": 46,
+                    "time": 902
+                },
+                {
+                    "item_id": 17,
+                    "time": 959
+                },
+                {
+                    "item_id": 162,
+                    "time": 1052
+                },
+                {
+                    "item_id": 154,
+                    "time": 1052
+                },
+                {
+                    "item_id": 46,
+                    "time": 1216
+                },
+                {
+                    "item_id": 46,
+                    "time": 1217
+                },
+                {
+                    "item_id": 24,
+                    "time": 1574
+                },
+                {
+                    "item_id": 24,
+                    "time": 1575
+                },
+                {
+                    "item_id": 60,
+                    "time": 1705
+                },
+                {
+                    "item_id": 181,
+                    "time": 1706
+                },
+                {
+                    "item_id": 160,
+                    "time": 1763
+                },
+                {
+                    "item_id": 17,
+                    "time": 1991
+                },
+                {
+                    "item_id": 7,
+                    "time": 1991
+                },
+                {
+                    "item_id": 143,
+                    "time": 1991
+                },
+                {
+                    "item_id": 208,
+                    "time": 2315
+                },
+                {
+                    "item_id": 54,
+                    "time": 2315
+                },
+                {
+                    "item_id": 29,
+                    "time": 2708
+                },
+                {
+                    "item_id": 48,
+                    "time": 2708
+                },
+                {
+                    "item_id": 220,
+                    "time": 2711
+                },
+                {
+                    "item_id": 21,
+                    "time": 2755
+                },
+                {
+                    "item_id": 8,
+                    "time": 2755
+                },
+                {
+                    "item_id": 116,
+                    "time": 2755
+                }
+            ],
+            "xp_t": [
+                0,
+                113,
+                323,
+                529,
+                795,
+                1128,
+                1254,
+                1542,
+                2194,
+                2506,
+                2672,
+                2849,
+                3814,
+                4443,
+                4891,
+                5441,
+                5786,
+                6689,
+                7606,
+                8194,
+                9175,
+                9344,
+                9630,
+                10469,
+                11388,
+                12060,
+                13138,
+                13667,
+                14369,
+                16680,
+                16895,
+                18355,
+                19038,
+                19038,
+                19466,
+                19896,
+                21138,
+                21667,
+                21667,
+                22136,
+                23679,
+                24428,
+                28559,
+                32779,
+                32779,
+                32779,
+                32779,
+                32779,
+                32779,
+                32779,
+                32779
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 198
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 455
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 530
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 694
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 699
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 882
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 1144
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1160
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1691
+                },
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 1733
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 1836
+                },
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 1900
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 2128
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 2131
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 2136
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 2392
+                },
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 2490
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 2499
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 2509
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 2517
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 2527
+                },
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 2546
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 2651
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 2735
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 2771
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 2773
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 2923
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 2958
+                }
+            ],
+            "gold_t": [
+                0,
+                260,
+                486,
+                797,
+                1468,
+                1850,
+                2113,
+                2491,
+                3138,
+                3592,
+                3975,
+                4424,
+                5306,
+                5875,
+                6366,
+                7145,
+                7669,
+                8253,
+                8948,
+                9311,
+                10142,
+                10314,
+                10653,
+                11235,
+                11848,
+                12392,
+                13153,
+                13565,
+                14320,
+                15544,
+                16242,
+                17078,
+                18740,
+                18840,
+                19282,
+                20127,
+                21549,
+                22593,
+                22693,
+                22877,
+                23914,
+                24657,
+                27115,
+                28646,
+                29739,
+                31364,
+                32339,
+                33142,
+                33242,
+                33992,
+                34501
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 92,
+                    "ability": 5028,
+                    "level": 1
+                },
+                {
+                    "time": 137,
+                    "ability": 5027,
+                    "level": 2
+                },
+                {
+                    "time": 231,
+                    "ability": 5029,
+                    "level": 3
+                },
+                {
+                    "time": 325,
+                    "ability": 5002,
+                    "level": 4
+                },
+                {
+                    "time": 463,
+                    "ability": 5002,
+                    "level": 5
+                },
+                {
+                    "time": 517,
+                    "ability": 5030,
+                    "level": 6
+                },
+                {
+                    "time": 641,
+                    "ability": 5002,
+                    "level": 7
+                },
+                {
+                    "time": 763,
+                    "ability": 5002,
+                    "level": 8
+                },
+                {
+                    "time": 835,
+                    "ability": 5002,
+                    "level": 9
+                },
+                {
+                    "time": 948,
+                    "ability": 5027,
+                    "level": 10
+                },
+                {
+                    "time": 1037,
+                    "ability": 5030,
+                    "level": 11
+                },
+                {
+                    "time": 1212,
+                    "ability": 5002,
+                    "level": 12
+                },
+                {
+                    "time": 1242,
+                    "ability": 5002,
+                    "level": 13
+                },
+                {
+                    "time": 1437,
+                    "ability": 5027,
+                    "level": 14
+                },
+                {
+                    "time": 1551,
+                    "ability": 5002,
+                    "level": 15
+                },
+                {
+                    "time": 1652,
+                    "ability": 5030,
+                    "level": 16
+                },
+                {
+                    "time": 1755,
+                    "ability": 5027,
+                    "level": 17
+                },
+                {
+                    "time": 1870,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 1963,
+                    "ability": 5029,
+                    "level": 19
+                },
+                {
+                    "time": 2212,
+                    "ability": 5029,
+                    "level": 20
+                },
+                {
+                    "time": 2460,
+                    "ability": 5029,
+                    "level": 21
+                },
+                {
+                    "time": 2589,
+                    "ability": 5028,
+                    "level": 22
+                },
+                {
+                    "time": 2612,
+                    "ability": 5002,
+                    "level": 23
+                },
+                {
+                    "time": 2612,
+                    "ability": 5028,
+                    "level": 24
+                },
+                {
+                    "time": 2612,
+                    "ability": 5028,
+                    "level": 25
+                }
+            ],
+            "hero_id": 8
+        },
+        {
+            "buyback_log": [],
+            "lh_t": [
+                0,
+                1,
+                6,
+                13,
+                18,
+                23,
+                29,
+                31,
+                32,
+                35,
+                38,
+                46,
+                51,
+                60,
+                63,
+                63,
+                72,
+                76,
+                83,
+                83,
+                83,
+                92,
+                92,
+                92,
+                92,
+                100,
+                108,
+                119,
+                123,
+                124,
+                125,
+                126,
+                127,
+                127,
+                127,
+                131,
+                134,
+                136,
+                136,
+                140,
+                143,
+                146,
+                146,
+                146,
+                146,
+                147,
+                151,
+                151,
+                153,
+                160,
+                160
+            ],
+            "obs_log": [],
+            "purchase_log": [
+                {
+                    "item_id": 27,
+                    "time": -82
+                },
+                {
+                    "item_id": 16,
+                    "time": -75
+                },
+                {
+                    "item_id": 16,
+                    "time": -75
+                },
+                {
+                    "item_id": 16,
+                    "time": -74
+                },
+                {
+                    "item_id": 44,
+                    "time": -69
+                },
+                {
+                    "item_id": 34,
+                    "time": 86
+                },
+                {
+                    "item_id": 94,
+                    "time": 113
+                },
+                {
+                    "item_id": 20,
+                    "time": 155
+                },
+                {
+                    "item_id": 46,
+                    "time": 167
+                },
+                {
+                    "item_id": 36,
+                    "time": 192
+                },
+                {
+                    "item_id": 29,
+                    "time": 218
+                },
+                {
+                    "item_id": 25,
+                    "time": 289
+                },
+                {
+                    "item_id": 63,
+                    "time": 335
+                },
+                {
+                    "item_id": 17,
+                    "time": 335
+                },
+                {
+                    "item_id": 46,
+                    "time": 452
+                },
+                {
+                    "item_id": 31,
+                    "time": 508
+                },
+                {
+                    "item_id": 27,
+                    "time": 565
+                },
+                {
+                    "item_id": 27,
+                    "time": 591
+                },
+                {
+                    "item_id": 56,
+                    "time": 724
+                },
+                {
+                    "item_id": 131,
+                    "time": 749
+                },
+                {
+                    "item_id": 46,
+                    "time": 801
+                },
+                {
+                    "item_id": 46,
+                    "time": 802
+                },
+                {
+                    "item_id": 46,
+                    "time": 812
+                },
+                {
+                    "item_id": 4,
+                    "time": 871
+                },
+                {
+                    "item_id": 28,
+                    "time": 872
+                },
+                {
+                    "item_id": 90,
+                    "time": 881
+                },
+                {
+                    "item_id": 4,
+                    "time": 887
+                },
+                {
+                    "item_id": 28,
+                    "time": 887
+                },
+                {
+                    "item_id": 187,
+                    "time": 924
+                },
+                {
+                    "item_id": 32,
+                    "time": 1071
+                },
+                {
+                    "item_id": 229,
+                    "time": 1138
+                },
+                {
+                    "item_id": 46,
+                    "time": 1346
+                },
+                {
+                    "item_id": 60,
+                    "time": 1366
+                },
+                {
+                    "item_id": 46,
+                    "time": 1454
+                },
+                {
+                    "item_id": 21,
+                    "time": 1593
+                },
+                {
+                    "item_id": 23,
+                    "time": 1654
+                },
+                {
+                    "item_id": 46,
+                    "time": 1655
+                },
+                {
+                    "item_id": 22,
+                    "time": 1655
+                },
+                {
+                    "item_id": 46,
+                    "time": 1662
+                },
+                {
+                    "item_id": 108,
+                    "time": 1699
+                },
+                {
+                    "item_id": 24,
+                    "time": 2034
+                },
+                {
+                    "item_id": 58,
+                    "time": 2263
+                },
+                {
+                    "item_id": 57,
+                    "time": 2394
+                },
+                {
+                    "item_id": 96,
+                    "time": 2407
+                },
+                {
+                    "item_id": 46,
+                    "time": 2435
+                }
+            ],
+            "xp_t": [
+                0,
+                389,
+                781,
+                1235,
+                1689,
+                2502,
+                2925,
+                3296,
+                3420,
+                4440,
+                4605,
+                5209,
+                5601,
+                6204,
+                8330,
+                8392,
+                8934,
+                9059,
+                11950,
+                11950,
+                13432,
+                13714,
+                15196,
+                15196,
+                15196,
+                15800,
+                16480,
+                17148,
+                17521,
+                18303,
+                18441,
+                19726,
+                21154,
+                21154,
+                21193,
+                21499,
+                22496,
+                23025,
+                23025,
+                23432,
+                24650,
+                25131,
+                26468,
+                26468,
+                26468,
+                26687,
+                28010,
+                28010,
+                28060,
+                28552,
+                29817
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 256
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 522
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 799
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 823
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 831
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 1020
+                },
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 1026
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 1031
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 1038
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1068
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 1172
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 1283
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1288
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 1838
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1843
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 2204
+                },
+                {
+                    "player": 1,
+                    "unit": "npc_dota_hero_nyx_assassin",
+                    "time": 2707
+                }
+            ],
+            "gold_t": [
+                0,
+                238,
+                541,
+                922,
+                1223,
+                1894,
+                2236,
+                2423,
+                2561,
+                3257,
+                3475,
+                3931,
+                4233,
+                5018,
+                6372,
+                6632,
+                7331,
+                7594,
+                9637,
+                9737,
+                10154,
+                10451,
+                11468,
+                11648,
+                11748,
+                12195,
+                12613,
+                13193,
+                13598,
+                14319,
+                14666,
+                15518,
+                16885,
+                16985,
+                17085,
+                17390,
+                17981,
+                19368,
+                19468,
+                19875,
+                20277,
+                20495,
+                20861,
+                20961,
+                21436,
+                22195,
+                23586,
+                23966,
+                24100,
+                24456,
+                24720
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 78,
+                    "ability": 5220,
+                    "level": 1
+                },
+                {
+                    "time": 108,
+                    "ability": 5219,
+                    "level": 2
+                },
+                {
+                    "time": 137,
+                    "ability": 5220,
+                    "level": 3
+                },
+                {
+                    "time": 199,
+                    "ability": 5218,
+                    "level": 4
+                },
+                {
+                    "time": 255,
+                    "ability": 5220,
+                    "level": 5
+                },
+                {
+                    "time": 318,
+                    "ability": 5221,
+                    "level": 6
+                },
+                {
+                    "time": 383,
+                    "ability": 5220,
+                    "level": 7
+                },
+                {
+                    "time": 452,
+                    "ability": 5219,
+                    "level": 8
+                },
+                {
+                    "time": 585,
+                    "ability": 5219,
+                    "level": 9
+                },
+                {
+                    "time": 751,
+                    "ability": 5219,
+                    "level": 10
+                },
+                {
+                    "time": 826,
+                    "ability": 5221,
+                    "level": 11
+                },
+                {
+                    "time": 939,
+                    "ability": 5218,
+                    "level": 12
+                },
+                {
+                    "time": 1067,
+                    "ability": 5218,
+                    "level": 13
+                },
+                {
+                    "time": 1100,
+                    "ability": 5002,
+                    "level": 14
+                },
+                {
+                    "time": 1142,
+                    "ability": 5218,
+                    "level": 15
+                },
+                {
+                    "time": 1284,
+                    "ability": 5221,
+                    "level": 16
+                },
+                {
+                    "time": 1531,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 1646,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 1913,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 1995,
+                    "ability": 5002,
+                    "level": 20
+                },
+                {
+                    "time": 2267,
+                    "ability": 5002,
+                    "level": 21
+                },
+                {
+                    "time": 2526,
+                    "ability": 5002,
+                    "level": 22
+                },
+                {
+                    "time": 2779,
+                    "ability": 5002,
+                    "level": 23
+                }
+            ],
+            "hero_id": 47
+        },
+        {
+            "buyback_log": [],
+            "lh_t": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                4,
+                4,
+                5,
+                6,
+                6,
+                6,
+                6,
+                7,
+                10,
+                11,
+                11,
+                11,
+                12,
+                12,
+                14,
+                14,
+                17,
+                21,
+                22,
+                23,
+                23,
+                23,
+                24,
+                25,
+                25,
+                27,
+                27,
+                27,
+                27,
+                28,
+                28,
+                28,
+                28,
+                28,
+                29,
+                30,
+                31,
+                31,
+                31,
+                31,
+                33,
+                34,
+                34,
+                34,
+                37,
+                37
+            ],
+            "obs_log": [
+                {
+                    "xy": [
+                        112,
+                        131
+                    ],
+                    "time": 1075
+                },
+                {
+                    "xy": [
+                        144,
+                        90
+                    ],
+                    "time": 1356
+                },
+                {
+                    "xy": [
+                        148,
+                        107
+                    ],
+                    "time": 1615
+                },
+                {
+                    "xy": [
+                        112,
+                        130
+                    ],
+                    "time": 1673
+                },
+                {
+                    "xy": [
+                        148,
+                        107
+                    ],
+                    "time": 1698
+                },
+                {
+                    "xy": [
+                        148,
+                        107
+                    ],
+                    "time": 2443
+                },
+                {
+                    "xy": [
+                        134,
+                        106
+                    ],
+                    "time": 2457
+                },
+                {
+                    "xy": [
+                        89,
+                        124
+                    ],
+                    "time": 2664
+                },
+                {
+                    "xy": [
+                        112,
+                        131
+                    ],
+                    "time": 2903
+                },
+                {
+                    "xy": [
+                        94,
+                        96
+                    ],
+                    "time": 2940
+                }
+            ],
+            "purchase_log": [
+                {
+                    "item_id": 45,
+                    "time": -78
+                },
+                {
+                    "item_id": 38,
+                    "time": -68
+                },
+                {
+                    "item_id": 38,
+                    "time": -66
+                },
+                {
+                    "item_id": 44,
+                    "time": -65
+                },
+                {
+                    "item_id": 39,
+                    "time": -65
+                },
+                {
+                    "item_id": 216,
+                    "time": -38
+                },
+                {
+                    "item_id": 29,
+                    "time": 207
+                },
+                {
+                    "item_id": 182,
+                    "time": 384
+                },
+                {
+                    "item_id": 44,
+                    "time": 385
+                },
+                {
+                    "item_id": 180,
+                    "time": 572
+                },
+                {
+                    "item_id": 59,
+                    "time": 572
+                },
+                {
+                    "item_id": 46,
+                    "time": 600
+                },
+                {
+                    "item_id": 46,
+                    "time": 649
+                },
+                {
+                    "item_id": 39,
+                    "time": 725
+                },
+                {
+                    "item_id": 42,
+                    "time": 916
+                },
+                {
+                    "item_id": 42,
+                    "time": 920
+                },
+                {
+                    "item_id": 42,
+                    "time": 920
+                },
+                {
+                    "item_id": 46,
+                    "time": 1054
+                },
+                {
+                    "item_id": 46,
+                    "time": 1257
+                },
+                {
+                    "item_id": 37,
+                    "time": 1332
+                },
+                {
+                    "item_id": 1,
+                    "time": 1335
+                },
+                {
+                    "item_id": 46,
+                    "time": 1336
+                },
+                {
+                    "item_id": 42,
+                    "time": 1638
+                },
+                {
+                    "item_id": 42,
+                    "time": 1639
+                },
+                {
+                    "item_id": 27,
+                    "time": 1982
+                },
+                {
+                    "item_id": 16,
+                    "time": 1982
+                },
+                {
+                    "item_id": 94,
+                    "time": 1982
+                },
+                {
+                    "item_id": 4,
+                    "time": 1982
+                },
+                {
+                    "item_id": 16,
+                    "time": 1982
+                },
+                {
+                    "item_id": 86,
+                    "time": 1982
+                },
+                {
+                    "item_id": 79,
+                    "time": 1982
+                },
+                {
+                    "item_id": 30,
+                    "time": 2245
+                },
+                {
+                    "item_id": 42,
+                    "time": 2399
+                },
+                {
+                    "item_id": 42,
+                    "time": 2399
+                },
+                {
+                    "item_id": 42,
+                    "time": 2399
+                },
+                {
+                    "item_id": 231,
+                    "time": 2405
+                },
+                {
+                    "item_id": 31,
+                    "time": 2563
+                },
+                {
+                    "item_id": 42,
+                    "time": 2566
+                },
+                {
+                    "item_id": 42,
+                    "time": 2618
+                },
+                {
+                    "item_id": 46,
+                    "time": 2620
+                },
+                {
+                    "item_id": 37,
+                    "time": 2735
+                }
+            ],
+            "xp_t": [
+                0,
+                31,
+                72,
+                72,
+                132,
+                329,
+                455,
+                537,
+                1256,
+                1537,
+                1703,
+                1836,
+                2018,
+                2213,
+                2408,
+                3298,
+                3298,
+                3908,
+                4262,
+                4419,
+                5400,
+                5543,
+                6449,
+                6650,
+                9599,
+                10437,
+                10443,
+                10519,
+                10638,
+                11430,
+                11583,
+                12323,
+                12413,
+                12413,
+                12613,
+                12849,
+                14049,
+                14578,
+                14578,
+                14743,
+                15868,
+                16012,
+                18570,
+                18570,
+                18570,
+                18745,
+                19922,
+                19922,
+                19922,
+                21414,
+                22566
+            ],
+            "sen_log": [],
+            "kills_log": [
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 450
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 899
+                },
+                {
+                    "player": 2,
+                    "unit": "npc_dota_hero_zuus",
+                    "time": 1014
+                },
+                {
+                    "player": 3,
+                    "unit": "npc_dota_hero_ancient_apparition",
+                    "time": 1417
+                }
+            ],
+            "gold_t": [
+                0,
+                99,
+                221,
+                321,
+                490,
+                680,
+                780,
+                902,
+                1527,
+                1706,
+                1806,
+                1906,
+                2044,
+                2395,
+                2535,
+                3221,
+                3521,
+                3988,
+                4180,
+                4356,
+                4577,
+                4787,
+                5208,
+                5430,
+                6669,
+                7020,
+                7120,
+                7258,
+                7394,
+                7827,
+                8367,
+                8591,
+                9431,
+                9531,
+                9673,
+                9773,
+                10326,
+                11300,
+                11400,
+                11541,
+                11907,
+                12045,
+                12866,
+                12966,
+                13441,
+                14084,
+                15028,
+                15408,
+                15508,
+                16092,
+                16550
+            ],
+            "ability_upgrades": [
+                {
+                    "time": -25,
+                    "ability": 5086,
+                    "level": 1
+                },
+                {
+                    "time": 310,
+                    "ability": 5087,
+                    "level": 2
+                },
+                {
+                    "time": 474,
+                    "ability": 5086,
+                    "level": 3
+                },
+                {
+                    "time": 520,
+                    "ability": 5087,
+                    "level": 4
+                },
+                {
+                    "time": 592,
+                    "ability": 5086,
+                    "level": 5
+                },
+                {
+                    "time": 770,
+                    "ability": 5089,
+                    "level": 6
+                },
+                {
+                    "time": 964,
+                    "ability": 5086,
+                    "level": 7
+                },
+                {
+                    "time": 966,
+                    "ability": 5087,
+                    "level": 8
+                },
+                {
+                    "time": 1161,
+                    "ability": 5087,
+                    "level": 9
+                },
+                {
+                    "time": 1224,
+                    "ability": 5088,
+                    "level": 10
+                },
+                {
+                    "time": 1353,
+                    "ability": 5089,
+                    "level": 11
+                },
+                {
+                    "time": 1473,
+                    "ability": 5088,
+                    "level": 12
+                },
+                {
+                    "time": 1478,
+                    "ability": 5088,
+                    "level": 13
+                },
+                {
+                    "time": 1552,
+                    "ability": 5088,
+                    "level": 14
+                },
+                {
+                    "time": 1898,
+                    "ability": 5002,
+                    "level": 15
+                },
+                {
+                    "time": 2195,
+                    "ability": 5089,
+                    "level": 16
+                },
+                {
+                    "time": 2454,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2561,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2768,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2983,
+                    "ability": 5002,
+                    "level": 20
+                }
+            ],
+            "hero_id": 42
+        },
+        {
+            "buyback_log": [],
+            "lh_t": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                3,
+                7,
+                7,
+                8,
+                10,
+                10,
+                10,
+                15,
+                17,
+                17,
+                17,
+                17,
+                18,
+                19,
+                20,
+                20,
+                21,
+                26,
+                35,
+                36,
+                37,
+                37,
+                38,
+                39,
+                39,
+                44,
+                44,
+                44,
+                45,
+                45,
+                49,
+                50,
+                50,
+                50,
+                50,
+                51,
+                51
+            ],
+            "obs_log": [
+                {
+                    "xy": [
+                        120,
+                        137
+                    ],
+                    "time": 15
+                },
+                {
+                    "xy": [
+                        111,
+                        147
+                    ],
+                    "time": 675
+                },
+                {
+                    "xy": [
+                        148,
+                        106
+                    ],
+                    "time": 956
+                },
+                {
+                    "xy": [
+                        111,
+                        130
+                    ],
+                    "time": 1639
+                },
+                {
+                    "xy": [
+                        141,
+                        106
+                    ],
+                    "time": 1699
+                },
+                {
+                    "xy": [
+                        91,
+                        96
+                    ],
+                    "time": 1878
+                }
+            ],
+            "purchase_log": [
+                {
+                    "item_id": 42,
+                    "time": -65
+                },
+                {
+                    "item_id": 42,
+                    "time": -62
+                },
+                {
+                    "item_id": 44,
+                    "time": -61
+                },
+                {
+                    "item_id": 218,
+                    "time": -58
+                },
+                {
+                    "item_id": 43,
+                    "time": -58
+                },
+                {
+                    "item_id": 16,
+                    "time": -50
+                },
+                {
+                    "item_id": 16,
+                    "time": -50
+                },
+                {
+                    "item_id": 16,
+                    "time": -50
+                },
+                {
+                    "item_id": 218,
+                    "time": -34
+                },
+                {
+                    "item_id": 29,
+                    "time": 225
+                },
+                {
+                    "item_id": 84,
+                    "time": 328
+                },
+                {
+                    "item_id": 39,
+                    "time": 402
+                },
+                {
+                    "item_id": 46,
+                    "time": 606
+                },
+                {
+                    "item_id": 42,
+                    "time": 615
+                },
+                {
+                    "item_id": 42,
+                    "time": 615
+                },
+                {
+                    "item_id": 46,
+                    "time": 647
+                },
+                {
+                    "item_id": 43,
+                    "time": 714
+                },
+                {
+                    "item_id": 218,
+                    "time": 763
+                },
+                {
+                    "item_id": 20,
+                    "time": 769
+                },
+                {
+                    "item_id": 36,
+                    "time": 769
+                },
+                {
+                    "item_id": 34,
+                    "time": 769
+                },
+                {
+                    "item_id": 28,
+                    "time": 938
+                },
+                {
+                    "item_id": 46,
+                    "time": 941
+                },
+                {
+                    "item_id": 23,
+                    "time": 1039
+                },
+                {
+                    "item_id": 46,
+                    "time": 1205
+                },
+                {
+                    "item_id": 46,
+                    "time": 1205
+                },
+                {
+                    "item_id": 57,
+                    "time": 1435
+                },
+                {
+                    "item_id": 42,
+                    "time": 1447
+                },
+                {
+                    "item_id": 42,
+                    "time": 1447
+                },
+                {
+                    "item_id": 42,
+                    "time": 1447
+                },
+                {
+                    "item_id": 43,
+                    "time": 1452
+                },
+                {
+                    "item_id": 218,
+                    "time": 1453
+                },
+                {
+                    "item_id": 42,
+                    "time": 1453
+                },
+                {
+                    "item_id": 218,
+                    "time": 1454
+                },
+                {
+                    "item_id": 42,
+                    "time": 1454
+                },
+                {
+                    "item_id": 100,
+                    "time": 1459
+                },
+                {
+                    "item_id": 46,
+                    "time": 1586
+                },
+                {
+                    "item_id": 42,
+                    "time": 1813
+                },
+                {
+                    "item_id": 218,
+                    "time": 1814
+                },
+                {
+                    "item_id": 43,
+                    "time": 1814
+                },
+                {
+                    "item_id": 61,
+                    "time": 1963
+                },
+                {
+                    "item_id": 180,
+                    "time": 1963
+                },
+                {
+                    "item_id": 59,
+                    "time": 1963
+                },
+                {
+                    "item_id": 60,
+                    "time": 1963
+                },
+                {
+                    "item_id": 129,
+                    "time": 1973
+                },
+                {
+                    "item_id": 46,
+                    "time": 1997
+                },
+                {
+                    "item_id": 46,
+                    "time": 1997
+                },
+                {
+                    "item_id": 46,
+                    "time": 2282
+                },
+                {
+                    "item_id": 46,
+                    "time": 2402
+                },
+                {
+                    "item_id": 235,
+                    "time": 2721
+                },
+                {
+                    "item_id": 58,
+                    "time": 2721
+                },
+                {
+                    "item_id": 48,
+                    "time": 2870
+                }
+            ],
+            "xp_t": [
+                0,
+                82,
+                292,
+                436,
+                702,
+                870,
+                996,
+                1160,
+                1222,
+                1468,
+                1614,
+                1791,
+                2108,
+                2211,
+                2374,
+                3006,
+                3006,
+                3616,
+                5747,
+                5747,
+                6113,
+                6778,
+                6849,
+                6942,
+                8401,
+                8401,
+                8407,
+                8483,
+                8667,
+                9051,
+                9191,
+                10476,
+                11853,
+                12114,
+                12237,
+                12723,
+                13984,
+                14498,
+                14498,
+                14806,
+                14806,
+                15105,
+                15156,
+                15156,
+                16351,
+                16447,
+                17376,
+                20063,
+                20063,
+                21338,
+                22005
+            ],
+            "sen_log": [
+                {
+                    "xy": [
+                        112,
+                        131
+                    ],
+                    "time": 19
+                },
+                {
+                    "xy": [
+                        100,
+                        155
+                    ],
+                    "time": 787
+                },
+                {
+                    "xy": [
+                        144,
+                        109
+                    ],
+                    "time": 957
+                },
+                {
+                    "xy": [
+                        144,
+                        109
+                    ],
+                    "time": 1619
+                },
+                {
+                    "xy": [
+                        112,
+                        131
+                    ],
+                    "time": 1636
+                },
+                {
+                    "xy": [
+                        111,
+                        130
+                    ],
+                    "time": 1932
+                },
+                {
+                    "xy": [
+                        149,
+                        121
+                    ],
+                    "time": 2029
+                }
+            ],
+            "kills_log": [
+                {
+                    "player": 0,
+                    "unit": "npc_dota_hero_spectre",
+                    "time": 1279
+                },
+                {
+                    "player": 4,
+                    "unit": "npc_dota_hero_shredder",
+                    "time": 1400
+                }
+            ],
+            "gold_t": [
+                0,
+                99,
+                199,
+                299,
+                485,
+                585,
+                724,
+                824,
+                924,
+                1123,
+                1223,
+                1323,
+                1608,
+                1868,
+                2059,
+                2625,
+                2925,
+                3282,
+                4239,
+                4339,
+                4590,
+                4931,
+                5338,
+                5518,
+                6381,
+                6481,
+                6597,
+                6737,
+                6887,
+                7335,
+                7678,
+                8318,
+                10069,
+                10333,
+                10483,
+                10701,
+                11570,
+                12567,
+                12667,
+                12935,
+                13035,
+                13135,
+                13285,
+                13385,
+                13948,
+                14555,
+                15379,
+                16442,
+                16542,
+                16880,
+                17175
+            ],
+            "ability_upgrades": [
+                {
+                    "time": 86,
+                    "ability": 5299,
+                    "level": 1
+                },
+                {
+                    "time": 152,
+                    "ability": 5298,
+                    "level": 2
+                },
+                {
+                    "time": 263,
+                    "ability": 5299,
+                    "level": 3
+                },
+                {
+                    "time": 377,
+                    "ability": 5297,
+                    "level": 4
+                },
+                {
+                    "time": 604,
+                    "ability": 5298,
+                    "level": 5
+                },
+                {
+                    "time": 769,
+                    "ability": 5300,
+                    "level": 6
+                },
+                {
+                    "time": 960,
+                    "ability": 5298,
+                    "level": 7
+                },
+                {
+                    "time": 1107,
+                    "ability": 5299,
+                    "level": 8
+                },
+                {
+                    "time": 1107,
+                    "ability": 5298,
+                    "level": 9
+                },
+                {
+                    "time": 1143,
+                    "ability": 5299,
+                    "level": 10
+                },
+                {
+                    "time": 1246,
+                    "ability": 5300,
+                    "level": 11
+                },
+                {
+                    "time": 1479,
+                    "ability": 5297,
+                    "level": 12
+                },
+                {
+                    "time": 1802,
+                    "ability": 5297,
+                    "level": 13
+                },
+                {
+                    "time": 1910,
+                    "ability": 5297,
+                    "level": 14
+                },
+                {
+                    "time": 2015,
+                    "ability": 5002,
+                    "level": 15
+                },
+                {
+                    "time": 2225,
+                    "ability": 5300,
+                    "level": 16
+                },
+                {
+                    "time": 2656,
+                    "ability": 5002,
+                    "level": 17
+                },
+                {
+                    "time": 2771,
+                    "ability": 5002,
+                    "level": 18
+                },
+                {
+                    "time": 2851,
+                    "ability": 5002,
+                    "level": 19
+                },
+                {
+                    "time": 2989,
+                    "ability": 5002,
+                    "level": 20
+                }
+            ],
+            "hero_id": 64
+        }
+    ],
+    "objectives": [
+        {
+            "player2": null,
+            "player1": 6,
+            "type": "firstblood",
+            "time": 198
+        },
+        {
+            "player": 7,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 765
+        },
+        {
+            "player": 9,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 850
+        },
+        {
+            "player": null,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 906
+        },
+        {
+            "player": 0,
+            "team": 0,
+            "type": "tower_kill",
+            "time": 1119
+        },
+        {
+            "player": null,
+            "type": "tower_deny",
+            "time": 1343
+        },
+        {
+            "player": 0,
+            "team": 0,
+            "type": "tower_kill",
+            "time": 1699
+        },
+        {
+            "team": 1,
+            "type": "roshan_kill",
+            "time": 1725
+        },
+        {
+            "player": 8,
+            "type": "aegis",
+            "time": 1725
+        },
+        {
+            "player": 8,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 1768
+        },
+        {
+            "player": 6,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 1865
+        },
+        {
+            "barracks": 512,
+            "type": "barracks_kill",
+            "time": 1872
+        },
+        {
+            "barracks": 256,
+            "type": "barracks_kill",
+            "time": 1881
+        },
+        {
+            "player": null,
+            "team": 0,
+            "type": "tower_kill",
+            "time": 1989
+        },
+        {
+            "player": 0,
+            "team": 0,
+            "type": "tower_kill",
+            "time": 2109
+        },
+        {
+            "player": 9,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 2113
+        },
+        {
+            "player": 5,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 2178
+        },
+        {
+            "barracks": 64,
+            "type": "barracks_kill",
+            "time": 2191
+        },
+        {
+            "barracks": 128,
+            "type": "barracks_kill",
+            "time": 2192
+        },
+        {
+            "team": 1,
+            "type": "roshan_kill",
+            "time": 2591
+        },
+        {
+            "player": 6,
+            "type": "aegis",
+            "time": 2594
+        },
+        {
+            "player": 7,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 2687
+        },
+        {
+            "barracks": 2048,
+            "type": "barracks_kill",
+            "time": 2693
+        },
+        {
+            "barracks": 1024,
+            "type": "barracks_kill",
+            "time": 2700
+        },
+        {
+            "player": null,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 2752
+        },
+        {
+            "player": null,
+            "team": 1,
+            "type": "tower_kill",
+            "time": 2760
+        }
+    ],
+    "lobby_type": 0
+}

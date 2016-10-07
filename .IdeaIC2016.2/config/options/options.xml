@@ -1,0 +1,60 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="2" />
+    <property name="installed.kotlin.plugin.version" value="1.0.3-release-IJ2016.1-120" />
+    <property name="installation.uid" value="664e21f3-6075-4731-a415-d585ba8a74a4" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Projects/RLH/portal/egais_portal_api.log&#10;/home/pasha/Projects/Ansible.cfg/Egais_App.yml&#10;/home/pasha/Projects/RLH/portal.ver5&#10;/home/pasha/Projects/RLH/portal.DOS&#10;/home/pasha/Projects/RLH/portal/portal-ui.hack.redeploy.clean&#10;/home/pasha/Projects/RLH/portal.CI-build/portal-ui.hack.redeploy.clean&#10;/home/pasha/Projects/Ansible.cfg/Egais_PostgresSetupReplicas.yml&#10;/home/pasha/Projects/_OPEN/Hubbitus-common&#10;/home/pasha/Projects/RLH/portal.CI-build/egais_portal_api.log&#10;/home/pasha/Projects/RLH/portal.EG-2900-time/egais_portal_api.log&#10;/home/pasha/Projects/RLH/portal.EG-2900-time&#10;/home/pasha/Projects/RLH/portal.EG-2926&#10;/home/pasha/Projects/RLH/portal.415&#10;/home/pasha/Projects/RLH/portal.CI-build&#10;/mnt/sda7_linux/_TMP_space_to_clean_ssd/Ant.tmp/pasha.home/imus/IdeaProjects/imus&#10;/home/pasha/Projects/_OPEN/Docker-centos-7-systemd-tomcat&#10;/home/pasha/Projects/RLH/portal.docker&#10;/home/pasha/Projects/_OPEN/Docker-egais-gitlab-builder-experiments/docker.build&#10;/home/pasha/Projects/_OPEN/Docker-egais-gitlab-builder-experiments&#10;/home/pasha/Projects/RLH/ci-investigate&#10;/home/pasha/temp/gradle.src/gradle-3.0&#10;/home/pasha/.gradle/wrapper/dists/gradle-3.0-all/3kcb6ymmejv7hloxlb6ofnzbe/gradle-3.0/src/core/org/gradle/api/internal/tasks/execution/SkipUpToDateTaskExecuter.java&#10;/home/pasha/.gradle/wrapper/dists/gradle-3.0-all&#10;/home/pasha/Projects/Ansible.cfg/Common_InstallBase.yml&#10;/home/pasha/.ssh/config&#10;/home/pasha/Projects/Ansible.cfg&#10;/home/pasha/remote/1c.taskdata.work/var/log/tomcat/UnidataConnector.log&#10;/home/pasha/.m2/settings.xml&#10;/home/pasha/Projects/UniData/UnidataIntegration-1C/src/main/groovy/groovy_script_notification.groovy&#10;/home/pasha/Projects/_OPEN/Docker-latex" />
+    <property name="lastTip" value="65" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+    <property name="KEYMAP" value="pin tab&#10;word&#10;go to&#10;rebase&#10;scroll" />
+    <property name="ColorChooser.RecentColors" value="43-255-13-255,,,112-255-216-255,,,85-196-65-255,,,37-147-14-255,,,255-9-10-255,,,29-36-255-255,,,213-253-255-255,,,171-196-189-255,,,255-215-205-255" />
+    <property name="PLUGIN_FILTER" value="1c&#10;gitla&#10;gitlab&#10;ftl&#10;myba" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder0" value="0" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder1" value="1" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder2" value="2" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="project.wizard.group" value="groovy" />
+    <property name="project.wizard.template" value="Python" />
+    <property name="fileTypeChangedCounter" value="28" />
+    <property name="last.used.gradle.home" value="/usr/share/gradle" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
+    <property name="GradleModuleWizard.inheritGroupId" value="true" />
+    <property name="GradleModuleWizard.inheritVersion" value="true" />
+    <property name="RunConfigurable.dividerProportion" value="0.330597" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5751073" />
+    <property name="selected.color.option.type" value="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <property name="settings.code.style.selected.tab.Python" value="Wrapping and Braces" />
+    <property name="TEMPLATES_FILTER_HISTORY" value="ja" />
+    <property name="#xdebugger.evaluate.splitter" value="0.23684211" />
+    <property name="gradle.runner.text.console_str" value="false" />
+    <property name="show.vcs.annotation.aspect.Original revision" value="false" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="gradle.test.runner.text.console_str" value="false" />
+    <property name="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.splitter" value="0.723301" />
+    <property name="vcs.log.details.splitter.proportion" value="0.82649255" />
+    <property name="Vcs.Log.Text.Filter.History" value="4.0.9&#10;POC&#10;4c7b5131&#10;4с&#10;вернул" />
+    <property name="vcs.log.changes.splitter.proportion" value="0.87809086" />
+    <property name="JUnitSupport.hideIgnoredTests" value="true" />
+    <property name="dir.diff.panel.divider.location" value="278" />
+    <property name="TestNGSupport.hidePassedTests" value="false" />
+    <property name="TestNGSupport.hideConfig" value="true" />
+    <property name="SplitFileEditor.Proportion" value="0.63031274" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.24686596" />
+    <property name="settings.code.style.selected.tab.Groovy" value="Tabs and Indents" />
+    <property name="JUnit.Splitter.Proportion" value="0.24444444" />
+  </component>
+</application>

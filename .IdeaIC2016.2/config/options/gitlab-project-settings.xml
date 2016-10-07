@@ -1,0 +1,286 @@
+<application>
+  <component name="SettingsState">
+    <option name="host" value="http://git.taskdata.com/" />
+    <option name="token" value="i1Esx4gEuFEi3NcmoqyR" />
+    <option name="projects">
+      <list>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/aivanov/ansible.git" />
+          <option name="name" value="ansible" />
+          <option name="namespace" value="aivanov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/aivanov/ansible.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/amagdenko/mtolstyh-portal.git" />
+          <option name="name" value="mtolstyh-portal" />
+          <option name="namespace" value="amagdenko" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/amagdenko/mtolstyh-portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/amagdenko/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="amagdenko" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/amagdenko/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/bsukhodoev/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="bsukhodoev" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/bsukhodoev/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/cgrigel/ansible.git" />
+          <option name="name" value="ansible" />
+          <option name="namespace" value="cgrigel" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/cgrigel/ansible.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/configs/ci.taskdata.work.git" />
+          <option name="name" value="ci.taskdata.work" />
+          <option name="namespace" value="configs" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/configs/ci.taskdata.work.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/configs/rlh.db.slave1.git" />
+          <option name="name" value="rlh.db.slave1" />
+          <option name="namespace" value="configs" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/configs/rlh.db.slave1.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/configs/server1-etc.git" />
+          <option name="name" value="server1-etc" />
+          <option name="namespace" value="configs" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/configs/server1-etc.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/configs/server1-opt-servers-dev.git" />
+          <option name="name" value="server1-opt-servers-dev" />
+          <option name="namespace" value="configs" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/configs/server1-opt-servers-dev.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/configs/server1-opt-servers-qa.git" />
+          <option name="name" value="server1-opt-servers-qa" />
+          <option name="namespace" value="configs" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/configs/server1-opt-servers-qa.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/configs/server1-opt-servers-support.git" />
+          <option name="name" value="server1-opt-servers-support" />
+          <option name="namespace" value="configs" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/configs/server1-opt-servers-support.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Denis.Myznikov/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="Denis.Myznikov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Denis.Myznikov/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/devops/ansible.git" />
+          <option name="name" value="ansible" />
+          <option name="namespace" value="devops" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/devops/ansible.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/dmitry.kleva/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="dmitry.kleva" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/dmitry.kleva/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/dushakov/documentation.git" />
+          <option name="name" value="documentation" />
+          <option name="namespace" value="dushakov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/dushakov/documentation.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/dushakov/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="dushakov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/dushakov/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/e.vyushin/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="e.vyushin" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/e.vyushin/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/egais/cms-production.git" />
+          <option name="name" value="cms-production" />
+          <option name="namespace" value="egais" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/egais/cms-production.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/egais/documentation.git" />
+          <option name="name" value="documentation" />
+          <option name="namespace" value="egais" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/egais/documentation.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/egais/EgaisToUnidataDataMigrator.git" />
+          <option name="name" value="EgaisToUnidataDataMigrator" />
+          <option name="namespace" value="egais" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/egais/EgaisToUnidataDataMigrator.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/egais/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="egais" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/egais/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/egais/testing.git" />
+          <option name="name" value="testing" />
+          <option name="namespace" value="egais" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/egais/testing.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/glr/frontend.git" />
+          <option name="name" value="frontend" />
+          <option name="namespace" value="glr" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/glr/frontend.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/glr/glr-portal.git" />
+          <option name="name" value="GLR Portal" />
+          <option name="namespace" value="glr" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/glr/glr-portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Golubev/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="Golubev" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Golubev/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Hubbitus/1c.taskdata.work.git" />
+          <option name="name" value="1c.taskdata.work" />
+          <option name="namespace" value="Hubbitus" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Hubbitus/1c.taskdata.work.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Hubbitus/ansible.git" />
+          <option name="name" value="ansible" />
+          <option name="namespace" value="Hubbitus" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Hubbitus/ansible.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Hubbitus/ci.taskdata.work-srv.git" />
+          <option name="name" value="ci.taskdata.work-srv" />
+          <option name="namespace" value="Hubbitus" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Hubbitus/ci.taskdata.work-srv.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Hubbitus/documentation.git" />
+          <option name="name" value="documentation" />
+          <option name="namespace" value="Hubbitus" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Hubbitus/documentation.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Hubbitus/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="Hubbitus" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Hubbitus/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Hubbitus/testing.git" />
+          <option name="name" value="testing" />
+          <option name="namespace" value="Hubbitus" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Hubbitus/testing.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Kostovarov/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="Kostovarov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Kostovarov/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/maria.chistyakova/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="maria.chistyakova" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/maria.chistyakova/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Moskalev/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="Moskalev" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Moskalev/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/mtolstyh/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="mtolstyh" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/mtolstyh/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/oelsukova/testing.git" />
+          <option name="name" value="testing" />
+          <option name="namespace" value="oelsukova" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/oelsukova/testing.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/QA/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="QA" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/QA/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/Shelabin/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="Shelabin" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/Shelabin/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/tests/documentation.git" />
+          <option name="name" value="documentation" />
+          <option name="namespace" value="tests" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/tests/documentation.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/tests/portal-demo-first.git" />
+          <option name="name" value="portal-demo-first" />
+          <option name="namespace" value="tests" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/tests/portal-demo-first.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/unidata/UnidataIntegration-1C.git" />
+          <option name="name" value="UnidataIntegration-1C" />
+          <option name="namespace" value="unidata" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/unidata/UnidataIntegration-1C.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/vkhromenkov/moonlight.git" />
+          <option name="name" value="Moonlight" />
+          <option name="namespace" value="vkhromenkov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/vkhromenkov/moonlight.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/vpopov/documentation.git" />
+          <option name="name" value="documentation" />
+          <option name="namespace" value="vpopov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/vpopov/documentation.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/vpopov/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="vpopov" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/vpopov/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/ykovalenko/portal.git" />
+          <option name="name" value="portal" />
+          <option name="namespace" value="ykovalenko" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/ykovalenko/portal.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://git.taskdata.com/ykovalenko/testing.git" />
+          <option name="name" value="testing" />
+          <option name="namespace" value="ykovalenko" />
+          <option name="sshUrl" value="ssh://git@git.taskdata.com:7022/ykovalenko/testing.git" />
+        </ProjectDto>
+      </list>
+    </option>
+  </component>
+</application>

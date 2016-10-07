@@ -1,0 +1,387 @@
+<application>
+  <component name="libraryTable">
+    <library name="5.1.1">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39" />
+        <root url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/jetty-webapp-8.1.7.v20120910-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/jetty-server-8.1.7.v20120910-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/jetty-servlet-8.1.7.v20120910-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.ideaLibSources/ant-1.8.4-sources.jar!/" />
+      </SOURCES>
+      <jarDirectory url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Projects/RLH/portal/portal-ui/build/Sencha/Cmd/5.1.1.39/lib" recursive="false" type="SOURCES" />
+    </library>
+    <library name="gradle-3">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/buildSrc/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/buildSrc/src/test/resources" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/announce/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/antlr/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/base-services-groovy/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/base-services-groovy/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/base-services/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/base-services/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/base-services/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-comparison/src/integTest/resources/org/gradle/api/plugins/buildcomparison/gradle/BuildComparisonIntegrationSpec/compareSimpleArchives/source/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-comparison/src/integTest/resources/org/gradle/api/plugins/buildcomparison/gradle/BuildComparisonIntegrationSpec/compareSimpleArchives/target/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-comparison/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/enforcerplugin/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/expandProperties/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/expandProperties/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/flatmultimodule/webinar-api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/flatmultimodule/webinar-impl/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/flatmultimodule/webinar-impl/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModule/webinar-api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModule/webinar-impl/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModule/webinar-impl/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModuleWithNestedParent/webinar-api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModuleWithNestedParent/webinar-impl/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModuleWithNestedParent/webinar-impl/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModuleWithRemoteParent/webinar-api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModuleWithRemoteParent/webinar-impl/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/multiModuleWithRemoteParent/webinar-impl/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/remoteparent/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/singleModule/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/singleModule/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/testjar/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/integTest/resources/org/gradle/buildinit/plugins/MavenConversionIntegrationTest/testjar/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/build-init/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/cli/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/code-quality/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/core/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/core/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/core/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/core/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/dependency-management/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/dependency-management/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/diagnostics/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/diagnostics/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/diagnostics/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/antlr/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/application/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/buildDashboard/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/clientModuleDependencies/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/codeQuality/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/compositeBuild/projects/projectA/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/compositeBuild/projects/projectB/b1/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/compositeBuild/projects/projectB/b2/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/compositeBuild/projects/projectC/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/dirscanning/buildSrc/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/ear/earCustomized/war/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/ear/earWithWar/war/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/crossCompilation/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/crossCompilation/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/mixedJavaAndGroovy/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/mixedJavaAndGroovy/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/multiproject/groovycDetector/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/multiproject/testproject/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/multiproject/testproject/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/multiproject/testproject/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/groovy/multiproject/testproject/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/ivypublish/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/ivypublish/subproject/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/apiAndImpl/src/api/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/apiAndImpl/src/impl/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/apiAndImpl/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/base/prod/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/base/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/crossCompilation/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/crossCompilation/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/customizedLayout/src/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/customizedLayout/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/buildSrc/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/buildSrc/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/services/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/services/webservice/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/services/webservice/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/multiproject/shared/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/onlyif/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/onlyif/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/quickstart/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/quickstart/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/testListener/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/withIntegrationTests/src/integration-test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/withIntegrationTests/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/java/withIntegrationTests/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaGradlePlugin/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/apispec-support/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/apispec/src/brokenclient/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/apispec/src/client/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/apispec/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/src/client/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/src/collections/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/src/commons/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/src/core/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/src/server/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/src/verifier/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/multiplecomponents/util/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/quickstart/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/targetplatforms/core/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/targetplatforms/core/src/main/java6" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/targetplatforms/server/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/testing-junit-component-under-test/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/testing-junit-component-under-test/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/javaLibraryPlugin/testing-junit-standalone/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/jvmComponents/scala/src/main/scala" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/maven-publish/javaProject/subproject/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/maven-publish/quickstart/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/maven/pomGeneration/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/maven/quickstart/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/play/advanced/app" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/play/multiproject/modules/util/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/play/sourcesets/additional/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/play/sourcesets/extra/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/plugins/publishing/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/scala/crossCompilation/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/scala/crossCompilation/src/main/scala" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/scala/mixedJavaAndScala/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/scala/mixedJavaAndScala/src/main/scala" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/signing/conditional/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/signing/maven/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testKit/gradleRunner/junitQuickstart/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/filtering/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/jacoco/application/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/jacoco/quickstart/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/jacoco/quickstart/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/junit/categories/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testReport/core/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testReport/util/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/groupbyinstances/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/groups/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/java-passing/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/java-passing/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/preserveorder/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/suitexmlbuilder/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/testing/testng/suitexmlbuilder/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/composite-models/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/composite-tasks/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/customModel/plugin/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/customModel/tooling/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/eclipse/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/idea/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/model/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/toolingApi/runBuild/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/ant/useExternalAntTaskWithConfig/src" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/java/sourceSets/src/intTest/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/java/api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/java/api/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/java/services/personService/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/java/services/personService/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/java/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/java/shared/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/javaWithCustomConf/api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/javaWithCustomConf/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/webDist/date/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/userguide/multiproject/dependencies/webDist/hello/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/webApplication/customized/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/webApplication/customized/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/docs/src/samples/webApplication/quickstart/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ear/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide-native/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide-play/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/api/src/integTest/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/api/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/common/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/common/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/groovyproject/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/groovyproject/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/webAppJava6/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/webAppWithVars/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/eclipse/EclipseIntegrationTest/canCreateAndDeleteMetaData/webservice/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/integTest/resources/org/gradle/plugins/ide/idea/IdeaIntegrationTest/canCreateAndDeleteMetaData/api/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ide/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/installation-beacon/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/integ-test/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/integ-test/src/integTest/resources/org/gradle/integtests/ExecIntegrationTest/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/integ-test/src/integTest/resources/org/gradle/integtests/ProjectLayoutIntegrationTest/canUseANonStandardBuildDir/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/integ-test/src/integTest/resources/org/gradle/integtests/ProjectLayoutIntegrationTest/canUseANonStandardBuildDir/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/internal-integ-testing/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/internal-testing/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/internal-testing/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ivy/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ivy/src/main/java/org/gradle/api/publish/ivy/plugins" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ivy/src/main/java/org/gradle/api/publish/ivy/tasks" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/jacoco/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/javascript/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/jetty/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/jvm-services/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-groovy/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-java/src/integTest/resources/org/gradle/javadoc/JavadocIntegrationTest/canCombineLocalOptionWithOtherOptions/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-java/src/integTest/resources/org/gradle/javadoc/JavadocIntegrationTest/canCombineLocalOptionWithOtherOptions/src/taglet/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-java/src/integTest/resources/org/gradle/javadoc/JavadocIntegrationTest/handlesTagsAndTaglets/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-java/src/integTest/resources/org/gradle/javadoc/JavadocIntegrationTest/handlesTagsAndTaglets/src/taglet/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-java/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-java/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-jvm/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-jvm/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-native/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/language-scala/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/launcher/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/launcher/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/logging/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/logging/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/logging/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/maven/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/maven/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/messaging/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/messaging/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/messaging/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/model-core/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/model-core/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/model-core/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/model-groovy/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/native/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/open-api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/osgi/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/osgi/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/performance/src/configPlugin" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/performance/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/performance/src/jmh/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/performance/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-base/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-base/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-jvm/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-native/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-native/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-native/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-play/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-play/src/testFixtures/resources/org/gradle/play/integtest/fixtures/app/advancedplayapp/app" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/platform-play/src/testFixtures/resources/org/gradle/play/integtest/fixtures/app/playmultiproject/javalibrary/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugin-development/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugin-use/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/api/plugins/ParallelJavaPluginTest/shared/src/custom/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/api/plugins/ParallelJavaPluginTest/shared/src/customTest/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/api/plugins/ParallelJavaPluginTest/shared/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/api/plugins/ParallelJavaPluginTest/shared/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/compile/daemon/ParallelCompilerDaemonIntegrationTest/shared" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/groovy/compile/BasicGroovyCompilerIntegrationSpec/compileBadJavaCode/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/groovy/compile/GroovyCompilerIntegrationSpec/canJointCompileWithJavaCompilerExecutable/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/groovy/compile/GroovyCompilerIntegrationSpec/canUseAstTransformThatReferencesGroovyTestCase/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/groovy/compile/GroovyCompilerIntegrationSpec/canUseThirdPartyAstTransform/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/groovy/compile/IncrementalGroovyCompileIntegrationTest/recompilesSourceWhenPropertiesChange/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/java/compile/IncrementalJavaCompileIntegrationTest/recompilesDependentClasses" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/java/compile/IncrementalJavaCompileIntegrationTest/recompilesDependentClasses/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/java/compile/IncrementalJavaCompileIntegrationTest/recompilesDependentClassesAcrossProjectBoundaries" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/java/compile/IncrementalJavaCompileIntegrationTest/recompilesDependentClassesAcrossProjectBoundaries/app/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/java/compile/IncrementalJavaCompileIntegrationTest/recompilesDependentClassesAcrossProjectBoundaries/lib/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/integTest/resources/org/gradle/java/compile/IncrementalJavaCompileIntegrationTest/recompilesSourceWhenPropertiesChange/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/plugins/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/process-services/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/publish/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/publish/src/main/java/org/gradle/api/publish/plugins" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/reporting/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/resources-http/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/resources-s3/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/resources-sftp/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/resources/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/scala/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/scala/src/integTest/resources/org/gradle/scala/compile/IncrementalScalaCompileIntegrationTest/recompilesSourceWhenPropertiesChange/src/main/scala" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/scala/src/integTest/resources/org/gradle/scala/compile/ZincScalaCompilerIntegrationTest/compilesJavaCodeIncrementally/src/main/scala" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/scala/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/signing/src/main/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/soak/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/test-kit/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/test-kit/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-base/src/integTest/resources/org/gradle/api/internal/tasks/testing/JULRedirectorIntegrationTest/loggingConfig/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-base/src/integTest/resources/org/gradle/api/internal/tasks/testing/JULRedirectorIntegrationTest/loggingConfig/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-base/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-base/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-jvm/src/integTest/resources" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-jvm/src/integTest/resources/org/gradle/testing/junit/JUnitIntegrationTest/junit3Tests/src/test/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-jvm/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-jvm/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/testing-native/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/tooling-api-builders/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/tooling-api/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/tooling-api/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/tooling-api/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/tooling-api/src/testFixtures/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ui/src/integTest/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ui/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/ui/src/test/groovy" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/wrapper/src/main/java" />
+        <root url="file://$USER_HOME$/temp/gradle.src/gradle-3.0/subprojects/wrapper/src/test/groovy" />
+      </SOURCES>
+    </library>
+    <library name="gradle-local">
+      <ANNOTATIONS>
+        <root url="file:///usr/share/gradle-local" />
+      </ANNOTATIONS>
+      <CLASSES>
+        <root url="file:///usr/share/gradle-local" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="file:///usr/share/gradle-local" />
+      </JAVADOC>
+      <NATIVE>
+        <root url="file:///usr/share/gradle-local" />
+      </NATIVE>
+      <SOURCES>
+        <root url="file:///usr/share/gradle-local" />
+      </SOURCES>
+      <jarDirectory url="file:///usr/share/gradle-local" recursive="false" />
+      <jarDirectory url="file:///usr/share/gradle-local" recursive="false" type="SOURCES" />
+    </library>
+    <library name="org.codehaus.groovy:groovy-all:2.4.7" type="repository">
+      <properties maven-id="org.codehaus.groovy:groovy-all:2.4.7" />
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.7/groovy-all-2.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Python 2.7.10 (/usr/bin/python2.7) interpreter library">
+      <ANNOTATIONS>
+        <root url="file:///usr/lib64/python2.7" />
+      </ANNOTATIONS>
+      <CLASSES>
+        <root url="file:///usr/lib/python2.7" />
+        <root url="file:///usr/lib64/python2.7" />
+        <root url="file:///usr/lib64/python2.7" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="file:///usr/lib64/python2.7" />
+      </JAVADOC>
+      <NATIVE>
+        <root url="file:///usr/lib/python2.7/site-packages" />
+        <root url="file:///usr/lib64/python2.7" />
+      </NATIVE>
+      <SOURCES>
+        <root url="file:///usr/lib64/python2.7" />
+        <root url="file:///usr/lib64/python2.7" />
+      </SOURCES>
+      <jarDirectory url="file:///usr/lib64/python2.7" recursive="false" />
+      <jarDirectory url="file:///usr/lib64/python2.7" recursive="false" type="SOURCES" />
+    </library>
+    <library name="Python 3.4.2 (/usr/bin/python3) interpreter library">
+      <CLASSES>
+        <root url="file:///usr/lib64/python3.4" />
+        <root url="file:///usr/lib64/python3.4/site-packages" />
+        <root url="file:///usr/lib/python3.4/site-packages" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib64/python3.4" />
+        <root url="file:///usr/lib64/python3.4/site-packages" />
+        <root url="file:///usr/lib/python3.4/site-packages" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </SOURCES>
+    </library>
+  </component>
+</application>

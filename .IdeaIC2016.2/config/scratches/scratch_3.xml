@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <soap:Fault>
+            <faultcode>soap:Server</faultcode>
+            <faultstring>EGAIS SOAP API operation failed</faultstring>
+            <detail>
+                <EgaisFault xmlns:ns3="http://data.lesegais.ru/" xmlns:ns2="http://lookup.lesegais.ru/"
+                            xmlns="http://api.lesegais.ru/"
+                            egaisVersion="@Denis--MAX-MyBatis-poc@.0ebb5fc.2016.08.22..21.28.56"
+                            operationId="f4f8bca5-9c2d-491e-98c9-652a57f7bfcc">
+                    <error errorCode="3006"
+                           userMessage="Ни одна из назначенных ролей не допускает запись указанных данных! Роль &quot;Оператор ОИВ&quot; с ограничениями &quot;Тип земли &quot;Земли лесного фонда&quot;, Субъект Федерации &quot;Алтайский край&quot;&quot; не допускает использование значений: Субъект Федерации &quot;Ленинградская область&quot;, Лесничество &quot;Кингисеппское&quot;, ОИВ &quot;Комитет по природным ресурсам Ленинградской области&quot;, Участковое лесничество &quot;Приморское&quot;;"/>
+                </EgaisFault>
+            </detail>
+        </soap:Fault>
+    </soap:Body>
+</soap:Envelope>

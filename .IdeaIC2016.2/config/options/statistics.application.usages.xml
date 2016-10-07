@@ -1,0 +1,397 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="svn working copy format">
+      <project id="unidata-jms-perf-listener" values="1.8" collectionTime="1473161005232" />
+      <project id="FIAS" values="1.8" collectionTime="1453317164770" />
+      <project id="UnidataConnectorService" values="1.8" collectionTime="1475583349641" />
+      <project id="UniData" values="1.8" collectionTime="1474291935821" />
+      <project id="JmeterElasticsearchBackendListener" values="1.8" collectionTime="1473096929428" />
+      <project id="main" values="1.8" collectionTime="1461689037856" />
+      <project id="imus" values="1.8" collectionTime="1474459757465" />
+      <project id="UnidataRestClient" values="1.8,1.8" collectionTime="1461249254916" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="UnidataIntegration-1C" values="GroovyScriptRunConfiguration,Remote" collectionTime="1475592260589" />
+      <project id="Titanic" values="PythonConfigurationType" collectionTime="1454319205052" />
+      <project id="Ansible" values="PythonConfigurationType,BashConfigurationType" collectionTime="1475696838348" />
+      <project id="unidata-jms-perf-listener" values="GroovyScriptRunConfiguration,Application" collectionTime="1473161005148" />
+      <project id="UnidataGroovyUserExits" values="Remote" collectionTime="1473094588011" />
+      <project id="egais-portal" values="Remote,docker-deploy,BashConfigurationType" collectionTime="1475697319322" />
+      <project id="unidata-jms-listener" values="GroovyScriptRunConfiguration" collectionTime="1455031005804" />
+      <project id="UniData" values="JUnit,GradleRunConfiguration,BashConfigurationType,Remote" collectionTime="1474291935665" />
+      <project id="UnidataConnectorService" values="Remote,MavenRunConfiguration" collectionTime="1475583349489" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="BashConfigurationType" collectionTime="1474359390055" />
+      <project id="JmeterElasticsearchBackendListener" values="Remote" collectionTime="1473096929383" />
+      <project id="UnidataRestClient" values="GroovyScriptRunConfiguration,JUnit" collectionTime="1461249254817" />
+      <project id="main" values="JUnit,GroovyScriptRunConfiguration,Remote,GradleRunConfiguration,BashConfigurationType,Application" collectionTime="1461689037599" />
+      <project id="imus" values="Application,Remote,JUnit,GroovyScriptRunConfiguration" collectionTime="1474459757241" />
+      <project id="openl-tablets" values="Remote,BashConfigurationType" collectionTime="1458731376396" />
+      <project id="geb" values="GroovyScriptRunConfiguration" collectionTime="1466679276868" />
+      <project id="Kaggle" values="PythonConfigurationType" collectionTime="1459418790578" />
+    </group>
+    <group name="module type">
+      <project id="ci-investigate" values="JAVA_MODULE" collectionTime="1475403763617" />
+      <project id="Kaggle" values="PYTHON_MODULE" collectionTime="1459418790576" />
+      <project id="testing" values="JAVA_MODULE" collectionTime="1474053687808" />
+      <project id="src" values="JAVA_MODULE" collectionTime="1470246932495" />
+      <project id="egais-portal" values="JAVA_MODULE" collectionTime="1475697319322" />
+      <project id="lib" values="JAVA_MODULE" collectionTime="1469724541359" />
+      <project id="imus" values="JAVA_MODULE" collectionTime="1474459757241" />
+      <project id="unidata-jms-listener" values="JAVA_MODULE" collectionTime="1455031005804" />
+      <project id="glr" values="JAVA_MODULE" collectionTime="1475055297490" />
+      <project id="openl-tablets" values="JAVA_MODULE" collectionTime="1458731376394" />
+      <project id="FIAS" values="JAVA_MODULE" collectionTime="1453317164679" />
+      <project id="CourseraMLdotaReview" values="PYTHON_MODULE" collectionTime="1456924417968" />
+      <project id="UnidataRestClient" values="JAVA_MODULE" collectionTime="1461249254815" />
+      <project id="main" values="JAVA_MODULE" collectionTime="1461689037597" />
+      <project id="Docker-egais-gitlab-builder" values="JAVA_MODULE" collectionTime="1473018073017" />
+      <project id="Docker-latex" values="JAVA_MODULE" collectionTime="1473014968142" />
+      <project id="UniData" values="JAVA_MODULE" collectionTime="1474291935665" />
+      <project id="documentation" values="JAVA_MODULE" collectionTime="1465307859957" />
+      <project id="Titanic" values="PYTHON_MODULE" collectionTime="1454319205052" />
+      <project id="Docker-centos-7-systemd-tomcat" values="JAVA_MODULE" collectionTime="1475084508351" />
+      <project id="UnidataIntegration-1C" values="JAVA_MODULE" collectionTime="1475592260588" />
+      <project id="geb" values="JAVA_MODULE" collectionTime="1466679276868" />
+      <project id="UnidataConnectorService" values="JAVA_MODULE" collectionTime="1475583349488" />
+      <project id="GebTest" values="JAVA_MODULE" collectionTime="1454074929188" />
+      <project id="UnidataGroovyUserExits" values="JAVA_MODULE" collectionTime="1473094588011" />
+      <project id="Hubbitus-common" values="JAVA_MODULE" collectionTime="1475073720763" />
+      <project id="EgaisToUnidataDataMigrator" values="JAVA_MODULE" collectionTime="1473072100165" />
+      <project id="versioning" values="JAVA_MODULE" collectionTime="1468441166754" />
+      <project id="JmeterElasticsearchBackendListener" values="JAVA_MODULE" collectionTime="1473096929383" />
+      <project id="mybatis-paginator" values="JAVA_MODULE" collectionTime="1467408743057" />
+      <project id="unidata-jms-perf-listener" values="JAVA_MODULE" collectionTime="1473161005148" />
+      <project id="Jmeter-ElasticsearchBackendListener" values="JAVA_MODULE" collectionTime="1455006232767" />
+      <project id="Ansible" values="JAVA_MODULE" collectionTime="1475696838347" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="JAVA_MODULE" collectionTime="1474359390055" />
+    </group>
+    <group name="vcs">
+      <project id="ci-investigate" values="Git" collectionTime="1475403763616" />
+      <project id="Docker-egais-gitlab-builder" values="Git" collectionTime="1473018073017" />
+      <project id="UnidataIntegration-1C" values="Git" collectionTime="1475592260588" />
+      <project id="Ansible" values="Git" collectionTime="1475696838346" />
+      <project id="glr" values="Git" collectionTime="1475055297489" />
+      <project id="Hubbitus-common" values="Git" collectionTime="1475073720763" />
+      <project id="versioning" values="Git" collectionTime="1468441166754" />
+      <project id="UnidataGroovyUserExits" values="Git" collectionTime="1473094588011" />
+      <project id="egais-portal" values="Git" collectionTime="1475697319322" />
+      <project id="UniData" values="svn" collectionTime="1474291935664" />
+      <project id="UnidataConnectorService" values="svn" collectionTime="1475583349486" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="Git" collectionTime="1474359390055" />
+      <project id="JmeterElasticsearchBackendListener" values="svn" collectionTime="1473096929383" />
+      <project id="testing" values="Git" collectionTime="1474053687808" />
+      <project id="Docker-latex" values="Git" collectionTime="1473014968142" />
+      <project id="UnidataRestClient" values="svn,Git" collectionTime="1461249254814" />
+      <project id="documentation" values="Git" collectionTime="1465307859957" />
+      <project id="Docker-centos-7-systemd-tomcat" values="Git" collectionTime="1475084508351" />
+      <project id="mybatis-paginator" values="Git" collectionTime="1467408743057" />
+      <project id="imus" values="svn,Git" collectionTime="1474459757241" />
+      <project id="openl-tablets" values="Git" collectionTime="1458731376393" />
+      <project id="unidata-jms-perf-listener" values="Git,svn" collectionTime="1473161005148" />
+      <project id="FIAS" values="svn" collectionTime="1453317164677" />
+      <project id="main" values="svn" collectionTime="1461689037595" />
+      <project id="EgaisToUnidataDataMigrator" values="Git" collectionTime="1473072100164" />
+      <project id="Kaggle" values="Git" collectionTime="1459418790575" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="ci-investigate" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1475403763695" />
+      <project id="Docker-egais-gitlab-builder" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1473018073027" />
+      <project id="UnidataIntegration-1C" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1475592260663" />
+      <project id="Ansible" values="data.git.root.count.2+,data.commit.count.100+" collectionTime="1475696838528" />
+      <project id="glr" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1475055297590" />
+      <project id="UnidataGroovyUserExits" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1473094588057" />
+      <project id="egais-portal" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1475697319961" />
+      <project id="Docker-centos-7-systemd-tomcat" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1475084508385" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1474359390120" />
+      <project id="testing" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1474053687891" />
+      <project id="EgaisToUnidataDataMigrator" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1473072100270" />
+      <project id="imus" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1474459757405" />
+      <project id="unidata-jms-perf-listener" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1473161005222" />
+      <project id="Hubbitus-common" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1475073720832" />
+    </group>
+    <group name="libraries">
+      <project id="UnidataIntegration-1C" values="groovy" collectionTime="1475592260663" />
+      <project id="unidata-jms-perf-listener" values="groovy" collectionTime="1473161005222" />
+      <project id="Hubbitus-common" values="groovy" collectionTime="1475073720832" />
+      <project id="Jmeter-ElasticsearchBackendListener" values="groovy" collectionTime="1455006232843" />
+      <project id="versioning" values="groovy" collectionTime="1468441166819" />
+      <project id="UnidataGroovyUserExits" values="groovy" collectionTime="1473094588057" />
+      <project id="egais-portal" values="groovy" collectionTime="1475697319956" />
+      <project id="unidata-jms-listener" values="groovy" collectionTime="1455031005853" />
+      <project id="UniData" values="groovy" collectionTime="1474291935745" />
+      <project id="UnidataConnectorService" values="groovy" collectionTime="1475583349611" />
+      <project id="EgaisToUnidataDataMigrator" values="groovy,repository" collectionTime="1473072100268" />
+      <project id="UnidataRestClient" values="repository,groovy" collectionTime="1461249254892" />
+      <project id="imus" values="Scala,repository,groovy" collectionTime="1474459757405" />
+      <project id="geb" values="groovy" collectionTime="1466679276927" />
+      <project id="GebTest" values="groovy,repository" collectionTime="1454074929216" />
+      <project id="main" values="groovy" collectionTime="1461689037782" />
+    </group>
+    <group name="Scala">
+      <project id="imus" values="Library  JUnit for Scala,Scala  2.10.3,Library  TestNG for Scala" collectionTime="1474459757487" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="CourseraMLdotaReview" values="PythonConfigurationType" collectionTime="1456924417969" />
+      <project id="UnidataIntegration-1C" values="JUnit" collectionTime="1475592260589" />
+      <project id="GebTest" values="GroovyScriptRunConfiguration" collectionTime="1454074929188" />
+      <project id="main" values="JUnit" collectionTime="1461689037599" />
+      <project id="glr" values="GradleRunConfiguration" collectionTime="1475055297492" />
+      <project id="Hubbitus-common" values="GradleRunConfiguration" collectionTime="1475073720763" />
+      <project id="Jmeter-ElasticsearchBackendListener" values="GradleRunConfiguration" collectionTime="1455006232769" />
+      <project id="versioning" values="JUnit" collectionTime="1468441166754" />
+      <project id="JmeterElasticsearchBackendListener" values="GradleRunConfiguration" collectionTime="1473096929383" />
+      <project id="egais-portal" values="JUnit" collectionTime="1475697319322" />
+      <project id="unidata-jms-listener" values="Application,GradleRunConfiguration" collectionTime="1455031005804" />
+      <project id="UniData" values="GradleRunConfiguration" collectionTime="1474291935665" />
+      <project id="unidata-jms-perf-listener" values="GradleRunConfiguration" collectionTime="1473161005148" />
+      <project id="UnidataRestClient" values="GradleRunConfiguration,JUnit" collectionTime="1461249254817" />
+      <project id="imus" values="GroovyScriptRunConfiguration" collectionTime="1474459757241" />
+      <project id="UnidataGroovyUserExits" values="GradleRunConfiguration" collectionTime="1473094588011" />
+      <project id="Kaggle" values="PythonConfigurationType" collectionTime="1459418790579" />
+    </group>
+    <group name="file-type">
+      <project id="ci-investigate" values="Git file,YAML,PLAIN_TEXT" collectionTime="1475403763692" />
+      <project id="Kaggle" values="Python,PLAIN_TEXT,UNKNOWN,Git file,IPNB,IDEA_MODULE,XML,JSON" collectionTime="1459418790643" />
+      <project id="testing" values="XML,Git file,JMeter,Markdown" collectionTime="1474053687890" />
+      <project id="src" values="Groovy,Images,JAVA,Properties,C++,HTML,XML,UNKNOWN,PLAIN_TEXT,CSS,JavaScript,SPI" collectionTime="1470246932521" />
+      <project id="egais-portal" values="PLAIN_TEXT,UNKNOWN,Bat,DBN-SQL,YAML,Markdown,Dockerfile,Bash,XML,Properties,Native,JAVA,HTML,ARCHIVE,Images,HOCON,JavaScript,JSON Schema,Git file,CSS,JMeter,Groovy,PlantUML file" collectionTime="1475697319950" />
+      <project id="lib" values="ARCHIVE" collectionTime="1469724541395" />
+      <project id="imus" values="Cmd,JSP,DTD,GUI_DESIGNER_FORM,Properties,ARCHIVE,Cvs file,Bat,IDEA_WORKSPACE,Scala,DBN-SQL,C++,PLAIN_TEXT,XML,JAVA,UNKNOWN,CSS,C#,Manifest,IDEA_PROJECT,JavaScript,SPI,JSON Schema,Bash,Native,Markdown,HTML,Images,IDEA_MODULE,HOCON,CLASS,XHTML,Groovy" collectionTime="1474459757354" />
+      <project id="unidata-jms-listener" values="Properties,Bash,Bat,ARCHIVE,IDEA_MODULE,Groovy,PLAIN_TEXT,UNKNOWN,XML" collectionTime="1455031005852" />
+      <project id="glr" values="ESLint file,Properties,Bat,XML,ARCHIVE,Python,JavaScript,UNKNOWN,DBN-SQL,Images,HTML,Markdown,C++,CSS,IDEA_MODULE,Docker file,Git file,Groovy,JAVA,Npm file,Cmd,YAML,PLAIN_TEXT,JSON Schema,JSHint file,PATCH,IDL,HOCON,Bash" collectionTime="1475055297580" />
+      <project id="openl-tablets" values="DBN-SQL,JAVA,Git file,YAML,Markdown,Properties,CSS,XML,CLASS,Native,Mercurial file,Cmd,HTML,HOCON,JSP,XHTML,ARCHIVE,UNKNOWN,Bash,PLAIN_TEXT,Manifest,Images,IDEA_MODULE,Perl,Bat,JavaScript" collectionTime="1458731376570" />
+      <project id="FIAS" values="IDEA_MODULE,UNKNOWN,XML,Bat,ARCHIVE,Images,JAVA,DBN-SQL,Native,Properties,HTML,JavaScript,CSS,PLAIN_TEXT" collectionTime="1453317164719" />
+      <project id="CourseraMLdotaReview" values="PLAIN_TEXT,Python,UNKNOWN,IPNB,XML,IDEA_MODULE" collectionTime="1456924418085" />
+      <project id="UnidataRestClient" values="Native,IDEA_MODULE,Groovy,XML,JAVA,Markdown,PLAIN_TEXT,Git file,Properties" collectionTime="1461249254862" />
+      <project id="main" values="XML,UNKNOWN,PlantUML file,HTML,PLAIN_TEXT,Images,ARCHIVE,Bat,Groovy,JMeter,JavaScript,DBN-SQL,Properties,HOCON,JSON,Native,CSS,IDEA_MODULE,Bash,JAVA,Python,Markdown" collectionTime="1461689037757" />
+      <project id="Docker-egais-gitlab-builder" values="Git file,Dockerfile,Markdown,PLAIN_TEXT" collectionTime="1473018073027" />
+      <project id="Docker-latex" values="Markdown,PLAIN_TEXT,Dockerfile" collectionTime="1473014968163" />
+      <project id="UniData" values="Images,XML,Groovy,CLASS,Bat,Properties,JavaScript,UNKNOWN,PLAIN_TEXT,Native,Bash,DBN-SQL,HTML,Markdown,CSS,Cmd,Git file,Python,ARCHIVE,JAVA,Manifest,DTD,JSON Schema,HOCON" collectionTime="1474291935744" />
+      <project id="documentation" values="Git file,PLAIN_TEXT,UNKNOWN,YAML,Native,Images,LaTeX file" collectionTime="1465307859997" />
+      <project id="Titanic" values="IDEA_MODULE,Python,UNKNOWN,XML,PLAIN_TEXT" collectionTime="1454319205095" />
+      <project id="Docker-centos-7-systemd-tomcat" values="Git file,Dockerfile,PLAIN_TEXT,Markdown" collectionTime="1475084508385" />
+      <project id="UnidataIntegration-1C" values="XML,Properties,Markdown,PLAIN_TEXT,Bat,Git file,ARCHIVE,Groovy,Bash" collectionTime="1475592260659" />
+      <project id="geb" values="Groovy" collectionTime="1466679276923" />
+      <project id="UnidataConnectorService" values="JAVA,Groovy,XML,PLAIN_TEXT,Manifest,Markdown,Properties" collectionTime="1475583349573" />
+      <project id="GebTest" values="XML,PLAIN_TEXT,Groovy,UNKNOWN,IDEA_MODULE" collectionTime="1454074929216" />
+      <project id="UnidataGroovyUserExits" values="PLAIN_TEXT,XML,Git file,JAVA,Groovy" collectionTime="1473094588056" />
+      <project id="Hubbitus-common" values="Bat,Bash,Groovy,Git file,Properties,Markdown,ARCHIVE" collectionTime="1475073720832" />
+      <project id="EgaisToUnidataDataMigrator" values="Bash,Groovy,ARCHIVE,IDEA_MODULE,XML,Git file,Markdown,JAVA,JSON Schema,Bat,Properties,Native" collectionTime="1473072100257" />
+      <project id="versioning" values="PLAIN_TEXT,Properties,Markdown,ARCHIVE,Groovy,Images,Bat,Bash,Git file" collectionTime="1468441166816" />
+      <project id="JmeterElasticsearchBackendListener" values="JAVA,ARCHIVE,Markdown,Groovy,PLAIN_TEXT" collectionTime="1473096929423" />
+      <project id="mybatis-paginator" values="Git file,IDEA_MODULE,XML,Markdown,JAVA" collectionTime="1467408743106" />
+      <project id="unidata-jms-perf-listener" values="ARCHIVE,Git file,Properties,Bash,PLAIN_TEXT,Groovy,Bat,Markdown" collectionTime="1473161005218" />
+      <project id="Jmeter-ElasticsearchBackendListener" values="Groovy,PLAIN_TEXT,UNKNOWN,ARCHIVE,JAVA,XML,IDEA_MODULE" collectionTime="1455006232834" />
+      <project id="Ansible" values="XML,Python,Markdown,Groovy,HTML,HOCON,Git exclude file,JavaScript,Properties,Git file,IDEA_MODULE,Images,CSS,Bash,YAML,UNKNOWN,JSON Schema,JMeter,ARCHIVE,PLAIN_TEXT" collectionTime="1475696838519" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="PLAIN_TEXT,Git file,Dockerfile,Markdown" collectionTime="1474359390120" />
+    </group>
+    <group name="py-interpreter">
+      <project id="UniData" values="Python 3.5.1" collectionTime="1474291935821" />
+      <project id="Kaggle" values="Python 3.4.3" collectionTime="1459418790680" />
+      <project id="Titanic" values="Python 2.7.10" collectionTime="1454319205097" />
+      <project id="egais-portal" values="Python 3.5.1" collectionTime="1475697319981" />
+      <project id="glr" values="Python 3.5.1" collectionTime="1475055297790" />
+      <project id="Ansible" values="Python 3.5.1" collectionTime="1475696838659" />
+      <project id="main" values="Python 3.4.3" collectionTime="1461689037873" />
+      <project id="CourseraMLdotaReview" values="Python 2.7.10" collectionTime="1456924418226" />
+    </group>
+    <group name="frameworks">
+      <project id="egais-portal" values="Python" collectionTime="1475697319322" />
+      <project id="glr" values="Python" collectionTime="1475055297490" />
+      <project id="UniData" values="Python" collectionTime="1474291935664" />
+      <project id="Ansible" values="Python,invalid" collectionTime="1475696838347" />
+      <project id="main" values="Python" collectionTime="1461689037597" />
+      <project id="CourseraMLdotaReview" values="bash" collectionTime="1456924417968" />
+      <project id="imus" values="invalid" collectionTime="1474459757241" />
+    </group>
+    <group name="Git">
+      <project id="ci-investigate" values="config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.save.policy.STASH,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.force.push.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.1,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled" collectionTime="1475403763698" />
+      <project id="Kaggle" values="config.warn.about.detached.enabled,data.remotes.in.project.0,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,data.remote.branches.count.0,data.local.branches.count.1,config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.push.autoupdate.disabled" collectionTime="1459418790671" />
+      <project id="testing" values="config.push.update.all.roots.enabled,config.push.autoupdate.disabled,data.local.branches.count.2+,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.force.push.enabled,data.remote.branches.count.5+,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,data.remotes.in.project.2+" collectionTime="1474053687891" />
+      <project id="src" values="config.push.autoupdate.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.warn.about.detached.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1470246932523" />
+      <project id="egais-portal" values="config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,data.remote.branches.count.100+,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.detached.enabled,data.remotes.in.project.5+,data.local.branches.count.15+" collectionTime="1475697319977" />
+      <project id="lib" values="config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled" collectionTime="1469724541396" />
+      <project id="imus" values="config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.ssh.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.remote.branches.count.1,config.force.push.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1474459757465" />
+      <project id="unidata-jms-listener" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.detached.enabled" collectionTime="1455031005855" />
+      <project id="glr" values="config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,data.local.branches.count.1,data.remote.branches.count.5+,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED" collectionTime="1475055297594" />
+      <project id="openl-tablets" values="config.warn.about.crlf.enabled,data.remote.branches.count.8+,data.remotes.in.project.2+,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.push.autoupdate.disabled" collectionTime="1458731376682" />
+      <project id="FIAS" values="config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.ssh.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled" collectionTime="1453317164763" />
+      <project id="CourseraMLdotaReview" values="config.force.push.enabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled" collectionTime="1456924418107" />
+      <project id="UnidataRestClient" values="config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.autoupdate.disabled,data.local.branches.count.1,config.ssh.enabled,data.remote.branches.count.0,config.force.push.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,data.remotes.in.project.0,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1461249254915" />
+      <project id="main" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1461689037855" />
+      <project id="Docker-egais-gitlab-builder" values="config.push.update.all.roots.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,data.local.branches.count.1,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled" collectionTime="1473018073028" />
+      <project id="Docker-latex" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,data.remote.branches.count.1,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.warn.about.crlf.enabled,data.local.branches.count.1,config.force.push.enabled,config.push.autoupdate.disabled" collectionTime="1473014968163" />
+      <project id="UniData" values="config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1474291935821" />
+      <project id="documentation" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.push.autoupdate.disabled,data.local.branches.count.2+,config.push.update.all.roots.enabled,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.force.push.enabled,config.warn.about.detached.enabled" collectionTime="1465307860017" />
+      <project id="Titanic" values="config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled" collectionTime="1454319205096" />
+      <project id="Docker-centos-7-systemd-tomcat" values="data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,data.remotes.in.project.1,data.remote.branches.count.1,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1475084508389" />
+      <project id="UnidataIntegration-1C" values="config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,data.remote.branches.count.1,data.remotes.in.project.1,config.save.policy.STASH,config.push.autoupdate.disabled,config.force.push.enabled,data.local.branches.count.1,config.warn.about.detached.enabled" collectionTime="1475592260667" />
+      <project id="geb" values="config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.force.push.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled" collectionTime="1466679276937" />
+      <project id="UnidataConnectorService" values="config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.save.policy.STASH,config.warn.about.detached.enabled" collectionTime="1475583349641" />
+      <project id="GebTest" values="config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.ssh.enabled" collectionTime="1454074929217" />
+      <project id="UnidataGroovyUserExits" values="data.remote.branches.count.0,data.remotes.in.project.0,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1473094588058" />
+      <project id="Hubbitus-common" values="config.push.update.all.roots.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.warn.about.detached.enabled,data.remote.branches.count.2+,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.push.autoupdate.disabled" collectionTime="1475073720836" />
+      <project id="EgaisToUnidataDataMigrator" values="config.update.type.BRANCH_DEFAULT,data.remotes.in.project.2+,config.save.policy.STASH,config.push.autoupdate.disabled,data.local.branches.count.2+,data.remote.branches.count.5+,config.force.push.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled" collectionTime="1473072100274" />
+      <project id="versioning" values="data.local.branches.count.2+,config.force.push.enabled,config.push.autoupdate.disabled,data.remote.branches.count.8+,config.save.policy.STASH,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled" collectionTime="1468441166822" />
+      <project id="JmeterElasticsearchBackendListener" values="config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled" collectionTime="1473096929428" />
+      <project id="mybatis-paginator" values="config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.save.policy.STASH,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.ssh.enabled,config.force.push.enabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.2+" collectionTime="1467408743109" />
+      <project id="unidata-jms-perf-listener" values="config.force.push.enabled,config.warn.about.detached.enabled,data.local.branches.count.1,config.save.policy.STASH,data.remote.branches.count.0,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,data.remotes.in.project.0,config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1473161005232" />
+      <project id="Jmeter-ElasticsearchBackendListener" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1455006232856" />
+      <project id="Ansible" values="data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.ssh.enabled,data.remote.branches.count.2+,data.remotes.in.project.1,data.remotes.in.project.2+,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,data.remote.branches.count.8+,data.local.branches.count.5+,data.local.branches.count.1,data.local.branches.count.1,config.push.autoupdate.disabled,config.force.push.enabled,data.remotes.in.project.1,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,config.warn.about.detached.enabled" collectionTime="1475696838547" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.force.push.enabled,data.remote.branches.count.2+,config.push.autoupdate.disabled,data.remotes.in.project.2+,config.save.policy.STASH,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,data.local.branches.count.1" collectionTime="1474359390127" />
+    </group>
+    <group name="images.ide.background">
+      <project id="ci-investigate" values="editor 0,frame 0" collectionTime="1475403763695" />
+      <project id="Docker-egais-gitlab-builder" values="frame 0,editor 0" collectionTime="1473018073027" />
+      <project id="UnidataIntegration-1C" values="frame 0,editor 0" collectionTime="1475592260664" />
+      <project id="Ansible" values="frame 0,editor 0" collectionTime="1475696838528" />
+      <project id="glr" values="frame 0,editor 0" collectionTime="1475055297590" />
+      <project id="imus" values="editor 0,frame 0" collectionTime="1474459757405" />
+      <project id="lib" values="frame 0,editor 0" collectionTime="1469724541395" />
+      <project id="JmeterElasticsearchBackendListener" values="editor 0,frame 0" collectionTime="1473096929424" />
+      <project id="egais-portal" values="frame 0,editor 0" collectionTime="1475697319961" />
+      <project id="Docker-centos-7-systemd-tomcat" values="editor 0,frame 0" collectionTime="1475084508385" />
+      <project id="UniData" values="frame 0,editor 0" collectionTime="1474291935746" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="frame 0,editor 0" collectionTime="1474359390120" />
+      <project id="testing" values="frame 0,editor 0" collectionTime="1474053687891" />
+      <project id="EgaisToUnidataDataMigrator" values="editor 0,frame 0" collectionTime="1473072100270" />
+      <project id="Docker-latex" values="editor 0,frame 0" collectionTime="1473014968163" />
+      <project id="UnidataGroovyUserExits" values="frame 0,editor 0" collectionTime="1473094588057" />
+      <project id="UnidataConnectorService" values="frame 0,editor 0" collectionTime="1475583349612" />
+      <project id="unidata-jms-perf-listener" values="editor 0,frame 0" collectionTime="1473161005222" />
+      <project id="src" values="frame 0,editor 0" collectionTime="1470246932522" />
+      <project id="Hubbitus-common" values="editor 0,frame 0" collectionTime="1475073720832" />
+    </group>
+    <group name="Libraries by jars">
+      <project id="FIAS" values="spring-data-commons_1.5,spring-data-jpa_1.3,spring-mvc_3.2,spring-core_3.2" collectionTime="1453317164750" />
+      <project id="openl-tablets" values="spring-mvc_4.1,spring-core_4.1,spring-security_3.2,velocity_1.7,spring-data-commons_1.11" collectionTime="1458731376665" />
+      <project id="UnidataConnectorService" values="spring-core_4.1.8.RELEASE,spring-mvc_4.1.8.RELEASE" collectionTime="1475583349639" />
+      <project id="mybatis-paginator" values="spring-core_3.0,spring-mvc_3.0" collectionTime="1467408743109" />
+      <project id="glr" values="spring-core_4.3.2.RELEASE,spring-mvc_4.3.2.RELEASE" collectionTime="1475055297593" />
+      <project id="UniData" values="spring-data-commons_1.9.2.RELEASE,spring-core_4.1.8.RELEASE,freemarker_2.3.22,spring-integration_4.1.6.RELEASE,spring-data-commons_1.10.0.RELEASE,spring-core_4.1.6.RELEASE,spring-mvc_4.1.6.RELEASE,spring-security_4.0.1.RELEASE" collectionTime="1474291935821" />
+      <project id="unidata-jms-listener" values="spring-core_3.0" collectionTime="1455031005855" />
+      <project id="imus" values="freemarker_2.3.8,spring-core_3.2.3.RELEASE,freemarker_2.3.10,spring-security_2.0.7.RELEASE,spring-mvc_3.2.3.RELEASE" collectionTime="1474459757464" />
+      <project id="egais-portal" values="velocity_1.5,spring-mvc_4.3.2.RELEASE,freemarker_2.3.22,spring-security_3.2.5.RELEASE,velocity_1.5,spring-security_4.0.2.RELEASE,spring-data-commons_1.12.2.RELEASE,spring-core_4.3.2.RELEASE" collectionTime="1475697319977" />
+      <project id="main" values="spring-mvc_4.1,freemarker_2.3,velocity_1.5,spring-core_4.1,velocity_1.5,spring-security_4.0,spring-security_3.2,spring-data-commons_1.11" collectionTime="1461689037853" />
+      <project id="unidata-jms-perf-listener" values="spring-core_3.0.7.RELEASE" collectionTime="1473161005231" />
+    </group>
+    <group name="language-level">
+      <project id="ci-investigate" values="JDK_1_6" collectionTime="1475403763698" />
+      <project id="Kaggle" values="JDK_1_6" collectionTime="1459418790666" />
+      <project id="testing" values="JDK_1_6" collectionTime="1474053687891" />
+      <project id="src" values="JDK_1_6" collectionTime="1470246932523" />
+      <project id="egais-portal" values="JDK_1_8" collectionTime="1475697319977" />
+      <project id="lib" values="JDK_1_6" collectionTime="1469724541396" />
+      <project id="imus" values="JDK_1_6,JDK_1_7" collectionTime="1474459757465" />
+      <project id="unidata-jms-listener" values="JDK_1_8" collectionTime="1455031005855" />
+      <project id="glr" values="JDK_1_8" collectionTime="1475055297593" />
+      <project id="openl-tablets" values="JDK_1_6,JDK_1_5,JDK_1_8" collectionTime="1458731376666" />
+      <project id="FIAS" values="JDK_1_7" collectionTime="1453317164752" />
+      <project id="CourseraMLdotaReview" values="JDK_1_6" collectionTime="1456924418106" />
+      <project id="UnidataRestClient" values="JDK_1_8" collectionTime="1461249254909" />
+      <project id="main" values="JDK_1_8" collectionTime="1461689037854" />
+      <project id="Docker-egais-gitlab-builder" values="JDK_1_6" collectionTime="1473018073028" />
+      <project id="Docker-latex" values="JDK_1_6" collectionTime="1473014968163" />
+      <project id="UniData" values="JDK_1_8" collectionTime="1474291935821" />
+      <project id="documentation" values="JDK_1_6" collectionTime="1465307860008" />
+      <project id="Titanic" values="JDK_1_6" collectionTime="1454319205096" />
+      <project id="Docker-centos-7-systemd-tomcat" values="JDK_1_6" collectionTime="1475084508389" />
+      <project id="UnidataIntegration-1C" values="JDK_1_8" collectionTime="1475592260666" />
+      <project id="geb" values="JDK_1_8" collectionTime="1466679276936" />
+      <project id="UnidataConnectorService" values="JDK_1_8" collectionTime="1475583349640" />
+      <project id="GebTest" values="JDK_1_8" collectionTime="1454074929217" />
+      <project id="UnidataGroovyUserExits" values="JDK_1_8" collectionTime="1473094588058" />
+      <project id="Hubbitus-common" values="JDK_1_8" collectionTime="1475073720836" />
+      <project id="EgaisToUnidataDataMigrator" values="JDK_1_8" collectionTime="1473072100274" />
+      <project id="versioning" values="JDK_1_6" collectionTime="1468441166822" />
+      <project id="JmeterElasticsearchBackendListener" values="JDK_1_8" collectionTime="1473096929428" />
+      <project id="mybatis-paginator" values="JDK_1_5,JDK_1_8" collectionTime="1467408743109" />
+      <project id="unidata-jms-perf-listener" values="JDK_1_8" collectionTime="1473161005231" />
+      <project id="Jmeter-ElasticsearchBackendListener" values="JDK_1_6" collectionTime="1455006232855" />
+      <project id="Ansible" values="JDK_1_3" collectionTime="1475696838546" />
+      <project id="Docker-egais-gitlab-builder-experiments" values="JDK_1_6" collectionTime="1474359390127" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="123" />
+      <entry feature="OpenInBrowser.Firefox" count="1" />
+      <entry feature="StripeButton[Run].hidden" count="1" />
+      <entry feature="diff.DirDiffTableModel" count="5" />
+      <entry feature="diff.DirDiffViewer" count="6" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.DEFAULT" count="98" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES" count="1" />
+      <entry feature="execute.Application.Debug" count="23" />
+      <entry feature="execute.Application.Run" count="55" />
+      <entry feature="execute.BashConfigurationType.Run" count="2053" />
+      <entry feature="execute.GradleRunConfiguration.Debug" count="11" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="932" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Debug" count="110" />
+      <entry feature="execute.GroovyScriptRunConfiguration.Run" count="304" />
+      <entry feature="execute.JUnit.Coverage" count="2" />
+      <entry feature="execute.JUnit.Debug" count="779" />
+      <entry feature="execute.JUnit.Run" count="3326" />
+      <entry feature="execute.MavenRunConfiguration.Debug" count="3" />
+      <entry feature="execute.MavenRunConfiguration.Run" count="20" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="39" />
+      <entry feature="execute.PythonConfigurationType.Run" count="88" />
+      <entry feature="execute.Remote.Debug" count="909" />
+      <entry feature="execute.TestNG.Run" count="2" />
+      <entry feature="execute.docker-deploy.Run" count="5" />
+      <entry feature="execute.executeSpecs.Run" count="1" />
+      <entry feature="execute.tests.Run" count="1" />
+      <entry feature="git.branch.checkout.local" count="7" />
+      <entry feature="git.branch.checkout.remote" count="1" />
+      <entry feature="git.branch.compare" count="21" />
+      <entry feature="git.branch.create.new" count="4" />
+      <entry feature="git.branch.merge" count="2" />
+      <entry feature="git.branch.rebase" count="4" />
+      <entry feature="ide.help.debugging.DebugWindow" count="2" />
+      <entry feature="ide.help.reference.VersionControl.Git.Rebase" count="1" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Changelist_Conflicts" count="1" />
+      <entry feature="ide.settings.Code_Folding" count="3" />
+      <entry feature="ide.settings.Code_Style" count="4" />
+      <entry feature="ide.settings.Customize_Threads_View" count="1" />
+      <entry feature="ide.settings.Docker" count="1" />
+      <entry feature="ide.settings.File_Types" count="3" />
+      <entry feature="ide.settings.Font" count="2" />
+      <entry feature="ide.settings.Git" count="2" />
+      <entry feature="ide.settings.GitLab_Settings" count="1" />
+      <entry feature="ide.settings.Gradle" count="7" />
+      <entry feature="ide.settings.Grep_Console" count="25" />
+      <entry feature="ide.settings.Groovy" count="3" />
+      <entry feature="ide.settings.HTML" count="2" />
+      <entry feature="ide.settings.Issue_Navigation" count="1" />
+      <entry feature="ide.settings.JMeter" count="1" />
+      <entry feature="ide.settings.JSON" count="2" />
+      <entry feature="ide.settings.Java" count="1" />
+      <entry feature="ide.settings.Keymap" count="9" />
+      <entry feature="ide.settings.Markdown" count="1" />
+      <entry feature="ide.settings.Other_File_Types" count="2" />
+      <entry feature="ide.settings.PlantUML" count="1" />
+      <entry feature="ide.settings.Plugins" count="8" />
+      <entry feature="ide.settings.Project_Structure" count="18" />
+      <entry feature="ide.settings.Python" count="2" />
+      <entry feature="ide.settings.Scala" count="1" />
+      <entry feature="ide.settings.Scala_Compile_Server" count="1" />
+      <entry feature="ide.settings.Scopes" count="1" />
+      <entry feature="ide.settings.Servers" count="7" />
+      <entry feature="ide.settings.Smart_Keys" count="2" />
+      <entry feature="ide.settings.Version_Control" count="1" />
+      <entry feature="ide.settings.XML" count="2" />
+      <entry feature="idea.caches.invalidated" count="1" />
+      <entry feature="ideaapp.started" count="238" />
+      <entry feature="python.console.local" count="1" />
+      <entry feature="scala.file.script.parsed" count="10917" />
+      <entry feature="terminal.linux" count="47" />
+      <entry feature="tips.of.the.day.next" count="9" />
+      <entry feature="vcs.log.GoToHash/Branch/Tag" count="2" />
+      <entry feature="vcs.log.GraphArrowClick" count="6" />
+      <entry feature="vcs.log.GraphNodeClick" count="19" />
+      <entry feature="vcs.log.HighlightNon-PickedCommits" count="2" />
+      <entry feature="vcs.log.Refresh" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+    </counts>
+  </component>
+</application>

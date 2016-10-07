@@ -1,0 +1,16 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://cxf.apache.org/schemas/configuration/cxf-beans.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/5b196030_cxf-beans.xsd" />
+    <resource url="http://cxf.apache.org/schemas/configuration/parameterized-types.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/2b84f58e_parameterized-types.xsd" />
+    <resource url="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/70e3a855_oasis-200401-wss-wssecurity-utility-1.0.xsd" />
+    <resource url="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/beee9943_web-app_3_0.xsd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$USER_HOME$/.IdeaIC2016.1/system/extResources/69c70a2f_mybatis-3-config.dtd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$USER_HOME$/.IdeaIC2016.1/system/extResources/b36fadae_mybatis-3-mapper.dtd" />
+    <resource url="http://schemas.xmlsoap.org/soap/envelope/" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/a74f2ac0_.xml" />
+    <resource url="http://schemas.xmlsoap.org/ws/2004/09/policy" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/bbbea279_policy.html" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/42abd8c6_.xml" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/soap/" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/9f6330fe_.xml" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/334543e7_spring-beans.xsd" />
+    <resource url="http://www.w3.org/2001/xml.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/9b192256_xml.xsd" />
+  </component>
+</application>

@@ -1,0 +1,92 @@
+SELECT
+	doc.id AS document_id
+	, doc.contract_num
+	, doc.contract_start_date
+	, doc.contract_end_date
+	, doc.doc_type_fkey
+	, source_system.id AS source_system_id
+	, source_system.label AS source_system_label
+	, doc.updated_by_system
+	, doc.create_date
+	, doc.update_date
+	, doc.signature
+	, doc.signed_by
+	, doc.sign_date
+	, doc.created_by
+	, doc.updated_by
+	, doc.signed_by
+	, doc.source_key
+	, doc.status
+	, doc.lu_land_type_fkey
+	, doc.registration_fail_reason
+	, const_entity.id AS const_entity_id
+	, const_entity.name AS const_entity_name
+	, state_authority.id AS state_authority_id
+	, state_authority.name AS state_authority_name
+	, state_authority.address AS state_authority_address
+	, federal_district.id AS federal_district_id
+	, federal_district.name AS federal_district_name
+	, federal_district.short_name AS federal_district_short_name
+	, federal_district.short_name_eng AS federal_district_short_name_eng
+	, contract.id AS contract_id
+	, contract.coniferous_volume
+	, contract.hardwood_volume
+	, contract.softwood_volume
+	, contract.unclassified_volume
+	, contract.receipt_date
+	, party.ogrn
+	, party.inn
+	, party.id AS party_id
+	, party.party_type_fkey
+	, party.party_name
+	, party.person_last_name
+	, party.person_first_name
+	, party.person_mid_name
+	, party.person_doc_type_fkey
+	, party.person_doc_series
+	, party.person_doc_num
+	, party.physical_address
+	, party.country_code_fkey
+	,
+	CASE
+		WHEN party.party_type_fkey IN (0, 2)
+		THEN party.party_name
+		WHEN party.party_type_fkey IN (1, 3)
+		THEN concat(party.person_last_name, ' ', party.person_first_name,' ', party.person_mid_name)
+		ELSE ''
+	END AS pname
+	, doc.signal_status
+	, contract.contract_gov_number
+	,contract.bo_party_fkey
+FROM
+	bo_party party
+	, bo_state_authority state_authority
+	, bo_constituent_entity const_entity
+	, bo_federal_district federal_district
+	, bo_system source_system
+	, bo_document_base doc
+	, bo_contract_lease contract
+WHERE
+	doc.id=contract.bo_document_fkey
+	AND party.id=contract.bo_party_fkey
+	AND state_authority.id=contract.bo_state_authority_fkey
+	AND const_entity.id=state_authority.bo_constituent_entity_fkey
+	AND federal_district.id=const_entity.bo_federal_district_fkey
+	AND source_system.id=doc.source_system
+	AND (
+			(
+				(
+					party.inn = '2262003468'
+					OR
+					EXISTS (
+						SELECT
+							rsl.bo_contract_lease_fkey
+						FROM
+							rel_sublease rsl
+						WHERE
+							rsl.bo_party_fkey = contract.bo_party_fkey
+							AND contract.id = rsl.bo_contract_lease_fkey
+					)
+				)
+			)
+	)

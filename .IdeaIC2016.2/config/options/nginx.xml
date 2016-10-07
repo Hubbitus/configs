@@ -1,0 +1,24 @@
+<application>
+  <component name="nginxServers">
+    <NginxServerDescriptor>
+      <option name="configPath" value="/etc/nginx/nginx.conf" />
+      <option name="errorLogPath" value="/var/log/nginx/error.log" />
+      <option name="executablePath" value="/sbin/nginx" />
+      <option name="globals" value="" />
+      <option name="httpLogPath" value="/var/log/nginx/access.log" />
+      <option name="id" value="nginx.descriptor.1436952828986" />
+      <option name="name" value="nginx/Unix [1.8.0]" />
+      <option name="pidPath" value="/run/nginx.pid" />
+    </NginxServerDescriptor>
+    <NginxServerDescriptor>
+      <option name="configPath" value="$USER_HOME$/remote/egais.app.balance/etc/nginx/nginx.conf" />
+      <option name="errorLogPath" value="/usr/local/nginx/logs/error.log" />
+      <option name="executablePath" value="$USER_HOME$/remote/egais.app.balance/sbin/nginx" />
+      <option name="globals" value="" />
+      <option name="httpLogPath" value="/usr/local/nginx/logs/access.log" />
+      <option name="id" value="nginx.descriptor.1436955028078" />
+      <option name="name" value="nginx/Unix egais.app.balancer" />
+      <option name="pidPath" value="/usr/local/nginx/logs/nginx.pid" />
+    </NginxServerDescriptor>
+  </component>
+</application>

@@ -1,0 +1,30 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>!*.java</mask>
+      <mask>*delete*.java</mask>
+      <mask>*controller*.java</mask>
+      <mask>!*.css</mask>
+      <mask>*.scss</mask>
+      <mask>*.yml</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.sql</mask>
+      <mask>*.gradle</mask>
+      <mask>*.js</mask>
+    </recentFileMasks>
+  </component>
+</application>
