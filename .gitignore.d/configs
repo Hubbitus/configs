@@ -163,3 +163,15 @@
 
 # No need save calculate history
 /.qalculate/qalculate-gtk.cfg
+
+# Passwords there!
+/.config/pgmodeler/connections.conf
+
+/.config/geeqie/history
+
+# There only sockets in directory
+/.1C/emsg
+# Big dt files there
+/.1cv8/1C/1cv8/tmplts/
+/.1cv8/1C/1cv8/logs/
+/.1cv8/1C/1cv8/[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*/
