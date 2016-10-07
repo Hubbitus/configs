@@ -1,0 +1,46 @@
+﻿[Web test http://unf.demo.1c.ru/unf]
+Connect=ws="http://unf.demo.1c.ru/unf";
+ID=66003506-1de0-11e6-248e-28b2bde824de
+OrderInList=32896
+Folder=/
+OrderInTree=49408
+External=0
+ClientConnectionSpeed=Normal
+UseProxy=0
+App=Auto
+WA=1
+Version=8.3
+WSA=1
+[test16: wsdemo (http://its.1c.ru/db/metod8dev#content:1512:hdoc)]
+Connect=Srvr="1c.taskdata.work";Ref="test16";
+ID=f4a6116e-1fa1-11e6-b39c-28b2bde824de
+OrderInList=19242.66666666666
+Folder=/
+OrderInTree=147712
+External=0
+ClientConnectionSpeed=Normal
+App=Auto
+WA=1
+Version=8.3
+[MAIN UNIDATA INTEGRATION: test12 create from Linux. UPP with demo data]
+Connect=Srvr="1c.taskdata.work";Ref="test12";
+ID=9e436cda-1da4-11e6-b990-54ee753901db
+OrderInList=16512
+Folder=/
+OrderInTree=33024
+External=0
+ClientConnectionSpeed=Normal
+App=Auto
+WA=1
+Version=8.3
+[SMALL test: test15: Демонстрационная конфигурация "Управляемое приложение"]
+Connect=Srvr="1c.taskdata.work";Ref="test15";
+ID=710f1918-1e70-11e6-0998-389496764c96
+OrderInList=36992
+Folder=/
+OrderInTree=114944
+External=0
+ClientConnectionSpeed=Normal
+App=Auto
+WA=1
+Version=8.3
