@@ -217,7 +217,8 @@ export GRAILS_HOME=/opt/grails/
 # dropped: -XX:+UseStringCache because: OpenJDK 64-Bit Server VM warning: ignoring option UseStringCache; support was removed in 8.0
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks'
 # Try enable -XX:+UseParallelGC -XX:+UseNUMA and -XX:+TieredCompilation by http://docs.oracle.com/javase/7/docs/technotes/guides/vm/performance-enhancements-7.html#compressedOop
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseParallelGC -XX:+UseNUMA -XX:+TieredCompilation'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseParallelGC -XX:+UseNUMA -XX:+TieredCompilation'
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseNUMA -XX:+TieredCompilation'
 # @TODO try: -XX:+UseG1GC -XX:+UseStringDeduplication http://javapoint.ru/presentations/jpoint-April2015-string-catechism.pdf (http://javapoint.ru/materials/)
 
 # Force debugging:
