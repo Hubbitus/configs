@@ -146,6 +146,11 @@ function whilesshs(){
 	WHILE_CMD_PRE_EXECUTE="setYakuakeTabName $1" while.cmd /usr/bin/ssh $@ -t 'screen -x || screen'
 }
 
+complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" ssh
+complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" sshs
+complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" whilessh
+complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" whilesshs
+
 # #1 - videofilename
 function seen(){
 : ${1?"You must provide argument: `basename $0` target-video-file"}
@@ -164,11 +169,6 @@ shopt -s histappend
 #export HISTCONTROL="ignoredups"
 export HISTCONTROL=ignoreboth
 
-complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" ssh
-complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" sshs
-complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" whilessh
-complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" whilesshs
-
 #Auto start ssh-agent. http://rusmafia.org/linux/ssh-agent-shell-startup
 ##[ ! -S ~/.ssh/ssh-agent ] && eval `/usr/bin/ssh-agent -a ~/.ssh/ssh-agent`
 ##[ -z $SSH_AUTH_SOCK ] && export SSH_AUTH_SOCK=~/.ssh/ssh-agent
@@ -179,7 +179,6 @@ complete -W "$(cat ~/.ssh/config | grep -oP '(?<=Host ).+$')" whilesshs
 	# call by it is not worked :( See example ~/bin/SHARED/examples/bash-alias.test
 	# So, directly get and exec value:
 	[ alias ssh-agent &>/dev/null ] && $( alias ssh-agent | sed -r "s/^alias ttt='(.*)'/\1/" )
-	
 	# '
 
 # http://wiki.clug.org.za/wiki/Colour_on_the_command_line#Colourful_manpages_.28RedHat_style.29
