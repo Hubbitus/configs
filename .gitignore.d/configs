@@ -29,9 +29,7 @@
 /.wireshark/
 /.thunderbird/
 /.thumbnails/
-/.IdeaIC*/system/
-/.IdeaIC*/config/plugins/
-/.IdeaIC*/config/tasks/
+
 /.Skype
 /.ansible
 /.cache
@@ -175,3 +173,12 @@
 /.1cv8/1C/1cv8/tmplts/
 /.1cv8/1C/1cv8/logs/
 /.1cv8/1C/1cv8/[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*/
+
+/.IdeaIC*/system/
+/.IdeaIC*/config/plugins/
+/.IdeaIC*/config/tasks/
+# Constatntly changed dimensions of widgets
+/.IdeaIC*/config/options/dimensions.xml
+/.IdeaIC*/config/options/feature.usage.statistics.xml
+/.IdeaIC*/config/options/proxy.settings.pwd
+/.IdeaIC*/config/options/window.manager.xml
