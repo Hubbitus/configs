@@ -186,3 +186,5 @@
 /.IdeaIC*/config/options/find.recents.xml
 /.IdeaIC*/config/options/statistics.application.usages.xml
 /.IdeaIC*/config/options/usage.statistics.xml
+
+/.wget-hsts
