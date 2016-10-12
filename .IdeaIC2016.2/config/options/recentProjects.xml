@@ -2,11 +2,12 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/Projects/RLH/portal.DOS" />
+        <option value="$USER_HOME$/Projects/RLH/GLR/glr-portal.wiki" />
+        <option value="$USER_HOME$/Projects/RLH/portal" />
         <option value="$USER_HOME$/Projects/Ansible.cfg" />
         <option value="$USER_HOME$/Projects/RLH/portal.ver5" />
-        <option value="$USER_HOME$/Projects/RLH/portal" />
         <option value="$USER_HOME$/Projects/RLH/portal.MyBatis-POC" />
-        <option value="$USER_HOME$/Projects/RLH/portal.DOS" />
         <option value="$USER_HOME$/Projects/RLH/portal.CI-build" />
         <option value="$USER_HOME$/Projects/UniData/UnidataIntegration-1C" />
         <option value="$USER_HOME$/Projects/UniData/UnidataConnectorService" />
@@ -51,16 +52,15 @@
         <option value="$USER_HOME$/Projects/UniData/JMSListener" />
         <option value="$USER_HOME$/Projects/UniData/JmeterElasticsearchBackendListener" />
         <option value="$USER_HOME$/Projects/UniData/Jmeter-ElasticsearchBackendListener" />
-        <option value="$USER_HOME$/temp/machine-learning.coursera/LearnInProgress/Titanic.1/idea" />
       </list>
     </option>
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/Projects/RLH/portal" />
-        <option value="$USER_HOME$/Projects/Ansible.cfg" />
+        <option value="$USER_HOME$/Projects/RLH/portal.DOS" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Projects/Ansible.cfg" />
+    <option name="lastPath" value="$USER_HOME$/Projects/RLH/portal.DOS" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/9ossqmv60fyibylheubs4isy9/gradle-2.14.1/src">
@@ -80,7 +80,7 @@
               <option name="build" value="IC-162.2032.8" />
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1475831512779" />
+              <option name="projectOpenTimestamp" value="1476092222475" />
               <option name="buildTimestamp" value="1473368400000" />
             </RecentProjectMetaInfo>
           </value>
@@ -136,6 +136,17 @@
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1474986870816" />
+              <option name="buildTimestamp" value="1473368400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/RLH/GLR/glr-portal.wiki">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-162.2032.8" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1476098862156" />
               <option name="buildTimestamp" value="1473368400000" />
             </RecentProjectMetaInfo>
           </value>
@@ -212,7 +223,7 @@
               <option name="build" value="IC-162.2032.8" />
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1475746683884" />
+              <option name="projectOpenTimestamp" value="1476095142175" />
               <option name="buildTimestamp" value="1473368400000" />
             </RecentProjectMetaInfo>
           </value>
@@ -245,7 +256,7 @@
               <option name="build" value="IC-162.2032.8" />
               <option name="productionCode" value="IC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1475673910182" />
+              <option name="projectOpenTimestamp" value="1476104541664" />
               <option name="buildTimestamp" value="1473368400000" />
             </RecentProjectMetaInfo>
           </value>
