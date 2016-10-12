@@ -12,10 +12,10 @@ LastUsername=postgres
 [Hints]
 saving-passwords=Suppress
 [frmHint]
-Left=1987
-Top=282
-Width=670
-Height=456
+Left=1916
+Top=300
+Width=682
+Height=458
 [Properties]
 [Properties/Server]
 Left=1747
@@ -33,7 +33,7 @@ Top=255
 Width=600
 Height=510
 [Updates]
-pgsql-Versions=9.4
+pgsql-Versions=9.4, 9.5
 [Servers]
 Count=3
 [Servers/1]
@@ -151,13 +151,13 @@ Description=localhost
 Service=
 ServiceID=
 DiscoveryID=
-Port=5432
+Port=54323
 StorePwd=true
 Rolename=
 Restore=true
 Database=postgres
 Username=postgres
-LastDatabase=unidata
+LastDatabase=egais
 LastSchema=public
 DbRestriction=
 Colour=#FFFFFF
@@ -175,23 +175,28 @@ TunnelModePwd=true
 PublicKeyFile=
 IdentityFile=
 TunnelPort=22
+[Servers/3/Databases]
+[Servers/3/Databases/egais]
+SchemaRestriction=
+[Servers/3/Databases/postgres]
+SchemaRestriction=
 [dlgReassignDropOwned]
 Left=1878
 Top=584
 Width=330
 Height=160
 [frmMain]
-Perspective-8418=layout2|name=objectBrowser;caption=Браузер объектов;state=16795644;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=450;minw=100;minh=200;maxw=-1;maxh=-1;floatx=236;floaty=222;floatw=-1;floath=-1|name=listViews;caption=Панель информации;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=sqlPane;caption=Панель SQL;state=16779260;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolBar;caption=Панель инструментов;state=16788208;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=586;besth=44;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(3,0,0)=315|dock_size(1,10,0)=46|dock_size(4,1,0)=367|
-Left=1366
+Perspective-8418=layout2|name=objectBrowser;caption=Браузер объектов;state=16779260;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=450;minw=100;minh=200;maxw=-1;maxh=-1;floatx=236;floaty=222;floatw=-1;floath=-1|name=listViews;caption=Панель информации;state=17404;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=sqlPane;caption=Панель SQL;state=16779260;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolBar;caption=Панель инструментов;state=16788208;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=586;besth=44;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(3,0,0)=315|dock_size(1,10,0)=46|dock_size(4,1,0)=340|
+Left=0
 Top=0
-Width=1782
-Height=1058
+Width=1366
+Height=746
 Maximized=true
 [dlgConnect]
 Left=2055
 Top=425
 Width=418
-Height=171
+Height=175
 [RecentFiles]
 1=
 2=
@@ -208,9 +213,9 @@ ExplainCosts=true
 ExplainBuffers=false
 ExplainTiming=true
 Perspective-8317=layout2|name=toolBar;caption=Панель инструментов;state=16788208;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=525;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=databaseBar;caption=Панель соединения;state=16788208;dir=1;layer=10;row=0;pos=536;prop=100000;bestw=300;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=outputPane;caption=Панель вывода;state=16779260;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=550;besth=300;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=scratchPad;caption=Блокнот;state=16779260;dir=2;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=200;minw=100;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=sqlQuery;caption=SQL-запрос;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=350;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,10,0)=32|dock_size(5,0,0)=202|dock_size(3,0,0)=630|dock_size(2,0,0)=255|
-Left=1366
+Left=0
 Top=0
-Width=1781
-Height=1059
-Maximized=true
-Perspective-8320=layout2|name=toolBar;caption=Панель инструментов;state=16788208;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=590;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=databaseBar;caption=Панель соединения;state=16788208;dir=1;layer=10;row=0;pos=601;prop=100000;bestw=300;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=outputPane;caption=Панель вывода;state=16779260;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=550;besth=300;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=scratchPad;caption=Блокнот;state=16779260;dir=2;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=200;minw=100;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=sqlQuery;caption=SQL-запрос;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=350;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,10,0)=32|dock_size(5,0,0)=202|dock_size(3,0,0)=626|dock_size(2,0,0)=255|
+Width=1366
+Height=746
+Maximized=false
+Perspective-8320=layout2|name=toolBar;caption=Панель инструментов;state=16788208;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=590;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=databaseBar;caption=Панель соединения;state=16788208;dir=1;layer=10;row=0;pos=601;prop=100000;bestw=300;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=outputPane;caption=Панель вывода;state=16779260;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=550;besth=300;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=scratchPad;caption=Блокнот;state=16779260;dir=2;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=200;minw=100;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=sqlQuery;caption=SQL-запрос;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=350;besth=200;minw=200;minh=100;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,10,0)=32|dock_size(5,0,0)=202|dock_size(3,0,0)=304|dock_size(2,0,0)=252|
