@@ -39,8 +39,8 @@ activity "%c activity -> %n%f %t^G %1`"
 screen -t EGAIS 0 bash -c 'cd /home/pasha/Projects/RLH/portal ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t UNIDATA 1 bash -c 'cd /home/pasha/Projects/UniData/unidata/branches/unidata_RLH/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t Ansible 1 bash -c 'cd /home/pasha/Projects/Ansible.cfg/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
-screen -t Tomcat 1 bash -c 'cd /opt/servers/apache-tomcat-7.0.57-ui ; TERM=xterm-256color mc -x --skin=gotar; bash'
-screen -t 'Tomcat logs' 1 bash -c 'cd /opt/servers/apache-tomcat-7.0.57-ui/logs ; TERM=xterm-256color mc -x --skin=gotar; bash'
+screen -t Tomcat 1 bash -c 'cd /opt/servers/apache-tomcat-9.0.0.M9 ; TERM=xterm-256color mc -x --skin=gotar; bash'
+screen -t 'Tomcat logs' 1 bash -c 'cd /opt/servers/apache-tomcat-9.0.0.M9/logs ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t bash 1 bash -c 'TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t 256color-test /usr/bin/mc --skin=modarin256-defbg
 
