@@ -52,16 +52,18 @@
 	cp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 	ch = checkout
 	d = diff
+	# Meld for now (http://stackoverflow.com/questions/2006032/view-differences-of-branches-with-meld). See also meld alias
+	dt = difftool
 	d-ignore-space-at-eol = diff --ignore-space-at-eol
 	d-ignore-spaces = diff --ignore-blank-lines --ignore-space-change
 	f = fetch
+	meld = difftool
 	ph = push
 	pl = pull
 	ps = push
 	r = remote -v
 	s = status
 	st = status
-
 
 
 	# http://stackoverflow.com/questions/11269256/how-to-name-and-retrieve-a-stash-by-name-in-git
@@ -101,3 +103,5 @@
 	autoupdate = true
 [pull]
 	rebase = false
+[difftool]
+	prompt = false
