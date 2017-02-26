@@ -51,11 +51,15 @@
 	# "commit and push". http://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
 	cp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 	ch = checkout
-	d = diff
+	# http://stackoverflow.com/questions/5257553/coloring-white-space-in-git-diffs-output/5259137#5259137
+	d = diff --ws-error-highlight=all
 	# Meld for now (http://stackoverflow.com/questions/2006032/view-differences-of-branches-with-meld). See also meld alias
-	dt = difftool
+	d-t = difftool
 	d-ignore-space-at-eol = diff --ignore-space-at-eol
 	d-ignore-spaces = diff --ignore-blank-lines --ignore-space-change
+	# http://stackoverflow.com/questions/3920650/git-diff-show-me-line-ending-changes/36604948#36604948
+	d-w = diff --word-diff-regex=.
+	d-word = diff --word-diff-regex=.
 	f = fetch
 	meld = difftool
 	ph = push
@@ -105,3 +109,5 @@
 	rebase = false
 [difftool]
 	prompt = false
+[diff]
+	wsErrorHighlight = all
