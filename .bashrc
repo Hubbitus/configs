@@ -25,13 +25,17 @@ alias g='LANG=en_US.utf8 git'
 # http://stackoverflow.com/questions/342969/how-do-i-get-bash-completion-to-work-with-aliases
 . /usr/share/bash-completion/completions/git
 __git_complete g __git_main
+alias b='source ~/.bashrc'
 alias d=docker
 alias s=sleep
 alias e=mcedit
+alias l='ln -s'
 
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
+
+alias fpaste='fpaste -n Hubbitus'
 
 alias ll='ls -l --color=auto'
 
@@ -45,6 +49,10 @@ alias yum='nice -n19 yum'
 alias ap=ansible-playbook
 
 alias en='export LANG=en_US.utf8'
+
+alias idea=/opt/idea/bin/idea.sh
+
+alias gw='./gradlew'
 
 rpmbuild (){
 	ionice -c3 nice -n18 /usr/bin/rpmbuild "$@" | egrep "Записан:|Wrote:" | cut -d" " -f2 | xargs -rI{} sh -c 'F="{}"; echo "rpmlint of: $F"; rpmlint "$F"'
@@ -78,6 +86,10 @@ function screen-egais(){
 	/usr/bin/screen -OaUx Egais || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-egais
 }
 
+function screen-rlh(){
+	/usr/bin/screen -OaUx Rlh || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-rlh
+}
+
 # http://stackoverflow.com/questions/6064548/send-commands-to-a-gnu-screen
 # http://stackoverflow.com/questions/6510673/in-screen-how-do-i-send-a-command-to-all-virtual-terminal-windows-within-a-sing
 function rgc-screen-all-command(){
@@ -89,7 +101,7 @@ alias ssh-agent='eval `SSH_AGENT_REUSE_MUST_BE_SOURCED='' /home/pasha/bin/ssh-ag
 
 alias sus="su -l -c 'screen -x || screen'"
 
-alias rsync_s='. ~/.rsync_shared_options ; ionice -c3 nice -n19 rsync $RSYNC_SHARED_OPTIONS'
+alias rsync_s='source ~/.rsync_shared_options ; ionice -c3 nice -n19 rsync $RSYNC_SHARED_OPTIONS'
 
 alias grin='grin --force-color'
 
@@ -222,7 +234,9 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun
 # @TODO try: -XX:+UseG1GC -XX:+UseStringDeduplication http://javapoint.ru/presentations/jpoint-April2015-string-catechism.pdf (http://javapoint.ru/materials/)
 
 # Force debugging:
-#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5007'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5007'
+
 
 # For run groovy scripts and load classes from current directory
 # http://testinfected.blogspot.ru/2008/01/dry-groovy-how-to-get-groovy-to-import.html
@@ -233,6 +247,7 @@ export PROMPT_COMMAND=''
 
 export ELMON=cmMvtanld
 
-alias b='source ~/.bashrc'
+
 #? [ -f ~/.bashrc.PS1 ] && source ~/.bashrc.PS1
 
+source ~/bin/transfer.sh 2>/dev/null
