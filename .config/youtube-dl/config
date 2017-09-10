@@ -1,0 +1,20 @@
+--abort-on-error
+--xattr-set-filesize
+--no-overwrites
+--continue
+--write-description
+#--write-info-json
+#--write-annotations
+#--write-thumbnail
+#--write-all-thumbnails
+--abort-on-unavailable-fragment
+--prefer-free-formats
+--merge-output-format mkv
+--add-metadata
+--xattrs
+-o '%(playlist)s.%(playlist_index)s %(title)s/%(title)s.%(ext)s'
+#-f 'bestvideo[height<=480]+worstaudio/best[height<=480]'
+-f 'best[width<=720]/best[filesize<=500M]'
+#--exec 'rename "NA.NA " "" NA.NA* || [ $? -eq 4 ] #{}'
+
+--exec 'rename "NA.NA " "" "$( dirname {} )" || [ $? -eq 4 ]'
