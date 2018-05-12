@@ -9,9 +9,13 @@ PATH=$PATH:$HOME/bin:/usr/sbin:$HOME/bin/php_templates:/opt/cuda/bin:/opt/grails
 
 # User specific aliases and functions
 
+alias a=ansible
+alias ap=ansible-playbook
+
 #alias rm='rm -i'
 alias rr='rm -rf'
-#alias cp='cp -i'
+# Or at least --preserve=all to preserve extended attributes:
+alias cp='cp -a'
 #alias mv='mv -i'
 
 alias ts='ts "%H:%M:%.S"'
@@ -26,70 +30,77 @@ alias g='LANG=en_US.utf8 git'
 . /usr/share/bash-completion/completions/git
 __git_complete g __git_main
 alias b='source ~/.bashrc'
-alias d=docker
-alias s=sleep
+
+alias ctop='docker run --rm -ti --name=ctop -v /var/run/docker.sock:/var/run/docker.sock quay.io/vektorlab/ctop:latest'
+
+alias c='sudo docker-compose'
+alias d='sudo docker'
+alias de='sudo docker exec -it'
+# https://github.com/moby/moby/issues/7477:
+alias dps='sudo docker ps --format "table {{.Names}}\t{{.Status}}\t{{.RunningFor}}\t{{.Image}}\t{{.Ports}}"'
+alias drm='sudo docker run -it --rm'
+
+alias df='df -h -x tmpfs -x devtmpfs'
+
 alias e=mcedit
-alias l='ln -s'
+alias en='export LANG=en_US.utf8'
+
+alias fly='gradle -b standalone.gradle flywayRepair ; gradle -b standalone.gradle flywayMigrate -i | /usr/bin/ts "%H:%M:%.S"'
+alias fpaste='fpaste -n Hubbitus'
+
+alias gw='./gradlew'
 
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 
-alias fpaste='fpaste -n Hubbitus'
+alias idea=/opt/idea/bin/idea.sh
 
+#alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
+
+alias l='ln -s'
 alias ll='ls -l --color=auto'
 
-alias fly='gradle -b standalone.gradle flywayRepair ; gradle -b standalone.gradle flywayMigrate -i | /usr/bin/ts "%H:%M:%.S"'
+# https://habrahabr.ru/post/316806/
+alias mount='mount -o intr'
+# List real mounted filesystems
+alias mnt='findmnt -t notmpfs,nodevtmpfs,nosysfs,nocgroup,noconfigfs,noproc,nosecurityfs,nopstore,noselinuxfs,nodebugfs,nonfsd,nodevpts,nomqueue,nohugetlbfs,norpc_pipefs,noautofs'
 
+alias mplayer='mplayer -framedrop -zoom -fs'
+alias gmplayer='gmplayer -framedrop -zoom'
+
+# It like alias, but function to allow precess paarmeters before pipe
+rpmbuild (){
+	ionice -c3 nice -n18 /usr/bin/rpmbuild "$@" | egrep 'Записан:|Wrote:' | cut -d' ' -f2 | xargs -rI{} sh -c 'F="{}"; echo "rpmlint of: $F"; rpmlint "$F"'
+}
+alias rtorrent='ionice -c3 nice -n17 rtorrent'
+
+
+alias s=sleep
 # Allow user aliases in sudo http://askubuntu.com/questions/22037/aliases-not-available-when-using-sudo
 alias sudo='sudo '
 
 alias yum='nice -n19 yum'
 
-alias ap=ansible-playbook
-
-alias en='export LANG=en_US.utf8'
-
-alias idea=/opt/idea/bin/idea.sh
-
-alias gw='./gradlew'
-
-rpmbuild (){
-	ionice -c3 nice -n18 /usr/bin/rpmbuild "$@" | egrep "Записан:|Wrote:" | cut -d" " -f2 | xargs -rI{} sh -c 'F="{}"; echo "rpmlint of: $F"; rpmlint "$F"'
-}
-
-alias rtorrent='ionice -c3 nice -n17 rtorrent'
-
-#alias mplayer='mplayer -framedrop -zoom -fs'
-alias gmplayer='gmplayer -framedrop -zoom'
-
-#alias screen='screen -OaUx main || screen -OaU -S main'
-#alias screen-remote='/usr/bin/screen -OaUx Remote || /usr/bin/screen -OaU -S Remote -c /home/pasha/.screenrc-remote'
-
-#alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
+alias xattr='getfattr --encoding=text --absolute-names'
 
 # Function instead of alias to behave identically on remote and local execution
 # http://www.thelinuxlink.net/pipermail/lvlug/2005-July/014629.html
 function screen(){
 	/usr/bin/screen -OaUx Main $@ || /usr/bin/screen -OaU -S Main $@
 }
-
 function screen-remote(){
 	/usr/bin/screen -OaUx Remote || /usr/bin/screen -OaU -S Remote -c ~/.screenrc-remote
 }
-
 function screen-rgc(){
 	/usr/bin/screen -OaUx Rgc || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-rgc
 }
-
 function screen-egais(){
 	/usr/bin/screen -OaUx Egais || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-egais
 }
-
 function screen-rlh(){
-	/usr/bin/screen -OaUx Rlh || /usr/bin/screen -OaU -S Rgc -c ~/.screenrc-rlh
+	/usr/bin/screen -OaUx Rlh || /usr/bin/screen -OaU -S Rlh -c ~/.screenrc-rlh
 }
-
 # http://stackoverflow.com/questions/6064548/send-commands-to-a-gnu-screen
 # http://stackoverflow.com/questions/6510673/in-screen-how-do-i-send-a-command-to-all-virtual-terminal-windows-within-a-sing
 function rgc-screen-all-command(){
@@ -163,13 +174,6 @@ complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOM
 complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" sshs
 complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" whilessh
 complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" whilesshs
-
-# #1 - videofilename
-function seen(){
-: ${1?"You must provide argument: `basename $0` target-video-file"}
-
-	touch "$1.seen" && rm -f "$1"
-}
 
 #http://rusmafia.org/linux/node/21
 shopt -s cdspell
@@ -251,3 +255,7 @@ export ELMON=cmMvtanld
 #? [ -f ~/.bashrc.PS1 ] && source ~/.bashrc.PS1
 
 source ~/bin/transfer.sh 2>/dev/null
+
+
+export ANSIBLE_VAULT_PASSWORD_FILE=inventory/.vault.pass.secret
+export ANSIBLE_SSH_OPERATOR_USER=pavel.alexeev
