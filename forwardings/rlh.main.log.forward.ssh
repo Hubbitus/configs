@@ -1,0 +1,1 @@
+whilessh -aCkNnTx -o ExitOnForwardFailure=yes -L8200:egais.main.log:9200 -L4601:egais.main.log:5601 -L4000:egais.main.log:5000 -L8000:egais.main.log:9000 -L8001:egais.main.log:9001 rlh.main.log $@
