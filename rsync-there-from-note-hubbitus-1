@@ -1,0 +1,11 @@
+
+shopt -s expand_aliases
+
+#rsync_s 192.168.7.183:/home/pasha/.IdeaIC2017.3 .
+#rsync_s 192.168.7.183:/home/pasha/.datastudio .
+#rsync_s --delete 192.168.7.183:/home/pasha/Projects .
+#rsync_s --delete 192.168.7.183:/home/pasha/.datastudio .
+#rsync_s --delete 192.168.7.183:/home/pasha/.thunderbird .
+#rsync_s --delete hubbitus.t540p.taskdata.work:/home/pasha/Documents .
+#rsync_s --delete hubbitus.t540p.taskdata.work:/home/pasha/.gitconfig .
+rsync_s --delete hubbitus.t540p.taskdata.work:/home/pasha/.config/mc .config
