@@ -70,6 +70,9 @@ alias mplayer='mplayer -framedrop -zoom -fs'
 alias gmplayer='gmplayer -framedrop -zoom'
 
 # It like alias, but function to allow precess paarmeters before pipe
+function r(){
+	cd "/mnt/remote/$1"
+}
 rpmbuild (){
 	ionice -c3 nice -n18 /usr/bin/rpmbuild "$@" | egrep 'Записан:|Wrote:' | cut -d' ' -f2 | xargs -rI{} sh -c 'F="{}"; echo "rpmlint of: $F"; rpmlint "$F"'
 }
