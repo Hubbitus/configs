@@ -203,6 +203,11 @@ function whilesshs(){
 	WHILE_CMD_PRE_EXECUTE="setYakuakeTabName $1" while.cmd /usr/bin/ssh $@ -t 'screen -x || screen'
 }
 
+# By https://stackoverflow.com/questions/5671988/how-to-extract-just-plain-text-from-doc-docx-files-unix/12246397#12246397
+# It also recommend to use pandoc (https://github.com/vigente/gerardus/wiki/Integrate-git-diffs-with-word-docx-files#manually-by-creating-a-markdown-copy-of-the-docx-file) like:
+#  pandoc -s file.docx -t markdown -o file.md
+alias word2txt='libreoffice --headless --convert-to "txt:Text (encoded):UTF8"'
+
 complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" ssh
 complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" sshs
 complete -W "$( grep -hoP '(?<=^Include ).+' ~/.ssh/config <( echo 'Include $HOME/.ssh/config' ) | xargs -I{} sh -c 'F="{}"; [ ! -f "$F" ] && F="$HOME/.ssh/$F" ; grep -oP "(?<=^Host ).+" "$F"' )" whilessh
@@ -244,10 +249,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 SVN='svn+ssh://x-www.info/mnt/sgtBarracuda/SVN_test/svn/repositories/'
 
 export EDITOR=mcedit
-
-export IMUS_MULE_2_1='/opt/mule-standalone-3.2.0'
-export MULE_BASE='/opt/mule-standalone-3.2.0'
-export IMUS_HOME='/home/pasha/imus'
 
 # For Grails
 #export JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64/
