@@ -253,7 +253,8 @@ export EDITOR=mcedit
 # For Grails
 #export JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64/
 #?export JAVA_HOME=/usr/java/latest/
-unset JAVA_HOME
+# With unset does not works mvn!!!
+#??unset JAVA_HOME
 export GRAILS_HOME=/opt/grails/
 [ -f /opt/grails/grails_autocomplete ] && . /opt/grails/grails_autocomplete
 
