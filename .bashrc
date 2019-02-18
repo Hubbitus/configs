@@ -59,6 +59,35 @@ alias idea=/opt/idea/bin/idea.sh
 
 #alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
 
+[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
+alias r-oe='kubectl config use-context oe-prod.rr'
+alias r-dev='kubectl config use-context dev-k2s0.rr'
+# https://github.com/kubernetes/kubectl/issues/120
+. /usr/share/bash-completion/completions/kubectl
+alias k=kubectl
+complete -o default -F __start_kubectl k
+
+function kns(){
+	if [ -n "$1" ]; then
+		kubectl config set-context $( kubectl config current-context ) --namespace="$1"
+	else
+		kubectl config get-contexts
+		kubectl get namespaces
+		echo "To make some namespase *default* call: 'kns <namespace>'"
+	fi
+}
+function kc(){
+	if [ -n "$1" ]; then
+		kubectl config use-context "$1"
+	else
+		echo "To change current context call: 'kc <context-name>'"
+	fi
+	kubectl config get-contexts
+}
+source /home/pasha/@Projects/_Outer/kube-ps1/kube-ps1.sh
+PS1='[\u@\h \W $(kube_ps1)]\$ '
+
+
 alias l='ln -s'
 alias ll='ls -l --color=auto'
 
