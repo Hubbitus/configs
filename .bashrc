@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-PATH=$PATH:$HOME/bin:/usr/sbin:$HOME/bin/php_templates:/opt/cuda/bin:/opt/grails/bin
+PATH=$PATH:$HOME/bin:/usr/sbin
 
 # User specific aliases and functions
 
@@ -23,6 +23,7 @@ alias ts='ts "%H:%M:%.S"'
 alias ndrpm='rpm -Uhv --excludedocs'
 alias rf='rpm -qf'
 alias rq='rpm -q'
+alias rep='createrepo_c -d --update --general-compress-type=xz .'
 
 alias g='LANG=en_US.utf8 git'
 # Provide also completions like in git
@@ -48,7 +49,7 @@ alias en='export LANG=en_US.utf8'
 alias fly='gradle -b standalone.gradle flywayRepair ; gradle -b standalone.gradle flywayMigrate -i | /usr/bin/ts "%H:%M:%.S"'
 alias fpaste='fpaste -n Hubbitus'
 
-alias gw='./gradlew'
+alias gw='PATH=$PATH:.:..:../..:../../.. gradlew'
 
 alias grep='grep --color'
 alias egrep='egrep --color'
