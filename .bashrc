@@ -94,7 +94,7 @@ alias ll='ls -l --color=auto'
 # https://habrahabr.ru/post/316806/
 alias mount='mount -o intr'
 # List real mounted filesystems
-alias mnt='findmnt -t notmpfs,nodevtmpfs,nosysfs,nocgroup,noconfigfs,noproc,nosecurityfs,nopstore,noselinuxfs,nodebugfs,nonfsd,nodevpts,nomqueue,nohugetlbfs,norpc_pipefs,noautofs'
+alias mnt='findmnt -t notmpfs,nodevtmpfs,nosysfs,nocgroup,noconfigfs,noproc,nosecurityfs,nopstore,noselinuxfs,nodebugfs,nonfsd,nodevpts,nomqueue,nohugetlbfs,norpc_pipefs,noautofs,nocgroup2,noefivarfs,nobpf,nofusectl,nonsfs,nofuse.vmware-vmblock'
 
 alias mplayer='mplayer -framedrop -zoom -fs'
 alias gmplayer='gmplayer -framedrop -zoom'
