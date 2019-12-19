@@ -28,8 +28,11 @@ alias rep='createrepo_c -d --update --general-compress-type=xz .'
 alias g='LANG=en_US.utf8 git'
 # Provide also completions like in git
 # http://stackoverflow.com/questions/342969/how-do-i-get-bash-completion-to-work-with-aliases
-. /usr/share/bash-completion/completions/git
-__git_complete g __git_main
+if [ -f /usr/share/bash-completion/completions/git ]; then
+	source /usr/share/bash-completion/completions/git
+	__git_complete g __git_main
+fi
+
 alias b='source ~/.bashrc'
 
 alias ctop='docker run --rm -ti --name=ctop -v /var/run/docker.sock:/var/run/docker.sock quay.io/vektorlab/ctop:latest'
@@ -49,7 +52,8 @@ alias en='export LANG=en_US.utf8'
 alias fly='gradle -b standalone.gradle flywayRepair ; gradle -b standalone.gradle flywayMigrate -i | /usr/bin/ts "%H:%M:%.S"'
 alias fpaste='fpaste -n Hubbitus'
 
-alias gw='PATH=$PATH:.:..:../..:../../.. gradlew'
+# Disable native due to the @bug https://github.com/gradle/gradle/issues/778#issuecomment-476179663
+alias gw='PATH=$PATH:.:..:../..:../../.. gradlew -Dorg.gradle.native=false'
 
 alias grep='grep --color'
 alias egrep='egrep --color'
@@ -59,33 +63,8 @@ alias idea=/opt/idea/bin/idea.sh
 
 #alias jiracli="/home/pasha/imus/imus-tools.GIT/JiraCli/jira-cli-3.7.0/jira.sh --server http://serverprog:1090/ --user p.alexeev --password $(cat /home/pasha/imus/imus-tools.GIT/JiraCli/.password)"
 
-[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
-alias r-oe='kubectl config use-context oe-prod.rr'
-alias r-dev='kubectl config use-context dev-k2s0.rr'
-# https://github.com/kubernetes/kubectl/issues/120
-. /usr/share/bash-completion/completions/kubectl
-alias k=kubectl
-complete -o default -F __start_kubectl k
-
-function kns(){
-	if [ -n "$1" ]; then
-		kubectl config set-context $( kubectl config current-context ) --namespace="$1"
-	else
-		kubectl config get-contexts
-		kubectl get namespaces
-		echo "To make some namespase *default* call: 'kns <namespace>'"
-	fi
-}
-function kc(){
-	if [ -n "$1" ]; then
-		kubectl config use-context "$1"
-	else
-		echo "To change current context call: 'kc <context-name>'"
-	fi
-	kubectl config get-contexts
-}
-source /home/pasha/@Projects/_Outer/kube-ps1/kube-ps1.sh
-PS1='[\u@\h \W $(kube_ps1)]\$ '
+# Kube, Kubernetes aliases
+[ -f ~/.bashrc.kube ] && source ~/.bashrc.kube
 
 
 alias l='ln -s'
@@ -95,6 +74,9 @@ alias ll='ls -l --color=auto'
 alias mount='mount -o intr'
 # List real mounted filesystems
 alias mnt='findmnt -t notmpfs,nodevtmpfs,nosysfs,nocgroup,noconfigfs,noproc,nosecurityfs,nopstore,noselinuxfs,nodebugfs,nonfsd,nodevpts,nomqueue,nohugetlbfs,norpc_pipefs,noautofs,nocgroup2,noefivarfs,nobpf,nofusectl,nonsfs,nofuse.vmware-vmblock'
+
+alias m='source /home/pasha/@Projects/@RDC/maven.cred'
+alias mvn='source /home/pasha/@Projects/@RDC/maven.cred && mvn'
 
 alias mplayer='mplayer -framedrop -zoom -fs'
 alias gmplayer='gmplayer -framedrop -zoom'
@@ -275,8 +257,10 @@ export GRAILS_HOME=/opt/grails/
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks'
 # Try enable -XX:+UseParallelGC -XX:+UseNUMA and -XX:+TieredCompilation by http://docs.oracle.com/javase/7/docs/technotes/guides/vm/performance-enhancements-7.html#compressedOop
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseParallelGC -XX:+UseNUMA -XX:+TieredCompilation'
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseNUMA -XX:+TieredCompilation'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+UseCompressedOops -XX:+DoEscapeAnalysis -XX:+AggressiveOpts -XX:+EliminateLocks -XX:+UseNUMA -XX:+TieredCompilation'
 # @TODO try: -XX:+UseG1GC -XX:+UseStringDeduplication http://javapoint.ru/presentations/jpoint-April2015-string-catechism.pdf (http://javapoint.ru/materials/)
+# -XX:+UseCompressedOops unrecognized in Java 13!
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.pmoffscreen=false -XX:+DoEscapeAnalysis -XX:+EliminateLocks -XX:+UseNUMA -XX:+TieredCompilation'
 
 # Force debugging:
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5007'

@@ -1,0 +1,100 @@
+# .bashrc
+
+#?source /home/pasha/@Projects/_Outer/kube-ps1/kube-ps1.sh
+#?PS1='[\u@\h \W $(kube_ps1)]\$ '
+
+alias r-oe='kubectl config use-context oe-prod.rr'
+alias r-dev='kubectl config use-context dev-k2s0.rr'
+# https://github.com/kubernetes/kubectl/issues/120
+[ -f /usr/share/bash-completion/completions/kubectl ] && source /usr/share/bash-completion/completions/kubectl
+alias k=kubectl
+complete -o default -F __start_kubectl k
+
+function kns(){
+	if [ -n "$1" ]; then
+		kubectl config set-context $( kubectl config current-context ) --namespace="$1"
+	else
+		kubectl config get-contexts
+		kubectl get namespaces
+		echo "To make some namespace *default* call: 'kns <namespace>'"
+	fi
+}
+function kc(){
+	if [ -n "$1" ]; then
+		kubectl config use-context "$1"
+	else
+		echo "To change current context call: 'kc <context-name>'"
+	fi
+	kubectl config get-contexts
+}
+
+# Function to list ALL resources from kubernetes namespace
+# By https://stackoverflow.com/questions/47691479/listing-all-resources-in-a-namespace/53016918#53016918
+# `kubectl get all --namespace <n>` return NOT all. Please see BUG https://github.com/kubernetes/kubectl/issues/151
+# $1 - namespace
+function kns-list(){
+	: ${1?"Not enough arguments please provide namespace: `basename $0` namespace"}
+	kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n "$1"
+}
+
+alias kgp='kubectl get pod'
+alias k.gp=kgp
+# a-la description in completion!!!
+alias k.get_pod%kgp=kgp
+
+function kl(){
+	kubectl logs "$@"
+}
+alias k.l=kl
+alias k.logs=kl
+alias k.logs%kl=kl
+function klf(){
+	kubectl logs -f "$@"
+}
+alias k.lf=klf
+alias k.l-f=klf
+alias k.logs-f%klf=klf
+
+function ke(){
+	: ${1?"Not enough arguments please provide pod-name: `basename $0` pod-name [command and args (bash by default)]"}
+	local _pod="$1"
+	shift
+	kubectl exec -it $_pod -- "${@:-bash}"
+}
+alias k.e=ke
+alias k.exec%ke=ke
+
+alias kgd='kubectl get deployments'
+alias k.gd=kgd
+alias k.get_deployment%kgd=kgd
+
+alias ked='kubectl edit deployment'
+alias k.ed=ked
+alias k.edit_deployment%ked=ked
+
+alias kd='kubectl describe'
+alias k.d=kd
+alias k.describe%kd=kd
+alias kdp='kubectl describe pod'
+alias k.dp=kdp
+alias k.describe_pod%kdp=kdp
+
+alias kdel='kubectl delete'
+alias k.del=kdel
+alias k.del%kdel=kdel
+alias kdelp='kubectl delete pod'
+alias k.delp=kdelp
+alias k.del.p=kdelp
+alias k.delete_pod%kdelp=kdelp
+
+alias kcp='kubectl cp'
+alias k.cp=kcp
+
+# kubectl scale...
+function ks (){
+	: ${1?"Not enough arguments please provide pod-name: `basename $0` deployment-name ScaleFactor(number)"}
+	: ${2?"Not enough arguments please provide pod-name: `basename $0` deployment-name ScaleFactor(number)"}
+	kubectl scale --replicas=$2 deployment/$1
+}
+alias k.s=ks
+alias k.scale%ks=ks
