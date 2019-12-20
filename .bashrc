@@ -116,6 +116,9 @@ function screen-egais(){
 function screen-rlh(){
 	/usr/bin/screen -OaUx Rlh || /usr/bin/screen -OaU -S Rlh -c ~/.screenrc-rlh
 }
+function screen-rdc(){
+	/usr/bin/screen -OaUx Rdc || /usr/bin/screen -OaU -S Rdc -c ~/.screenrc-rdc
+}
 # http://stackoverflow.com/questions/6064548/send-commands-to-a-gnu-screen
 # http://stackoverflow.com/questions/6510673/in-screen-how-do-i-send-a-command-to-all-virtual-terminal-windows-within-a-sing
 function rgc-screen-all-command(){
