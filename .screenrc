@@ -43,7 +43,8 @@ screen -t ROSReestr 1 bash -c 'cd /home/pasha/@Projects/@RosReestr ; TERM=xterm-
 screen -t Addressmaster 1 bash -c 'cd /home/pasha/@Projects/Addressmaster/Addressmaster ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t 'DevOps(Ansible,helm)' 1 bash -c 'cd /home/pasha/Projects/Ansible.cfg/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t @SmartDigit 1 bash -c 'cd /home/pasha/@Projects/@SmartDigit/pyspark-redis-poc/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
-screen -t @RDC 1 bash -c 'cd /home/pasha/@Projects/@RDC/ibatis.research/RDC-ibatis-research/ ; TERM=xterm-256color mc -x --skin=gotar; bash'
+screen -t '@RDC/@PGDBM' 1 bash -c 'cd /home/pasha/@Projects/@RDC/@PGDBM/; TERM=xterm-256color mc -x --skin=gotar; bash'
+screen -t '@RDC/@AI3' 1 bash -c 'cd /home/pasha/@Projects/@RDC/@AI3/; TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t bash 1 bash -c 'TERM=xterm-256color mc -x --skin=gotar; bash'
 screen -t 256color-test /usr/bin/mc --skin=modarin256-defbg
 
